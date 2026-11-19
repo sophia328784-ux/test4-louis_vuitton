@@ -1,0 +1,25 @@
+.class public interface abstract Landroidx/media3/exoplayer/upstream/BandwidthMeter;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/media3/exoplayer/upstream/BandwidthMeter$EventListener;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Landroidx/media3/exoplayer/upstream/BandwidthMeter$EventListener;)V
+.end method
+
+.method public abstract c(Landroid/os/Handler;Landroidx/media3/exoplayer/upstream/BandwidthMeter$EventListener;)V
+.end method
+
+.method public abstract d()Landroidx/media3/exoplayer/upstream/DefaultBandwidthMeter;
+.end method
+
+.method public abstract e()J
+.end method

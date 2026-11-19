@@ -1,0 +1,18 @@
+.class abstract Lcom/perfectcorp/thirdparty/io/reactivex/exceptions/CompositeException$b;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/perfectcorp/thirdparty/io/reactivex/exceptions/CompositeException;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;)V
+.end method

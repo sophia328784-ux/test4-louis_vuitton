@@ -1,0 +1,38 @@
+.class public final Landroidx/media3/datasource/DataSourceBitmapLoader$Builder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/media3/datasource/DataSourceBitmapLoader;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
+
+
+# instance fields
+.field public final a:Landroid/content/Context;
+
+.field public b:I
+
+.field public c:Z
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/media3/datasource/DataSourceBitmapLoader$Builder;->a:Landroid/content/Context;
+
+    const/4 p1, -0x1
+
+    iput p1, p0, Landroidx/media3/datasource/DataSourceBitmapLoader$Builder;->b:I
+
+    return-void
+.end method

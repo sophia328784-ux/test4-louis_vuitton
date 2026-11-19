@@ -1,0 +1,46 @@
+.class Lcom/google/android/material/internal/ViewUtils$2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/core/view/OnApplyWindowInsetsListener;
+
+
+# instance fields
+.field public final synthetic b:Lcom/google/android/material/internal/ViewUtils$OnApplyWindowInsetsListener;
+
+.field public final synthetic c:Lcom/google/android/material/internal/ViewUtils$RelativePadding;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/material/internal/ViewUtils$OnApplyWindowInsetsListener;Lcom/google/android/material/internal/ViewUtils$RelativePadding;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/material/internal/ViewUtils$2;->b:Lcom/google/android/material/internal/ViewUtils$OnApplyWindowInsetsListener;
+
+    iput-object p2, p0, Lcom/google/android/material/internal/ViewUtils$2;->c:Lcom/google/android/material/internal/ViewUtils$RelativePadding;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    .locals 2
+
+    new-instance v0, Lcom/google/android/material/internal/ViewUtils$RelativePadding;
+
+    iget-object v1, p0, Lcom/google/android/material/internal/ViewUtils$2;->c:Lcom/google/android/material/internal/ViewUtils$RelativePadding;
+
+    invoke-direct {v0, v1}, Lcom/google/android/material/internal/ViewUtils$RelativePadding;-><init>(Lcom/google/android/material/internal/ViewUtils$RelativePadding;)V
+
+    iget-object p0, p0, Lcom/google/android/material/internal/ViewUtils$2;->b:Lcom/google/android/material/internal/ViewUtils$OnApplyWindowInsetsListener;
+
+    invoke-interface {p0, p1, p2, v0}, Lcom/google/android/material/internal/ViewUtils$OnApplyWindowInsetsListener;->a(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;Lcom/google/android/material/internal/ViewUtils$RelativePadding;)Landroidx/core/view/WindowInsetsCompat;
+
+    move-result-object p0
+
+    return-object p0
+.end method

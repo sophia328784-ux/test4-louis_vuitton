@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="#ff2d2d2d" app:cardCornerRadius="@dimen/universal_call_overlay_corner_radius" app:cardElevation="@dimen/universal_call_overlay_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/universal_call_overlay_width" android:layout_height="wrap_content" android:divider="@drawable/universal_overlay_video_divider" android:showDividers="middle">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/universal_call_overlay_bar_height">
+            <ImageButton android:id="@id/universal_overlay_fullscreen" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/universal_icon_call_fullscreen" android:scaleType="centerInside" />
+            <Space android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/universal_overlay_hangup" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/universal_icon_call_hangup" android:scaleType="centerInside" />
+        </LinearLayout>
+        <com.sightcall.universal.internal.view.CallOverlayConsumerView android:id="@id/universal_overlay_video_consumer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/border_top_radius_16dp_white" android:paddingBottom="@dimen/double_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/double_spacing" android:paddingEnd="@dimen/double_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/text_steps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/triple_spacing" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/HeadingH5CenterDark" />
+    <TextView android:id="@id/text_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_spacing" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/HeadingH5CenterDark" />
+    <TextView android:id="@id/text_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:layout_marginBottom="@dimen/default_spacing" android:fontFamily="@font/louisvuitton_regular" style="@style/ListLabelXlRegularCenterGrey" />
+    <ImageView android:id="@id/image_visual" android:layout_width="match_parent" android:layout_height="260.0dp" android:layout_marginTop="@dimen/mid_spacing" android:layout_marginBottom="@dimen/mid_spacing" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_back" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/back" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginEnd="@dimen/small_spacing" style="@style/SecondaryButtonRepaint" />
+        <Button android:id="@id/button_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ls_next" android:layout_weight="1.0" android:layout_marginStart="@dimen/small_spacing" style="@style/BlackButtonRepaint" />
+    </LinearLayout>
+</LinearLayout>

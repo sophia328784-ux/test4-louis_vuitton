@@ -1,0 +1,202 @@
+.class Lorg/bouncycastle/est/ESTResponse$2;
+.super Ljava/io/InputStream;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lorg/bouncycastle/est/ESTResponse;->wrapWithCounter(Ljava/io/InputStream;Ljava/lang/Long;)Ljava/io/InputStream;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lorg/bouncycastle/est/ESTResponse;
+
+.field final synthetic val$absoluteReadLimit:Ljava/lang/Long;
+
+.field final synthetic val$in:Ljava/io/InputStream;
+
+
+# direct methods
+.method public constructor <init>(Lorg/bouncycastle/est/ESTResponse;Ljava/io/InputStream;Ljava/lang/Long;)V
+    .locals 0
+
+    iput-object p1, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    iput-object p2, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$in:Ljava/io/InputStream;
+
+    iput-object p3, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$absoluteReadLimit:Ljava/lang/Long;
+
+    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public close()V
+    .locals 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {v0}, Lorg/bouncycastle/est/ESTResponse;->access$200(Lorg/bouncycastle/est/ESTResponse;)Ljava/lang/Long;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {v0}, Lorg/bouncycastle/est/ESTResponse;->access$200(Lorg/bouncycastle/est/ESTResponse;)Ljava/lang/Long;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v0
+
+    const-wide/16 v2, 0x1
+
+    sub-long/2addr v0, v2
+
+    iget-object v2, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {v2}, Lorg/bouncycastle/est/ESTResponse;->access$100(Lorg/bouncycastle/est/ESTResponse;)J
+
+    move-result-wide v2
+
+    cmp-long v0, v0, v2
+
+    if-gtz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Ljava/io/IOException;
+
+    iget-object v1, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {v1}, Lorg/bouncycastle/est/ESTResponse;->access$100(Lorg/bouncycastle/est/ESTResponse;)J
+
+    move-result-wide v1
+
+    iget-object p0, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {p0}, Lorg/bouncycastle/est/ESTResponse;->access$200(Lorg/bouncycastle/est/ESTResponse;)Ljava/lang/Long;
+
+    move-result-object p0
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "Stream closed before limit fully read, Read: "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v1, " ContentLength: "
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$in:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->available()I
+
+    move-result v0
+
+    if-gtz v0, :cond_2
+
+    iget-object p0, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$in:Ljava/io/InputStream;
+
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
+
+    return-void
+
+    :cond_2
+    const-string p0, "Stream closed with extra content in pipe that exceeds content length."
+
+    invoke-static {p0}, Laz;->o(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public read()I
+    .locals 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$in:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->read()I
+
+    move-result v0
+
+    const/4 v1, -0x1
+
+    if-le v0, v1, :cond_1
+
+    iget-object v1, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {v1}, Lorg/bouncycastle/est/ESTResponse;->access$108(Lorg/bouncycastle/est/ESTResponse;)J
+
+    iget-object v1, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$absoluteReadLimit:Ljava/lang/Long;
+
+    if-eqz v1, :cond_1
+
+    iget-object v1, p0, Lorg/bouncycastle/est/ESTResponse$2;->this$0:Lorg/bouncycastle/est/ESTResponse;
+
+    invoke-static {v1}, Lorg/bouncycastle/est/ESTResponse;->access$100(Lorg/bouncycastle/est/ESTResponse;)J
+
+    move-result-wide v1
+
+    iget-object v3, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$absoluteReadLimit:Ljava/lang/Long;
+
+    invoke-virtual {v3}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v3
+
+    cmp-long v1, v1, v3
+
+    if-gez v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const-string v0, "Absolute Read Limit exceeded: "
+
+    iget-object p0, p0, Lorg/bouncycastle/est/ESTResponse$2;->val$absoluteReadLimit:Ljava/lang/Long;
+
+    invoke-static {p0, v0}, Laz;->y(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
+
+    :cond_1
+    :goto_0
+    return v0
+.end method

@@ -1,0 +1,247 @@
+.class public final Lcom/google/android/exoplayer2/container/Mp4LocationData;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/exoplayer2/metadata/Metadata$Entry;
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/android/exoplayer2/container/Mp4LocationData;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final b:F
+
+.field public final c:F
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/google/android/exoplayer2/container/Mp4LocationData$1;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(FF)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/high16 v0, -0x3d4c0000    # -90.0f
+
+    cmpl-float v0, p1, v0
+
+    if-ltz v0, :cond_0
+
+    const/high16 v0, 0x42b40000    # 90.0f
+
+    cmpg-float v0, p1, v0
+
+    if-gtz v0, :cond_0
+
+    const/high16 v0, -0x3ccc0000    # -180.0f
+
+    cmpl-float v0, p2, v0
+
+    if-ltz v0, :cond_0
+
+    const/high16 v0, 0x43340000    # 180.0f
+
+    cmpg-float v0, p2, v0
+
+    if-gtz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    if-eqz v0, :cond_1
+
+    iput p1, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    iput p2, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    return-void
+
+    :cond_1
+    const-string p0, "Invalid latitude or longitude"
+
+    invoke-static {p0}, Lmd;->n(Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+.method public constructor <init>(Landroid/os/Parcel;)V
+    .locals 1
+
+    .line 44
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 45
+    invoke-virtual {p1}, Landroid/os/Parcel;->readFloat()F
+
+    move-result v0
+
+    iput v0, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    .line 46
+    invoke-virtual {p1}, Landroid/os/Parcel;->readFloat()F
+
+    move-result p1
+
+    iput p1, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    if-eqz p1, :cond_2
+
+    const-class v2, Lcom/google/android/exoplayer2/container/Mp4LocationData;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v3
+
+    if-eq v2, v3, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    check-cast p1, Lcom/google/android/exoplayer2/container/Mp4LocationData;
+
+    iget v2, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    iget v3, p1, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    cmpl-float v2, v2, v3
+
+    if-nez v2, :cond_2
+
+    iget p0, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    iget p1, p1, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    cmpl-float p0, p0, p1
+
+    if-nez p0, :cond_2
+
+    return v0
+
+    :cond_2
+    :goto_0
+    return v1
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    iget v0, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    const/16 v1, 0x1f
+
+    const/16 v2, 0x20f
+
+    invoke-static {v2, v1, v0}, Lpq0;->b(IIF)I
+
+    move-result v0
+
+    iget p0, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    invoke-static {p0}, Ljava/lang/Float;->hashCode(F)I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "xyz: latitude="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v1, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const-string v1, ", longitude="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget p0, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    iget p2, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->b:F
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeFloat(F)V
+
+    iget p0, p0, Lcom/google/android/exoplayer2/container/Mp4LocationData;->c:F
+
+    invoke-virtual {p1, p0}, Landroid/os/Parcel;->writeFloat(F)V
+
+    return-void
+.end method

@@ -1,0 +1,8 @@
+package org.teleal.cling.model.profile;
+
+import org.teleal.cling.model.meta.DeviceDetails;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface DeviceDetailsProvider {
+    DeviceDetails a();
+}

@@ -1,0 +1,46 @@
+.class final synthetic Lcom/linecorp/linesdk/openchat/ui/OpenChatInfoFragment$setupName$1;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Ljava/lang/String;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Ljava/lang/String;
+
+    iget-object p0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    check-cast p0, Landroidx/lifecycle/MutableLiveData;
+
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/LiveData;->setValue(Ljava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    return-object p0
+.end method

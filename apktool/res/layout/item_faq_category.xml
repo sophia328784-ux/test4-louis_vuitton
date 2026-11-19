@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:padding="@dimen/double_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_faq_category" android:background="@drawable/background_oval_off_white" android:padding="20.0dp" android:layout_width="80.0dp" android:layout_height="80.0dp" />
+    <TextView android:textSize="@dimen/text_size_list_label_l" android:textColor="@color/eternity" android:gravity="center" android:id="@id/text_faq_category_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_spacing" android:fontFamily="@font/louisvuitton_regular" />
+</LinearLayout>

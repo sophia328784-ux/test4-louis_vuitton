@@ -1,0 +1,1 @@
+{"identifier":"en_NL","password":{"isMandatory":true,"order":0,"type":{"freeform":{}}},"privacyPolicyConsent":{"isMandatory":true,"order":1,"type":{"boolean":{"defaultValue":false}}}}

@@ -1,0 +1,770 @@
+.class Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;
+.super Ljavax/crypto/CipherSpi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi$Base;
+    }
+.end annotation
+
+
+# instance fields
+.field private final algorithmName:Ljava/lang/String;
+
+.field private engineParams:Ljava/security/AlgorithmParameters;
+
+.field private kemGen:Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMGenerator;
+
+.field private kemParameterSpec:Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+.field private unwrapKey:Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPrivateKey;
+
+.field private wrapKey:Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPublicKey;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/NoSuchAlgorithmException;
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljavax/crypto/CipherSpi;-><init>()V
+
+    iput-object p1, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->algorithmName:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public engineDoFinal([BII[BI)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljavax/crypto/ShortBufferException;,
+            Ljavax/crypto/IllegalBlockSizeException;,
+            Ljavax/crypto/BadPaddingException;
+        }
+    .end annotation
+
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "Not supported in a wrapping mode"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public engineDoFinal([BII)[B
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljavax/crypto/IllegalBlockSizeException;,
+            Ljavax/crypto/BadPaddingException;
+        }
+    .end annotation
+
+    .line 8
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "Not supported in a wrapping mode"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public engineGetBlockSize()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public engineGetIV()[B
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public engineGetKeySize(Ljava/security/Key;)I
+    .locals 0
+
+    const/16 p0, 0x800
+
+    return p0
+.end method
+
+.method public engineGetOutputSize(I)I
+    .locals 0
+
+    const/4 p0, -0x1
+
+    return p0
+.end method
+
+.method public engineGetParameters()Ljava/security/AlgorithmParameters;
+    .locals 2
+
+    iget-object v0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->engineParams:Ljava/security/AlgorithmParameters;
+
+    if-nez v0, :cond_0
+
+    :try_start_0
+    iget-object v0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->algorithmName:Ljava/lang/String;
+
+    const-string v1, "BCPQC"
+
+    invoke-static {v0, v1}, Ljava/security/AlgorithmParameters;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljava/security/AlgorithmParameters;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->engineParams:Ljava/security/AlgorithmParameters;
+
+    iget-object v1, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->kemParameterSpec:Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+    invoke-virtual {v0, v1}, Ljava/security/AlgorithmParameters;->init(Ljava/security/spec/AlgorithmParameterSpec;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, p0}, Lorg/bouncycastle/util/Exceptions;->illegalStateException(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalStateException;
+
+    move-result-object p0
+
+    throw p0
+
+    :cond_0
+    :goto_0
+    iget-object p0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->engineParams:Ljava/security/AlgorithmParameters;
+
+    return-object p0
+.end method
+
+.method public engineInit(ILjava/security/Key;Ljava/security/AlgorithmParameters;Ljava/security/SecureRandom;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;,
+            Ljava/security/InvalidAlgorithmParameterException;
+        }
+    .end annotation
+
+    .line 120
+    if-eqz p3, :cond_0
+
+    :try_start_0
+    const-class v0, Lorg/bouncycastle/jcajce/spec/KEMParameterSpec;
+
+    invoke-virtual {p3, v0}, Ljava/security/AlgorithmParameters;->getParameterSpec(Ljava/lang/Class;)Ljava/security/spec/AlgorithmParameterSpec;
+
+    move-result-object p3
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    invoke-static {p3}, Lmd;->m(Ljava/security/AlgorithmParameters;)V
+
+    return-void
+
+    :cond_0
+    const/4 p3, 0x0
+
+    :goto_0
+    invoke-virtual {p0, p1, p2, p3, p4}, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->engineInit(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+
+    return-void
+.end method
+
+.method public engineInit(ILjava/security/Key;Ljava/security/SecureRandom;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    .line 119
+    const/4 v0, 0x0
+
+    :try_start_0
+    invoke-virtual {p0, p1, p2, v0, p3}, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->engineInit(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+    :try_end_0
+    .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-void
+
+    :catch_0
+    move-exception p0
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1, p0}, Lorg/bouncycastle/util/Exceptions;->illegalArgumentException(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public engineInit(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;,
+            Ljava/security/InvalidAlgorithmParameterException;
+        }
+    .end annotation
+
+    if-nez p3, :cond_0
+
+    new-instance p3, Lorg/bouncycastle/jcajce/spec/KEMParameterSpec;
+
+    const-string v0, "AES-KWP"
+
+    invoke-direct {p3, v0}, Lorg/bouncycastle/jcajce/spec/KEMParameterSpec;-><init>(Ljava/lang/String;)V
+
+    :goto_0
+    iput-object p3, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->kemParameterSpec:Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+    goto :goto_1
+
+    :cond_0
+    instance-of v0, p3, Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+    if-eqz v0, :cond_5
+
+    check-cast p3, Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+    goto :goto_0
+
+    :goto_1
+    const/4 p3, 0x3
+
+    const-string v0, "Only a "
+
+    if-ne p1, p3, :cond_2
+
+    instance-of p1, p2, Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPublicKey;
+
+    if-eqz p1, :cond_1
+
+    check-cast p2, Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPublicKey;
+
+    iput-object p2, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->wrapKey:Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPublicKey;
+
+    new-instance p1, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMGenerator;
+
+    invoke-static {p4}, Lorg/bouncycastle/crypto/CryptoServicesRegistrar;->getSecureRandom(Ljava/security/SecureRandom;)Ljava/security/SecureRandom;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMGenerator;-><init>(Ljava/security/SecureRandom;)V
+
+    iput-object p1, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->kemGen:Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMGenerator;
+
+    return-void
+
+    :cond_1
+    new-instance p1, Ljava/security/InvalidKeyException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object p0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->algorithmName:Ljava/lang/String;
+
+    const-string p3, " public key can be used for wrapping"
+
+    invoke-static {p0, p3, p2}, Ln00;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/security/InvalidKeyException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_2
+    const/4 p3, 0x4
+
+    if-ne p1, p3, :cond_4
+
+    instance-of p1, p2, Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPrivateKey;
+
+    if-eqz p1, :cond_3
+
+    check-cast p2, Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPrivateKey;
+
+    iput-object p2, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->unwrapKey:Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPrivateKey;
+
+    return-void
+
+    :cond_3
+    new-instance p1, Ljava/security/InvalidKeyException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object p0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->algorithmName:Ljava/lang/String;
+
+    const-string p3, " private key can be used for unwrapping"
+
+    invoke-static {p0, p3, p2}, Ln00;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/security/InvalidKeyException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_4
+    const-string p0, "Cipher only valid for wrapping/unwrapping"
+
+    invoke-static {p0}, Lmt;->m(Ljava/lang/String;)V
+
+    return-void
+
+    :cond_5
+    new-instance p1, Ljava/security/InvalidAlgorithmParameterException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object p0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->algorithmName:Ljava/lang/String;
+
+    const-string p3, " can only accept KTSParameterSpec"
+
+    invoke-static {p0, p3, p2}, Ln00;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/security/InvalidAlgorithmParameterException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public engineSetMode(Ljava/lang/String;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/NoSuchAlgorithmException;
+        }
+    .end annotation
+
+    new-instance p0, Ljava/security/NoSuchAlgorithmException;
+
+    const-string v0, "Cannot support mode "
+
+    invoke-static {v0, p1}, Ltr;->g(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Ljava/security/NoSuchAlgorithmException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public engineSetPadding(Ljava/lang/String;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljavax/crypto/NoSuchPaddingException;
+        }
+    .end annotation
+
+    new-instance p0, Ljavax/crypto/NoSuchPaddingException;
+
+    const-string v0, "Padding "
+
+    const-string v1, " unknown"
+
+    invoke-static {v0, p1, v1}, Lfc;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Ljavax/crypto/NoSuchPaddingException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public engineUnwrap([BLjava/lang/String;I)Ljava/security/Key;
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;,
+            Ljava/security/NoSuchAlgorithmException;
+        }
+    .end annotation
+
+    const-string v0, "unable to extract KTS secret: "
+
+    const/4 v1, 0x3
+
+    const/4 v2, 0x0
+
+    if-ne p3, v1, :cond_2
+
+    :try_start_0
+    new-instance p3, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMExtractor;
+
+    iget-object v1, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->unwrapKey:Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPrivateKey;
+
+    invoke-virtual {v1}, Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPrivateKey;->getKeyParams()Lorg/bouncycastle/pqc/crypto/ntru/NTRUPrivateKeyParameters;
+
+    move-result-object v1
+
+    invoke-direct {p3, v1}, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMExtractor;-><init>(Lorg/bouncycastle/pqc/crypto/ntru/NTRUPrivateKeyParameters;)V
+
+    invoke-virtual {p3}, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMExtractor;->getEncapsulationLength()I
+
+    move-result v1
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v3, v1}, Lorg/bouncycastle/util/Arrays;->copyOfRange([BII)[B
+
+    move-result-object v1
+
+    invoke-virtual {p3, v1}, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMExtractor;->extractSecret([B)[B
+
+    move-result-object v2
+
+    iget-object p0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->kemParameterSpec:Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+    invoke-static {p0, v2}, Lorg/bouncycastle/pqc/jcajce/provider/util/WrapUtil;->getKeyUnwrapper(Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;[B)Lorg/bouncycastle/crypto/Wrapper;
+
+    move-result-object p0
+
+    invoke-virtual {p3}, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMExtractor;->getEncapsulationLength()I
+
+    move-result p3
+
+    array-length v1, p1
+
+    invoke-static {p1, p3, v1}, Lorg/bouncycastle/util/Arrays;->copyOfRange([BII)[B
+
+    move-result-object p1
+
+    new-instance p3, Ljavax/crypto/spec/SecretKeySpec;
+
+    array-length v1, p1
+
+    invoke-interface {p0, p1, v3, v1}, Lorg/bouncycastle/crypto/Wrapper;->unwrap([BII)[B
+
+    move-result-object p0
+
+    invoke-direct {p3, p0, p2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Lorg/bouncycastle/crypto/InvalidCipherTextException; {:try_start_0 .. :try_end_0} :catch_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-eqz v2, :cond_0
+
+    invoke-static {v2}, Lorg/bouncycastle/util/Arrays;->clear([B)V
+
+    :cond_0
+    return-object p3
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_2
+
+    :catch_0
+    move-exception p0
+
+    goto :goto_0
+
+    :catch_1
+    move-exception p0
+
+    goto :goto_1
+
+    :goto_0
+    :try_start_1
+    new-instance p1, Ljava/security/InvalidKeyException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/security/InvalidKeyException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :goto_1
+    new-instance p1, Ljava/security/NoSuchAlgorithmException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/security/NoSuchAlgorithmException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :goto_2
+    if-eqz v2, :cond_1
+
+    invoke-static {v2}, Lorg/bouncycastle/util/Arrays;->clear([B)V
+
+    :cond_1
+    throw p0
+
+    :cond_2
+    const-string p0, "only SECRET_KEY supported"
+
+    invoke-static {p0}, Lwp;->d(Ljava/lang/String;)V
+
+    return-object v2
+.end method
+
+.method public engineUpdate([BII[BI)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljavax/crypto/ShortBufferException;
+        }
+    .end annotation
+
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "Not supported in a wrapping mode"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public engineUpdate([BII)[B
+    .locals 0
+
+    .line 8
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "Not supported in a wrapping mode"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public engineWrap(Ljava/security/Key;)[B
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljavax/crypto/IllegalBlockSizeException;,
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    const-string v0, "unable to destroy interim values: "
+
+    const-string v1, "unable to generate KTS secret: "
+
+    invoke-interface {p1}, Ljava/security/Key;->getEncoded()[B
+
+    move-result-object v2
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_1
+
+    :try_start_0
+    iget-object v2, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->kemGen:Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMGenerator;
+
+    iget-object v4, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->wrapKey:Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPublicKey;
+
+    invoke-virtual {v4}, Lorg/bouncycastle/pqc/jcajce/provider/ntru/BCNTRUPublicKey;->getKeyParams()Lorg/bouncycastle/pqc/crypto/ntru/NTRUPublicKeyParameters;
+
+    move-result-object v4
+
+    invoke-virtual {v2, v4}, Lorg/bouncycastle/pqc/crypto/ntru/NTRUKEMGenerator;->generateEncapsulated(Lorg/bouncycastle/crypto/params/AsymmetricKeyParameter;)Lorg/bouncycastle/crypto/SecretWithEncapsulation;
+
+    move-result-object v3
+
+    iget-object p0, p0, Lorg/bouncycastle/pqc/jcajce/provider/ntru/NTRUCipherSpi;->kemParameterSpec:Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;
+
+    invoke-interface {v3}, Lorg/bouncycastle/crypto/SecretWithEncapsulation;->getSecret()[B
+
+    move-result-object v2
+
+    invoke-static {p0, v2}, Lorg/bouncycastle/pqc/jcajce/provider/util/WrapUtil;->getKeyWrapper(Lorg/bouncycastle/jcajce/spec/KTSParameterSpec;[B)Lorg/bouncycastle/crypto/Wrapper;
+
+    move-result-object p0
+
+    invoke-interface {v3}, Lorg/bouncycastle/crypto/SecretWithEncapsulation;->getEncapsulation()[B
+
+    move-result-object v2
+
+    invoke-interface {p1}, Ljava/security/Key;->getEncoded()[B
+
+    move-result-object p1
+
+    array-length v4, p1
+
+    const/4 v5, 0x0
+
+    invoke-interface {p0, p1, v5, v4}, Lorg/bouncycastle/crypto/Wrapper;->wrap([BII)[B
+
+    move-result-object p0
+
+    invoke-static {v2, p0}, Lorg/bouncycastle/util/Arrays;->concatenate([B[B)[B
+
+    move-result-object p0
+
+    invoke-static {p1}, Lorg/bouncycastle/util/Arrays;->clear([B)V
+    :try_end_0
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_1
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :try_start_1
+    invoke-interface {v3}, Ljavax/security/auth/Destroyable;->destroy()V
+    :try_end_1
+    .catch Ljavax/security/auth/DestroyFailedException; {:try_start_1 .. :try_end_1} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance p1, Ljavax/crypto/IllegalBlockSizeException;
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljavax/crypto/IllegalBlockSizeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_0
+
+    :catch_1
+    move-exception p0
+
+    :try_start_2
+    new-instance p1, Ljavax/crypto/IllegalBlockSizeException;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljavax/crypto/IllegalBlockSizeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    :goto_0
+    if-eqz v3, :cond_0
+
+    :try_start_3
+    invoke-interface {v3}, Ljavax/security/auth/Destroyable;->destroy()V
+    :try_end_3
+    .catch Ljavax/security/auth/DestroyFailedException; {:try_start_3 .. :try_end_3} :catch_2
+
+    goto :goto_1
+
+    :catch_2
+    move-exception p0
+
+    new-instance p1, Ljavax/crypto/IllegalBlockSizeException;
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljavax/crypto/IllegalBlockSizeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_0
+    :goto_1
+    throw p0
+
+    :cond_1
+    const-string p0, "Cannot wrap key, null encoding."
+
+    invoke-static {p0}, Lwp;->d(Ljava/lang/String;)V
+
+    return-object v3
+.end method

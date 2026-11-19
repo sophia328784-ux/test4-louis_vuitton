@@ -1,0 +1,464 @@
+.class final Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/content/SharedPreferences$Editor;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "d"
+.end annotation
+
+
+# instance fields
+.field public final a:Ljava/lang/Object;
+
+.field public final b:Ljava/util/HashMap;
+
+.field public c:Z
+
+.field public final synthetic d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+
+# direct methods
+.method public constructor <init>(Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    new-instance p1, Ljava/lang/Object;
+
+    invoke-direct {p1}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    new-instance p1, Ljava/util/HashMap;
+
+    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+
+    iput-object p1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/perfectcorp/thirdparty/com/google/common/util/concurrent/ListenableFutureTask;
+    .locals 8
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    iget-object v0, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->c:Ljava/util/concurrent/locks/Lock;
+
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    :try_start_1
+    iget-boolean v4, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->c:Z
+
+    if-eqz v4, :cond_0
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    iget-object v0, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->e:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    const/4 v2, 0x1
+
+    iput-boolean v2, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->f:Z
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->c:Z
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    invoke-static {v0}, Lcom/perfectcorp/thirdparty/com/google/common/collect/ImmutableMap;->d(Ljava/util/Map;)Lcom/perfectcorp/thirdparty/com/google/common/collect/ImmutableMap;
+
+    move-result-object v5
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    iget-object v0, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->e:Ljava/util/HashMap;
+
+    invoke-virtual {v0, v5}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    iget-wide v2, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->d:J
+
+    const-wide/16 v6, 0x1
+
+    add-long/2addr v6, v2
+
+    iput-wide v6, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->d:J
+
+    monitor-exit v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    iget-object v0, v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->c:Ljava/util/concurrent/locks/Lock;
+
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    new-instance v2, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$a;
+
+    iget-object v3, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    invoke-direct/range {v2 .. v7}, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$a;-><init>(Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;ZLjava/util/Map;J)V
+
+    invoke-static {v2}, Lcom/perfectcorp/thirdparty/com/google/common/util/concurrent/ListenableFutureTask;->create(Ljava/util/concurrent/Callable;)Lcom/perfectcorp/thirdparty/com/google/common/util/concurrent/ListenableFutureTask;
+
+    move-result-object p0
+
+    sget-object v0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->i:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    return-object p0
+
+    :goto_1
+    :try_start_2
+    monitor-exit v1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    :try_start_3
+    throw v0
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    :catchall_1
+    move-exception v0
+
+    iget-object p0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->d:Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;
+
+    iget-object p0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->c:Ljava/util/concurrent/locks/Lock;
+
+    invoke-interface {p0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    throw v0
+.end method
+
+.method public final apply()V
+    .locals 0
+
+    invoke-virtual {p0}, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a()Lcom/perfectcorp/thirdparty/com/google/common/util/concurrent/ListenableFutureTask;
+
+    return-void
+.end method
+
+.method public final clear()Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    const/4 v1, 0x1
+
+    :try_start_0
+    iput-boolean v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->c:Z
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final commit()Z
+    .locals 0
+
+    invoke-static {}, Lcom/perfectcorp/common/concurrent/Threads;->b()V
+
+    invoke-virtual {p0}, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a()Lcom/perfectcorp/thirdparty/com/google/common/util/concurrent/ListenableFutureTask;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/perfectcorp/common/guava/MoreFutures;->b(Ljava/util/concurrent/Future;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Boolean;
+
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p2
+
+    invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p2
+
+    invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p2
+
+    invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object p2
+
+    invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    if-eqz p2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    sget-object p2, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->j:Ljava/lang/Object;
+
+    :goto_0
+    invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final putStringSet(Ljava/lang/String;Ljava/util/Set;)Landroid/content/SharedPreferences$Editor;
+    .locals 2
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    if-eqz p2, :cond_0
+
+    invoke-static {p2}, Lcom/perfectcorp/thirdparty/com/google/common/collect/ImmutableSet;->q(Ljava/util/Collection;)Lcom/perfectcorp/thirdparty/com/google/common/collect/ImmutableSet;
+
+    move-result-object p2
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
+    :cond_0
+    sget-object p2, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->j:Ljava/lang/Object;
+
+    :goto_0
+    invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method
+
+.method public final remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    .locals 3
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences$d;->b:Ljava/util/HashMap;
+
+    sget-object v2, Lcom/perfectcorp/common/utility/DatabaseSharedPreferences;->j:Ljava/lang/Object;
+
+    invoke-virtual {v1, p1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    monitor-exit v0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+.end method

@@ -1,0 +1,17 @@
+package com.vuitton.android.presentation.screen.spotlight.components;
+
+import com.vuitton.android.presentation.screen.spotlight.SpotlightViewModel;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+final /* synthetic */ class SpotlightComposableKt$SpotlightComposable$8$1 extends FunctionReferenceImpl implements Function1<Integer, Unit> {
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        ((SpotlightViewModel) this.receiver).Ca(((Number) obj).intValue());
+        return Unit.f71739a;
+    }
+}

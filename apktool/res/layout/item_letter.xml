@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_list_label_m" android:gravity="center" android:paddingLeft="6.0dp" android:paddingTop="1.0dp" android:paddingRight="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/louisvuitton_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

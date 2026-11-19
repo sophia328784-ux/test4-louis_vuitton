@@ -1,0 +1,296 @@
+.class public Lorg/bouncycastle/asn1/cms/ContentInfo;
+.super Lorg/bouncycastle/asn1/ASN1Object;
+
+# interfaces
+.implements Lorg/bouncycastle/asn1/cms/CMSObjectIdentifiers;
+
+
+# instance fields
+.field private final content:Lorg/bouncycastle/asn1/ASN1Encodable;
+
+.field private final contentType:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+.field private final isDefiniteLength:Z
+
+
+# direct methods
+.method public constructor <init>(Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;Lorg/bouncycastle/asn1/ASN1Encodable;)V
+    .locals 1
+
+    .line 91
+    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    iput-object p1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->contentType:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    iput-object p2, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->content:Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    const/4 p1, 0x1
+
+    if-eqz p2, :cond_2
+
+    invoke-interface {p2}, Lorg/bouncycastle/asn1/ASN1Encodable;->toASN1Primitive()Lorg/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object p2
+
+    instance-of v0, p2, Lorg/bouncycastle/asn1/DEROctetString;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p2, Lorg/bouncycastle/asn1/DLSequence;
+
+    if-nez v0, :cond_1
+
+    instance-of p2, p2, Lorg/bouncycastle/asn1/DERSequence;
+
+    if-eqz p2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :cond_1
+    :goto_0
+    iput-boolean p1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->isDefiniteLength:Z
+
+    return-void
+
+    :cond_2
+    iput-boolean p1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->isDefiniteLength:Z
+
+    return-void
+.end method
+
+.method private constructor <init>(Lorg/bouncycastle/asn1/ASN1Sequence;)V
+    .locals 4
+
+    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    invoke-virtual {p1}, Lorg/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    if-lt v0, v2, :cond_2
+
+    invoke-virtual {p1}, Lorg/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    const/4 v3, 0x2
+
+    if-gt v0, v3, :cond_2
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lorg/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    check-cast v0, Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    iput-object v0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->contentType:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {p1}, Lorg/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    if-le v0, v2, :cond_1
+
+    invoke-virtual {p1, v2}, Lorg/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    const/16 v3, 0x80
+
+    invoke-static {v0, v3}, Lorg/bouncycastle/asn1/ASN1TaggedObject;->getInstance(Ljava/lang/Object;I)Lorg/bouncycastle/asn1/ASN1TaggedObject;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lorg/bouncycastle/asn1/ASN1TaggedObject;->isExplicit()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    invoke-virtual {v0}, Lorg/bouncycastle/asn1/ASN1TaggedObject;->getTagNo()I
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    invoke-virtual {v0}, Lorg/bouncycastle/asn1/ASN1TaggedObject;->getExplicitBaseObject()Lorg/bouncycastle/asn1/ASN1Object;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->content:Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    goto :goto_0
+
+    :cond_0
+    const-string p0, "Bad tag for \'content\'"
+
+    invoke-static {p0}, Lmd;->n(Ljava/lang/String;)V
+
+    throw v1
+
+    :cond_1
+    iput-object v1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->content:Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    :goto_0
+    instance-of p1, p1, Lorg/bouncycastle/asn1/BERSequence;
+
+    xor-int/2addr p1, v2
+
+    iput-boolean p1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->isDefiniteLength:Z
+
+    return-void
+
+    :cond_2
+    new-instance p0, Ljava/lang/StringBuilder;
+
+    const-string v0, "Bad sequence size: "
+
+    invoke-direct {p0, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-static {p1, p0}, Lfc;->o(Lorg/bouncycastle/asn1/ASN1Sequence;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lmd;->n(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lorg/bouncycastle/asn1/cms/ContentInfo;
+    .locals 1
+
+    instance-of v0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lorg/bouncycastle/asn1/cms/ContentInfo;
+
+    return-object p0
+
+    :cond_0
+    if-eqz p0, :cond_1
+
+    new-instance v0, Lorg/bouncycastle/asn1/cms/ContentInfo;
+
+    invoke-static {p0}, Lorg/bouncycastle/asn1/ASN1Sequence;->getInstance(Ljava/lang/Object;)Lorg/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lorg/bouncycastle/asn1/cms/ContentInfo;-><init>(Lorg/bouncycastle/asn1/ASN1Sequence;)V
+
+    return-object v0
+
+    :cond_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public static getInstance(Lorg/bouncycastle/asn1/ASN1TaggedObject;Z)Lorg/bouncycastle/asn1/cms/ContentInfo;
+    .locals 0
+
+    .line 21
+    invoke-static {p0, p1}, Lorg/bouncycastle/asn1/ASN1Sequence;->getInstance(Lorg/bouncycastle/asn1/ASN1TaggedObject;Z)Lorg/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lorg/bouncycastle/asn1/cms/ContentInfo;->getInstance(Ljava/lang/Object;)Lorg/bouncycastle/asn1/cms/ContentInfo;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getContent()Lorg/bouncycastle/asn1/ASN1Encodable;
+    .locals 0
+
+    iget-object p0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->content:Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    return-object p0
+.end method
+
+.method public getContentType()Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+    .locals 0
+
+    iget-object p0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->contentType:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    return-object p0
+.end method
+
+.method public isDefiniteLength()Z
+    .locals 0
+
+    iget-boolean p0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->isDefiniteLength:Z
+
+    return p0
+.end method
+
+.method public toASN1Primitive()Lorg/bouncycastle/asn1/ASN1Primitive;
+    .locals 4
+
+    new-instance v0, Lorg/bouncycastle/asn1/ASN1EncodableVector;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0, v1}, Lorg/bouncycastle/asn1/ASN1EncodableVector;-><init>(I)V
+
+    iget-object v1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->contentType:Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {v0, v1}, Lorg/bouncycastle/asn1/ASN1EncodableVector;->add(Lorg/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->content:Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    if-eqz v1, :cond_1
+
+    iget-boolean v2, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->isDefiniteLength:Z
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_0
+
+    new-instance v2, Lorg/bouncycastle/asn1/DLTaggedObject;
+
+    invoke-direct {v2, v3, v1}, Lorg/bouncycastle/asn1/DLTaggedObject;-><init>(ILorg/bouncycastle/asn1/ASN1Encodable;)V
+
+    :goto_0
+    invoke-virtual {v0, v2}, Lorg/bouncycastle/asn1/ASN1EncodableVector;->add(Lorg/bouncycastle/asn1/ASN1Encodable;)V
+
+    goto :goto_1
+
+    :cond_0
+    new-instance v2, Lorg/bouncycastle/asn1/BERTaggedObject;
+
+    invoke-direct {v2, v3, v1}, Lorg/bouncycastle/asn1/BERTaggedObject;-><init>(ILorg/bouncycastle/asn1/ASN1Encodable;)V
+
+    goto :goto_0
+
+    :cond_1
+    :goto_1
+    iget-boolean p0, p0, Lorg/bouncycastle/asn1/cms/ContentInfo;->isDefiniteLength:Z
+
+    if-eqz p0, :cond_2
+
+    new-instance p0, Lorg/bouncycastle/asn1/DLSequence;
+
+    invoke-direct {p0, v0}, Lorg/bouncycastle/asn1/DLSequence;-><init>(Lorg/bouncycastle/asn1/ASN1EncodableVector;)V
+
+    return-object p0
+
+    :cond_2
+    new-instance p0, Lorg/bouncycastle/asn1/BERSequence;
+
+    invoke-direct {p0, v0}, Lorg/bouncycastle/asn1/BERSequence;-><init>(Lorg/bouncycastle/asn1/ASN1EncodableVector;)V
+
+    return-object p0
+.end method

@@ -1,0 +1,65 @@
+package org.bouncycastle.pkix.jcajce;
+
+import defpackage.ct0;
+import defpackage.zy0;
+import java.security.cert.CertPath;
+import org.bouncycastle.pkix.util.ErrorBundle;
+import org.bouncycastle.pkix.util.LocalizedException;
+
+/* JADX INFO: loaded from: classes5.dex */
+public class CertPathReviewerException extends LocalizedException {
+    private CertPath certPath;
+    private int index;
+
+    public CertPathReviewerException(ErrorBundle errorBundle, Throwable th, CertPath certPath, int i2) {
+        super(errorBundle, th);
+        this.index = -1;
+        this.certPath = null;
+        if (certPath == null || i2 == -1) {
+            ct0.c();
+            throw null;
+        }
+        if (i2 < -1 || i2 >= certPath.getCertificates().size()) {
+            zy0.b();
+            throw null;
+        }
+        this.certPath = certPath;
+        this.index = i2;
+    }
+
+    public CertPath getCertPath() {
+        return this.certPath;
+    }
+
+    public int getIndex() {
+        return this.index;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle, Throwable th) {
+        super(errorBundle, th);
+        this.index = -1;
+        this.certPath = null;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle) {
+        super(errorBundle);
+        this.index = -1;
+        this.certPath = null;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle, CertPath certPath, int i2) {
+        super(errorBundle);
+        this.index = -1;
+        this.certPath = null;
+        if (certPath == null || i2 == -1) {
+            ct0.c();
+            throw null;
+        }
+        if (i2 < -1 || i2 >= certPath.getCertificates().size()) {
+            zy0.b();
+            throw null;
+        }
+        this.certPath = certPath;
+        this.index = i2;
+    }
+}

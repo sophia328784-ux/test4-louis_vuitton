@@ -1,0 +1,169 @@
+.class final Landroidx/compose/runtime/ParcelableSnapshotMutableState;
+.super Landroidx/compose/runtime/SnapshotMutableStateImpl;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/compose/runtime/ParcelableSnapshotMutableState$Companion;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Landroidx/compose/runtime/SnapshotMutableStateImpl<",
+        "TT;>;",
+        "Landroid/os/Parcelable;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0018\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u0003\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u00020\u0003:\u0001\tB\u001d\u0012\u0006\u0010\u0004\u001a\u00028\u0000\u0012\u000c\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0005\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\n"
+    }
+    d2 = {
+        "Landroidx/compose/runtime/ParcelableSnapshotMutableState;",
+        "T",
+        "Landroidx/compose/runtime/SnapshotMutableStateImpl;",
+        "Landroid/os/Parcelable;",
+        "value",
+        "Landroidx/compose/runtime/SnapshotMutationPolicy;",
+        "policy",
+        "<init>",
+        "(Ljava/lang/Object;Landroidx/compose/runtime/SnapshotMutationPolicy;)V",
+        "Companion",
+        "runtime"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Landroidx/compose/runtime/ParcelableSnapshotMutableState<",
+            "Ljava/lang/Object;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Landroidx/compose/runtime/ParcelableSnapshotMutableState$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Landroidx/compose/runtime/ParcelableSnapshotMutableState$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    new-instance v0, Landroidx/compose/runtime/ParcelableSnapshotMutableState$Companion$CREATOR$1;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Landroidx/compose/runtime/ParcelableSnapshotMutableState;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Object;Landroidx/compose/runtime/SnapshotMutationPolicy;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Landroidx/compose/runtime/SnapshotMutationPolicy<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Landroidx/compose/runtime/SnapshotMutableStateImpl;-><init>(Ljava/lang/Object;Landroidx/compose/runtime/SnapshotMutationPolicy;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    invoke-virtual {p0}, Landroidx/compose/runtime/SnapshotMutableStateImpl;->getValue()Ljava/lang/Object;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeValue(Ljava/lang/Object;)V
+
+    sget-object p2, Landroidx/compose/runtime/NeverEqualPolicy;->a:Landroidx/compose/runtime/NeverEqualPolicy;
+
+    iget-object p0, p0, Landroidx/compose/runtime/SnapshotMutableStateImpl;->c:Landroidx/compose/runtime/SnapshotMutationPolicy;
+
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/Intrinsics;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    const/4 p0, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    sget-object p2, Landroidx/compose/runtime/StructuralEqualityPolicy;->a:Landroidx/compose/runtime/StructuralEqualityPolicy;
+
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/Intrinsics;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_1
+
+    const/4 p0, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    sget-object p2, Landroidx/compose/runtime/ReferentialEqualityPolicy;->a:Landroidx/compose/runtime/ReferentialEqualityPolicy;
+
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/Intrinsics;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_2
+
+    const/4 p0, 0x2
+
+    :goto_0
+    invoke-virtual {p1, p0}, Landroid/os/Parcel;->writeInt(I)V
+
+    return-void
+
+    :cond_2
+    const-string p0, "Only known types of MutableState\'s SnapshotMutationPolicy are supported"
+
+    invoke-static {p0}, Lmd;->k(Ljava/lang/String;)V
+
+    return-void
+.end method

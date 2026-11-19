@@ -1,0 +1,9 @@
+package com.google.android.gms.common.api.internal;
+
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.common.api.Status;
+
+/* JADX INFO: loaded from: classes2.dex */
+public interface StatusExceptionMapper {
+    ApiException a(Status status);
+}

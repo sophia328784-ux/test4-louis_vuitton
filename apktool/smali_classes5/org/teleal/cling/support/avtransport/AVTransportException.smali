@@ -1,0 +1,94 @@
+.class public Lorg/teleal/cling/support/avtransport/AVTransportException;
+.super Lorg/teleal/cling/model/action/ActionException;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(ILjava/lang/String;)V
+    .locals 0
+
+    .line 40
+    invoke-direct {p0, p1, p2}, Lorg/teleal/cling/model/action/ActionException;-><init>(ILjava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(ILjava/lang/String;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 37
+    invoke-direct {p0, p1, p2, p3}, Lorg/teleal/cling/model/action/ActionException;-><init>(ILjava/lang/String;Ljava/lang/Throwable;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/teleal/cling/model/types/ErrorCode;)V
+    .locals 0
+
+    .line 39
+    invoke-direct {p0, p1}, Lorg/teleal/cling/model/action/ActionException;-><init>(Lorg/teleal/cling/model/types/ErrorCode;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/teleal/cling/model/types/ErrorCode;Ljava/lang/String;)V
+    .locals 0
+
+    .line 38
+    invoke-direct {p0, p1, p2}, Lorg/teleal/cling/model/action/ActionException;-><init>(Lorg/teleal/cling/model/types/ErrorCode;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/teleal/cling/support/avtransport/AVTransportErrorCode;)V
+    .locals 1
+
+    .line 41
+    invoke-virtual {p1}, Lorg/teleal/cling/support/avtransport/AVTransportErrorCode;->a()I
+
+    move-result v0
+
+    invoke-virtual {p1}, Lorg/teleal/cling/support/avtransport/AVTransportErrorCode;->b()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, v0, p1}, Lorg/teleal/cling/model/action/ActionException;-><init>(ILjava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/teleal/cling/support/avtransport/AVTransportErrorCode;Ljava/lang/String;)V
+    .locals 2
+
+    invoke-virtual {p1}, Lorg/teleal/cling/support/avtransport/AVTransportErrorCode;->a()I
+
+    move-result v0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p1}, Lorg/teleal/cling/support/avtransport/AVTransportErrorCode;->b()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, ". "
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, "."
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, v0, p1}, Lorg/teleal/cling/model/action/ActionException;-><init>(ILjava/lang/String;)V
+
+    return-void
+.end method

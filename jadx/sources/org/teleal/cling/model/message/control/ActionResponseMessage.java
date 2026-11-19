@@ -1,0 +1,5 @@
+package org.teleal.cling.model.message.control;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface ActionResponseMessage extends ActionMessage {
+}

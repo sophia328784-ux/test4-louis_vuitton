@@ -1,0 +1,25 @@
+package com.squareup.moshi;
+
+import io.jsonwebtoken.JwtParser;
+
+/* JADX INFO: loaded from: classes3.dex */
+abstract class JsonScope {
+    public static String a(int i2, int[] iArr, String[] strArr, int[] iArr2) {
+        StringBuilder sb = new StringBuilder("$");
+        for (int i3 = 0; i3 < i2; i3++) {
+            int i4 = iArr[i3];
+            if (i4 == 1 || i4 == 2) {
+                sb.append('[');
+                sb.append(iArr2[i3]);
+                sb.append(']');
+            } else if (i4 == 3 || i4 == 4 || i4 == 5) {
+                sb.append(JwtParser.SEPARATOR_CHAR);
+                String str = strArr[i3];
+                if (str != null) {
+                    sb.append(str);
+                }
+            }
+        }
+        return sb.toString();
+    }
+}

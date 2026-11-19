@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:layout_gravity="center" android:id="@id/surfaceView" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/handMotionContainer" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.vuitton.android.presentation.ar.arcore.HandMotionView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/sceneform_hand_phone" android:scaleType="center" android:foregroundGravity="center" />
+    </FrameLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end" android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/double_spacing" android:src="@drawable/ic_close_legacy" app:backgroundTint="@color/white" app:elevation="@dimen/no_elevation" app:fabCustomSize="40.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</FrameLayout>

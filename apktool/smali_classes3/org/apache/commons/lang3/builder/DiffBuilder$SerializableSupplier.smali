@@ -1,0 +1,21 @@
+.class interface abstract Lorg/apache/commons/lang3/builder/DiffBuilder$SerializableSupplier;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/function/Supplier;
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/function/Supplier<",
+        "TT;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation

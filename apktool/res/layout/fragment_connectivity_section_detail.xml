@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_toolbar" layout="@layout/toolbar_simple" />
+    <ScrollView android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/huge_spacing" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.vuitton.android.presentation.screen.connectivity.views.FixedAspectRatioImageView android:id="@id/image_section_hero" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" app:imageViewAspectRatio="1:1" />
+                <TextView android:layout_gravity="bottom" android:id="@id/text_section_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/double_spacing" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/HeadingH2LeftLight" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_list_label_l" android:textColor="@color/eternity" android:id="@id/text_device_info" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/triple_spacing" android:fontFamily="@font/louisvuitton_light" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" />
+                <Button android:id="@id/button_pairing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/triple_spacing" android:layout_marginBottom="@dimen/default_spacing" android:text="@string/pair_new_object" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/BlackButton" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_section_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" />
+            <FrameLayout android:id="@id/layout_spotify_section" android:background="@drawable/shadow_patch_16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="0.0dp">
+                    <RelativeLayout android:paddingTop="@dimen/double_spacing" android:paddingBottom="@dimen/double_spacing" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/image_spotify_logo" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_spotify" android:layout_centerVertical="true" android:layout_marginStart="@dimen/triple_spacing" android:layout_marginEnd="@dimen/double_spacing" />
+                        <TextView android:textSize="@dimen/text_size_h5" android:textStyle="bold" android:textColor="@color/green_spotify" android:id="@id/text_spotify_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="@font/louisvuitton_bold" android:layout_marginEnd="@dimen/default_spacing" android:layout_toEndOf="@id/image_spotify_logo" />
+                        <TextView android:id="@id/text_spotify_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:text="@string/success_speaker_trunk_paired_subtitle" android:layout_below="@id/text_spotify_title" android:fontFamily="@font/louisvuitton_regular" android:layout_toEndOf="@id/image_spotify_logo" style="@style/ListLabelLRegularLeftDark" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/button_open_learn_more" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/default_spacing" android:paddingBottom="@dimen/default_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_spacing" android:layout_below="@id/text_spotify_subtitle" android:layout_toEndOf="@id/image_spotify_logo">
+                            <TextView android:textSize="@dimen/text_size_body_s" android:textColor="@color/eternity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/learn_more_spotify_redirection" android:fontFamily="@font/louisvuitton_regular" />
+                            <View android:background="@color/eternity" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/button_faq" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_spacing">
+                <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connectivity_need_help_cta" android:fontFamily="@font/louisvuitton_regular" style="@style/ListLabelLRegularLeftDark" />
+                <View android:background="@color/eternity" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="1.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

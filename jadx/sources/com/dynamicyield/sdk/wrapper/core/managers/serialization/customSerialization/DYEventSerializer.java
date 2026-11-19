@@ -1,0 +1,55 @@
+package com.dynamicyield.sdk.wrapper.core.managers.serialization.customSerialization;
+
+import com.dynamicyield.sdk.wrapper.core.models.event.CustomEvent;
+import com.dynamicyield.sdk.wrapper.core.models.event.DYEvent;
+import com.dynamicyield.sdk.wrapper.core.models.event.DynamicCustomEvent;
+import com.dynamicyield.sdk.wrapper.core.models.event.PredefinedEvent;
+import defpackage.bp;
+import defpackage.v40;
+import kotlin.Metadata;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.SerializationException;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.descriptors.SerialDescriptorImpl;
+import kotlinx.serialization.descriptors.SerialDescriptorsKt;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+
+/* JADX INFO: loaded from: classes2.dex */
+@Metadata(d1 = {"\u0000\u000e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\bÇ\u0002\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001¨\u0006\u0003"}, d2 = {"Lcom/dynamicyield/sdk/wrapper/core/managers/serialization/customSerialization/DYEventSerializer;", "Lkotlinx/serialization/KSerializer;", "Lcom/dynamicyield/sdk/wrapper/core/models/event/DYEvent;", "DY-Sdk_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public final class DYEventSerializer implements KSerializer<DYEvent> {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final DYEventSerializer f25953a = new DYEventSerializer();
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final SerialDescriptorImpl f25954b = SerialDescriptorsKt.c("DYEvent", new SerialDescriptor[0], new bp(7));
+
+    @Override // kotlinx.serialization.SerializationStrategy, kotlinx.serialization.DeserializationStrategy
+    public final SerialDescriptor a() {
+        return f25954b;
+    }
+
+    @Override // kotlinx.serialization.DeserializationStrategy
+    public final Object b(Decoder decoder) {
+        decoder.getClass();
+        throw new SerializationException("This class can't be deserialize");
+    }
+
+    @Override // kotlinx.serialization.SerializationStrategy
+    public final void c(Encoder encoder, Object obj) {
+        DYEvent dYEvent = (DYEvent) obj;
+        dYEvent.getClass();
+        if (dYEvent instanceof PredefinedEvent) {
+            encoder.d(PredefinedEvent.INSTANCE.serializer(), dYEvent);
+            return;
+        }
+        if (dYEvent instanceof CustomEvent) {
+            encoder.d(CustomEvent.INSTANCE.serializer(), dYEvent);
+        } else if (dYEvent instanceof DynamicCustomEvent) {
+            encoder.d(DynamicCustomEvent.INSTANCE.serializer(), dYEvent);
+        } else {
+            v40.g();
+        }
+    }
+}

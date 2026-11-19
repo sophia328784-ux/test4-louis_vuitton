@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/dismiss_control" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:text="" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/middle_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/huge_margin" android:layout_marginRight="@dimen/huge_margin" android:layout_centerInParent="true">
+        <ImageButton android:layout_gravity="end" android:id="@id/button_close" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_16_dp" android:contentDescription="@null" />
+        <TextView android:gravity="center" android:id="@id/textview_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/triple_spacing" android:text="@string/net_alert_title" style="@style/HeadingH4CenterDark" />
+        <TextView android:textSize="@dimen/text_size_body_m" android:textColor="@color/eternity" android:gravity="center" android:id="@id/textview_context" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/net_alert_context" android:fontFamily="@font/louisvuitton_regular" />
+        <TextView android:textSize="@dimen/text_size_body_m" android:textColor="@color/eternity" android:gravity="center" android:id="@id/textviex_remark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/net_alert_remark" android:fontFamily="@font/louisvuitton_regular" />
+        <Button android:layout_gravity="center" android:id="@id/button_call" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/net_alert_button_text" style="@style/BlackButton" />
+    </LinearLayout>
+</RelativeLayout>

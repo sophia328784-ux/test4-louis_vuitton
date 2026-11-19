@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/eternity"
+    android:id="@+id/text_item_title"
+    android:background="@drawable/selector_item_list_selectable_background"
+    android:paddingTop="@dimen/triple_spacing"
+    android:paddingBottom="@dimen/triple_spacing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:textDirection="locale"
+    app:drawableEndCompat="@drawable/ic_arrow_right_12dp"
+    style="@style/ListLabelLMediumLeftDark"/>

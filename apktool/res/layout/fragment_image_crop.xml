@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.canhub.cropper.CropImageView android:id="@id/view_crop" android:layout_width="match_parent" android:layout_height="match_parent" app:cropAspectRatioX="1" app:cropAspectRatioY="1" app:cropFixAspectRatio="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/bottom_buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/button_crop" android:background="@drawable/border_oval_white_3dp" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginBottom="@dimen/huge_margin" android:src="@drawable/ic_check_legacy" android:contentDescription="@string/content_description_validate_crop" app:tint="@color/white" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

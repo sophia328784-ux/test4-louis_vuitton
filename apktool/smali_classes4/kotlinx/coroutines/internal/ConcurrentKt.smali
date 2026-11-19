@@ -1,0 +1,63 @@
+.class public abstract Lkotlinx/coroutines/internal/ConcurrentKt;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002*\u000c\u0008\u0000\u0010\u0001\"\u00020\u00002\u00020\u0000*\u001e\u0008\u0000\u0010\u0004\u001a\u0004\u0008\u0000\u0010\u0002\"\u0008\u0012\u0004\u0012\u00028\u00000\u00032\u0008\u0012\u0004\u0012\u00028\u00000\u0003\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "Ljava/util/concurrent/locks/ReentrantLock;",
+        "ReentrantLock",
+        "T",
+        "Ljava/util/concurrent/atomic/AtomicReference;",
+        "WorkaroundAtomicReference",
+        "kotlinx-coroutines-core"
+    }
+    k = 0x2
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final a:Ljava/lang/reflect/Method;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    :try_start_0
+    const-class v0, Ljava/util/concurrent/ScheduledThreadPoolExecutor;
+
+    const-string v1, "setRemoveOnCancelPolicy"
+
+    sget-object v2, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+
+    filled-new-array {v2}, [Ljava/lang/Class;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    const/4 v0, 0x0
+
+    :goto_0
+    sput-object v0, Lkotlinx/coroutines/internal/ConcurrentKt;->a:Ljava/lang/reflect/Method;
+
+    return-void
+.end method

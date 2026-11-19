@@ -1,0 +1,31 @@
+package com.vuitton.android.domain.usecase.search;
+
+import kotlin.Metadata;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+
+/* JADX INFO: loaded from: classes3.dex */
+@Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+@DebugMetadata(c = "com.vuitton.android.domain.usecase.search.UpdateSearchHistoryUseCase", f = "UpdateSearchHistoryUseCase.kt", l = {9}, m = "run", v = 2)
+final class UpdateSearchHistoryUseCase$run$1 extends ContinuationImpl {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public /* synthetic */ Object f50376b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final /* synthetic */ UpdateSearchHistoryUseCase f50377c;
+    public int d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public UpdateSearchHistoryUseCase$run$1(UpdateSearchHistoryUseCase updateSearchHistoryUseCase, ContinuationImpl continuationImpl) {
+        super(continuationImpl);
+        this.f50377c = updateSearchHistoryUseCase;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.f50376b = obj;
+        this.d |= Integer.MIN_VALUE;
+        return this.f50377c.a(null, this);
+    }
+}

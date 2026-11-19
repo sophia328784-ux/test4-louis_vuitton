@@ -1,0 +1,402 @@
+.class final Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;
+.super Ljava/util/concurrent/atomic/AtomicInteger;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/reactivex/rxjava3/disposables/Disposable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "EqualCoordinator"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/concurrent/atomic/AtomicInteger;",
+        "Lio/reactivex/rxjava3/disposables/Disposable;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final serialVersionUID:J = -0x55bcb3aaa8a061f8L
+
+
+# instance fields
+.field public final b:Lio/reactivex/rxjava3/core/Observer;
+
+.field public final c:Lio/reactivex/rxjava3/functions/BiPredicate;
+
+.field public final d:Lio/reactivex/rxjava3/internal/disposables/ArrayCompositeDisposable;
+
+.field public final e:Lio/reactivex/rxjava3/core/ObservableSource;
+
+.field public final f:Lio/reactivex/rxjava3/core/ObservableSource;
+
+.field public final g:[Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+.field public volatile h:Z
+
+.field public i:Ljava/lang/Object;
+
+.field public j:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Lio/reactivex/rxjava3/core/Observer;ILio/reactivex/rxjava3/core/ObservableSource;Lio/reactivex/rxjava3/core/ObservableSource;Lio/reactivex/rxjava3/functions/BiPredicate;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    iput-object p1, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    iput-object p3, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->e:Lio/reactivex/rxjava3/core/ObservableSource;
+
+    iput-object p4, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->f:Lio/reactivex/rxjava3/core/ObservableSource;
+
+    iput-object p5, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->c:Lio/reactivex/rxjava3/functions/BiPredicate;
+
+    const/4 p1, 0x2
+
+    new-array p3, p1, [Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+    iput-object p3, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->g:[Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+    new-instance p4, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+    const/4 p5, 0x0
+
+    invoke-direct {p4, p0, p5, p2}, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;-><init>(Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;II)V
+
+    aput-object p4, p3, p5
+
+    new-instance p4, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+    const/4 p5, 0x1
+
+    invoke-direct {p4, p0, p5, p2}, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;-><init>(Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;II)V
+
+    aput-object p4, p3, p5
+
+    new-instance p2, Lio/reactivex/rxjava3/internal/disposables/ArrayCompositeDisposable;
+
+    invoke-direct {p2, p1}, Lio/reactivex/rxjava3/internal/disposables/ArrayCompositeDisposable;-><init>(I)V
+
+    iput-object p2, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->d:Lio/reactivex/rxjava3/internal/disposables/ArrayCompositeDisposable;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 12
+
+    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto/16 :goto_3
+
+    :cond_0
+    iget-object v0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->g:[Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+    const/4 v1, 0x0
+
+    aget-object v2, v0, v1
+
+    iget-object v3, v2, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->c:Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;
+
+    const/4 v4, 0x1
+
+    aget-object v0, v0, v4
+
+    iget-object v5, v0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->c:Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;
+
+    move v6, v4
+
+    :cond_1
+    iget-boolean v7, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    if-eqz v7, :cond_2
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    return-void
+
+    :cond_2
+    iget-boolean v7, v2, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->e:Z
+
+    if-eqz v7, :cond_3
+
+    iget-object v8, v2, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->f:Ljava/lang/Throwable;
+
+    if-eqz v8, :cond_3
+
+    iput-boolean v4, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    invoke-interface {p0, v8}, Lio/reactivex/rxjava3/core/Observer;->onError(Ljava/lang/Throwable;)V
+
+    return-void
+
+    :cond_3
+    iget-boolean v8, v0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->e:Z
+
+    if-eqz v8, :cond_4
+
+    iget-object v9, v0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->f:Ljava/lang/Throwable;
+
+    if-eqz v9, :cond_4
+
+    iput-boolean v4, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    invoke-interface {p0, v9}, Lio/reactivex/rxjava3/core/Observer;->onError(Ljava/lang/Throwable;)V
+
+    return-void
+
+    :cond_4
+    iget-object v9, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->i:Ljava/lang/Object;
+
+    if-nez v9, :cond_5
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->poll()Ljava/lang/Object;
+
+    move-result-object v9
+
+    iput-object v9, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->i:Ljava/lang/Object;
+
+    :cond_5
+    iget-object v9, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->i:Ljava/lang/Object;
+
+    if-nez v9, :cond_6
+
+    move v9, v4
+
+    goto :goto_0
+
+    :cond_6
+    move v9, v1
+
+    :goto_0
+    iget-object v10, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->j:Ljava/lang/Object;
+
+    if-nez v10, :cond_7
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->poll()Ljava/lang/Object;
+
+    move-result-object v10
+
+    iput-object v10, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->j:Ljava/lang/Object;
+
+    :cond_7
+    iget-object v10, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->j:Ljava/lang/Object;
+
+    if-nez v10, :cond_8
+
+    move v11, v4
+
+    goto :goto_1
+
+    :cond_8
+    move v11, v1
+
+    :goto_1
+    if-eqz v7, :cond_9
+
+    if-eqz v8, :cond_9
+
+    if-eqz v9, :cond_9
+
+    if-eqz v11, :cond_9
+
+    iget-object v0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-interface {v0, v1}, Lio/reactivex/rxjava3/core/Observer;->onNext(Ljava/lang/Object;)V
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    invoke-interface {p0}, Lio/reactivex/rxjava3/core/Observer;->onComplete()V
+
+    return-void
+
+    :cond_9
+    if-eqz v7, :cond_a
+
+    if-eqz v8, :cond_a
+
+    if-eq v9, v11, :cond_a
+
+    iput-boolean v4, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    iget-object v0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    invoke-interface {v0, v1}, Lio/reactivex/rxjava3/core/Observer;->onNext(Ljava/lang/Object;)V
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    invoke-interface {p0}, Lio/reactivex/rxjava3/core/Observer;->onComplete()V
+
+    return-void
+
+    :cond_a
+    if-nez v9, :cond_c
+
+    if-nez v11, :cond_c
+
+    :try_start_0
+    iget-object v7, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->c:Lio/reactivex/rxjava3/functions/BiPredicate;
+
+    iget-object v8, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->i:Ljava/lang/Object;
+
+    invoke-interface {v7, v8, v10}, Lio/reactivex/rxjava3/functions/BiPredicate;->test(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v7
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-nez v7, :cond_b
+
+    iput-boolean v4, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    iget-object v0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    invoke-interface {v0, v1}, Lio/reactivex/rxjava3/core/Observer;->onNext(Ljava/lang/Object;)V
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    invoke-interface {p0}, Lio/reactivex/rxjava3/core/Observer;->onComplete()V
+
+    return-void
+
+    :cond_b
+    const/4 v7, 0x0
+
+    iput-object v7, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->i:Ljava/lang/Object;
+
+    iput-object v7, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->j:Ljava/lang/Object;
+
+    goto :goto_2
+
+    :catchall_0
+    move-exception v0
+
+    invoke-static {v0}, Lio/reactivex/rxjava3/exceptions/Exceptions;->a(Ljava/lang/Throwable;)V
+
+    iput-boolean v4, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    invoke-virtual {v3}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    invoke-virtual {v5}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->b:Lio/reactivex/rxjava3/core/Observer;
+
+    invoke-interface {p0, v0}, Lio/reactivex/rxjava3/core/Observer;->onError(Ljava/lang/Throwable;)V
+
+    return-void
+
+    :cond_c
+    :goto_2
+    if-nez v9, :cond_d
+
+    if-eqz v11, :cond_1
+
+    :cond_d
+    neg-int v6, v6
+
+    invoke-virtual {p0, v6}, Ljava/util/concurrent/atomic/AtomicInteger;->addAndGet(I)I
+
+    move-result v6
+
+    if-nez v6, :cond_1
+
+    :goto_3
+    return-void
+.end method
+
+.method public final dispose()V
+    .locals 2
+
+    iget-boolean v0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    iget-object v1, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->d:Lio/reactivex/rxjava3/internal/disposables/ArrayCompositeDisposable;
+
+    invoke-virtual {v1}, Lio/reactivex/rxjava3/internal/disposables/ArrayCompositeDisposable;->dispose()V
+
+    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->g:[Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;
+
+    const/4 v1, 0x0
+
+    aget-object v1, p0, v1
+
+    iget-object v1, v1, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->c:Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;
+
+    invoke-virtual {v1}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    aget-object p0, p0, v0
+
+    iget-object p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualObserver;->c:Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;
+
+    invoke-virtual {p0}, Lio/reactivex/rxjava3/operators/SpscLinkedArrayQueue;->clear()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final isDisposed()Z
+    .locals 0
+
+    iget-boolean p0, p0, Lio/reactivex/rxjava3/internal/operators/observable/ObservableSequenceEqual$EqualCoordinator;->h:Z
+
+    return p0
+.end method

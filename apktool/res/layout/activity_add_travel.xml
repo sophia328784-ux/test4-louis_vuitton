@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/layout_toolbar" layout="@layout/toolbar_simple" />
+        <ScrollView android:id="@id/add_travel_container" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.tabs.TabLayout android:id="@id/travel_tab_layout" android:layout_width="match_parent" android:layout_height="140.0dp" style="@style/TabLayoutStyle" />
+                <fragment android:name="com.vuitton.android.presentation.screen.connectivity.travel.form.FlightFormFragment" android:id="@id/plane_form" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <fragment android:name="com.vuitton.android.presentation.screen.connectivity.travel.form.TrainFormFragment" android:id="@id/train_form" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <fragment android:name="com.vuitton.android.presentation.screen.connectivity.travel.form.HotelFormFragment" android:id="@id/hotel_form" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <Button android:id="@id/confirm_travel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/travel_creation_confirmation" android:layout_marginHorizontal="@dimen/triple_spacing" style="@style/BlackButton" />
+                <TextView android:gravity="center" android:id="@id/or" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/triple_spacing" android:text="@string/travel_creation_or_text" style="@style/OverlineBold" />
+                <TextView android:textSize="@dimen/text_size_body_s" android:textColor="@color/eternity" android:id="@id/confirmation_email_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_spacing" android:text="@string/forward_text" android:fontFamily="@font/louisvuitton_light" android:layout_marginHorizontal="@dimen/triple_spacing" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_spacing" android:layout_marginBottom="@dimen/midhuge_spacing" android:layout_marginHorizontal="@dimen/triple_spacing">
+                    <TextView android:textSize="@dimen/text_size_body_s" android:textColor="@color/eternity" android:id="@id/confirmation_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" android:fontFamily="@font/louisvuitton_regular" />
+                    <View android:background="@color/eternity" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="1.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <include android:id="@id/confirmation_view" android:visibility="gone" layout="@layout/travel_creation_confirmation" />
+    </LinearLayout>
+    <include android:id="@id/progress_overlay" android:visibility="gone" layout="@layout/progress_overlay" />
+</FrameLayout>

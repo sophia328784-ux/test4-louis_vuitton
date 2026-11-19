@@ -1,0 +1,8 @@
+package com.google.android.exoplayer2.decoder;
+
+import com.google.android.exoplayer2.decoder.DecoderException;
+
+/* JADX INFO: loaded from: classes2.dex */
+@Deprecated
+public interface Decoder<I, O, E extends DecoderException> {
+}

@@ -1,0 +1,1167 @@
+﻿[
+  {
+    "code": "GH",
+    "name": "가나",
+    "prefix": "+233"
+  },
+  {
+    "code": "GA",
+    "name": "가봉",
+    "prefix": "+241"
+  },
+  {
+    "code": "GY",
+    "name": "가이아나",
+    "prefix": "+592"
+  },
+  {
+    "code": "GM",
+    "name": "감비아",
+    "prefix": "+220"
+  },
+  {
+    "code": "GP",
+    "name": "과들루프(프랑스)",
+    "prefix": "+590"
+  },
+  {
+    "code": "GT",
+    "name": "과테말라",
+    "prefix": "+502"
+  },
+  {
+    "code": "GU",
+    "name": "괌(미국)",
+    "prefix": "+1671"
+  },
+  {
+    "code": "GD",
+    "name": "그레나다",
+    "prefix": "+1473"
+  },
+  {
+    "code": "GR",
+    "name": "그리스",
+    "prefix": "+30"
+  },
+  {
+    "code": "GL",
+    "name": "그린란드",
+    "prefix": "+299"
+  },
+  {
+    "code": "GN",
+    "name": "기니",
+    "prefix": "+224"
+  },
+  {
+    "code": "GW",
+    "name": "기니비사우",
+    "prefix": "+245"
+  },
+  {
+    "code": "NA",
+    "name": "나미비아",
+    "prefix": "+264"
+  },
+  {
+    "code": "NR",
+    "name": "나우루",
+    "prefix": "+674"
+  },
+  {
+    "code": "NG",
+    "name": "나이지리아",
+    "prefix": "+234"
+  },
+  {
+    "code": "SS",
+    "name": "남수단",
+    "prefix": "+211"
+  },
+  {
+    "code": "ZA",
+    "name": "남아프리카공화국",
+    "prefix": "+27"
+  },
+  {
+    "code": "NL",
+    "name": "네덜란드",
+    "prefix": "+31"
+  },
+  {
+    "code": "NP",
+    "name": "네팔",
+    "prefix": "+977"
+  },
+  {
+    "code": "NO",
+    "name": "노르웨이",
+    "prefix": "+47"
+  },
+  {
+    "code": "NZ",
+    "name": "뉴질랜드",
+    "prefix": "+64"
+  },
+  {
+    "code": "NC",
+    "name": "뉴칼레도니아",
+    "prefix": "+687"
+  },
+  {
+    "code": "NU",
+    "name": "니우에",
+    "prefix": "+683"
+  },
+  {
+    "code": "NE",
+    "name": "니제르",
+    "prefix": "+227"
+  },
+  {
+    "code": "NI",
+    "name": "니카라과",
+    "prefix": "+505"
+  },
+  {
+    "code": "KR",
+    "name": "대한민국",
+    "prefix": "+82"
+  },
+  {
+    "code": "DK",
+    "name": "덴마크",
+    "prefix": "+45"
+  },
+  {
+    "code": "DM",
+    "name": "도미니카",
+    "prefix": "+1767"
+  },
+  {
+    "code": "DO",
+    "name": "도미니카공화국",
+    "prefix": "+1"
+  },
+  {
+    "code": "DE",
+    "name": "독일",
+    "prefix": "+49"
+  },
+  {
+    "code": "LA",
+    "name": "라오스",
+    "prefix": "+856"
+  },
+  {
+    "code": "LR",
+    "name": "라이베리아",
+    "prefix": "+231"
+  },
+  {
+    "code": "LV",
+    "name": "라트비아",
+    "prefix": "+371"
+  },
+  {
+    "code": "RU",
+    "name": "러시아",
+    "prefix": "+7"
+  },
+  {
+    "code": "LB",
+    "name": "레바논",
+    "prefix": "+961"
+  },
+  {
+    "code": "LS",
+    "name": "레소토",
+    "prefix": "+266"
+  },
+  {
+    "code": "RE",
+    "name": "레위니옹(프랑스)",
+    "prefix": "+262"
+  },
+  {
+    "code": "RO",
+    "name": "루마니아",
+    "prefix": "+40"
+  },
+  {
+    "code": "LU",
+    "name": "룩셈부르크",
+    "prefix": "+352"
+  },
+  {
+    "code": "RW",
+    "name": "르완다",
+    "prefix": "+250"
+  },
+  {
+    "code": "LY",
+    "name": "리비아",
+    "prefix": "+218"
+  },
+  {
+    "code": "LT",
+    "name": "리투아니아",
+    "prefix": "+370"
+  },
+  {
+    "code": "LI",
+    "name": "리히텐슈타인",
+    "prefix": "+423"
+  },
+  {
+    "code": "MG",
+    "name": "마다가스카르",
+    "prefix": "+261"
+  },
+  {
+    "code": "MQ",
+    "name": "마르티니크(프랑스)",
+    "prefix": "+596"
+  },
+  {
+    "code": "MH",
+    "name": "마셜",
+    "prefix": "+692"
+  },
+  {
+    "code": "YT",
+    "name": "마요트 섬",
+    "prefix": "+262"
+  },
+  {
+    "code": "MO",
+    "name": "마카오 SAR",
+    "prefix": "+853"
+  },
+  {
+    "code": "MK",
+    "name": "마케도니아",
+    "prefix": "+389"
+  },
+  {
+    "code": "MW",
+    "name": "말라위",
+    "prefix": "+265"
+  },
+  {
+    "code": "MY",
+    "name": "말레이시아",
+    "prefix": "+60"
+  },
+  {
+    "code": "ML",
+    "name": "말리",
+    "prefix": "+223"
+  },
+  {
+    "code": "MX",
+    "name": "멕시코",
+    "prefix": "+52"
+  },
+  {
+    "code": "MC",
+    "name": "모나코",
+    "prefix": "+377"
+  },
+  {
+    "code": "MA",
+    "name": "모로코",
+    "prefix": "+212"
+  },
+  {
+    "code": "MU",
+    "name": "모리셔스",
+    "prefix": "+230"
+  },
+  {
+    "code": "MR",
+    "name": "모리타니",
+    "prefix": "+222"
+  },
+  {
+    "code": "MZ",
+    "name": "모잠비크",
+    "prefix": "+258"
+  },
+  {
+    "code": "MS",
+    "name": "몬세라트산",
+    "prefix": "+1664"
+  },
+  {
+    "code": "ME",
+    "name": "몬테네그로",
+    "prefix": "+382"
+  },
+  {
+    "code": "MD",
+    "name": "몰도바",
+    "prefix": "+373"
+  },
+  {
+    "code": "MV",
+    "name": "몰디브",
+    "prefix": "+960"
+  },
+  {
+    "code": "MT",
+    "name": "몰타",
+    "prefix": "+356"
+  },
+  {
+    "code": "MN",
+    "name": "몽골",
+    "prefix": "+976"
+  },
+  {
+    "code": "US",
+    "name": "미국",
+    "prefix": "+1"
+  },
+  {
+    "code": "MM",
+    "name": "미얀마",
+    "prefix": "+95"
+  },
+  {
+    "code": "FM",
+    "name": "미크로네시아",
+    "prefix": "+691"
+  },
+  {
+    "code": "VU",
+    "name": "바누아투",
+    "prefix": "+678"
+  },
+  {
+    "code": "BH",
+    "name": "바레인",
+    "prefix": "+973"
+  },
+  {
+    "code": "BB",
+    "name": "바베이도스",
+    "prefix": "+1246"
+  },
+  {
+    "code": "VA",
+    "name": "바티칸 시국",
+    "prefix": "+379"
+  },
+  {
+    "code": "BS",
+    "name": "바하마",
+    "prefix": "+1242"
+  },
+  {
+    "code": "BD",
+    "name": "방글라데시",
+    "prefix": "+880"
+  },
+  {
+    "code": "BM",
+    "name": "버뮤다",
+    "prefix": "+1441"
+  },
+  {
+    "code": "VI",
+    "name": "버전아일랜드(미국)",
+    "prefix": "+1340"
+  },
+  {
+    "code": "VG",
+    "name": "버진아일랜드(영국)",
+    "prefix": "+1284"
+  },
+  {
+    "code": "BJ",
+    "name": "베냉",
+    "prefix": "+229"
+  },
+  {
+    "code": "VE",
+    "name": "베네수엘라",
+    "prefix": "+58"
+  },
+  {
+    "code": "VN",
+    "name": "베트남",
+    "prefix": "+84"
+  },
+  {
+    "code": "BE",
+    "name": "벨기에",
+    "prefix": "+32"
+  },
+  {
+    "code": "BZ",
+    "name": "벨리즈",
+    "prefix": "+501"
+  },
+  {
+    "code": "BA",
+    "name": "보스니아 헤르체고비나",
+    "prefix": "+387"
+  },
+  {
+    "code": "BW",
+    "name": "보츠와나",
+    "prefix": "+267"
+  },
+  {
+    "code": "BO",
+    "name": "볼리비아",
+    "prefix": "+591"
+  },
+  {
+    "code": "BI",
+    "name": "부룬디",
+    "prefix": "+257"
+  },
+  {
+    "code": "BF",
+    "name": "부르키나파소",
+    "prefix": "+226"
+  },
+  {
+    "code": "BT",
+    "name": "부탄",
+    "prefix": "+975"
+  },
+  {
+    "code": "MP",
+    "name": "북마리아나제도",
+    "prefix": "+1670"
+  },
+  {
+    "code": "KP",
+    "name": "북한",
+    "prefix": "+850"
+  },
+  {
+    "code": "BG",
+    "name": "불가리아",
+    "prefix": "+359"
+  },
+  {
+    "code": "BR",
+    "name": "브라질",
+    "prefix": "+55"
+  },
+  {
+    "code": "BN",
+    "name": "브루나이",
+    "prefix": "+673"
+  },
+  {
+    "code": "AS",
+    "name": "사모아",
+    "prefix": "+1684"
+  },
+  {
+    "code": "WS",
+    "name": "사모아",
+    "prefix": "+685"
+  },
+  {
+    "code": "SA",
+    "name": "사우디아라비아",
+    "prefix": "+966"
+  },
+  {
+    "code": "SM",
+    "name": "산마리노",
+    "prefix": "+378"
+  },
+  {
+    "code": "MF",
+    "name": "산마리노",
+    "prefix": "+590"
+  },
+  {
+    "code": "ST",
+    "name": "상투메프린시페",
+    "prefix": "+239"
+  },
+  {
+    "code": "SH",
+    "name": "생바르텔레미",
+    "prefix": "+290"
+  },
+  {
+    "code": "PM",
+    "name": "생피에르 미클롱",
+    "prefix": "+508"
+  },
+  {
+    "code": "SN",
+    "name": "세네갈",
+    "prefix": "+221"
+  },
+  {
+    "code": "RS",
+    "name": "세르비아",
+    "prefix": "+381"
+  },
+  {
+    "code": "SC",
+    "name": "세이셸",
+    "prefix": "+248"
+  },
+  {
+    "code": "LC",
+    "name": "세인트루시아",
+    "prefix": "+1758"
+  },
+  {
+    "code": "VC",
+    "name": "세인트빈센트 그레나딘",
+    "prefix": "+1784"
+  },
+  {
+    "code": "KN",
+    "name": "세인트키츠네비스",
+    "prefix": "+1869"
+  },
+  {
+    "code": "SO",
+    "name": "소말리아",
+    "prefix": "+252"
+  },
+  {
+    "code": "SB",
+    "name": "솔로몬 제도",
+    "prefix": "+677"
+  },
+  {
+    "code": "SD",
+    "name": "수단",
+    "prefix": "+249"
+  },
+  {
+    "code": "SR",
+    "name": "수리남",
+    "prefix": "+597"
+  },
+  {
+    "code": "LK",
+    "name": "스리랑카",
+    "prefix": "+94"
+  },
+  {
+    "code": "SZ",
+    "name": "스와질란드",
+    "prefix": "+268"
+  },
+  {
+    "code": "SE",
+    "name": "스웨덴",
+    "prefix": "+46"
+  },
+  {
+    "code": "CH",
+    "name": "스위스",
+    "prefix": "+41"
+  },
+  {
+    "code": "ES",
+    "name": "스페인",
+    "prefix": "+34"
+  },
+  {
+    "code": "SK",
+    "name": "슬로바키아",
+    "prefix": "+421"
+  },
+  {
+    "code": "SI",
+    "name": "슬로베니아",
+    "prefix": "+386"
+  },
+  {
+    "code": "SY",
+    "name": "시리아",
+    "prefix": "+963"
+  },
+  {
+    "code": "SL",
+    "name": "시에라리온",
+    "prefix": "+232"
+  },
+  {
+    "code": "SG",
+    "name": "싱가포르",
+    "prefix": "+65"
+  },
+  {
+    "code": "AE",
+    "name": "아랍에미리트",
+    "prefix": "+971"
+  },
+  {
+    "code": "AW",
+    "name": "아루바",
+    "prefix": "+297"
+  },
+  {
+    "code": "AM",
+    "name": "아르메니아",
+    "prefix": "+374"
+  },
+  {
+    "code": "AR",
+    "name": "아르헨티나",
+    "prefix": "+54"
+  },
+  {
+    "code": "IS",
+    "name": "아이슬란드",
+    "prefix": "+354"
+  },
+  {
+    "code": "HT",
+    "name": "아이티",
+    "prefix": "+509"
+  },
+  {
+    "code": "IE",
+    "name": "아일랜드",
+    "prefix": "+353"
+  },
+  {
+    "code": "AZ",
+    "name": "아제르바이잔",
+    "prefix": "+994"
+  },
+  {
+    "code": "AF",
+    "name": "아프가니스탄",
+    "prefix": "+93"
+  },
+  {
+    "code": "AD",
+    "name": "안도라",
+    "prefix": "+376"
+  },
+  {
+    "code": "AL",
+    "name": "알바니아",
+    "prefix": "+355"
+  },
+  {
+    "code": "DZ",
+    "name": "알제리",
+    "prefix": "+213"
+  },
+  {
+    "code": "AO",
+    "name": "앙골라",
+    "prefix": "+244"
+  },
+  {
+    "code": "AG",
+    "name": "앤티가바부다",
+    "prefix": "+1268"
+  },
+  {
+    "code": "AI",
+    "name": "앵귈라",
+    "prefix": "+1264"
+  },
+  {
+    "code": "ER",
+    "name": "에리트레아",
+    "prefix": "+291"
+  },
+  {
+    "code": "EE",
+    "name": "에스토니아",
+    "prefix": "+372"
+  },
+  {
+    "code": "EC",
+    "name": "에콰도르",
+    "prefix": "+593"
+  },
+  {
+    "code": "ET",
+    "name": "에티오피아",
+    "prefix": "+251"
+  },
+  {
+    "code": "SV",
+    "name": "엘살바도르",
+    "prefix": "+503"
+  },
+  {
+    "code": "IO",
+    "name": "영국령 인도양 식민지",
+    "prefix": "+246"
+  },
+  {
+    "code": "GB",
+    "name": "영국령 인도양 식민지",
+    "prefix": "+44"
+  },
+  {
+    "code": "YE",
+    "name": "예멘",
+    "prefix": "+967"
+  },
+  {
+    "code": "OM",
+    "name": "오만",
+    "prefix": "+968"
+  },
+  {
+    "code": "AT",
+    "name": "오스트리아",
+    "prefix": "+43"
+  },
+  {
+    "code": "HN",
+    "name": "온두라스",
+    "prefix": "+504"
+  },
+  {
+    "code": "JO",
+    "name": "요르단",
+    "prefix": "+962"
+  },
+  {
+    "code": "UG",
+    "name": "우간다",
+    "prefix": "+256"
+  },
+  {
+    "code": "UY",
+    "name": "우루과이",
+    "prefix": "+598"
+  },
+  {
+    "code": "UZ",
+    "name": "우즈베키스탄",
+    "prefix": "+998"
+  },
+  {
+    "code": "UA",
+    "name": "우크라이나",
+    "prefix": "+380"
+  },
+  {
+    "code": "WF",
+    "name": "월리스 푸투나 제도",
+    "prefix": "+681"
+  },
+  {
+    "code": "IQ",
+    "name": "이라크",
+    "prefix": "+964"
+  },
+  {
+    "code": "IR",
+    "name": "이란",
+    "prefix": "+98"
+  },
+  {
+    "code": "IL",
+    "name": "이스라엘",
+    "prefix": "+972"
+  },
+  {
+    "code": "EG",
+    "name": "이집트",
+    "prefix": "+20"
+  },
+  {
+    "code": "IT",
+    "name": "이탈리아",
+    "prefix": "+39"
+  },
+  {
+    "code": "IN",
+    "name": "인도네시아",
+    "prefix": "+91"
+  },
+  {
+    "code": "ID",
+    "name": "인도네시아",
+    "prefix": "+62"
+  },
+  {
+    "code": "JP",
+    "name": "자메이카",
+    "prefix": "+81"
+  },
+  {
+    "code": "ZM",
+    "name": "잠비아",
+    "prefix": "+260"
+  },
+  {
+    "code": "GQ",
+    "name": "적도 기니",
+    "prefix": "+240"
+  },
+  {
+    "code": "GE",
+    "name": "조지아",
+    "prefix": "+995"
+  },
+  {
+    "code": "CN",
+    "name": "중국",
+    "prefix": "+86"
+  },
+  {
+    "code": "CF",
+    "name": "중앙 아프리카 공화국",
+    "prefix": "+236"
+  },
+  {
+    "code": "DJ",
+    "name": "지부티",
+    "prefix": "+253"
+  },
+  {
+    "code": "GI",
+    "name": "지브롤터",
+    "prefix": "+350"
+  },
+  {
+    "code": "ZW",
+    "name": "짐바브웨",
+    "prefix": "+263"
+  },
+  {
+    "code": "TD",
+    "name": "차드",
+    "prefix": "+235"
+  },
+  {
+    "code": "CZ",
+    "name": "체코공화국",
+    "prefix": "+420"
+  },
+  {
+    "code": "BY",
+    "name": "츠와나",
+    "prefix": "+375"
+  },
+  {
+    "code": "CL",
+    "name": "칠레",
+    "prefix": "+56"
+  },
+  {
+    "code": "CM",
+    "name": "카메룬",
+    "prefix": "+237"
+  },
+  {
+    "code": "CV",
+    "name": "카보베르데",
+    "prefix": "+238"
+  },
+  {
+    "code": "KZ",
+    "name": "카자흐스탄",
+    "prefix": "+7"
+  },
+  {
+    "code": "QA",
+    "name": "카타르",
+    "prefix": "+974"
+  },
+  {
+    "code": "KH",
+    "name": "캄보디아",
+    "prefix": "+855"
+  },
+  {
+    "code": "CA",
+    "name": "캐나다",
+    "prefix": "+1"
+  },
+  {
+    "code": "KE",
+    "name": "케냐",
+    "prefix": "+254"
+  },
+  {
+    "code": "KY",
+    "name": "케이맨 제도",
+    "prefix": "+1345"
+  },
+  {
+    "code": "KM",
+    "name": "코모로",
+    "prefix": "+269"
+  },
+  {
+    "code": "CR",
+    "name": "코스타리카",
+    "prefix": "+506"
+  },
+  {
+    "code": "CC",
+    "name": "코코스 제도",
+    "prefix": "+672"
+  },
+  {
+    "code": "CI",
+    "name": "코트디부아르",
+    "prefix": "+225"
+  },
+  {
+    "code": "JM",
+    "name": "코트디부아르",
+    "prefix": "+1876"
+  },
+  {
+    "code": "CO",
+    "name": "콜롬비아",
+    "prefix": "+57"
+  },
+  {
+    "code": "CG",
+    "name": "콩고",
+    "prefix": "+242"
+  },
+  {
+    "code": "CD",
+    "name": "콩고민주공화국",
+    "prefix": "+243"
+  },
+  {
+    "code": "CU",
+    "name": "쿠바",
+    "prefix": "+53"
+  },
+  {
+    "code": "KW",
+    "name": "쿠웨이트",
+    "prefix": "+965"
+  },
+  {
+    "code": "CK",
+    "name": "쿡 제도",
+    "prefix": "+682"
+  },
+  {
+    "code": "HR",
+    "name": "크로아티아",
+    "prefix": "+385"
+  },
+  {
+    "code": "CX",
+    "name": "크리스마스 섬",
+    "prefix": "+672"
+  },
+  {
+    "code": "KG",
+    "name": "키르키스",
+    "prefix": "+996"
+  },
+  {
+    "code": "KI",
+    "name": "키르키스",
+    "prefix": "+686"
+  },
+  {
+    "code": "CY",
+    "name": "키프로스",
+    "prefix": "+357"
+  },
+  {
+    "code": "TW",
+    "name": "타이완",
+    "prefix": "+886"
+  },
+  {
+    "code": "TH",
+    "name": "타이완",
+    "prefix": "+66"
+  },
+  {
+    "code": "TJ",
+    "name": "타지키스탄",
+    "prefix": "+992"
+  },
+  {
+    "code": "TZ",
+    "name": "탄자니아",
+    "prefix": "+255"
+  },
+  {
+    "code": "TC",
+    "name": "터크스 케이커스 제도",
+    "prefix": "+1649"
+  },
+  {
+    "code": "TR",
+    "name": "터키",
+    "prefix": "+90"
+  },
+  {
+    "code": "TG",
+    "name": "토고",
+    "prefix": "+228"
+  },
+  {
+    "code": "TK",
+    "name": "토켈라우 제도",
+    "prefix": "+690"
+  },
+  {
+    "code": "TO",
+    "name": "통가",
+    "prefix": "+676"
+  },
+  {
+    "code": "TM",
+    "name": "투르크메니스탄",
+    "prefix": "+993"
+  },
+  {
+    "code": "TV",
+    "name": "투발루",
+    "prefix": "+688"
+  },
+  {
+    "code": "TN",
+    "name": "튀니지",
+    "prefix": "+216"
+  },
+  {
+    "code": "TT",
+    "name": "트리니다드토바고",
+    "prefix": "+1868"
+  },
+  {
+    "code": "TL",
+    "name": "티모르",
+    "prefix": "+670"
+  },
+  {
+    "code": "PA",
+    "name": "파나마",
+    "prefix": "+507"
+  },
+  {
+    "code": "PY",
+    "name": "파라과이",
+    "prefix": "+595"
+  },
+  {
+    "code": "PK",
+    "name": "파키스탄",
+    "prefix": "+92"
+  },
+  {
+    "code": "PG",
+    "name": "파푸아뉴기니",
+    "prefix": "+675"
+  },
+  {
+    "code": "PW",
+    "name": "팔라우",
+    "prefix": "+680"
+  },
+  {
+    "code": "PS",
+    "name": "팔레스타인",
+    "prefix": "+970"
+  },
+  {
+    "code": "FO",
+    "name": "페로 제도",
+    "prefix": "+298"
+  },
+  {
+    "code": "PE",
+    "name": "페루",
+    "prefix": "+51"
+  },
+  {
+    "code": "PT",
+    "name": "포르투갈",
+    "prefix": "+351"
+  },
+  {
+    "code": "FK",
+    "name": "포클랜드 제도",
+    "prefix": "+500"
+  },
+  {
+    "code": "PN",
+    "name": "폴란드",
+    "prefix": "+64"
+  },
+  {
+    "code": "PL",
+    "name": "폴리네시아(프랑스)",
+    "prefix": "+48"
+  },
+  {
+    "code": "PR",
+    "name": "푸에르토리코",
+    "prefix": "+1"
+  },
+  {
+    "code": "GF",
+    "name": "프랑스(기아나)",
+    "prefix": "+594"
+  },
+  {
+    "code": "PF",
+    "name": "프랑스령폴리네시아",
+    "prefix": "+689"
+  },
+  {
+    "code": "FJ",
+    "name": "피지",
+    "prefix": "+679"
+  },
+  {
+    "code": "FR",
+    "name": "핀란드",
+    "prefix": "+33"
+  },
+  {
+    "code": "FI",
+    "name": "필리핀",
+    "prefix": "+358"
+  },
+  {
+    "code": "PH",
+    "name": "핏케언 섬",
+    "prefix": "+63"
+  },
+  {
+    "code": "HM",
+    "name": "허드 맥도널드 제도",
+    "prefix": "+672"
+  },
+  {
+    "code": "HU",
+    "name": "헝가리",
+    "prefix": "+36"
+  },
+  {
+    "code": "AU",
+    "name": "호주",
+    "prefix": "+61"
+  },
+  {
+    "code": "HK",
+    "name": "홍콩 SAR",
+    "prefix": "+852"
+  }
+]

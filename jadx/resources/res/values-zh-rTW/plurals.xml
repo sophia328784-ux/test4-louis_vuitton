@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_cart_number_of_products">
+        <item quantity="zero">未添加任何產品</item>
+        <item quantity="other">已添加 %d 產品</item>
+    </plurals>
+    <plurals name="alt_colors_available">
+        <item quantity="zero">沒有可用的顏色。</item>
+        <item quantity="other">%d 顏色可用。</item>
+    </plurals>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">暫無產品</item>
+        <item quantity="other">%d 款產品</item>
+    </plurals>
+    <plurals name="booking_experiences_counter">
+        <item quantity="zero">沒有體驗</item>
+        <item quantity="other">%d 體驗</item>
+    </plurals>
+    <plurals name="booking_form_request_card_cta_format">
+        <item quantity="zero">新增 %2$s</item>
+        <item quantity="other">%2$s (+%1$d)</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">顯示 %1$d 產品</item>
+        <item quantity="other">顯示 %1$d 產品</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="other">%1$d 顏色</item>
+    </plurals>
+    <plurals name="dr_history_header">
+        <item quantity="zero">沒有修復歷史\n</item>
+        <item quantity="other">%1$d 修復\n</item>
+    </plurals>
+    <plurals name="dr_ongoing_header">
+        <item quantity="zero">沒有正在進行的維修</item>
+        <item quantity="other">%1$d 維修</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">進行中的維修</item>
+        <item quantity="other">進行中的維修</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快轉 %d 秒</item>
+        <item quantity="other">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">倒轉 %d 秒</item>
+        <item quantity="other">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">沒有搜尋結果 ”%2$s&quot;</item>
+        <item quantity="other">%1$d 搜尋結果</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">造型</item>
+        <item quantity="other">所有 %1$d 個造型</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 則新通知</item>
+        <item quantity="other">%d 則新通知</item>
+    </plurals>
+    <plurals name="multiple_add_to_cart_success_message">
+        <item quantity="zero">您的購物籃中沒有任何產品。</item>
+        <item quantity="other">%d 件產品已添加到您的購物籃。</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">暫無產品</item>
+        <item quantity="other">%d 款產品</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">您沒有預約記錄</item>
+        <item quantity="other">%1$d 個預約</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">進行中的預約</item>
+        <item quantity="other">進行中的預約</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">您沒有任何預約。</item>
+        <item quantity="other">%1$d 個預約</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">%1$d 款產品</item>
+        <item quantity="other">%1$d 款產品</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">「%2$s」有 %1$d 個搜尋結果</item>
+        <item quantity="other">「%2$s」有 %1$d 個搜尋結果</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">暫無產品</item>
+        <item quantity="other">%d 個產品</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">沒有預約</item>
+        <item quantity="other">%d 個預約</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">%d 張證書</item>
+        <item quantity="other">%d 張證書</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">%d 修復</item>
+        <item quantity="other">%d 修復</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">%1$d 張訂單</item>
+        <item quantity="other">%d 張訂單</item>
+    </plurals>
+</resources>

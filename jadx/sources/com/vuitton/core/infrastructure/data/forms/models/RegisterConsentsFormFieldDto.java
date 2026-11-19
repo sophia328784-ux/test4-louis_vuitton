@@ -1,0 +1,143 @@
+package com.vuitton.core.infrastructure.data.forms.models;
+
+import defpackage.a;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.Serializable;
+import kotlinx.serialization.internal.SerializationConstructorMarker;
+import org.bouncycastle.asn1.eac.CertificateBody;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\b\t\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0005\b\u0087\b\u0018\u0000 \u00112\u00020\u0001:\u0002\u0012\u0011B[\u0012\n\b\u0002\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\n\b\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u0002\u0012\n\b\u0002\u0010\u0005\u001a\u0004\u0018\u00010\u0002\u0012\n\b\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u0002\u0012\n\b\u0002\u0010\u0007\u001a\u0004\u0018\u00010\u0002\u0012\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\u0002\u0012\n\b\u0002\u0010\t\u001a\u0004\u0018\u00010\u0002¢\u0006\u0004\b\n\u0010\u000bBa\b\u0010\u0012\u0006\u0010\r\u001a\u00020\f\u0012\b\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\u0004\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\u0005\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\u0006\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\u0007\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\b\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\t\u001a\u0004\u0018\u00010\u0002\u0012\b\u0010\u000f\u001a\u0004\u0018\u00010\u000e¢\u0006\u0004\b\n\u0010\u0010¨\u0006\u0013"}, d2 = {"Lcom/vuitton/core/infrastructure/data/forms/models/RegisterConsentsFormFieldDto;", "", "Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;", "legacy", "allMarketingCommunications", "privacyPolicy", "marketEmails", "emailTracking", "targetAdvertising", "marketingTexts", "<init>", "(Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;)V", "", "seen0", "Lkotlinx/serialization/internal/SerializationConstructorMarker;", "serializationConstructorMarker", "(ILcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lcom/vuitton/core/infrastructure/data/forms/models/FormFieldDto;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V", "Companion", "$serializer", "forms"}, k = 1, mv = {2, 3, 0}, xi = 48)
+@Serializable
+public final /* data */ class RegisterConsentsFormFieldDto {
+
+    /* JADX INFO: renamed from: Companion, reason: from kotlin metadata */
+    public static final Companion INSTANCE = new Companion(null);
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final FormFieldDto f66115a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final FormFieldDto f66116b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final FormFieldDto f66117c;
+    public final FormFieldDto d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public final FormFieldDto f66118e;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public final FormFieldDto f66119f;
+    public final FormFieldDto g;
+
+    @Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0086\u0003\u0018\u00002\u00020\u0001J\u0013\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00030\u0002¢\u0006\u0004\b\u0004\u0010\u0005¨\u0006\u0006"}, d2 = {"Lcom/vuitton/core/infrastructure/data/forms/models/RegisterConsentsFormFieldDto$Companion;", "", "Lkotlinx/serialization/KSerializer;", "Lcom/vuitton/core/infrastructure/data/forms/models/RegisterConsentsFormFieldDto;", "serializer", "()Lkotlinx/serialization/KSerializer;", "forms"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    public static final class Companion {
+        public Companion(DefaultConstructorMarker defaultConstructorMarker) {
+        }
+
+        public final KSerializer<RegisterConsentsFormFieldDto> serializer() {
+            return RegisterConsentsFormFieldDto$$serializer.f66120a;
+        }
+    }
+
+    public /* synthetic */ RegisterConsentsFormFieldDto(int i2, FormFieldDto formFieldDto, FormFieldDto formFieldDto2, FormFieldDto formFieldDto3, FormFieldDto formFieldDto4, FormFieldDto formFieldDto5, FormFieldDto formFieldDto6, FormFieldDto formFieldDto7, SerializationConstructorMarker serializationConstructorMarker) {
+        if ((i2 & 1) == 0) {
+            this.f66115a = null;
+        } else {
+            this.f66115a = formFieldDto;
+        }
+        if ((i2 & 2) == 0) {
+            this.f66116b = null;
+        } else {
+            this.f66116b = formFieldDto2;
+        }
+        if ((i2 & 4) == 0) {
+            this.f66117c = null;
+        } else {
+            this.f66117c = formFieldDto3;
+        }
+        if ((i2 & 8) == 0) {
+            this.d = null;
+        } else {
+            this.d = formFieldDto4;
+        }
+        if ((i2 & 16) == 0) {
+            this.f66118e = null;
+        } else {
+            this.f66118e = formFieldDto5;
+        }
+        if ((i2 & 32) == 0) {
+            this.f66119f = null;
+        } else {
+            this.f66119f = formFieldDto6;
+        }
+        if ((i2 & 64) == 0) {
+            this.g = null;
+        } else {
+            this.g = formFieldDto7;
+        }
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof RegisterConsentsFormFieldDto)) {
+            return false;
+        }
+        RegisterConsentsFormFieldDto registerConsentsFormFieldDto = (RegisterConsentsFormFieldDto) obj;
+        return Intrinsics.c(this.f66115a, registerConsentsFormFieldDto.f66115a) && Intrinsics.c(this.f66116b, registerConsentsFormFieldDto.f66116b) && Intrinsics.c(this.f66117c, registerConsentsFormFieldDto.f66117c) && Intrinsics.c(this.d, registerConsentsFormFieldDto.d) && Intrinsics.c(this.f66118e, registerConsentsFormFieldDto.f66118e) && Intrinsics.c(this.f66119f, registerConsentsFormFieldDto.f66119f) && Intrinsics.c(this.g, registerConsentsFormFieldDto.g);
+    }
+
+    public final int hashCode() {
+        FormFieldDto formFieldDto = this.f66115a;
+        int iHashCode = (formFieldDto == null ? 0 : formFieldDto.hashCode()) * 31;
+        FormFieldDto formFieldDto2 = this.f66116b;
+        int iHashCode2 = (iHashCode + (formFieldDto2 == null ? 0 : formFieldDto2.hashCode())) * 31;
+        FormFieldDto formFieldDto3 = this.f66117c;
+        int iHashCode3 = (iHashCode2 + (formFieldDto3 == null ? 0 : formFieldDto3.hashCode())) * 31;
+        FormFieldDto formFieldDto4 = this.d;
+        int iHashCode4 = (iHashCode3 + (formFieldDto4 == null ? 0 : formFieldDto4.hashCode())) * 31;
+        FormFieldDto formFieldDto5 = this.f66118e;
+        int iHashCode5 = (iHashCode4 + (formFieldDto5 == null ? 0 : formFieldDto5.hashCode())) * 31;
+        FormFieldDto formFieldDto6 = this.f66119f;
+        int iHashCode6 = (iHashCode5 + (formFieldDto6 == null ? 0 : formFieldDto6.hashCode())) * 31;
+        FormFieldDto formFieldDto7 = this.g;
+        return iHashCode6 + (formFieldDto7 != null ? formFieldDto7.hashCode() : 0);
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("RegisterConsentsFormFieldDto(legacy=");
+        sb.append(this.f66115a);
+        sb.append(", allMarketingCommunications=");
+        sb.append(this.f66116b);
+        sb.append(", privacyPolicy=");
+        a.z(sb, this.f66117c, ", marketEmails=", this.d, ", emailTracking=");
+        a.z(sb, this.f66118e, ", targetAdvertising=", this.f66119f, ", marketingTexts=");
+        sb.append(this.g);
+        sb.append(")");
+        return sb.toString();
+    }
+
+    public RegisterConsentsFormFieldDto() {
+        this((FormFieldDto) null, (FormFieldDto) null, (FormFieldDto) null, (FormFieldDto) null, (FormFieldDto) null, (FormFieldDto) null, (FormFieldDto) null, CertificateBody.profileType, (DefaultConstructorMarker) null);
+    }
+
+    public RegisterConsentsFormFieldDto(FormFieldDto formFieldDto, FormFieldDto formFieldDto2, FormFieldDto formFieldDto3, FormFieldDto formFieldDto4, FormFieldDto formFieldDto5, FormFieldDto formFieldDto6, FormFieldDto formFieldDto7) {
+        this.f66115a = formFieldDto;
+        this.f66116b = formFieldDto2;
+        this.f66117c = formFieldDto3;
+        this.d = formFieldDto4;
+        this.f66118e = formFieldDto5;
+        this.f66119f = formFieldDto6;
+        this.g = formFieldDto7;
+    }
+
+    public /* synthetic */ RegisterConsentsFormFieldDto(FormFieldDto formFieldDto, FormFieldDto formFieldDto2, FormFieldDto formFieldDto3, FormFieldDto formFieldDto4, FormFieldDto formFieldDto5, FormFieldDto formFieldDto6, FormFieldDto formFieldDto7, int i2, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i2 & 1) != 0 ? null : formFieldDto, (i2 & 2) != 0 ? null : formFieldDto2, (i2 & 4) != 0 ? null : formFieldDto3, (i2 & 8) != 0 ? null : formFieldDto4, (i2 & 16) != 0 ? null : formFieldDto5, (i2 & 32) != 0 ? null : formFieldDto6, (i2 & 64) != 0 ? null : formFieldDto7);
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sightcall.universal.internal.messaging.BottomLockedRecyclerView android:id="@id/universal_messages_recyclerview" android:scrollbars="vertical" android:fadingEdgeLength="8.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="64.0dp" android:layout_weight="1.0" android:scrollbarFadeDuration="0" android:overScrollMode="ifContentScrolls" android:requiresFadingEdge="vertical" />
+    <View android:background="#ccc" android:layout_width="wrap_content" android:layout_height="1.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:background="#115496" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="12.0sp" android:id="@id/universal_messages_input" android:background="#ffffff" android:padding="5.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:hint="@string/universal_messages_dialog_input_hint" android:lines="1" android:freezesText="false" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect|textAutoComplete" android:imeOptions="actionSend|flagNoExtractUi" android:layout_marginStart="8.0dp" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/universal_messages_send" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/universal_ic_send_24dp" app:tint="@color/universal_color_accented_button_tint" />
+    </LinearLayout>
+</LinearLayout>

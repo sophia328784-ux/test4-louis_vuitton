@@ -1,0 +1,34 @@
+package com.bumptech.glide.load.resource.bitmap;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.Transformation;
+import com.bumptech.glide.load.engine.Resource;
+import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
+import com.bumptech.glide.util.Util;
+import defpackage.fc;
+import defpackage.md;
+
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class BitmapTransformation implements Transformation<Bitmap> {
+    @Override // com.bumptech.glide.load.Transformation
+    public final Resource a(Context context, Resource resource, int i2, int i3) {
+        if (!Util.i(i2, i3)) {
+            md.n(fc.f(i2, i3, "Cannot apply transformation on width: ", " or height: ", " less than or equal to zero and not Target.SIZE_ORIGINAL"));
+            return null;
+        }
+        BitmapPool bitmapPool = Glide.a(context).f24276b;
+        Bitmap bitmap = (Bitmap) resource.get();
+        if (i2 == Integer.MIN_VALUE) {
+            i2 = bitmap.getWidth();
+        }
+        if (i3 == Integer.MIN_VALUE) {
+            i3 = bitmap.getHeight();
+        }
+        Bitmap bitmapC = c(bitmapPool, bitmap, i2, i3);
+        return bitmap.equals(bitmapC) ? resource : BitmapResource.c(bitmapC, bitmapPool);
+    }
+
+    public abstract Bitmap c(BitmapPool bitmapPool, Bitmap bitmap, int i2, int i3);
+}

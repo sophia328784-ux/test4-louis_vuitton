@@ -1,0 +1,34 @@
+package com.vuitton.core.infrastructure.data.forms.repository;
+
+import kotlin.Metadata;
+import kotlin.Result;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+@DebugMetadata(c = "com.vuitton.core.infrastructure.data.forms.repository.FormRepositoryImpl", f = "FormRepositoryImpl.kt", l = {19}, m = "getGuestAppointmentForm-qJBbalk", v = 2)
+final class FormRepositoryImpl$getGuestAppointmentForm$1 extends ContinuationImpl {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public /* synthetic */ Object f66162b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final /* synthetic */ FormRepositoryImpl f66163c;
+    public int d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public FormRepositoryImpl$getGuestAppointmentForm$1(FormRepositoryImpl formRepositoryImpl, ContinuationImpl continuationImpl) {
+        super(continuationImpl);
+        this.f66163c = formRepositoryImpl;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        this.f66162b = obj;
+        this.d |= Integer.MIN_VALUE;
+        Object objK = this.f66163c.k(null, this);
+        return objK == CoroutineSingletons.COROUTINE_SUSPENDED ? objK : new Result(objK);
+    }
+}

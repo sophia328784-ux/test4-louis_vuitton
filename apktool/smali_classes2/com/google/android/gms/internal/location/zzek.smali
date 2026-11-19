@@ -1,0 +1,196 @@
+.class public final Lcom/google/android/gms/internal/location/zzek;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 23
+
+    move-object/from16 v0, p1
+
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->z(Landroid/os/Parcel;)I
+
+    move-result v1
+
+    const/4 v2, -0x1
+
+    const/4 v3, 0x0
+
+    const-wide/16 v4, 0x0
+
+    const/4 v6, 0x0
+
+    const-wide/16 v7, 0x0
+
+    const/4 v9, 0x0
+
+    move/from16 v22, v2
+
+    move v12, v3
+
+    move v13, v12
+
+    move/from16 v21, v13
+
+    move-wide/from16 v19, v4
+
+    move/from16 v18, v6
+
+    move-wide v14, v7
+
+    move-wide/from16 v16, v14
+
+    move-object v11, v9
+
+    :goto_0
+    invoke-virtual {v0}, Landroid/os/Parcel;->dataPosition()I
+
+    move-result v2
+
+    if-ge v2, v1, :cond_0
+
+    invoke-virtual {v0}, Landroid/os/Parcel;->readInt()I
+
+    move-result v2
+
+    int-to-char v3, v2
+
+    packed-switch v3, :pswitch_data_0
+
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->y(ILandroid/os/Parcel;)V
+
+    goto :goto_0
+
+    :pswitch_0
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->t(ILandroid/os/Parcel;)I
+
+    move-result v2
+
+    move/from16 v22, v2
+
+    goto :goto_0
+
+    :pswitch_1
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->t(ILandroid/os/Parcel;)I
+
+    move-result v2
+
+    move/from16 v21, v2
+
+    goto :goto_0
+
+    :pswitch_2
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->t(ILandroid/os/Parcel;)I
+
+    move-result v2
+
+    move v12, v2
+
+    goto :goto_0
+
+    :pswitch_3
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->q(ILandroid/os/Parcel;)F
+
+    move-result v2
+
+    move/from16 v18, v2
+
+    goto :goto_0
+
+    :pswitch_4
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->o(ILandroid/os/Parcel;)D
+
+    move-result-wide v2
+
+    move-wide/from16 v16, v2
+
+    goto :goto_0
+
+    :pswitch_5
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->o(ILandroid/os/Parcel;)D
+
+    move-result-wide v2
+
+    move-wide v14, v2
+
+    goto :goto_0
+
+    :pswitch_6
+    const/4 v3, 0x4
+
+    invoke-static {v0, v2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->A(Landroid/os/Parcel;II)V
+
+    invoke-virtual {v0}, Landroid/os/Parcel;->readInt()I
+
+    move-result v2
+
+    int-to-short v2, v2
+
+    move v13, v2
+
+    goto :goto_0
+
+    :pswitch_7
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->v(ILandroid/os/Parcel;)J
+
+    move-result-wide v2
+
+    move-wide/from16 v19, v2
+
+    goto :goto_0
+
+    :pswitch_8
+    invoke-static {v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->g(ILandroid/os/Parcel;)Ljava/lang/String;
+
+    move-result-object v2
+
+    move-object v11, v2
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->l(ILandroid/os/Parcel;)V
+
+    new-instance v10, Lcom/google/android/gms/internal/location/zzej;
+
+    invoke-direct/range {v10 .. v22}, Lcom/google/android/gms/internal/location/zzej;-><init>(Ljava/lang/String;ISDDFJII)V
+
+    return-object v10
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final synthetic newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    new-array p0, p1, [Lcom/google/android/gms/internal/location/zzej;
+
+    return-object p0
+.end method

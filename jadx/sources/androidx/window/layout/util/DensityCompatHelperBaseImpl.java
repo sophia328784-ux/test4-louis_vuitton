@@ -1,0 +1,18 @@
+package androidx.window.layout.util;
+
+import android.content.Context;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\bÂ\u0002\u0018\u00002\u00020\u0001¨\u0006\u0002"}, d2 = {"Landroidx/window/layout/util/DensityCompatHelperBaseImpl;", "Landroidx/window/layout/util/DensityCompatHelper;", "window_release"}, k = 1, mv = {2, 0, 0}, xi = 48)
+final class DensityCompatHelperBaseImpl implements DensityCompatHelper {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final DensityCompatHelperBaseImpl f20201a = new DensityCompatHelperBaseImpl();
+
+    @Override // androidx.window.layout.util.DensityCompatHelper
+    public final float a(Context context) {
+        context.getClass();
+        return context.getResources().getDisplayMetrics().density;
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "01": [{
+        "name"                 : "v_0_02_rc1",
+        "firmware_1"           : "fw_z1_0408_01_v_0_02_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_01_v_0_02_rc1.bin",
+        "recovery"             : "fw_rec_0408_01_v_0_02_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_02_rc2",
+        "firmware_1"           : "fw_z1_0408_01_v_0_02_rc2.bin",
+        "firmware_2"           : "fw_z2_0408_01_v_0_02_rc2.bin",
+        "recovery"             : "fw_rec_0408_01_v_0_02_rc2.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_03_rc1",
+        "firmware_1"           : "fw_z1_0408_01_v_0_03_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_01_v_0_03_rc1.bin",
+        "recovery"             : "fw_rec_0408_01_v_0_03_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }],
+    "02": [{
+        "name"                 : "v_0_02_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_02_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_02_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_02_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_02_rc2",
+        "firmware_1"           : "fw_z1_0408_02_v_0_02_rc2.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_02_rc2.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_02_rc2.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_03_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_03_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_03_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_03_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_04_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_04_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_04_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_04_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_05_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_05_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_05_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_05_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_05_rc2",
+        "firmware_1"           : "fw_z1_0408_02_v_0_05_rc2.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_05_rc2.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_05_rc2.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_06_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_06_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_06_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_06_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_06_rc2",
+        "firmware_1"           : "fw_z1_0408_02_v_0_06_rc2.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_06_rc2.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_06_rc2.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_06_rc3",
+        "firmware_1"           : "fw_z1_0408_02_v_0_06_rc3.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_06_rc3.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_06_rc3.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_07_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_07_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_07_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_07_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_0_08_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_0_08_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_0_08_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_0_08_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_1_00_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_1_00_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_1_00_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_1_00_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }, {
+        "name"                 : "v_1_01_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_1_01_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_1_01_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_1_01_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+
+    }, {
+        "name"                 : "v_1_02_rc1",
+        "firmware_1"           : "fw_z1_0408_02_v_1_02_rc1.bin",
+        "firmware_2"           : "fw_z2_0408_02_v_1_02_rc1.bin",
+        "recovery"             : "fw_rec_0408_02_v_1_02_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+
+    }]
+}

@@ -1,0 +1,19 @@
+.class public interface abstract Landroidx/media3/session/ConnectedControllersManager$AsyncCommand;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/media3/session/ConnectedControllersManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "AsyncCommand"
+.end annotation
+
+
+# virtual methods
+.method public abstract run()Lcom/google/common/util/concurrent/ListenableFuture;
+.end method

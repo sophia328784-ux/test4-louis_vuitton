@@ -1,0 +1,8 @@
+package com.google.android.exoplayer2.text;
+
+import com.google.android.exoplayer2.decoder.Decoder;
+
+/* JADX INFO: loaded from: classes2.dex */
+@Deprecated
+public interface SubtitleDecoder extends Decoder<Object, Object, SubtitleDecoderException> {
+}

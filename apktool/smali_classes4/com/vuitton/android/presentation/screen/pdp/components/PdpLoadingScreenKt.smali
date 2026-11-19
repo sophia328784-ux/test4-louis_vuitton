@@ -1,0 +1,166 @@
+.class public abstract Lcom/vuitton/android/presentation/screen/pdp/components/PdpLoadingScreenKt;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0002\n\u0000\u00a8\u0006\u0000"
+    }
+    d2 = {
+        "presentation"
+    }
+    k = 0x2
+    mv = {
+        0x2,
+        0x3,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static final a(Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V
+    .locals 18
+
+    move-object/from16 v0, p0
+
+    move/from16 v1, p2
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    const v2, -0x66ba3a2b
+
+    move-object/from16 v3, p1
+
+    invoke-interface {v3, v2}, Landroidx/compose/runtime/Composer;->h(I)Landroidx/compose/runtime/GapComposer;
+
+    move-result-object v15
+
+    and-int/lit8 v2, v1, 0x6
+
+    const/4 v3, 0x2
+
+    if-nez v2, :cond_1
+
+    invoke-virtual {v15, v0}, Landroidx/compose/runtime/GapComposer;->y(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v2, 0x4
+
+    goto :goto_0
+
+    :cond_0
+    move v2, v3
+
+    :goto_0
+    or-int/2addr v2, v1
+
+    goto :goto_1
+
+    :cond_1
+    move v2, v1
+
+    :goto_1
+    and-int/lit8 v4, v2, 0x3
+
+    const/4 v5, 0x1
+
+    if-eq v4, v3, :cond_2
+
+    move v3, v5
+
+    goto :goto_2
+
+    :cond_2
+    const/4 v3, 0x0
+
+    :goto_2
+    and-int/2addr v2, v5
+
+    invoke-virtual {v15, v2, v3}, Landroidx/compose/runtime/GapComposer;->p(IZ)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    sget-object v2, Landroidx/compose/runtime/ComposerKt;->a:Landroidx/compose/runtime/OpaqueKey;
+
+    new-instance v2, Lcom/dynatrace/agent/compose/userinteraction/sensor/DTFunctionNameModifier;
+
+    const-string v3, "PdpLoadingScreen"
+
+    invoke-direct {v2, v3}, Lcom/dynatrace/agent/compose/userinteraction/sensor/DTFunctionNameModifier;-><init>(Ljava/lang/String;)V
+
+    sget-object v3, Landroidx/compose/foundation/layout/SizeKt;->c:Landroidx/compose/foundation/layout/FillElement;
+
+    invoke-interface {v2, v3}, Landroidx/compose/ui/Modifier;->o(Landroidx/compose/ui/Modifier;)Landroidx/compose/ui/Modifier;
+
+    move-result-object v3
+
+    new-instance v2, Lkw;
+
+    const/16 v4, 0x1d
+
+    invoke-direct {v2, v0, v4}, Lkw;-><init>(Lkotlin/jvm/functions/Function0;I)V
+
+    const v4, -0x1ed58067
+
+    invoke-static {v4, v2, v15}, Landroidx/compose/runtime/internal/ComposableLambdaKt;->b(ILkotlin/Function;Landroidx/compose/runtime/Composer;)Landroidx/compose/runtime/internal/ComposableLambdaImpl;
+
+    move-result-object v4
+
+    sget-object v2, Lcom/vuitton/android/presentation/screen/pdp/components/ComposableSingletons$PdpLoadingScreenKt;->a:Lcom/vuitton/android/presentation/screen/pdp/components/ComposableSingletons$PdpLoadingScreenKt;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-object v14, Lcom/vuitton/android/presentation/screen/pdp/components/ComposableSingletons$PdpLoadingScreenKt;->b:Landroidx/compose/runtime/internal/ComposableLambdaImpl;
+
+    const v16, 0x30000036
+
+    const/16 v17, 0x1fc
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const-wide/16 v9, 0x0
+
+    const-wide/16 v11, 0x0
+
+    const/4 v13, 0x0
+
+    invoke-static/range {v3 .. v17}, Landroidx/compose/material3/ScaffoldKt;->a(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;IJJLandroidx/compose/foundation/layout/WindowInsets;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+
+    goto :goto_3
+
+    :cond_3
+    invoke-virtual {v15}, Landroidx/compose/runtime/GapComposer;->D()V
+
+    :goto_3
+    invoke-virtual {v15}, Landroidx/compose/runtime/GapComposer;->b0()Landroidx/compose/runtime/RecomposeScopeImpl;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_4
+
+    new-instance v3, Lpu;
+
+    const/4 v4, 0x3
+
+    invoke-direct {v3, v1, v4, v0}, Lpu;-><init>(IILkotlin/jvm/functions/Function0;)V
+
+    iput-object v3, v2, Landroidx/compose/runtime/RecomposeScopeImpl;->d:Lkotlin/jvm/functions/Function2;
+
+    :cond_4
+    return-void
+.end method

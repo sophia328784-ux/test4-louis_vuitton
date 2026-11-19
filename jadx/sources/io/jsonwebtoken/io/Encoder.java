@@ -1,0 +1,6 @@
+package io.jsonwebtoken.io;
+
+/* JADX INFO: loaded from: classes4.dex */
+public interface Encoder<T, R> {
+    R encode(T t) throws EncodingException;
+}

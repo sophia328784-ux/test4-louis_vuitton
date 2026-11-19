@@ -1,0 +1,16 @@
+package androidx.compose.animation.core;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\u0002\n\u0000¨\u0006\u0000"}, d2 = {"animation-core"}, k = 2, mv = {2, 1, 0}, xi = 48)
+public abstract class AnimationVectorsKt {
+    public static final AnimationVector a(AnimationVector animationVector) {
+        AnimationVector animationVectorC = animationVector.c();
+        int iB = animationVectorC.b();
+        for (int i2 = 0; i2 < iB; i2++) {
+            animationVectorC.e(animationVector.a(i2), i2);
+        }
+        return animationVectorC;
+    }
+}

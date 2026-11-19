@@ -1,0 +1,62 @@
+package com.vuitton.android.presentation.screen.pdp.contextualsizing.components;
+
+import androidx.compose.runtime.Composer;
+import androidx.compose.runtime.ComposerKt;
+import androidx.compose.runtime.EffectsKt;
+import androidx.compose.runtime.GapComposer;
+import androidx.compose.runtime.OpaqueKey;
+import androidx.compose.runtime.RecomposeScopeImpl;
+import androidx.compose.runtime.internal.ComposableLambdaKt;
+import com.vuitton.android.presentation.compose.components.compositionlocalprovider.LVContextualSizingLocalProviderKt;
+import com.vuitton.android.presentation.screen.pdp.contextualsizing.models.ContextualSizingTracker;
+import com.vuitton.android.presentation.screen.pdp.contextualsizing.models.ContextualSizingTrackerKt;
+import defpackage.u;
+import java.util.ArrayList;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.functions.Function2;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\u0002\n\u0000¨\u0006\u0000"}, d2 = {"presentation"}, k = 2, mv = {2, 3, 0}, xi = 48)
+public abstract class ContextualSizingComposableKt {
+    public static final void a(final ArrayList arrayList, final Function0 function0, final Function1 function1, Composer composer, int i2) {
+        function0.getClass();
+        function1.getClass();
+        GapComposer gapComposerH = composer.h(390659597);
+        int i3 = (gapComposerH.y(arrayList) ? 4 : 2) | i2 | (gapComposerH.y(function0) ? 32 : 16) | (gapComposerH.y(function1) ? 256 : 128);
+        if (gapComposerH.p(i3 & 1, (i3 & 147) != 146)) {
+            OpaqueKey opaqueKey = ComposerKt.f7940a;
+            LVContextualSizingLocalProviderKt.a(ComposableLambdaKt.b(-465200859, new Function2() { // from class: com.vuitton.android.presentation.screen.pdp.contextualsizing.components.a
+                @Override // kotlin.jvm.functions.Function2
+                public final Object invoke(Object obj, Object obj2) {
+                    Composer composer2 = (Composer) obj;
+                    int iIntValue = ((Integer) obj2).intValue();
+                    if (composer2.p(iIntValue & 1, (iIntValue & 3) != 2)) {
+                        OpaqueKey opaqueKey2 = ComposerKt.f7940a;
+                        ContextualSizingTracker contextualSizingTracker = (ContextualSizingTracker) composer2.k(ContextualSizingTrackerKt.f61527a);
+                        Unit unit = Unit.f71739a;
+                        boolean zY = composer2.y(contextualSizingTracker);
+                        Object objX = composer2.x();
+                        if (zY || objX == Composer.Companion.f7939a) {
+                            objX = new ContextualSizingComposableKt$ContextualSizingComposable$1$1$1(contextualSizingTracker, null);
+                            composer2.q(objX);
+                        }
+                        EffectsKt.e(composer2, unit, (Function2) objX);
+                        ContextualSizingScreenKt.a(arrayList, contextualSizingTracker, function0, function1, composer2, 0);
+                    } else {
+                        composer2.D();
+                    }
+                    return Unit.f71739a;
+                }
+            }, gapComposerH), gapComposerH, 6);
+        } else {
+            gapComposerH.D();
+        }
+        RecomposeScopeImpl recomposeScopeImplB0 = gapComposerH.b0();
+        if (recomposeScopeImplB0 != null) {
+            recomposeScopeImplB0.d = new u(arrayList, function0, function1, i2, 24);
+        }
+    }
+}

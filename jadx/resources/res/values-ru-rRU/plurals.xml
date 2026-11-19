@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">Нет товара</item>
+        <item quantity="one">Один товар</item>
+        <item quantity="few">%d товара</item>
+        <item quantity="many">%d товара</item>
+        <item quantity="other">%d товара</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">Показать %1$d продуктов</item>
+        <item quantity="one">Показать %1$d продукт</item>
+        <item quantity="other">Показать %1$d продукты</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="one">%1$d Цвета</item>
+        <item quantity="few">%1$d Цвета</item>
+        <item quantity="many">%1$d Цвета</item>
+        <item quantity="other">%1$d Цвета</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">Текущий ремонт</item>
+        <item quantity="one">Текущий ремонт</item>
+        <item quantity="other">Текущий ремонт</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">Нет результата для &quot;%2$s&quot;</item>
+        <item quantity="one">%1$d результат</item>
+        <item quantity="few">%1$d результаты</item>
+        <item quantity="many">%1$d результат</item>
+        <item quantity="other">%1$d результпаты</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">The look</item>
+        <item quantity="one">The look</item>
+        <item quantity="other">All %1$d looks</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">Нет товара</item>
+        <item quantity="one">Один товар</item>
+        <item quantity="few">%d товара</item>
+        <item quantity="many">%d товара</item>
+        <item quantity="other">%d товара</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">У вас нет назначенных встреч</item>
+        <item quantity="one">%1$d встреча</item>
+        <item quantity="many">%1$d встречи</item>
+        <item quantity="other">У вас нет назначенных встреч</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">Текущая встреча</item>
+        <item quantity="one">Текущая встреча</item>
+        <item quantity="other">Текущие встречи</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">У вас нет предстоящей встречи</item>
+        <item quantity="other">%1$d Встреча</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">%1$d продуктов</item>
+        <item quantity="one">%1$d изделие</item>
+        <item quantity="few">%1$d продуктов</item>
+        <item quantity="many">%1$d изделий</item>
+        <item quantity="other">%1$d издел</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">%1$d результатов по запросу &quot;%2$s&quot;</item>
+        <item quantity="one">%1$d результат по запросу &quot;%2$s&quot;</item>
+        <item quantity="few">Результатов по запросу &quot;%2$s&quot;: %1$d</item>
+        <item quantity="many">Результатов по запросу &quot;%2$s&quot;: %1$d</item>
+        <item quantity="other">Результатов по запросу &quot;%2$s&quot;: %1$d</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">Нет товара</item>
+        <item quantity="one">изделие</item>
+        <item quantity="few">изделия</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">Нет встречи</item>
+        <item quantity="one">%d встреча</item>
+        <item quantity="other">%d встречи</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">%d Сертификатов</item>
+        <item quantity="one">%d Сертификат</item>
+        <item quantity="other">%d Сертификаты</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">%d ремонты</item>
+        <item quantity="one">%d ремонт</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">%1$d Заказов</item>
+        <item quantity="other">%d Заказ</item>
+    </plurals>
+</resources>

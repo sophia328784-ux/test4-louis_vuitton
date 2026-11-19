@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/universal_video_player_play_pause" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/universal_icon_call_pause_resume" app:tint="@color/universal_color_call_button_tint" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/universal_video_player_progress" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:max="1000" android:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+</merge>

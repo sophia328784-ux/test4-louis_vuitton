@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/border_top_radius_16dp_white" android:padding="@dimen/triple_spacing" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pairing_options_title" style="@style/HeadingH6LeftDark" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_pair_trunk_speaker" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:foreground="?android:selectableItemBackground">
+                <ImageView android:layout_width="@dimen/pairing_bottom_sheet_image_size" android:layout_height="@dimen/pairing_bottom_sheet_image_size" android:layout_marginTop="@dimen/default_spacing" android:layout_marginBottom="@dimen/default_spacing" android:src="@null" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/double_spacing">
+                    <TextView android:textSize="@dimen/text_size_list_label_m" android:textColor="@color/eternity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/trunk_speaker" android:textAllCaps="true" android:fontFamily="@font/louisvuitton_medium" />
+                    <TextView android:textSize="@dimen/text_size_body_xs" android:textColor="@color/eternity" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tiny_spacing" android:text="@string/Speaker_Trunk_Pairing_Selection" android:fontFamily="@font/louisvuitton_light" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/view_pair_light_up_sneakers_divider" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/divider_height" android:layout_marginStart="136.0dp" android:layout_marginEnd="@dimen/triple_spacing" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_pair_light_up_sneakers" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:foreground="?android:selectableItemBackground">
+                <ImageView android:layout_width="@dimen/pairing_bottom_sheet_image_size" android:layout_height="@dimen/pairing_bottom_sheet_image_size" android:layout_marginTop="@dimen/default_spacing" android:layout_marginBottom="@dimen/default_spacing" android:src="@null" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/double_spacing">
+                    <TextView android:textSize="@dimen/text_size_list_label_m" android:textColor="@color/eternity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/light_up_trainers" android:textAllCaps="true" android:fontFamily="@font/louisvuitton_medium" />
+                    <TextView android:textSize="@dimen/text_size_body_xs" android:textColor="@color/eternity" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tiny_spacing" android:text="@string/pairing_options_bluetooth" android:fontFamily="@font/louisvuitton_light" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/view_pair_light_up_keep_all_divider" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/divider_height" android:layout_marginStart="136.0dp" android:layout_marginEnd="@dimen/triple_spacing" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_pair_light_up_keep_all" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:foreground="?android:selectableItemBackground">
+                <ImageView android:layout_width="@dimen/pairing_bottom_sheet_image_size" android:layout_height="@dimen/pairing_bottom_sheet_image_size" android:layout_marginTop="@dimen/default_spacing" android:layout_marginBottom="@dimen/default_spacing" android:src="@drawable/thumbnail_keep_all_section" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/double_spacing">
+                    <TextView android:textSize="@dimen/text_size_list_label_m" android:textColor="@color/eternity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/light_up_keepall" android:textAllCaps="true" android:fontFamily="@font/louisvuitton_medium" />
+                    <TextView android:textSize="@dimen/text_size_body_xs" android:textColor="@color/eternity" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tiny_spacing" android:text="@string/pairing_options_bluetooth" android:fontFamily="@font/louisvuitton_light" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/divider_height" android:layout_marginStart="136.0dp" android:layout_marginEnd="@dimen/triple_spacing" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,46 @@
+package org.bouncycastle.crypto.params;
+
+import java.security.SecureRandom;
+
+/* JADX INFO: loaded from: classes5.dex */
+public class DSAParameterGenerationParameters {
+    public static final int DIGITAL_SIGNATURE_USAGE = 1;
+    public static final int KEY_ESTABLISHMENT_USAGE = 2;
+    private final int certainty;
+    private final int l;
+    private final int n;
+    private final SecureRandom random;
+    private final int usageIndex;
+
+    public DSAParameterGenerationParameters(int i2, int i3, int i4, SecureRandom secureRandom, int i5) {
+        this.l = i2;
+        this.n = i3;
+        this.certainty = i4;
+        this.usageIndex = i5;
+        this.random = secureRandom;
+    }
+
+    public int getCertainty() {
+        return this.certainty;
+    }
+
+    public int getL() {
+        return this.l;
+    }
+
+    public int getN() {
+        return this.n;
+    }
+
+    public SecureRandom getRandom() {
+        return this.random;
+    }
+
+    public int getUsageIndex() {
+        return this.usageIndex;
+    }
+
+    public DSAParameterGenerationParameters(int i2, int i3, int i4, SecureRandom secureRandom) {
+        this(i2, i3, i4, secureRandom, -1);
+    }
+}

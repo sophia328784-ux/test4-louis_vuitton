@@ -1,0 +1,30 @@
+.class public abstract Lcom/lightup/sdk/device/features/process/dataupload/DataUpdateProcessListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/lightup/sdk/device/features/process/dataupload/DataUpdateListener;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a()[B
+.end method
+
+.method public b()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public abstract c(Lcom/lightup/sdk/device/model/device/DeviceMessage;)V
+.end method

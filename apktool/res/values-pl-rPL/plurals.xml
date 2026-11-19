@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_cart_number_of_products">
+        <item quantity="zero">Nie dodano żadnego produktu</item>
+        <item quantity="one">Dodano jeden produkt</item>
+        <item quantity="other">Dodano %d produktów</item>
+    </plurals>
+    <plurals name="alt_colors_available">
+        <item quantity="zero">Brak dostępnych kolorów.</item>
+        <item quantity="one">Dostępny jeden kolor.</item>
+        <item quantity="other">Dostępnych %d kolorów.</item>
+    </plurals>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">Brak produktów</item>
+        <item quantity="one">1 produkt</item>
+        <item quantity="other">%d produktów</item>
+    </plurals>
+    <plurals name="booking_experiences_counter">
+        <item quantity="zero">Brak doświadczenia</item>
+        <item quantity="one">%d Doświadczenie</item>
+        <item quantity="other">%d Doświadczenia</item>
+    </plurals>
+    <plurals name="booking_form_request_card_cta_format">
+        <item quantity="zero">Dodaj %2$s</item>
+        <item quantity="one">%2$s (+1)</item>
+        <item quantity="other">%2$s (+%1$d)</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">Pokaż %1$d produktów</item>
+        <item quantity="one">Pokaż %1$d produktów</item>
+        <item quantity="other">Pokaż %1$d produktów</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="one">%1$d Kolory</item>
+        <item quantity="few">%1$d Kolory</item>
+        <item quantity="many">%1$d Kolorys</item>
+        <item quantity="other">%1$d Kolorys</item>
+    </plurals>
+    <plurals name="dr_history_header">
+        <item quantity="zero">Nie ma historii napraw</item>
+        <item quantity="one">%1$d naprawa</item>
+        <item quantity="other">%1$d naprawy</item>
+    </plurals>
+    <plurals name="dr_ongoing_header">
+        <item quantity="zero">Nie ma trwających napraw</item>
+        <item quantity="one">%1$d naprawa</item>
+        <item quantity="other">%1$d naprawy</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">"Naprawa w trakcie realizacji "</item>
+        <item quantity="one">"Naprawa w trakcie realizacji "</item>
+        <item quantity="other">"Naprawa w trakcie realizacji "</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">Brak wyników dla \"%2$s\"</item>
+        <item quantity="one">%1$d wynik</item>
+        <item quantity="other">%1$d wyniki</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">"Szczegóły stylizacji "</item>
+        <item quantity="one">"Szczegóły stylizacji "</item>
+        <item quantity="other">Wszystkie %1$d wyglądy</item>
+    </plurals>
+    <plurals name="multiple_add_to_cart_success_message">
+        <item quantity="zero">Żaden przedmiot nie został dodany do twojego koszyka.</item>
+        <item quantity="one">Ten przedmiot został dodany do twojego koszyka.</item>
+        <item quantity="other">%d przedmiotów zostało dodanych do twojego koszyka.</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">Brak produktów</item>
+        <item quantity="one">1 produkt</item>
+        <item quantity="other">%d produktów</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">Nie masz historii wizyt</item>
+        <item quantity="one">%1$d spotkanie</item>
+        <item quantity="other">%1$d spotkanie</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">"Trwająca wizyta "</item>
+        <item quantity="one">"Trwająca wizyta "</item>
+        <item quantity="other">Trwające wizyty</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">Nie masz żadnej nadchodzącej wizyty</item>
+        <item quantity="one">%1$d spotkanie</item>
+        <item quantity="other">%1$d spotkanie</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">"%1$d produkty "</item>
+        <item quantity="one">"%1$d produkty "</item>
+        <item quantity="other">"%1$d produkty "</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">%1$d Wyniki wyszukiwania dla \"%2$s\"</item>
+        <item quantity="one">%1$d Wyniki wyszukiwania dla \"%2$s\"</item>
+        <item quantity="other">%1$d wyniki wyszukiwania dla \"%2$s\"</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">"Brak produktu "</item>
+        <item quantity="one">"%d produkt "</item>
+        <item quantity="other">"%d produkt "</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">Brak spotkania</item>
+        <item quantity="one">%d spotkanie</item>
+        <item quantity="other">%d spotkania</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">"%d Certyfikaty "</item>
+        <item quantity="one">%d certyfikat</item>
+        <item quantity="other">"%d Certyfikaty "</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">"%d Naprawy "</item>
+        <item quantity="one">%d naprawa</item>
+        <item quantity="other">"%d Naprawy "</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">%1$d Zamówienie</item>
+        <item quantity="one">"%d Zamówienie "</item>
+        <item quantity="other">"%d Zamówienie "</item>
+    </plurals>
+</resources>

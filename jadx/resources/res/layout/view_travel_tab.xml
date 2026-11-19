@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/travel_tab_image"
+        android:background="@drawable/selector_round_background"
+        android:padding="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="12dp"
+        app:tint="@color/selector_travel_tab_foreground"/>
+    <TextView
+        android:textColor="@color/eternity"
+        android:gravity="center"
+        android:id="@+id/travel_tab_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/louisvuitton_medium"/>
+</LinearLayout>

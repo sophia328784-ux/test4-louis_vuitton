@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.otaliastudios.cameraview.CameraView android:id="@id/camera" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true" app:cameraAudio="off" app:cameraRequestPermissions="false" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/top_buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/image_picker_close_button_margin" android:layout_marginEnd="@dimen/double_spacing" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/close_button" android:layout_width="40.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/ic_image_picker_close" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/bottom_buttons_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <View android:id="@id/bottom_spacing" android:layout_width="match_parent" android:layout_height="@dimen/huge_spacing" android:layout_alignParentBottom="true" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/camera_capture_button" android:layout_width="88.0dp" android:layout_height="88.0dp" android:layout_above="@id/bottom_spacing" android:layout_centerHorizontal="true" android:contentDescription="@string/content_description_take_picture">
+            <View android:id="@id/border_camera_button" android:background="@drawable/border_oval_white_5dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <View android:id="@id/camera_button" android:background="@drawable/background_oval_white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="11.0dp" android:backgroundTint="@color/selector_camera_button" />
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/gallery_button" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_alignTop="@id/camera_capture_button" android:layout_alignBottom="@id/camera_capture_button" android:contentDescription="@string/alt_open_gallery_button" android:layout_marginEnd="@dimen/triple_spacing" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_gallery" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

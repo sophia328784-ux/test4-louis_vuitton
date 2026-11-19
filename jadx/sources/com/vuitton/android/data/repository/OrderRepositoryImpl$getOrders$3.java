@@ -1,0 +1,54 @@
+package com.vuitton.android.data.repository;
+
+import com.vuitton.foundation.model.domain.model.account.orders.Orders;
+import kotlin.Metadata;
+import kotlin.Result;
+import kotlin.ResultKt;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes3.dex */
+@Metadata(d1 = {"\u0000\n\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\n\u0012\u0004\u0012\u00020\u0002\u0018\u00010\u0001H\n"}, d2 = {"<anonymous>", "Lkotlin/Result;", "Lcom/vuitton/foundation/model/domain/model/account/orders/Orders;"}, k = 3, mv = {2, 3, 0}, xi = 48)
+@DebugMetadata(c = "com.vuitton.android.data.repository.OrderRepositoryImpl$getOrders$3", f = "OrderRepositoryImpl.kt", l = {}, m = "invokeSuspend", v = 2)
+final class OrderRepositoryImpl$getOrders$3 extends SuspendLambda implements Function1<Continuation<? super Result<? extends Orders>>, Object> {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final /* synthetic */ OrderRepositoryImpl f47827b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public OrderRepositoryImpl$getOrders$3(OrderRepositoryImpl orderRepositoryImpl, Continuation continuation) {
+        super(1, continuation);
+        this.f47827b = orderRepositoryImpl;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation create(Continuation continuation) {
+        return new OrderRepositoryImpl$getOrders$3(this.f47827b, continuation);
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        return ((OrderRepositoryImpl$getOrders$3) create((Continuation) obj)).invokeSuspend(Unit.f71739a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        ResultKt.b(obj);
+        OrderRepositoryImpl orderRepositoryImpl = this.f47827b;
+        Result resultA = orderRepositoryImpl.f47812b.a();
+        if (resultA == null) {
+            return null;
+        }
+        Object objK = resultA.f71708b;
+        if (!(objK instanceof Result.Failure)) {
+            Result.Companion companion = Result.INSTANCE;
+            objK = OrderRepositoryImpl.k(orderRepositoryImpl, (Orders) objK);
+        }
+        return new Result(objK);
+    }
+}

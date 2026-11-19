@@ -1,0 +1,136 @@
+package org.bouncycastle.crypto.modes;
+
+import defpackage.md;
+import org.bouncycastle.crypto.BlockCipher;
+import org.bouncycastle.crypto.CipherParameters;
+import org.bouncycastle.crypto.DataLengthException;
+import org.bouncycastle.crypto.StreamBlockCipher;
+import org.bouncycastle.crypto.params.ParametersWithIV;
+import org.bouncycastle.util.Arrays;
+
+/* JADX INFO: loaded from: classes5.dex */
+public class G3413CTRBlockCipher extends StreamBlockCipher {
+    private byte[] CTR;
+    private byte[] IV;
+    private final int blockSize;
+    private byte[] buf;
+    private int byteCount;
+    private final BlockCipher cipher;
+    private boolean initialized;
+    private final int s;
+
+    public G3413CTRBlockCipher(BlockCipher blockCipher, int i2) {
+        super(blockCipher);
+        this.byteCount = 0;
+        if (i2 < 0 || i2 > blockCipher.getBlockSize() * 8) {
+            md.g(blockCipher.getBlockSize() * 8, "Parameter bitBlockSize must be in range 0 < bitBlockSize <= ");
+            throw null;
+        }
+        this.cipher = blockCipher;
+        int blockSize = blockCipher.getBlockSize();
+        this.blockSize = blockSize;
+        this.s = i2 / 8;
+        this.CTR = new byte[blockSize];
+    }
+
+    private byte[] generateBuf() {
+        byte[] bArr = this.CTR;
+        byte[] bArr2 = new byte[bArr.length];
+        this.cipher.processBlock(bArr, 0, bArr2, 0);
+        return GOST3413CipherUtil.MSB(bArr2, this.s);
+    }
+
+    private void generateCRT() {
+        byte[] bArr = this.CTR;
+        int length = bArr.length - 1;
+        bArr[length] = (byte) (bArr[length] + 1);
+    }
+
+    private void initArrays() {
+        int i2 = this.blockSize;
+        this.IV = new byte[i2 / 2];
+        this.CTR = new byte[i2];
+        this.buf = new byte[this.s];
+    }
+
+    @Override // org.bouncycastle.crypto.StreamBlockCipher
+    public byte calculateByte(byte b2) {
+        if (this.byteCount == 0) {
+            this.buf = generateBuf();
+        }
+        byte[] bArr = this.buf;
+        int i2 = this.byteCount;
+        byte b3 = (byte) (b2 ^ bArr[i2]);
+        int i3 = i2 + 1;
+        this.byteCount = i3;
+        if (i3 == this.s) {
+            this.byteCount = 0;
+            generateCRT();
+        }
+        return b3;
+    }
+
+    @Override // org.bouncycastle.crypto.BlockCipher
+    public String getAlgorithmName() {
+        return this.cipher.getAlgorithmName() + "/GCTR";
+    }
+
+    @Override // org.bouncycastle.crypto.BlockCipher
+    public int getBlockSize() {
+        return this.s;
+    }
+
+    @Override // org.bouncycastle.crypto.BlockCipher
+    public void init(boolean z, CipherParameters cipherParameters) throws IllegalArgumentException {
+        BlockCipher blockCipher;
+        if (cipherParameters instanceof ParametersWithIV) {
+            ParametersWithIV parametersWithIV = (ParametersWithIV) cipherParameters;
+            initArrays();
+            byte[] bArrClone = Arrays.clone(parametersWithIV.getIV());
+            this.IV = bArrClone;
+            if (bArrClone.length != this.blockSize / 2) {
+                md.n("Parameter IV length must be == blockSize/2");
+                return;
+            }
+            System.arraycopy(bArrClone, 0, this.CTR, 0, bArrClone.length);
+            for (int length = this.IV.length; length < this.blockSize; length++) {
+                this.CTR[length] = 0;
+            }
+            if (parametersWithIV.getParameters() != null) {
+                blockCipher = this.cipher;
+                cipherParameters = parametersWithIV.getParameters();
+                blockCipher.init(true, cipherParameters);
+            }
+        } else {
+            initArrays();
+            if (cipherParameters != null) {
+                blockCipher = this.cipher;
+                blockCipher.init(true, cipherParameters);
+            }
+        }
+        this.initialized = true;
+    }
+
+    @Override // org.bouncycastle.crypto.BlockCipher
+    public int processBlock(byte[] bArr, int i2, byte[] bArr2, int i3) throws IllegalStateException, DataLengthException {
+        processBytes(bArr, i2, this.s, bArr2, i3);
+        return this.s;
+    }
+
+    @Override // org.bouncycastle.crypto.BlockCipher
+    public void reset() {
+        if (this.initialized) {
+            byte[] bArr = this.IV;
+            System.arraycopy(bArr, 0, this.CTR, 0, bArr.length);
+            for (int length = this.IV.length; length < this.blockSize; length++) {
+                this.CTR[length] = 0;
+            }
+            this.byteCount = 0;
+            this.cipher.reset();
+        }
+    }
+
+    public G3413CTRBlockCipher(BlockCipher blockCipher) {
+        this(blockCipher, blockCipher.getBlockSize() * 8);
+    }
+}

@@ -1,0 +1,39 @@
+.class public final Lcom/perfectcorp/perfectlib/ph/database/ymk/skuset/a$b;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/perfectcorp/perfectlib/ph/database/ymk/skuset/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field public name:Ljava/lang/String;
+
+.field public shoppingUrl:Ljava/lang/String;
+
+.field public thumbnail:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/perfectcorp/perfectlib/ph/database/ymk/skuset/a$b;->name:Ljava/lang/String;
+
+    iput-object v0, p0, Lcom/perfectcorp/perfectlib/ph/database/ymk/skuset/a$b;->thumbnail:Ljava/lang/String;
+
+    iput-object v0, p0, Lcom/perfectcorp/perfectlib/ph/database/ymk/skuset/a$b;->shoppingUrl:Ljava/lang/String;
+
+    return-void
+.end method

@@ -1,0 +1,7 @@
+package androidx.work.multiprocess;
+
+import android.os.IInterface;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface IWorkManagerImplCallback extends IInterface {
+}

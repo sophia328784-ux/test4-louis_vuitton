@@ -1,0 +1,1162 @@
+﻿[
+  {
+    "code": "IS",
+    "name": "アイスランド",
+    "prefix": "+354"
+  },
+  {
+    "code": "IE",
+    "name": "アイルランド",
+    "prefix": "+353"
+  },
+  {
+    "code": "AZ",
+    "name": "アゼルバイジャン",
+    "prefix": "+994"
+  },
+  {
+    "code": "AF",
+    "name": "アフガニスタン",
+    "prefix": "+93"
+  },
+  {
+    "code": "AS",
+    "name": "アメリカンサモア",
+    "prefix": "+1684"
+  },
+  {
+    "code": "US",
+    "name": "アメリカ合衆国",
+    "prefix": "+1"
+  },
+  {
+    "code": "AE",
+    "name": "アラブ首長国連邦",
+    "prefix": "+971"
+  },
+  {
+    "code": "DZ",
+    "name": "アルジェリア",
+    "prefix": "+213"
+  },
+  {
+    "code": "AR",
+    "name": "アルゼンチン",
+    "prefix": "+54"
+  },
+  {
+    "code": "AW",
+    "name": "アルバ(オランダ自治領)",
+    "prefix": "+297"
+  },
+  {
+    "code": "AL",
+    "name": "アルバニア",
+    "prefix": "+355"
+  },
+  {
+    "code": "AM",
+    "name": "アルメニア",
+    "prefix": "+374"
+  },
+  {
+    "code": "AI",
+    "name": "アンギラ(イギリス属領)",
+    "prefix": "+1264"
+  },
+  {
+    "code": "AO",
+    "name": "アンゴラ",
+    "prefix": "+244"
+  },
+  {
+    "code": "AG",
+    "name": "アンティグァ・バーブーダ",
+    "prefix": "+1268"
+  },
+  {
+    "code": "YE",
+    "name": "イエメン",
+    "prefix": "+967"
+  },
+  {
+    "code": "GB",
+    "name": "イギリス",
+    "prefix": "+44"
+  },
+  {
+    "code": "IO",
+    "name": "イギリスインド洋領",
+    "prefix": "+246"
+  },
+  {
+    "code": "IL",
+    "name": "イスラエル",
+    "prefix": "+972"
+  },
+  {
+    "code": "IT",
+    "name": "イタリア",
+    "prefix": "+39"
+  },
+  {
+    "code": "IQ",
+    "name": "イラク",
+    "prefix": "+964"
+  },
+  {
+    "code": "IR",
+    "name": "イラン",
+    "prefix": "+98"
+  },
+  {
+    "code": "IN",
+    "name": "インド",
+    "prefix": "+91"
+  },
+  {
+    "code": "ID",
+    "name": "インドネシア",
+    "prefix": "+62"
+  },
+  {
+    "code": "UG",
+    "name": "ウガンダ",
+    "prefix": "+256"
+  },
+  {
+    "code": "UA",
+    "name": "ウクライナ",
+    "prefix": "+380"
+  },
+  {
+    "code": "UZ",
+    "name": "ウズベキスタン",
+    "prefix": "+998"
+  },
+  {
+    "code": "UY",
+    "name": "ウルグアイ",
+    "prefix": "+598"
+  },
+  {
+    "code": "EC",
+    "name": "エクアドル",
+    "prefix": "+593"
+  },
+  {
+    "code": "EG",
+    "name": "エジプト",
+    "prefix": "+20"
+  },
+  {
+    "code": "EE",
+    "name": "エストニア",
+    "prefix": "+372"
+  },
+  {
+    "code": "ET",
+    "name": "エチオピア",
+    "prefix": "+251"
+  },
+  {
+    "code": "ER",
+    "name": "エリトリア",
+    "prefix": "+291"
+  },
+  {
+    "code": "SV",
+    "name": "エルサルバドル",
+    "prefix": "+503"
+  },
+  {
+    "code": "OM",
+    "name": "オマーン",
+    "prefix": "+968"
+  },
+  {
+    "code": "NL",
+    "name": "オランダ",
+    "prefix": "+31"
+  },
+  {
+    "code": "AU",
+    "name": "オーストラリア",
+    "prefix": "+61"
+  },
+  {
+    "code": "AT",
+    "name": "オーストリア",
+    "prefix": "+43"
+  },
+  {
+    "code": "KZ",
+    "name": "カザフスタン",
+    "prefix": "+7"
+  },
+  {
+    "code": "QA",
+    "name": "カタール",
+    "prefix": "+974"
+  },
+  {
+    "code": "CA",
+    "name": "カナダ",
+    "prefix": "+1"
+  },
+  {
+    "code": "CM",
+    "name": "カメルーン",
+    "prefix": "+237"
+  },
+  {
+    "code": "KH",
+    "name": "カンボジア",
+    "prefix": "+855"
+  },
+  {
+    "code": "CV",
+    "name": "カーボベルデ",
+    "prefix": "+238"
+  },
+  {
+    "code": "GY",
+    "name": "ガイアナ",
+    "prefix": "+592"
+  },
+  {
+    "code": "GA",
+    "name": "ガボン",
+    "prefix": "+241"
+  },
+  {
+    "code": "GM",
+    "name": "ガンビア",
+    "prefix": "+220"
+  },
+  {
+    "code": "GH",
+    "name": "ガーナ",
+    "prefix": "+233"
+  },
+  {
+    "code": "CY",
+    "name": "キプロス",
+    "prefix": "+357"
+  },
+  {
+    "code": "CU",
+    "name": "キューバ",
+    "prefix": "+53"
+  },
+  {
+    "code": "KI",
+    "name": "キリバス",
+    "prefix": "+686"
+  },
+  {
+    "code": "KG",
+    "name": "キルギスタン",
+    "prefix": "+996"
+  },
+  {
+    "code": "GN",
+    "name": "ギニア",
+    "prefix": "+224"
+  },
+  {
+    "code": "GW",
+    "name": "ギニアビサオ",
+    "prefix": "+245"
+  },
+  {
+    "code": "GR",
+    "name": "ギリシャ",
+    "prefix": "+30"
+  },
+  {
+    "code": "KW",
+    "name": "クウェート",
+    "prefix": "+965"
+  },
+  {
+    "code": "CK",
+    "name": "クック諸島(ニュージーランド自治領)",
+    "prefix": "+682"
+  },
+  {
+    "code": "CX",
+    "name": "クリスマス諸島",
+    "prefix": "+672"
+  },
+  {
+    "code": "HR",
+    "name": "クロアチア",
+    "prefix": "+385"
+  },
+  {
+    "code": "GT",
+    "name": "グアテマラ",
+    "prefix": "+502"
+  },
+  {
+    "code": "GP",
+    "name": "グアドループ(仏領)",
+    "prefix": "+590"
+  },
+  {
+    "code": "GU",
+    "name": "グアム(米領)",
+    "prefix": "+1671"
+  },
+  {
+    "code": "GL",
+    "name": "グリーンランド",
+    "prefix": "+299"
+  },
+  {
+    "code": "GE",
+    "name": "グルジア",
+    "prefix": "+995"
+  },
+  {
+    "code": "GD",
+    "name": "グレナダ",
+    "prefix": "+1473"
+  },
+  {
+    "code": "KY",
+    "name": "ケイマン諸島(英領)",
+    "prefix": "+1345"
+  },
+  {
+    "code": "KE",
+    "name": "ケニア",
+    "prefix": "+254"
+  },
+  {
+    "code": "CC",
+    "name": "ココス諸島(オーストラリア領)",
+    "prefix": "+672"
+  },
+  {
+    "code": "CR",
+    "name": "コスタリカ",
+    "prefix": "+506"
+  },
+  {
+    "code": "KM",
+    "name": "コモロ",
+    "prefix": "+269"
+  },
+  {
+    "code": "CO",
+    "name": "コロンビア",
+    "prefix": "+57"
+  },
+  {
+    "code": "CG",
+    "name": "コンゴ",
+    "prefix": "+242"
+  },
+  {
+    "code": "CD",
+    "name": "コンゴ民主共和国(旧ザイール)",
+    "prefix": "+243"
+  },
+  {
+    "code": "CI",
+    "name": "コートジボアール",
+    "prefix": "+225"
+  },
+  {
+    "code": "SA",
+    "name": "サウジアラビア",
+    "prefix": "+966"
+  },
+  {
+    "code": "ST",
+    "name": "サントメ・プリンシペ",
+    "prefix": "+239"
+  },
+  {
+    "code": "PM",
+    "name": "サンピエール・ミクロン諸島(フランス海外領土)",
+    "prefix": "+508"
+  },
+  {
+    "code": "SM",
+    "name": "サンマリノ",
+    "prefix": "+378"
+  },
+  {
+    "code": "ZM",
+    "name": "ザンビア",
+    "prefix": "+260"
+  },
+  {
+    "code": "SL",
+    "name": "シエラレオネ",
+    "prefix": "+232"
+  },
+  {
+    "code": "SY",
+    "name": "シリア",
+    "prefix": "+963"
+  },
+  {
+    "code": "SG",
+    "name": "シンガポール",
+    "prefix": "+65"
+  },
+  {
+    "code": "DJ",
+    "name": "ジブチ",
+    "prefix": "+253"
+  },
+  {
+    "code": "GI",
+    "name": "ジブラルタル(英領)",
+    "prefix": "+350"
+  },
+  {
+    "code": "JM",
+    "name": "ジャマイカ",
+    "prefix": "+1876"
+  },
+  {
+    "code": "ZW",
+    "name": "ジンバブエ",
+    "prefix": "+263"
+  },
+  {
+    "code": "CH",
+    "name": "スイス",
+    "prefix": "+41"
+  },
+  {
+    "code": "SE",
+    "name": "スウェーデン",
+    "prefix": "+46"
+  },
+  {
+    "code": "ES",
+    "name": "スペイン",
+    "prefix": "+34"
+  },
+  {
+    "code": "SR",
+    "name": "スリナム",
+    "prefix": "+597"
+  },
+  {
+    "code": "LK",
+    "name": "スリランカ",
+    "prefix": "+94"
+  },
+  {
+    "code": "SK",
+    "name": "スロバキア",
+    "prefix": "+421"
+  },
+  {
+    "code": "SI",
+    "name": "スロベニア",
+    "prefix": "+386"
+  },
+  {
+    "code": "SZ",
+    "name": "スワジランド",
+    "prefix": "+268"
+  },
+  {
+    "code": "SD",
+    "name": "スーダン",
+    "prefix": "+249"
+  },
+  {
+    "code": "SC",
+    "name": "セイシェル",
+    "prefix": "+248"
+  },
+  {
+    "code": "SN",
+    "name": "セネガル",
+    "prefix": "+221"
+  },
+  {
+    "code": "RS",
+    "name": "セルビア",
+    "prefix": "+381"
+  },
+  {
+    "code": "KN",
+    "name": "セントクリストファー・ネイビス",
+    "prefix": "+1869"
+  },
+  {
+    "code": "VC",
+    "name": "セントビンセントおよびグレナディーン諸島",
+    "prefix": "+1784"
+  },
+  {
+    "code": "SH",
+    "name": "セントヘレナ島(英領)",
+    "prefix": "+290"
+  },
+  {
+    "code": "LC",
+    "name": "セントルシア",
+    "prefix": "+1758"
+  },
+  {
+    "code": "SO",
+    "name": "ソマリア",
+    "prefix": "+252"
+  },
+  {
+    "code": "SB",
+    "name": "ソロモン諸島",
+    "prefix": "+677"
+  },
+  {
+    "code": "TH",
+    "name": "タイ",
+    "prefix": "+66"
+  },
+  {
+    "code": "TJ",
+    "name": "タジキスタン",
+    "prefix": "+992"
+  },
+  {
+    "code": "TZ",
+    "name": "タンザニア",
+    "prefix": "+255"
+  },
+  {
+    "code": "TC",
+    "name": "タークス諸島・カイコス諸島(英領)",
+    "prefix": "+1649"
+  },
+  {
+    "code": "CZ",
+    "name": "チェコ",
+    "prefix": "+420"
+  },
+  {
+    "code": "TD",
+    "name": "チャド",
+    "prefix": "+235"
+  },
+  {
+    "code": "TN",
+    "name": "チュニジア",
+    "prefix": "+216"
+  },
+  {
+    "code": "CL",
+    "name": "チリ",
+    "prefix": "+56"
+  },
+  {
+    "code": "TV",
+    "name": "ツバル",
+    "prefix": "+688"
+  },
+  {
+    "code": "DK",
+    "name": "デンマーク",
+    "prefix": "+45"
+  },
+  {
+    "code": "TK",
+    "name": "トケラウ(ニュージーランド自治領)",
+    "prefix": "+690"
+  },
+  {
+    "code": "TT",
+    "name": "トリニダード・トバゴ",
+    "prefix": "+1868"
+  },
+  {
+    "code": "TM",
+    "name": "トルクメニスタン",
+    "prefix": "+993"
+  },
+  {
+    "code": "TR",
+    "name": "トルコ",
+    "prefix": "+90"
+  },
+  {
+    "code": "TO",
+    "name": "トンガ",
+    "prefix": "+676"
+  },
+  {
+    "code": "TG",
+    "name": "トーゴ",
+    "prefix": "+228"
+  },
+  {
+    "code": "DE",
+    "name": "ドイツ",
+    "prefix": "+49"
+  },
+  {
+    "code": "DM",
+    "name": "ドミニカ",
+    "prefix": "+1767"
+  },
+  {
+    "code": "DO",
+    "name": "ドミニカ共和国",
+    "prefix": "+1"
+  },
+  {
+    "code": "NG",
+    "name": "ナイジェリア",
+    "prefix": "+234"
+  },
+  {
+    "code": "NR",
+    "name": "ナウル",
+    "prefix": "+674"
+  },
+  {
+    "code": "NA",
+    "name": "ナミビア",
+    "prefix": "+264"
+  },
+  {
+    "code": "NU",
+    "name": "ニウエ(ニュージーランド自治領)",
+    "prefix": "+683"
+  },
+  {
+    "code": "NI",
+    "name": "ニカラグア",
+    "prefix": "+505"
+  },
+  {
+    "code": "NE",
+    "name": "ニジェール",
+    "prefix": "+227"
+  },
+  {
+    "code": "NC",
+    "name": "ニューカレドニア(仏領)",
+    "prefix": "+687"
+  },
+  {
+    "code": "NZ",
+    "name": "ニュージーランド",
+    "prefix": "+64"
+  },
+  {
+    "code": "NP",
+    "name": "ネパール",
+    "prefix": "+977"
+  },
+  {
+    "code": "NO",
+    "name": "ノルウェー",
+    "prefix": "+47"
+  },
+  {
+    "code": "HT",
+    "name": "ハイチ",
+    "prefix": "+509"
+  },
+  {
+    "code": "HU",
+    "name": "ハンガリー",
+    "prefix": "+36"
+  },
+  {
+    "code": "HM",
+    "name": "ハード・マクドナルド諸島",
+    "prefix": "+672"
+  },
+  {
+    "code": "VA",
+    "name": "バチカン市国",
+    "prefix": "+379"
+  },
+  {
+    "code": "VU",
+    "name": "バヌアツ",
+    "prefix": "+678"
+  },
+  {
+    "code": "BS",
+    "name": "バハマ",
+    "prefix": "+1242"
+  },
+  {
+    "code": "BB",
+    "name": "バルバドス",
+    "prefix": "+1246"
+  },
+  {
+    "code": "BD",
+    "name": "バングラデシュ",
+    "prefix": "+880"
+  },
+  {
+    "code": "BM",
+    "name": "バーミューダ(英領)",
+    "prefix": "+1441"
+  },
+  {
+    "code": "BH",
+    "name": "バーレーン",
+    "prefix": "+973"
+  },
+  {
+    "code": "PK",
+    "name": "パキスタン",
+    "prefix": "+92"
+  },
+  {
+    "code": "PA",
+    "name": "パナマ",
+    "prefix": "+507"
+  },
+  {
+    "code": "PG",
+    "name": "パプアニューギニア",
+    "prefix": "+675"
+  },
+  {
+    "code": "PW",
+    "name": "パラオ",
+    "prefix": "+680"
+  },
+  {
+    "code": "PY",
+    "name": "パラグアイ",
+    "prefix": "+595"
+  },
+  {
+    "code": "PS",
+    "name": "パレスチナ",
+    "prefix": "+970"
+  },
+  {
+    "code": "PN",
+    "name": "ピトケアン諸島(英領)",
+    "prefix": "+64"
+  },
+  {
+    "code": "FJ",
+    "name": "フィジー",
+    "prefix": "+679"
+  },
+  {
+    "code": "PH",
+    "name": "フィリピン",
+    "prefix": "+63"
+  },
+  {
+    "code": "FI",
+    "name": "フィンランド",
+    "prefix": "+358"
+  },
+  {
+    "code": "FO",
+    "name": "フェロー諸島(デンマーク領)",
+    "prefix": "+298"
+  },
+  {
+    "code": "FK",
+    "name": "フォークランド諸島",
+    "prefix": "+500"
+  },
+  {
+    "code": "FR",
+    "name": "フランス",
+    "prefix": "+33"
+  },
+  {
+    "code": "GF",
+    "name": "フランス領ギニア",
+    "prefix": "+594"
+  },
+  {
+    "code": "PF",
+    "name": "フランス領ポリネシア",
+    "prefix": "+689"
+  },
+  {
+    "code": "BR",
+    "name": "ブラジル",
+    "prefix": "+55"
+  },
+  {
+    "code": "BG",
+    "name": "ブルガリア",
+    "prefix": "+359"
+  },
+  {
+    "code": "BF",
+    "name": "ブルキナファソ",
+    "prefix": "+226"
+  },
+  {
+    "code": "BN",
+    "name": "ブルネイ",
+    "prefix": "+673"
+  },
+  {
+    "code": "BI",
+    "name": "ブルンジ",
+    "prefix": "+257"
+  },
+  {
+    "code": "BT",
+    "name": "ブータン",
+    "prefix": "+975"
+  },
+  {
+    "code": "PR",
+    "name": "プエルトリコ",
+    "prefix": "+1"
+  },
+  {
+    "code": "VN",
+    "name": "ベトナム",
+    "prefix": "+84"
+  },
+  {
+    "code": "BJ",
+    "name": "ベナン",
+    "prefix": "+229"
+  },
+  {
+    "code": "VE",
+    "name": "ベネズエラ",
+    "prefix": "+58"
+  },
+  {
+    "code": "BY",
+    "name": "ベラルーシ",
+    "prefix": "+375"
+  },
+  {
+    "code": "BZ",
+    "name": "ベリーズ",
+    "prefix": "+501"
+  },
+  {
+    "code": "BE",
+    "name": "ベルギー",
+    "prefix": "+32"
+  },
+  {
+    "code": "PE",
+    "name": "ペルー",
+    "prefix": "+51"
+  },
+  {
+    "code": "HN",
+    "name": "ホンジュラス",
+    "prefix": "+504"
+  },
+  {
+    "code": "BA",
+    "name": "ボスニア・ヘルツェゴビナ",
+    "prefix": "+387"
+  },
+  {
+    "code": "BW",
+    "name": "ボツワナ",
+    "prefix": "+267"
+  },
+  {
+    "code": "BO",
+    "name": "ボリビア",
+    "prefix": "+591"
+  },
+  {
+    "code": "PT",
+    "name": "ポルトガル",
+    "prefix": "+351"
+  },
+  {
+    "code": "PL",
+    "name": "ポーランド",
+    "prefix": "+48"
+  },
+  {
+    "code": "MO",
+    "name": "マカオ特別行政区",
+    "prefix": "+853"
+  },
+  {
+    "code": "MK",
+    "name": "マケドニア",
+    "prefix": "+389"
+  },
+  {
+    "code": "MG",
+    "name": "マダガスカル",
+    "prefix": "+261"
+  },
+  {
+    "code": "YT",
+    "name": "マヨット島(仏領)",
+    "prefix": "+262"
+  },
+  {
+    "code": "MW",
+    "name": "マラウイ",
+    "prefix": "+265"
+  },
+  {
+    "code": "ML",
+    "name": "マリ",
+    "prefix": "+223"
+  },
+  {
+    "code": "MT",
+    "name": "マルタ",
+    "prefix": "+356"
+  },
+  {
+    "code": "MQ",
+    "name": "マルチニーク(フランス海外県)",
+    "prefix": "+596"
+  },
+  {
+    "code": "MY",
+    "name": "マレーシア",
+    "prefix": "+60"
+  },
+  {
+    "code": "MH",
+    "name": "マーシャル諸島(米自由連合)",
+    "prefix": "+692"
+  },
+  {
+    "code": "FM",
+    "name": "ミクロネシア(米自由連合)",
+    "prefix": "+691"
+  },
+  {
+    "code": "MM",
+    "name": "ミャンマー",
+    "prefix": "+95"
+  },
+  {
+    "code": "MX",
+    "name": "メキシコ",
+    "prefix": "+52"
+  },
+  {
+    "code": "MZ",
+    "name": "モザンビーク",
+    "prefix": "+258"
+  },
+  {
+    "code": "MC",
+    "name": "モナコ",
+    "prefix": "+377"
+  },
+  {
+    "code": "MV",
+    "name": "モルディブ",
+    "prefix": "+960"
+  },
+  {
+    "code": "MD",
+    "name": "モルドバ",
+    "prefix": "+373"
+  },
+  {
+    "code": "MA",
+    "name": "モロッコ",
+    "prefix": "+212"
+  },
+  {
+    "code": "MN",
+    "name": "モンゴル",
+    "prefix": "+976"
+  },
+  {
+    "code": "ME",
+    "name": "モンテネグロ",
+    "prefix": "+382"
+  },
+  {
+    "code": "MS",
+    "name": "モントセラト(英領)",
+    "prefix": "+1664"
+  },
+  {
+    "code": "MU",
+    "name": "モーリシャス",
+    "prefix": "+230"
+  },
+  {
+    "code": "MR",
+    "name": "モーリタニア",
+    "prefix": "+222"
+  },
+  {
+    "code": "JO",
+    "name": "ヨルダン",
+    "prefix": "+962"
+  },
+  {
+    "code": "LA",
+    "name": "ラオス",
+    "prefix": "+856"
+  },
+  {
+    "code": "LV",
+    "name": "ラトビア",
+    "prefix": "+371"
+  },
+  {
+    "code": "LT",
+    "name": "リトアニア",
+    "prefix": "+370"
+  },
+  {
+    "code": "LI",
+    "name": "リヒテンシュタイン",
+    "prefix": "+423"
+  },
+  {
+    "code": "LY",
+    "name": "リビア",
+    "prefix": "+218"
+  },
+  {
+    "code": "LR",
+    "name": "リベリア",
+    "prefix": "+231"
+  },
+  {
+    "code": "LU",
+    "name": "ルクセンブルク",
+    "prefix": "+352"
+  },
+  {
+    "code": "RW",
+    "name": "ルワンダ",
+    "prefix": "+250"
+  },
+  {
+    "code": "RO",
+    "name": "ルーマニア",
+    "prefix": "+40"
+  },
+  {
+    "code": "LS",
+    "name": "レソト",
+    "prefix": "+266"
+  },
+  {
+    "code": "LB",
+    "name": "レバノン",
+    "prefix": "+961"
+  },
+  {
+    "code": "RE",
+    "name": "レユニオン島(仏領)",
+    "prefix": "+262"
+  },
+  {
+    "code": "RU",
+    "name": "ロシア連邦",
+    "prefix": "+7"
+  },
+  {
+    "code": "WF",
+    "name": "ワリスフツナ諸島(仏領)",
+    "prefix": "+681"
+  },
+  {
+    "code": "CN",
+    "name": "中国",
+    "prefix": "+86"
+  },
+  {
+    "code": "CF",
+    "name": "中央アフリカ共和国",
+    "prefix": "+236"
+  },
+  {
+    "code": "MP",
+    "name": "北マリアナ諸島",
+    "prefix": "+1670"
+  },
+  {
+    "code": "ZA",
+    "name": "南アフリカ共和国",
+    "prefix": "+27"
+  },
+  {
+    "code": "SS",
+    "name": "南スーダン",
+    "prefix": "+211"
+  },
+  {
+    "code": "TW",
+    "name": "台湾",
+    "prefix": "+886"
+  },
+  {
+    "code": "KR",
+    "name": "大韓民国",
+    "prefix": "+82"
+  },
+  {
+    "code": "JP",
+    "name": "日本",
+    "prefix": "+81"
+  },
+  {
+    "code": "KP",
+    "name": "朝鮮民主主義人民共和国",
+    "prefix": "+850"
+  },
+  {
+    "code": "TL",
+    "name": "東ティモール",
+    "prefix": "+670"
+  },
+  {
+    "code": "VI",
+    "name": "米領バージン諸島",
+    "prefix": "+1340"
+  },
+  {
+    "code": "VG",
+    "name": "英領バージン諸島",
+    "prefix": "+1284"
+  },
+  {
+    "code": "WS",
+    "name": "西サモア",
+    "prefix": "+685"
+  },
+  {
+    "code": "GQ",
+    "name": "赤道ギニア",
+    "prefix": "+240"
+  },
+  {
+    "code": "HK",
+    "name": "香港特別行政区",
+    "prefix": "+852"
+  },
+  {
+    "code": "AD",
+    "name": "﻿アンドラ",
+    "prefix": "+376"
+  }
+]

@@ -1,0 +1,43 @@
+.class interface abstract Lnet/rtccloud/sdk/User$Native;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/rtccloud/sdk/User;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "Native"
+.end annotation
+
+
+# static fields
+.field public static final JNI:Lnet/rtccloud/sdk/User$Native;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lnet/rtccloud/sdk/User$Native$1;
+
+    invoke-direct {v0}, Lnet/rtccloud/sdk/User$Native$1;-><init>()V
+
+    sput-object v0, Lnet/rtccloud/sdk/User$Native;->JNI:Lnet/rtccloud/sdk/User$Native;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract getSid()Ljava/lang/String;
+.end method
+
+.method public abstract getUid()Ljava/lang/String;
+.end method
+
+.method public abstract setDisplayName(Ljava/lang/String;)V
+.end method

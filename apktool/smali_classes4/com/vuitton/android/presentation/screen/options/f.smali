@@ -1,0 +1,196 @@
+.class public final synthetic Lcom/vuitton/android/presentation/screen/options/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function4;
+
+
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Landroidx/navigation/NavHostController;
+
+.field public final synthetic d:Lkotlin/jvm/functions/Function1;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/navigation/NavHostController;Lkotlin/jvm/functions/Function1;I)V
+    .locals 0
+
+    iput p3, p0, Lcom/vuitton/android/presentation/screen/options/f;->b:I
+
+    iput-object p1, p0, Lcom/vuitton/android/presentation/screen/options/f;->c:Landroidx/navigation/NavHostController;
+
+    iput-object p2, p0, Lcom/vuitton/android/presentation/screen/options/f;->d:Lkotlin/jvm/functions/Function1;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final g(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 16
+
+    move-object/from16 v0, p0
+
+    iget v1, v0, Lcom/vuitton/android/presentation/screen/options/f;->b:I
+
+    sget-object v2, Landroidx/compose/runtime/Composer$Companion;->a:Landroidx/compose/runtime/Composer$Companion$Empty$1;
+
+    packed-switch v1, :pswitch_data_0
+
+    move-object/from16 v1, p1
+
+    check-cast v1, Landroidx/compose/animation/AnimatedContentScope;
+
+    move-object/from16 v3, p2
+
+    check-cast v3, Landroidx/navigation/NavBackStackEntry;
+
+    move-object/from16 v8, p3
+
+    check-cast v8, Landroidx/compose/runtime/Composer;
+
+    move-object/from16 v4, p4
+
+    check-cast v4, Ljava/lang/Integer;
+
+    invoke-static {v4, v1, v3}, La;->x(Ljava/lang/Integer;Landroidx/compose/animation/AnimatedContentScope;Landroidx/navigation/NavBackStackEntry;)V
+
+    sget-object v1, Landroidx/compose/runtime/ComposerKt;->a:Landroidx/compose/runtime/OpaqueKey;
+
+    iget-object v11, v0, Lcom/vuitton/android/presentation/screen/options/f;->c:Landroidx/navigation/NavHostController;
+
+    invoke-interface {v8, v11}, Landroidx/compose/runtime/Composer;->y(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    invoke-interface {v8}, Landroidx/compose/runtime/Composer;->x()Ljava/lang/Object;
+
+    move-result-object v3
+
+    if-nez v1, :cond_0
+
+    if-ne v3, v2, :cond_1
+
+    :cond_0
+    new-instance v9, Lcom/vuitton/android/presentation/screen/options/OptionsNavHostKt$OptionsNavHost$5$1$3$1$1;
+
+    const-string v14, "popBackStack()Z"
+
+    const/16 v15, 0x8
+
+    const/4 v10, 0x0
+
+    const-class v12, Landroidx/navigation/NavHostController;
+
+    const-string v13, "popBackStack"
+
+    invoke-direct/range {v9 .. v15}, Lkotlin/jvm/internal/AdaptedFunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    invoke-interface {v8, v9}, Landroidx/compose/runtime/Composer;->q(Ljava/lang/Object;)V
+
+    move-object v3, v9
+
+    :cond_1
+    move-object v6, v3
+
+    check-cast v6, Lkotlin/jvm/functions/Function0;
+
+    const/16 v9, 0x30
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    iget-object v7, v0, Lcom/vuitton/android/presentation/screen/options/f;->d:Lkotlin/jvm/functions/Function1;
+
+    invoke-static/range {v4 .. v9}, Lcom/vuitton/android/presentation/screen/options/legaltext/components/LegalTextComposableKt;->a(Lcom/vuitton/android/presentation/screen/options/legaltext/LegalTextViewModel;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V
+
+    sget-object v0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    return-object v0
+
+    :pswitch_0
+    move-object/from16 v1, p1
+
+    check-cast v1, Landroidx/compose/animation/AnimatedContentScope;
+
+    move-object/from16 v3, p2
+
+    check-cast v3, Landroidx/navigation/NavBackStackEntry;
+
+    move-object/from16 v8, p3
+
+    check-cast v8, Landroidx/compose/runtime/Composer;
+
+    move-object/from16 v4, p4
+
+    check-cast v4, Ljava/lang/Integer;
+
+    invoke-static {v4, v1, v3}, La;->x(Ljava/lang/Integer;Landroidx/compose/animation/AnimatedContentScope;Landroidx/navigation/NavBackStackEntry;)V
+
+    sget-object v1, Landroidx/compose/runtime/ComposerKt;->a:Landroidx/compose/runtime/OpaqueKey;
+
+    iget-object v11, v0, Lcom/vuitton/android/presentation/screen/options/f;->c:Landroidx/navigation/NavHostController;
+
+    invoke-interface {v8, v11}, Landroidx/compose/runtime/Composer;->y(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    invoke-interface {v8}, Landroidx/compose/runtime/Composer;->x()Ljava/lang/Object;
+
+    move-result-object v3
+
+    if-nez v1, :cond_2
+
+    if-ne v3, v2, :cond_3
+
+    :cond_2
+    new-instance v9, Lcom/vuitton/android/presentation/screen/options/OptionsNavHostKt$OptionsNavHost$5$1$2$1$1;
+
+    const-string v14, "popBackStack()Z"
+
+    const/16 v15, 0x8
+
+    const/4 v10, 0x0
+
+    const-class v12, Landroidx/navigation/NavHostController;
+
+    const-string v13, "popBackStack"
+
+    invoke-direct/range {v9 .. v15}, Lkotlin/jvm/internal/AdaptedFunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    invoke-interface {v8, v9}, Landroidx/compose/runtime/Composer;->q(Ljava/lang/Object;)V
+
+    move-object v3, v9
+
+    :cond_3
+    move-object v6, v3
+
+    check-cast v6, Lkotlin/jvm/functions/Function0;
+
+    const/16 v9, 0x30
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x1
+
+    iget-object v7, v0, Lcom/vuitton/android/presentation/screen/options/f;->d:Lkotlin/jvm/functions/Function1;
+
+    invoke-static/range {v4 .. v9}, Lcom/vuitton/android/presentation/screen/options/legaltext/components/LegalTextComposableKt;->a(Lcom/vuitton/android/presentation/screen/options/legaltext/LegalTextViewModel;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V
+
+    sget-object v0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    return-object v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

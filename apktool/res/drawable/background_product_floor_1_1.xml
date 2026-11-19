@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dp" android:width="100.0dp" android:viewportWidth="5800.0" android:viewportHeight="5800.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$background_product_floor_1_1__0" android:pathData="M0,0h5800v5800h-5800z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$background_product_floor_1_1__1" android:pathData="M0,0h2900v5800h-2900z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$background_product_floor_1_1__2" android:pathData="M2900,0h2900v5800h-2900z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shadow_patch_16dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/triple_spacing" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.vuitton.android.presentation.screen.connectivity.views.FixedAspectRatioImageView android:id="@id/image_discover" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerCrop" app:imageViewAspectRatio="1:1" />
+                <ImageView android:layout_gravity="start|bottom" android:id="@id/image_discover_play_icon" android:visibility="gone" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_margin="@dimen/default_spacing" android:src="@drawable/ic_play_revamp" />
+            </FrameLayout>
+            <TextView android:ellipsize="end" android:id="@id/text_discover_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/triple_spacing" android:maxLines="3" android:layout_marginStart="@dimen/triple_spacing" android:layout_marginEnd="@dimen/triple_spacing" style="@style/HeadingH5LeftDark" />
+            <TextView android:id="@id/text_discover_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_spacing" android:textDirection="locale" android:layout_marginStart="@dimen/triple_spacing" android:layout_marginEnd="@dimen/triple_spacing" style="@style/ListLabelLRegularLeftGrey" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

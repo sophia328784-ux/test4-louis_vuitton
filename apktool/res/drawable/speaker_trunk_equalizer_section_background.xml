@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@null" />
+    <item android:top="@dimen/default_spacing" android:bottom="@dimen/default_spacing" android:start="@dimen/default_spacing" android:end="@dimen/default_spacing">
+        <bitmap android:src="@null" />
+    </item>
+    <item android:gravity="center|bottom" android:bottom="7.0dp">
+        <bitmap android:src="@null" />
+    </item>
+</layer-list>

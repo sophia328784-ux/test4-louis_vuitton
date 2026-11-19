@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="start" android:id="@id/indicator_background" android:background="@color/westargrey70" android:layout_width="match_parent" android:layout_height="2.0dp" />
+    <View android:id="@id/indicator_cursor" android:background="@color/eternity" android:layout_width="48.0dp" android:layout_height="2.0dp" />
+</merge>

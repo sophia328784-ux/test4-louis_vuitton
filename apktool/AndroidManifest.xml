@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="37" android:compileSdkVersionCodename="17" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.vuitton.android" platformBuildVersionCode="37" platformBuildVersionName="17">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <queries>
+        <package android:name="com.vuittoncompanion.android"/>
+        <package android:name="com.spotify.music"/>
+        <package android:name="com.shcard.smartpay"/>
+        <package android:name="com.shinhancard.smartshinhan"/>
+        <package android:name="com.hyundaicard.appcard"/>
+        <package android:name="com.lumensoft.touchenappfree"/>
+        <package android:name="kr.co.samsungcard.mpocket"/>
+        <package android:name="nh.smart.nhallonepay"/>
+        <package android:name="viva.republica.toss"/>
+        <package android:name="com.kbcard.cxh.appcard"/>
+        <package android:name="com.kbstar.liivbank"/>
+        <package android:name="com.kbstar.reboot"/>
+        <package android:name="kvp.jjy.MispAndroid320"/>
+        <package android:name="com.lcacApp"/>
+        <package android:name="com.hanaskcard.paycla"/>
+        <package android:name="kr.co.hanamembers.hmscustomer"/>
+        <package android:name="kr.co.citibank.citimobile"/>
+        <package android:name="com.wooricard.wpay"/>
+        <package android:name="com.wooricard.smartapp"/>
+        <package android:name="com.wooribank.smart.npib"/>
+        <package android:name="com.nhnent.payapp"/>
+        <package android:name="com.ssg.serviceapp.android.egiftcertificate"/>
+        <package android:name="com.kakao.talk"/>
+        <package android:name="com.lotte.lpay"/>
+        <package android:name="com.lottemembers.android"/>
+        <package android:name="com.samsung.android.spay"/>
+        <package android:name="com.samsung.android.spaylite"/>
+        <package android:name="com.nhn.android.search"/>
+        <package android:name="com.lge.lgpay"/>
+        <package android:name="com.TouchEn.mVaccine.webs"/>
+        <package android:name="kr.co.shiftworks.vguardweb"/>
+        <package android:name="com.ahnlab.v3mobileplus"/>
+        <package android:name="com.kftc.bankpay.android"/>
+        <package android:name="com.android.chrome"/>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <category android:name="android.intent.category.OPENABLE"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.VIDEO_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+        <package android:name="jp.naver.line.android"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.samsung.android.mapsagent"/>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.huawei.appmarket"/>
+        <package android:name="com.kakao.talk.alpha"/>
+        <package android:name="com.kakao.talk.sandbox"/>
+        <package android:name="com.kakao.onetalk"/>
+        <package android:name="com.google.ar.core"/>
+        <intent>
+            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE"/>
+        </intent>
+    </queries>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.any" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-feature android:name="android.hardware.usb.host" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA2"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.vuitton.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission android:name="com.vuitton.android.batch.permission.INTERNAL_BROADCAST" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.vuitton.android.batch.permission.INTERNAL_BROADCAST"/>
+    <permission android:name="com.vuitton.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/appsflyer_data_extraction_rules" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:fullBackupContent="@xml/appsflyer_backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.pairip.application.Application" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/BaseAppTheme" android:usesCleartextTraffic="true">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <service android:name="org.teleal.cling.android.AndroidUpnpServiceImpl"/>
+        <provider android:authorities="com.vuitton.android.fileprovider;com.vuitton.android.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/fileprovider"/>
+        </provider>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_api_key"/>
+        <meta-data android:name="google_analytics_automatic_screen_reporting_enabled" android:value="false"/>
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="a126fe3277a64a8967a3d68132f81c89dcec70e2"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <provider android:authorities="com.vuitton.android.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="okhttp3.internal.platform.PlatformInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:exported="false" android:name="com.vuitton.android.presentation.broadcast.ShareBroadcastReceiver"/>
+        <meta-data android:name="google_analytics_default_allow_analytics_storage" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_ad_storage" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_ad_user_data" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_ad_personalization_signals" android:value="false"/>
+        <meta-data android:name="com.google.ar.core" android:value="optional"/>
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <activity android:configChanges="locale|screenLayout|layoutDirection" android:exported="true" android:launchMode="singleTop" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme.SplashScreen" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.batch.android.EXCLUDE_FROM_LIFECYCLE" android:value="true"/>
+        </activity>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_monogram" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenMonogramActivity" android:roundIcon="@mipmap/ic_launcher_monogram_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_army_damier" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenGreenActivity" android:roundIcon="@mipmap/ic_launcher_army_damier_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_tweed_damier" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenByThePoolActivity" android:roundIcon="@mipmap/ic_launcher_tweed_damier_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_color_damier" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenPatternSquareActivity" android:roundIcon="@mipmap/ic_launcher_color_damier_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_murakami_pattern" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenPharrellActivity" android:roundIcon="@mipmap/ic_launcher_murakami_pattern_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_murakami" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenWaterActivity" android:roundIcon="@mipmap/ic_launcher_murakami_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_bag" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenBagActivity" android:roundIcon="@mipmap/ic_launcher_bag_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenClassicActivity" android:roundIcon="@mipmap/ic_launcher_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_army_damier" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon8Activity" android:roundIcon="@mipmap/ic_launcher_army_damier_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_tweed_damier" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon7Activity" android:roundIcon="@mipmap/ic_launcher_tweed_damier_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_monogram" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon6Activity" android:roundIcon="@mipmap/ic_launcher_monogram_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_color_damier" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon5Activity" android:roundIcon="@mipmap/ic_launcher_color_damier_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_murakami_pattern" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon4Activity" android:roundIcon="@mipmap/ic_launcher_murakami_pattern_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_murakami" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon3Activity" android:roundIcon="@mipmap/ic_launcher_murakami_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_bag" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon2Activity" android:roundIcon="@mipmap/ic_launcher_bag_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.vuitton.android.presentation.screen.splash.SplashScreenIcon1Activity" android:roundIcon="@mipmap/ic_launcher_round" android:targetActivity="com.vuitton.android.presentation.screen.splash.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" android:name="com.vuitton.android.presentation.screen.deeplink.DeepLinkDispatcherActivity" android:screenOrientation="portrait" android:taskAffinity=".deeplink" android:theme="@style/Theme.Transparent">
+            <meta-data android:name="com.batch.android.EXCLUDE_FROM_LIFECYCLE" android:value="true"/>
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="lvpass"/>
+                <data android:scheme="lvpass"/>
+                <data android:host="account_creation"/>
+                <data android:host="account_activation"/>
+                <data android:host="authenticate"/>
+                <data android:host="catalog"/>
+                <data android:host="category"/>
+                <data android:host="certificates"/>
+                <data android:host="checkout"/>
+                <data android:host="connected"/>
+                <data android:host="exclusive"/>
+                <data android:host="explore"/>
+                <data android:host="feed"/>
+                <data android:host="feed-for-you"/>
+                <data android:host="feed-discover"/>
+                <data android:host="gdpr"/>
+                <data android:host="homepage"/>
+                <data android:host="iwardrobing"/>
+                <data android:host="login"/>
+                <data android:host="myappointments"/>
+                <data android:host="mylv"/>
+                <data android:host="native_story"/>
+                <data android:host="myorders"/>
+                <data android:host="orderconfirmation"/>
+                <data android:host="pairingthv2"/>
+                <data android:host="portal_slider"/>
+                <data android:host="preferencecenter"/>
+                <data android:host="privacy"/>
+                <data android:host="product"/>
+                <data android:host="repairs"/>
+                <data android:host="services"/>
+                <data android:host="show"/>
+                <data android:host="storelocator"/>
+                <data android:host="storemode"/>
+                <data android:host="story"/>
+                <data android:host="thebook"/>
+                <data android:host="travels"/>
+                <data android:host="wall"/>
+                <data android:host="webview"/>
+                <data android:host="cart"/>
+                <data android:host="audioguide"/>
+                <data android:host="ai-companion"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tingyun.113905"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="videocall.louisvuitton.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="videocall-dp.louisvuitton.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="pass.louisvuitton.com"/>
+                <data android:pathPattern="/.*/app/..*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="louisvuitton.onelink.me" android:pathSuffix="/F00x/ngdfop95onelink-basic-app.onelink.me" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="www.louisvuitton.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="pass.louisvuitton.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="au.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-au/homepage"/>
+                <data android:pathPattern="/eng-au/products/.*/.*"/>
+                <data android:pathPattern="/eng-au/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-au/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-au/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-au/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-au/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-au/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="br.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/por-br/homepage"/>
+                <data android:pathPattern="/por-br/produtos/.*/.*"/>
+                <data android:pathPattern="/por-br/.*/_/N-.*"/>
+                <data android:pathPattern="/por-br/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/por-br/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/por-br/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/por-br/reportagens/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/por-br/recomendacoes/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="ca.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/fra-ca/homepage"/>
+                <data android:path="/eng-ca/homepage"/>
+                <data android:pathPattern="/fra-ca/produits/.*/.*"/>
+                <data android:pathPattern="/eng-ca/products/.*/.*"/>
+                <data android:pathPattern="/fra-ca/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ca/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ca/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ca/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ca/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ca/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ca/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ca/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ca/histoires/.*"/>
+                <data android:pathPattern="/eng-ca/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/fra-ca/suggestions/.*"/>
+                <data android:pathPattern="/eng-ca/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="ch.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/fra-ch/homepage"/>
+                <data android:path="/deu-ch/homepage"/>
+                <data android:pathPattern="/fra-ch/produits/.*/.*"/>
+                <data android:pathPattern="/deu-ch/produkte/.*/.*"/>
+                <data android:pathPattern="/fra-ch/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ch/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ch/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ch/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-ch/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-ch/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-ch/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-ch/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-ch/histoires/.*"/>
+                <data android:pathPattern="/deu-ch/geschichten/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/fra-ch/suggestions/.*"/>
+                <data android:pathPattern="/deu-ch/vorschlage/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="de.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/deu-de/homepage"/>
+                <data android:pathPattern="/deu-de/produkte/.*/.*"/>
+                <data android:pathPattern="/deu-de/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-de/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-de/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-de/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/deu-de/geschichten/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/deu-de/vorschlage/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="en.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-nl/homepage"/>
+                <data android:pathPattern="/eng-nl/products/.*/.*"/>
+                <data android:pathPattern="/eng-nl/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nl/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nl/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nl/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nl/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-nl/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="es.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/esp-es/homepage"/>
+                <data android:pathPattern="/esp-es/productos/.*/.*"/>
+                <data android:pathPattern="/esp-es/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-es/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-es/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-es/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-es/historias/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/esp-es/sugerencias/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="eu.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-e1/homepage"/>
+                <data android:pathPattern="/eng-e1/products/.*/.*"/>
+                <data android:pathPattern="/eng-e1/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-e1/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-e1/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-e1/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-e1/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-e1/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="fr.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/fra-fr/homepage"/>
+                <data android:pathPattern="/fra-fr/produits/.*/.*"/>
+                <data android:pathPattern="/fra-fr/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-fr/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-fr/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-fr/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/fra-fr/histoires/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/fra-fr/suggestions/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="hk.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-hk/homepage"/>
+                <data android:path="/zht-hk/homepage"/>
+                <data android:pathPattern="/eng-hk/products/.*/.*"/>
+                <data android:pathPattern="/zht-hk/products/.*/.*"/>
+                <data android:pathPattern="/eng-hk/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-hk/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-hk/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-hk/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-hk/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-hk/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-hk/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-hk/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-hk/stories/.*"/>
+                <data android:pathPattern="/zht-hk/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-hk/recommendations/.*"/>
+                <data android:pathPattern="/zht-hk/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="id.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-id/homepage"/>
+                <data android:pathPattern="/eng-id/products/.*/.*"/>
+                <data android:pathPattern="/eng-id/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-id/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-id/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-id/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-id/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-id/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="in.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-in/homepage"/>
+                <data android:pathPattern="/eng-in/products/.*/.*"/>
+                <data android:pathPattern="/eng-in/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-in/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-in/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-in/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-in/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-in/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="it.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/ita-it/homepage"/>
+                <data android:pathPattern="/ita-it/prodotti/.*/.*"/>
+                <data android:pathPattern="/ita-it/.*/_/N-.*"/>
+                <data android:pathPattern="/ita-it/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/ita-it/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/ita-it/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/ita-it/momenti-lv/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/ita-it/suggerimenti/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="jp.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/jpn-jp/homepage"/>
+                <data android:pathPattern="/jpn-jp/products/.*/.*"/>
+                <data android:pathPattern="/jpn-jp/.*/_/N-.*"/>
+                <data android:pathPattern="/jpn-jp/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/jpn-jp/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/jpn-jp/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/jpn-jp/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/jpn-jp/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="kr.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/kor-kr/homepage"/>
+                <data android:pathPattern="/kor-kr/products/.*/.*"/>
+                <data android:pathPattern="/kor-kr/.*/_/N-.*"/>
+                <data android:pathPattern="/kor-kr/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/kor-kr/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/kor-kr/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/kor-kr/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/kor-kr/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="la.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/esp-mx/homepage"/>
+                <data android:pathPattern="/esp-mx/productos/.*/.*"/>
+                <data android:pathPattern="/esp-mx/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-mx/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-mx/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-mx/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/esp-mx/historias/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/esp-mx/recomendaciones/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="me.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/ara-ae/homepage"/>
+                <data android:path="/eng-ae/homepage"/>
+                <data android:pathPattern="/ara-ae/products/.*/.*"/>
+                <data android:pathPattern="/eng-ae/products/.*/.*"/>
+                <data android:pathPattern="/ara-ae/.*/_/N-.*"/>
+                <data android:pathPattern="/ara-ae/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/ara-ae/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/ara-ae/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ae/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ae/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ae/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ae/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ae/stories/.*"/>
+                <data android:pathPattern="/ara-ae/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-ae/recommendations/.*"/>
+                <data android:pathPattern="/ara-ae/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="my.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-my/homepage"/>
+                <data android:pathPattern="/eng-my/products/.*/.*"/>
+                <data android:pathPattern="/eng-my/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-my/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-my/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-my/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-my/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-my/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="nz.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-nz/homepage"/>
+                <data android:pathPattern="/eng-nz/products/.*/.*"/>
+                <data android:pathPattern="/eng-nz/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nz/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nz/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nz/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-nz/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-nz/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="ph.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-ph/homepage"/>
+                <data android:pathPattern="/eng-ph/products/.*/.*"/>
+                <data android:pathPattern="/eng-ph/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ph/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ph/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ph/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-ph/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-ph/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="pl.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/pol-pl/homepage"/>
+                <data android:pathPattern="/pol-pl/produkty/.*/.*"/>
+                <data android:pathPattern="/pol-pl/.*/_/N-.*"/>
+                <data android:pathPattern="/pol-pl/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/pol-pl/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/pol-pl/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/pol-pl/historie/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/pol-pl/rekomendacje/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="ru.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/rus-ru/homepage"/>
+                <data android:pathPattern="/rus-ru/products/.*/.*"/>
+                <data android:pathPattern="/rus-ru/.*/_/N-.*"/>
+                <data android:pathPattern="/rus-ru/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/rus-ru/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/rus-ru/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/rus-ru/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/rus-ru/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="sg.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-sg/homepage"/>
+                <data android:pathPattern="/eng-sg/products/.*/.*"/>
+                <data android:pathPattern="/eng-sg/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-sg/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-sg/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-sg/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-sg/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-sg/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="th.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/tha-th/homepage"/>
+                <data android:pathPattern="/tha-th/products/.*/.*"/>
+                <data android:pathPattern="/tha-th/.*/_/N-.*"/>
+                <data android:pathPattern="/tha-th/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/tha-th/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/tha-th/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/tha-th/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/tha-th/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="tw.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/zht-tw/homepage"/>
+                <data android:pathPattern="/zht-tw/products/.*/.*"/>
+                <data android:pathPattern="/zht-tw/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-tw/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-tw/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-tw/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/zht-tw/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/zht-tw/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="uk.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-gb/homepage"/>
+                <data android:pathPattern="/eng-gb/products/.*/.*"/>
+                <data android:pathPattern="/eng-gb/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-gb/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-gb/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-gb/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-gb/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-gb/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="us.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/eng-us/homepage"/>
+                <data android:pathPattern="/eng-us/products/.*/.*"/>
+                <data android:pathPattern="/eng-us/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-us/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-us/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-us/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/eng-us/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/eng-us/recommendations/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="vn.louisvuitton.com"/>
+                <data android:pathPattern="/.*/booking/.*"/>
+                <data android:path="/vie-vn/homepage"/>
+                <data android:pathPattern="/vie-vn/products/.*/.*"/>
+                <data android:pathPattern="/vie-vn/.*/_/N-.*"/>
+                <data android:pathPattern="/vie-vn/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/vie-vn/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/vie-vn/.*/.*/.*/.*/_/N-.*"/>
+                <data android:pathPattern="/vie-vn/stories/.*"/>
+                <data android:pathPattern="/.*/mylv/wishlist"/>
+                <data android:pathPattern="/.*/mylv/wishlist/shared.*"/>
+                <data android:pathPattern="/.*/mylv/mon-profil"/>
+                <data android:pathPattern="/.*/mylv/profile"/>
+                <data android:pathPattern="/vie-vn/recommendations/.*"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.vuitton.android.presentation.screen.main.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.webview.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme.FromBottomAnimated" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.maintenance.MaintenanceActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="false" android:name="com.vuitton.android.presentation.screen.video.VideoActivity"/>
+        <activity android:name="com.vuitton.android.presentation.screen.plp.activities.CatalogPLPActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.pdp.PdpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.privacy.PrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.options.optoutprivacymenu.OptOutPrivacyMenuActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.watch.WatchActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.travel.AddTravelActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.travel.airport.AirportListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.placesearch.PlaceSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.faq.FaqActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.watch.tutorial.WatchTutorialsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.authentication.AuthenticationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.authentication.accountactivation.AccountActivationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.authentication.landing.AccountActivationLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.FashionShowWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.section.ConnectivitySectionDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.imageviewer.ImageViewerActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vuitton.android.presentation.screen.forceupdate.ForceUpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.vuitton.android.presentation.screen.pdp.ar.ProductArActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme.FullScreen"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.lightup.LightUpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.faqcategory.FaqCategoriesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.trunkspeaker.scan.ScanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.trunkspeaker.details.devicelist.WifiDeviceListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.immersivearticle.ImmersiveArticleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.thelookimmersivearticle.TheLookImmersiveArticleActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vuitton.android.presentation.screen.cart.NativeCartActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.imagepicker.ImagePickerActivity" android:screenOrientation="portrait" android:theme="@style/BaseAppTheme.FullScreen"/>
+        <activity android:name="com.vuitton.android.presentation.screen.personalselections.PersonalSelectionsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize|layoutDirection" android:hardwareAccelerated="false" android:name="com.vuitton.android.presentation.screen.livevideo.LiveVideoActivity" android:theme="@style/BaseAppTheme.FullScreen.NoTitle"/>
+        <activity android:exported="true" android:name="com.vuitton.android.presentation.screen.spotlight.SpotlightActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.story.StoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.onboarding.OnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.plp.activities.ExclusivePLPActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.portal.PortalSliderActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.vuitton.android.presentation.screen.wishlist.WishlistActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.plp.activities.SkusPLPActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.vuitton.android.presentation.screen.osa.OsaActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.myicons.MyIconsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.myinformation.MyInformationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.editavatar.EditAvatarActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.exclusivesales.ExclusiveSalesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.lvpass.LVPassActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.inbox.InboxActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.testenvironment.EnvironmentListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.options.notifications.NotificationsPreferencesActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|screenLayout|layoutDirection" android:name="com.vuitton.android.presentation.screen.options.dispatch.DispatchCountryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.options.legaltext.LegalTextActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.options.settings.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.search.SearchActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.addresseditor.AddressEditorActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="locale|screenLayout|layoutDirection" android:name="com.vuitton.android.presentation.screen.options.OptionsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.connectivity.home.ConnectivityActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.certificates.CertificateActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.orders.OrderActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.repairs.cancellationreasons.CancellationReasonsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.repairs.cancellationreasons.bff.CancellationReasonsBffActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.account.addressbook.AddressBookActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.filter.quickaccess.FiltersOverlayActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.vuitton.android.presentation.screen.repairs.RepairActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.pdp.vto.beauty.BeautyVtoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.thankyou.ThankYouActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.booking.BookingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screen.booking.MyExperiencesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.mylv.MyLvActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.audioguide.AudioGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.aicompanion.AICompanionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.vuitton.android.presentation.screenshaker.ScreenShakerDebugActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vuitton.android.presentation.screen.authentication.social.SocialRegisterActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity" android:theme="@style/TransparentCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="oauth" android:scheme="kakaofc899a1cb7685e71a91662099451701f"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:foregroundServiceType="mediaPlayback" android:name="com.vuitton.android.data.audioplayer.AudioPlayerService">
+            <intent-filter>
+                <action android:name="androidx.media3.session.MediaSessionService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.vuitton.android.presentation.push.AppsFlyerFcmService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.vuitton.android.presentation.screen.maintenance.CheckMaintenanceStatusService"/>
+        <service android:exported="false" android:name="com.vuitton.android.presentation.servicerecovery.RecoveryToolForService"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.appcompat.app.AppLocalesMetadataHolderService">
+            <meta-data android:name="autoStoreLocales" android:value="true"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:name="com.cyberfend.cyfsecurity.CCADialogActivity" android:theme="@style/DialogActivity"/>
+        <service android:exported="false" android:name="com.cyberfend.cyfsecurity.CYFWebViewService" android:process=":com.akamai.webview.process"/>
+        <receiver android:exported="false" android:name="com.cyberfend.cyfsecurity.CYFWebViewBroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.akamai.webview.data"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.vuitton.android.akamai.webviewinit" android:exported="false" android:name="com.cyberfend.cyfsecurity.CYFWebViewInitProvider" android:process=":com.akamai.webview.process"/>
+        <provider android:authorities="com.vuitton.android.sdkinitprovider" android:exported="false" android:name="com.cyberfend.cyfsecurity.SoLibraryInitProvider"/>
+        <activity android:exported="true" android:name="com.linkplay.lpmdpkit.utils.LPCustomTabsCallbackActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="@string/lp_custom_tabs_deep_link_host" android:scheme="@string/lp_custom_tabs_deep_link_scheme"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.networkbench.agent.impl.oom.javaoom.monitor.analysis.HeapAnalysisService" android:process=":tingyun_heap_analysis"/>
+        <provider android:authorities="com.vuitton.android.cropper.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.canhub.cropper.CropFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/cropper_library_file_paths"/>
+        </provider>
+        <activity android:exported="true" android:name="com.canhub.cropper.CropImageActivity"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing" android:value="true"/>
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
+        <provider android:authorities="com.vuitton.android.universalinitprovider" android:enabled="@bool/universal_init_provider_enabled" android:exported="false" android:initOrder="@integer/universal_init_provider_order" android:name="com.sightcall.universal.internal.provider.UniversalInitProvider"/>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="camera|microphone" android:name="com.sightcall.universal.scenario.ScenarioService"/>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="mediaProjection" android:name="com.sightcall.universal.screencast.MediaProjectionService" android:permission="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+        <activity android:exported="true" android:name="com.sightcall.core.experiences.DeeplinkActivity" android:targetActivity="com.sightcall.core.experiences.DeeplinkActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="@string/universal_feature_deeplink_uri"/>
+                <data android:host="@string/universal_feature_deeplink_uri_secondary"/>
+                <data android:host="@string/universal_feature_deeplink_uri_tertiary"/>
+                <data android:host="@string/universal_feature_deeplink_uri_quaternary"/>
+                <data android:pathPattern="/call/..*"/>
+                <data android:pathPattern="/mobile/..*"/>
+                <data android:pathPattern="/app_webrtc/..*"/>
+                <data android:pathPattern="/register/..*"/>
+                <data android:pathPattern="/debug/..*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/universal_feature_deeplink_scheme"/>
+                <data android:host="*"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="@bool/universal_feature_loading_activity" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.sightcall.universal.ui.UniversalLoadingActivity" android:taskAffinity="com.vuitton.android.universal.loading" android:theme="@style/universal_Theme.Activity.Loading"/>
+        <meta-data android:name="com.sightcall.universal.LoadingActivity" android:value="com.sightcall.universal.ui.UniversalLoadingActivity"/>
+        <meta-data android:name="com.sightcall.universal.ui.DisplayActivity" android:value="com.sightcall.universal.ui.UniversalDisplayActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.sightcall.universal.permission.PermissionsActivity" android:taskAffinity="com.vuitton.android.universal.loading" android:theme="@style/universal_Theme.Activity.Dialog.NoDim"/>
+        <activity android:enabled="@bool/universal_feature_agent_notifications" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.sightcall.universal.agent.UniversalAgentCallPendingActivity" android:noHistory="true" android:theme="@style/universal_Theme.Activity.Dialog.NoDim"/>
+        <activity android:launchMode="singleTask" android:name="com.sightcall.universal.internal.ui.CallActivity" android:screenOrientation="sensor" android:taskAffinity="com.vuitton.android.universal.call" android:theme="@style/universal_Theme.Activity.Call" android:windowSoftInputMode="adjustNothing">
+            <meta-data android:name="com.samsung.android.non_immersive" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.sightcall.universal.internal.ui.SurveyActivity" android:noHistory="true" android:theme="@style/universal_Theme.Activity.Dialog.NoDim"/>
+        <provider android:authorities="com.vuitton.android.universalfileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.sightcall.universal.internal.UniversalFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/universal_file_provider_paths"/>
+        </provider>
+        <service android:enabled="@bool/universal_feature_fcm" android:exported="false" android:name="com.sightcall.universal.fcm.FcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.sightcall.universal.media.offline.OfflineMediaService$OfflineNotificationActionReceiver"/>
+        <receiver android:exported="false" android:name="com.sightcall.universal.internal.receiver.UniversalNotificationBroadcastReceiver"/>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="dataSync" android:name="com.sightcall.universal.media.UploaderService"/>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="dataSync" android:name="com.sightcall.universal.media.offline.OfflineMediaService"/>
+        <service android:exported="false" android:foregroundServiceType="microphone" android:name="com.sightcall.universal.media.AudioForegroundService"/>
+        <activity android:name="com.linecorp.linesdk.openchat.ui.CreateOpenChatActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationActivity" android:theme="@style/LineSdk_AuthenticationActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="lineauth"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.kakao.sdk.auth.TalkAuthCodeActivity" android:theme="@style/TransparentCompat"/>
+        <activity android:launchMode="singleTask" android:name="com.kakao.sdk.auth.AppsHandlerActivity" android:theme="@style/TransparentCompat"/>
+        <service android:enabled="true" android:exported="false" android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder">
+            <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.HiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.tagmanager.TagManagerService"/>
+        <activity android:exported="true" android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity" android:noHistory="true">
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.vuitton.android"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <service android:directBootAware="true" android:exported="false" android:name="com.batch.android.eventdispatcher.DispatcherDiscoveryService">
+            <meta-data android:name="com.batch.android.eventdispatcher:com.batch.android.dispatcher.firebase.FirebaseRegistrar" android:value="com.batch.android.eventdispatcher.DispatcherRegistrar"/>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:exported="false" android:name="com.batch.android.MessagingActivity" android:theme="@style/com_batchsdk_MessagingActivityTheme"/>
+        <activity android:exported="false" android:name="com.batch.android.BatchActionActivity" android:theme="@style/com_batchsdk_ActionActivityTheme"/>
+        <activity android:exported="false" android:name="com.batch.android.BatchPermissionActivity" android:theme="@style/com_batchsdk_PermissionActivityTheme"/>
+        <activity android:exported="false" android:name="com.batch.android.debug.BatchDebugActivity" android:theme="@style/com_batchsdk_DebugActivityTheme"/>
+        <service android:exported="false" android:name="com.batch.android.BatchActionService"/>
+        <service android:exported="false" android:name="com.batch.android.BatchPushService"/>
+        <service android:exported="false" android:name="com.batch.android.BatchPushJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.batch.android.BatchDisplayReceiptJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.batch.android.push.PushRegistrationDiscoveryService"/>
+        <receiver android:exported="true" android:name="com.batch.android.BatchPushMessageReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.vuitton.android"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.batch.android.BatchPushMessageDismissReceiver"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.vuitton.android.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="253130000"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.google.ar.core.InstallActivity" android:theme="@android:style/Theme.Material.Light.Dialog.Alert"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <provider android:authorities="com.vuitton.android.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="com.vuitton.android"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.3.0"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <provider android:authorities="com.vuitton.android.iceteck.silicompressor.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.iceteck.silicompressorr.provider.GenericFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    </application>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+</manifest>

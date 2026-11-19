@@ -1,0 +1,46 @@
+.class public interface abstract Larrow/core/extensions/OptionMonoid;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Larrow/typeclasses/Monoid;
+.implements Larrow/core/extensions/OptionSemigroup;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<A:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Larrow/typeclasses/Monoid<",
+        "Ljava/lang/Object;",
+        ">;",
+        "Larrow/core/extensions/OptionSemigroup<",
+        "TA;>;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Deprecated;
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\u0008g\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00000\u00030\u00022\u0008\u0012\u0004\u0012\u00028\u00000\u0004\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "Larrow/core/extensions/OptionMonoid;",
+        "A",
+        "Larrow/typeclasses/Monoid;",
+        "",
+        "Larrow/core/extensions/OptionSemigroup;",
+        "arrow-core"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x4,
+        0x2
+    }
+.end annotation

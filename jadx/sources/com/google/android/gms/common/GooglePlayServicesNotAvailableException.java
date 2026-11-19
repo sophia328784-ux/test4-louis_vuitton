@@ -1,0 +1,7 @@
+package com.google.android.gms.common;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class GooglePlayServicesNotAvailableException extends Exception {
+    public GooglePlayServicesNotAvailableException(int i2) {
+    }
+}

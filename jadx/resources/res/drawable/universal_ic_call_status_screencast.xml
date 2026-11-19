@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item
+        android:duration="666"
+        android:drawable="@drawable/universal_ic_call_status_screencast_0"/>
+    <item
+        android:duration="333"
+        android:drawable="@drawable/universal_ic_call_status_screencast_1"/>
+    <item
+        android:duration="333"
+        android:drawable="@drawable/universal_ic_call_status_screencast_2"/>
+    <item
+        android:duration="333"
+        android:drawable="@drawable/universal_ic_call_status_screencast_3"/>
+</animation-list>

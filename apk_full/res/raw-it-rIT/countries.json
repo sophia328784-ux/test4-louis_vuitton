@@ -1,0 +1,1182 @@
+﻿[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "prefix": "+93"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "prefix": "+355"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "prefix": "+213"
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "prefix": "+376"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "prefix": "+244"
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "prefix": "+1264"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua e Barbuda",
+    "prefix": "+1268"
+  },
+  {
+    "code": "SA",
+    "name": "Arabia Saudita",
+    "prefix": "+966"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "prefix": "+54"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "prefix": "+374"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "prefix": "+297"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "prefix": "+61"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "prefix": "+43"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaigian",
+    "prefix": "+994"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "prefix": "+1242"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrein",
+    "prefix": "+973"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "prefix": "+880"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "prefix": "+1246"
+  },
+  {
+    "code": "BE",
+    "name": "Belgio",
+    "prefix": "+32"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "prefix": "+501"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "prefix": "+229"
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "prefix": "+1441"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "prefix": "+975"
+  },
+  {
+    "code": "BY",
+    "name": "Bielorussia",
+    "prefix": "+375"
+  },
+  {
+    "code": "MM",
+    "name": "Birmania",
+    "prefix": "+95"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "prefix": "+591"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia-Erzegovina",
+    "prefix": "+387"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "prefix": "+267"
+  },
+  {
+    "code": "BR",
+    "name": "Brasile",
+    "prefix": "+55"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "prefix": "+673"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "prefix": "+359"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "prefix": "+226"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "prefix": "+257"
+  },
+  {
+    "code": "KH",
+    "name": "Cambogia",
+    "prefix": "+855"
+  },
+  {
+    "code": "CM",
+    "name": "Camerun",
+    "prefix": "+237"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "prefix": "+1"
+  },
+  {
+    "code": "CV",
+    "name": "Capo Verde",
+    "prefix": "+238"
+  },
+  {
+    "code": "TD",
+    "name": "Ciad",
+    "prefix": "+235"
+  },
+  {
+    "code": "CL",
+    "name": "Cile",
+    "prefix": "+56"
+  },
+  {
+    "code": "CN",
+    "name": "Cina",
+    "prefix": "+86"
+  },
+  {
+    "code": "CY",
+    "name": "Cipro",
+    "prefix": "+357"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "prefix": "+57"
+  },
+  {
+    "code": "KM",
+    "name": "Comore",
+    "prefix": "+269"
+  },
+  {
+    "code": "CG",
+    "name": "Congo",
+    "prefix": "+242"
+  },
+  {
+    "code": "CD",
+    "name": "Congo (ex Zaire)",
+    "prefix": "+243"
+  },
+  {
+    "code": "KP",
+    "name": "Corea del Nord",
+    "prefix": "+850"
+  },
+  {
+    "code": "KR",
+    "name": "Corea del Sud",
+    "prefix": "+82"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "prefix": "+506"
+  },
+  {
+    "code": "CI",
+    "name": "Costa d'Avorio",
+    "prefix": "+225"
+  },
+  {
+    "code": "HR",
+    "name": "Croazia",
+    "prefix": "+385"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "prefix": "+53"
+  },
+  {
+    "code": "CW",
+    "name": "Curacao",
+    "prefix": "+599"
+  },
+  {
+    "code": "DK",
+    "name": "Danimarca",
+    "prefix": "+45"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "prefix": "+1767"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "prefix": "+593"
+  },
+  {
+    "code": "EG",
+    "name": "Egitto",
+    "prefix": "+20"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "prefix": "+503"
+  },
+  {
+    "code": "AE",
+    "name": "Emirati arabi uniti",
+    "prefix": "+971"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "prefix": "+291"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "prefix": "+372"
+  },
+  {
+    "code": "ET",
+    "name": "Etiopia",
+    "prefix": "+251"
+  },
+  {
+    "code": "FO",
+    "name": "Faerøerne",
+    "prefix": "+298"
+  },
+  {
+    "code": "FJ",
+    "name": "Figi",
+    "prefix": "+679"
+  },
+  {
+    "code": "PH",
+    "name": "Filippine",
+    "prefix": "+63"
+  },
+  {
+    "code": "FI",
+    "name": "Finlandia",
+    "prefix": "+358"
+  },
+  {
+    "code": "FR",
+    "name": "Francia",
+    "prefix": "+33"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "prefix": "+241"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "prefix": "+220"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "prefix": "+995"
+  },
+  {
+    "code": "DE",
+    "name": "Germania",
+    "prefix": "+49"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "prefix": "+233"
+  },
+  {
+    "code": "JM",
+    "name": "Giamaica",
+    "prefix": "+1876"
+  },
+  {
+    "code": "JP",
+    "name": "Giappone",
+    "prefix": "+81"
+  },
+  {
+    "code": "GI",
+    "name": "Gibilterra",
+    "prefix": "+350"
+  },
+  {
+    "code": "DJ",
+    "name": "Gibuti",
+    "prefix": "+253"
+  },
+  {
+    "code": "JO",
+    "name": "Giordania",
+    "prefix": "+962"
+  },
+  {
+    "code": "GR",
+    "name": "Grecia",
+    "prefix": "+30"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "prefix": "+1473"
+  },
+  {
+    "code": "GL",
+    "name": "Groenlandia",
+    "prefix": "+299"
+  },
+  {
+    "code": "GP",
+    "name": "Guadalupa",
+    "prefix": "+590"
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "prefix": "+1671"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "prefix": "+502"
+  },
+  {
+    "code": "GF",
+    "name": "Guiana francese",
+    "prefix": "+594"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "prefix": "+224"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea Bissau",
+    "prefix": "+245"
+  },
+  {
+    "code": "GQ",
+    "name": "Guinea Equatoriale",
+    "prefix": "+240"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "prefix": "+592"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "prefix": "+509"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "prefix": "+504"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong SAR",
+    "prefix": "+852"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "prefix": "+91"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "prefix": "+62"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "prefix": "+98"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "prefix": "+964"
+  },
+  {
+    "code": "IE",
+    "name": "Irlanda",
+    "prefix": "+353"
+  },
+  {
+    "code": "IS",
+    "name": "Islanda",
+    "prefix": "+354"
+  },
+  {
+    "code": "CX",
+    "name": "Isola Christmas",
+    "prefix": "+672"
+  },
+  {
+    "code": "KY",
+    "name": "Isole Cayman",
+    "prefix": "+1345"
+  },
+  {
+    "code": "CC",
+    "name": "Isole Cocos",
+    "prefix": "+672"
+  },
+  {
+    "code": "CK",
+    "name": "Isole Cook",
+    "prefix": "+682"
+  },
+  {
+    "code": "FK",
+    "name": "Isole Falkland",
+    "prefix": "+500"
+  },
+  {
+    "code": "HM",
+    "name": "Isole Heard e McDonald",
+    "prefix": "+672"
+  },
+  {
+    "code": "MH",
+    "name": "Isole Marshall",
+    "prefix": "+692"
+  },
+  {
+    "code": "PN",
+    "name": "Isole Pitcairn",
+    "prefix": "+64"
+  },
+  {
+    "code": "SB",
+    "name": "Isole Salomone",
+    "prefix": "+677"
+  },
+  {
+    "code": "TC",
+    "name": "Isole Turks e Caicos",
+    "prefix": "+1649"
+  },
+  {
+    "code": "VI",
+    "name": "Isole Vergini americane",
+    "prefix": "+1340"
+  },
+  {
+    "code": "VG",
+    "name": "Isole Vergini britanniche",
+    "prefix": "+1284"
+  },
+  {
+    "code": "IL",
+    "name": "Israele",
+    "prefix": "+972"
+  },
+  {
+    "code": "IT",
+    "name": "Italia",
+    "prefix": "+39"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakistan",
+    "prefix": "+7"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "prefix": "+254"
+  },
+  {
+    "code": "KG",
+    "name": "Kirghizistan",
+    "prefix": "+996"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "prefix": "+686"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "prefix": "+377"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "prefix": "+965"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "prefix": "+856"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "prefix": "+266"
+  },
+  {
+    "code": "LV",
+    "name": "Lettonia",
+    "prefix": "+371"
+  },
+  {
+    "code": "LB",
+    "name": "Libano",
+    "prefix": "+961"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "prefix": "+231"
+  },
+  {
+    "code": "LY",
+    "name": "Libia",
+    "prefix": "+218"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "prefix": "+423"
+  },
+  {
+    "code": "LT",
+    "name": "Lituania",
+    "prefix": "+370"
+  },
+  {
+    "code": "LU",
+    "name": "Lussemburgo",
+    "prefix": "+352"
+  },
+  {
+    "code": "MO",
+    "name": "Macau SAR",
+    "prefix": "+853"
+  },
+  {
+    "code": "MK",
+    "name": "Macedonia",
+    "prefix": "+389"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "prefix": "+261"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "prefix": "+265"
+  },
+  {
+    "code": "MV",
+    "name": "Maldive",
+    "prefix": "+960"
+  },
+  {
+    "code": "MY",
+    "name": "Malesia",
+    "prefix": "+60"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "prefix": "+223"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "prefix": "+356"
+  },
+  {
+    "code": "MP",
+    "name": "Marianne settentrionali",
+    "prefix": "+1670"
+  },
+  {
+    "code": "MA",
+    "name": "Marocco",
+    "prefix": "+212"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinica",
+    "prefix": "+596"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "prefix": "+222"
+  },
+  {
+    "code": "MU",
+    "name": "Maurizio",
+    "prefix": "+230"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "prefix": "+262"
+  },
+  {
+    "code": "MX",
+    "name": "Messico",
+    "prefix": "+52"
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "prefix": "+691"
+  },
+  {
+    "code": "MD",
+    "name": "Moldavia",
+    "prefix": "+373"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "prefix": "+377"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "prefix": "+976"
+  },
+  {
+    "code": "MS",
+    "name": "Monserrat",
+    "prefix": "+1664"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "prefix": "+382"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambico",
+    "prefix": "+258"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "prefix": "+264"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "prefix": "+674"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "prefix": "+977"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "prefix": "+505"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "prefix": "+227"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "prefix": "+234"
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "prefix": "+683"
+  },
+  {
+    "code": "NO",
+    "name": "Norvegia",
+    "prefix": "+47"
+  },
+  {
+    "code": "NC",
+    "name": "Nuova Caledonia",
+    "prefix": "+687"
+  },
+  {
+    "code": "NZ",
+    "name": "Nuova Zelanda",
+    "prefix": "+64"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "prefix": "+968"
+  },
+  {
+    "code": "NL",
+    "name": "Paesi Bassi",
+    "prefix": "+31"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "prefix": "+92"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "prefix": "+680"
+  },
+  {
+    "code": "PS",
+    "name": "Palestina",
+    "prefix": "+970"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "prefix": "+507"
+  },
+  {
+    "code": "PG",
+    "name": "Papua Nuova Guinea",
+    "prefix": "+675"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "prefix": "+595"
+  },
+  {
+    "code": "PE",
+    "name": "Perù",
+    "prefix": "+51"
+  },
+  {
+    "code": "PF",
+    "name": "Polinesia francese",
+    "prefix": "+689"
+  },
+  {
+    "code": "PL",
+    "name": "Polonia",
+    "prefix": "+48"
+  },
+  {
+    "code": "PT",
+    "name": "Portogallo",
+    "prefix": "+351"
+  },
+  {
+    "code": "PR",
+    "name": "Portorico",
+    "prefix": "+1"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "prefix": "+974"
+  },
+  {
+    "code": "GB",
+    "name": "Regno Unito",
+    "prefix": "+44"
+  },
+  {
+    "code": "CF",
+    "name": "Repubblica Centrafricana",
+    "prefix": "+236"
+  },
+  {
+    "code": "CZ",
+    "name": "Repubblica ceca",
+    "prefix": "+420"
+  },
+  {
+    "code": "DO",
+    "name": "Repubblica dominicana",
+    "prefix": "+1"
+  },
+  {
+    "code": "RE",
+    "name": "Riunione",
+    "prefix": "+262"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "prefix": "+40"
+  },
+  {
+    "code": "RW",
+    "name": "Ruanda",
+    "prefix": "+250"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "prefix": "+7"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Christopher e Nevis",
+    "prefix": "+1869"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "prefix": "+1758"
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "prefix": "+590"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent e Grenadine",
+    "prefix": "+1784"
+  },
+  {
+    "code": "PM",
+    "name": "Saint-Pierre e Miquelon",
+    "prefix": "+508"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "prefix": "+685"
+  },
+  {
+    "code": "AS",
+    "name": "Samoa americane",
+    "prefix": "+1684"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "prefix": "+378"
+  },
+  {
+    "code": "SH",
+    "name": "Sant'Elena",
+    "prefix": "+290"
+  },
+  {
+    "code": "SC",
+    "name": "Seicelle",
+    "prefix": "+248"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "prefix": "+221"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "prefix": "+381"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "prefix": "+232"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "prefix": "+65"
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "prefix": "+1721"
+  },
+  {
+    "code": "SY",
+    "name": "Siria",
+    "prefix": "+963"
+  },
+  {
+    "code": "SK",
+    "name": "Slovacchia",
+    "prefix": "+421"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "prefix": "+386"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "prefix": "+252"
+  },
+  {
+    "code": "ES",
+    "name": "Spagna",
+    "prefix": "+34"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "prefix": "+94"
+  },
+  {
+    "code": "US",
+    "name": "Stati Uniti",
+    "prefix": "+1"
+  },
+  {
+    "code": "SS",
+    "name": "Sud Sudan",
+    "prefix": "+211"
+  },
+  {
+    "code": "ZA",
+    "name": "Sudafrica",
+    "prefix": "+27"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "prefix": "+249"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "prefix": "+597"
+  },
+  {
+    "code": "SE",
+    "name": "Svezia",
+    "prefix": "+46"
+  },
+  {
+    "code": "CH",
+    "name": "Svizzera",
+    "prefix": "+41"
+  },
+  {
+    "code": "SZ",
+    "name": "Swaziland",
+    "prefix": "+268"
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé e Príncipe",
+    "prefix": "+239"
+  },
+  {
+    "code": "TJ",
+    "name": "Tagikistan",
+    "prefix": "+992"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "prefix": "+886"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "prefix": "+255"
+  },
+  {
+    "code": "IO",
+    "name": "Territorio britannico dell'Oceano Indiano",
+    "prefix": "+246"
+  },
+  {
+    "code": "TH",
+    "name": "Thailandia",
+    "prefix": "+66"
+  },
+  {
+    "code": "TL",
+    "name": "Timor orientale",
+    "prefix": "+670"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "prefix": "+228"
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "prefix": "+690"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "prefix": "+676"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad e Tobago",
+    "prefix": "+1868"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "prefix": "+216"
+  },
+  {
+    "code": "TR",
+    "name": "Turchia",
+    "prefix": "+90"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "prefix": "+993"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "prefix": "+688"
+  },
+  {
+    "code": "UA",
+    "name": "Ucraina",
+    "prefix": "+380"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "prefix": "+256"
+  },
+  {
+    "code": "HU",
+    "name": "Ungheria",
+    "prefix": "+36"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "prefix": "+598"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "prefix": "+998"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "prefix": "+678"
+  },
+  {
+    "code": "VA",
+    "name": "Vaticano",
+    "prefix": "+379"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "prefix": "+58"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "prefix": "+84"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis e Futuna",
+    "prefix": "+681"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "prefix": "+967"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "prefix": "+260"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "prefix": "+263"
+  }
+]

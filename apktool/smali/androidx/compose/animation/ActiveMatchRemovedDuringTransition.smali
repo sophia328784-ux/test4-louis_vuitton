@@ -1,0 +1,113 @@
+.class public final Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;
+.super Landroidx/compose/animation/MatchIsOrHasBeenConfigured;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0001\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\u0008"
+    }
+    d2 = {
+        "Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;",
+        "Landroidx/compose/animation/MatchIsOrHasBeenConfigured;",
+        "Landroidx/compose/animation/TargetData;",
+        "targetData",
+        "Landroidx/compose/ui/geometry/Rect;",
+        "currentBounds",
+        "<init>",
+        "(Landroidx/compose/animation/TargetData;Landroidx/compose/ui/geometry/Rect;)V",
+        "animation"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final a:Landroidx/compose/animation/TargetData;
+
+.field public final b:Landroidx/compose/runtime/MutableState;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/compose/animation/TargetData;Landroidx/compose/ui/geometry/Rect;)V
+    .locals 0
+
+    invoke-direct {p0}, Landroidx/compose/animation/MatchIsOrHasBeenConfigured;-><init>()V
+
+    iput-object p1, p0, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->a:Landroidx/compose/animation/TargetData;
+
+    invoke-static {p2}, Landroidx/compose/runtime/SnapshotStateKt;->g(Ljava/lang/Object;)Landroidx/compose/runtime/MutableState;
+
+    move-result-object p1
+
+    iput-object p1, p0, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->b:Landroidx/compose/runtime/MutableState;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()Landroidx/compose/ui/geometry/Rect;
+    .locals 0
+
+    iget-object p0, p0, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->b:Landroidx/compose/runtime/MutableState;
+
+    check-cast p0, Landroidx/compose/runtime/SnapshotMutableStateImpl;
+
+    invoke-virtual {p0}, Landroidx/compose/runtime/SnapshotMutableStateImpl;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroidx/compose/ui/geometry/Rect;
+
+    return-object p0
+.end method
+
+.method public final e()Landroidx/compose/animation/TargetData;
+    .locals 0
+
+    iget-object p0, p0, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->a:Landroidx/compose/animation/TargetData;
+
+    return-object p0
+.end method
+
+.method public final g(Landroidx/compose/animation/BoundsProvider;)Landroidx/compose/animation/SharedTransitionStateMachine$State;
+    .locals 2
+
+    new-instance v0, Landroidx/compose/animation/ActiveMatchFoundConfigPending;
+
+    iget-object v1, p0, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->a:Landroidx/compose/animation/TargetData;
+
+    invoke-virtual {p0}, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->c()Landroidx/compose/ui/geometry/Rect;
+
+    move-result-object p0
+
+    invoke-direct {v0, p1, v1, p0}, Landroidx/compose/animation/ActiveMatchFoundConfigPending;-><init>(Landroidx/compose/animation/BoundsProvider;Landroidx/compose/animation/TargetData;Landroidx/compose/ui/geometry/Rect;)V
+
+    return-object v0
+.end method
+
+.method public final h()Landroidx/compose/animation/SharedTransitionStateMachine$State;
+    .locals 0
+
+    return-object p0
+.end method
+
+.method public final i(Landroidx/compose/ui/geometry/Rect;)V
+    .locals 0
+
+    iget-object p0, p0, Landroidx/compose/animation/ActiveMatchRemovedDuringTransition;->b:Landroidx/compose/runtime/MutableState;
+
+    check-cast p0, Landroidx/compose/runtime/SnapshotMutableStateImpl;
+
+    invoke-virtual {p0, p1}, Landroidx/compose/runtime/SnapshotMutableStateImpl;->setValue(Ljava/lang/Object;)V
+
+    return-void
+.end method

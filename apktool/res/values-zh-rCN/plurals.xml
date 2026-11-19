@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_cart_number_of_products">
+        <item quantity="zero">未添加产品</item>
+        <item quantity="other">已添加 %d 件产品</item>
+    </plurals>
+    <plurals name="alt_colors_available">
+        <item quantity="zero">没有可选的颜色。</item>
+        <item quantity="other">%d 种颜色可选</item>
+    </plurals>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">无产品</item>
+        <item quantity="other">%d 件产品</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">显示 %1$d 产品</item>
+        <item quantity="other">显示 %1$d 产品</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="other">%1$d 颜色</item>
+    </plurals>
+    <plurals name="dr_history_header">
+        <item quantity="zero">无维修历史记录</item>
+        <item quantity="other">%1$d 项维修记录</item>
+    </plurals>
+    <plurals name="dr_ongoing_header">
+        <item quantity="zero">没有正在进行中的维修订单</item>
+        <item quantity="other">%1$d 项维修记录</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">维修进行中</item>
+        <item quantity="other">维修进行中</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快进 %d 秒</item>
+        <item quantity="other">快进 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">快退 %d 秒</item>
+        <item quantity="other">快退 %d 秒</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">无搜索结果 \"%2$s\"</item>
+        <item quantity="other">%1$d 搜索结果</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">造型</item>
+        <item quantity="other">所有 %1$d 造型</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 条新通知</item>
+        <item quantity="other">%d 条新通知</item>
+    </plurals>
+    <plurals name="multiple_add_to_cart_success_message">
+        <item quantity="zero">您的购物袋中没有添加产品。</item>
+        <item quantity="other">%d 件产品已添加到您的购物袋。</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">无产品</item>
+        <item quantity="other">%d 件产品</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">您没有预约的历史记录</item>
+        <item quantity="other">%1$d 次预约</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">已经预约</item>
+        <item quantity="other">已经预约</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">您没有进行中的预约</item>
+        <item quantity="other">%1$d 次预约</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">%1$d 件产品</item>
+        <item quantity="other">%1$d 件产品</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">%1$d个关于“%2$s”的搜索结果</item>
+        <item quantity="other">%1$d个关于“%2$s”的搜索结果</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">暂无物品</item>
+        <item quantity="other">%d 件物品</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">没有预约</item>
+        <item quantity="other">%d 场预约</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">%d 项证书</item>
+        <item quantity="other">%d 项证书</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">无维修历史记录</item>
+        <item quantity="other">%d 项维修记录</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">%1$d 个订单</item>
+        <item quantity="other">%d 个订单</item>
+    </plurals>
+</resources>

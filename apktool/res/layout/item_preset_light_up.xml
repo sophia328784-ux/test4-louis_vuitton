@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shadow_patch_8dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/image_preset" android:layout_width="@dimen/connectivity_connected_object_width" android:layout_height="@dimen/connectivity_connected_object_width" />
+                <ImageView android:layout_gravity="end" android:id="@id/image_preset_selected_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:src="@drawable/ic_check_repaint" android:layout_marginEnd="@dimen/default_spacing" />
+            </FrameLayout>
+            <TextView android:gravity="center_vertical" android:id="@id/text_preset_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/double_spacing" android:lines="2" android:textAllCaps="true" style="@style/ListLabelMMediumLeftDark" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/toolbar_title" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:layout_marginStart="56.0dp" android:layout_marginEnd="56.0dp" style="@style/ListLabelXlMediumCenterDark" />
+</FrameLayout>

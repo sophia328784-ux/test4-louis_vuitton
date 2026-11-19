@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Find_in_store_access_required">Предоставьте Louis Vuitton доступ к вашему местоположению для поиска ближайшего магазина.</string>
+    <string name="Pdp_YMAL">Вам также может понравиться</string>
+    <string name="Speaker_Trunk_BT_Subtitle">Поставьте левый переключатель в положение BLUETOOTH.</string>
+    <string name="Speaker_Trunk_BT_Title">ВЫБЕРИТЕ РЕЖИМ BLUETOOTH</string>
+    <string name="Speaker_Trunk_BT_Tuto_Android_Subtitle">"Нажмите кнопку далее, чтобы открыть настройки вашего телефона. 
+В разделе Bluetooth выберите колонку “Trunk Speaker PM XXXX” или “Trunk Speaker GM XXXX”.
+Когда ваше между вашим устройством и колонкой будет создана пара, вы сможете воспроизводить аудио через любое приложение."</string>
+    <string name="Speaker_Trunk_BT_Tuto_Title">ПОДКЛЮЧИТЕ ВАШЕ УСТРОЙСТВО ЧЕРЕЗ BLUETOOTH</string>
+    <string name="Speaker_Trunk_Pairing_Mode_Activation_Subtitle">Удерживайте кнопку PAIR в течении 5 секунд.</string>
+    <string name="Speaker_Trunk_Pairing_Mode_Activation_Title">Выберите способ подключения Speaker Trunk к приложению LVApp</string>
+    <string name="Speaker_Trunk_Pairing_Selection">Подключение через WiFi или Bluetooth</string>
+    <string name="Speaker_Trunk_Turn_On_Speaker_Title">Включите вашу колонку</string>
+    <string name="Speaker_Trunk_Turn_On_Speaker_Turn_On_Subtitle">Поставьте переключатель в положение ON и подождите, пока загорится лампочка начнёт мигать.</string>
+    <string name="Speaker_Trunk_Wifi_Subtitle">Поставьте левый переключатель в режим WIFI</string>
+    <string name="Speaker_Trunk_Wifi_Title">ВЫБРАТЬ РЕЖИМ WI-FI</string>
+    <string name="Speaker_trunk_connect_speaker_to_wifi_title">Подключить вашу колонку к Wifi</string>
+    <string name="TRUNK_SPEAKER_INFORMATIONS">ИНФОРМАЦИЯ О КОЛОНКЕ</string>
+    <string name="add_address_title">Добавить новый адрес</string>
+    <string name="add_new_objects">Добавить новое устройство</string>
+    <string name="add_phone_number">Добавить ещё один номер телефона</string>
+    <string name="add_travel">Добавить новое путешествие</string>
+    <string name="added_to_cart">Добавить в корзину</string>
+    <string name="alert_rooted_device_text">Рутированное или эмулированное устройство не является надёжным. Вы не сможете получить доступ к приложению.</string>
+    <string name="alert_rooted_device_title">Обнаружено рутированное или эмулированное устройство</string>
+    <string name="all">Все</string>
+    <string name="all_fields_mandatory_label">Все поля обязательны для заполнения.</string>
+    <string name="alt_actions_available">Доступные действия.</string>
+    <string name="alt_back">Назад</string>
+    <string name="alt_close">Закрыть</string>
+    <string name="alt_edit">Редактировать</string>
+    <string name="alt_out_of_stock">Нет в наличии</string>
+    <string name="alt_play">Включить проигрывание</string>
+    <string name="alt_remove">Удалить</string>
+    <string name="ar_experience_access_error">Ошибка доступа</string>
+    <string name="ar_experience_go_to_settings">Открыть настройки</string>
+    <string name="ar_experience_please_accept">Приложению Louis Vuitton необходим доступ к камере для данной функции. Откройте настройки приложения, чтобы разрешить доступ к камере.</string>
+    <string name="arrival">Прибытие</string>
+    <string name="arty_capucines_acquired_date">Дата приобретения</string>
+    <string name="arty_capucines_bb_hy_description">Впервые выпущенная в 2021 году модель Artycapucines Хуан Юсина основана на специально созданной версии его картины \"Колосс, спрятанный в глубине холмов\". Контур стилизованного пейзажа был сначала напечатан на бело-серой коже, затем вышит зеленой нитью для придания перспективы, а для придания дополнительной фактуры и движения были добавлены радужные горы вышивки тафтинговым стежком. Случайные капли краски воспроизведены и подчеркнуты голубыми люрексовыми вышивками. Внутренняя отделка сумки цвета фуксии и эмалевый логотип LV придают ей изысканный вид.</string>
+    <string name="arty_capucines_bb_hy_material">Яловья кожа, отделка из яловьей кожи, текстильная подкладка, фурнитура цвета золота и эмали</string>
+    <string name="arty_capucines_bb_psb_description">Сумка Artycapucines Пак Со Бо тщательно воссоздает тактильную текстуру картины корейского мастера Écriture 2016 года. Телячья кожа сумки сначала обрабатывается с эффектом мазка кистью, а затем на нее наносится высокодетализированный 3D-принт, основанный на сканировании картины в высоком разрешении, с помощью техники впрыскивания каучука. Элегантная ручка выполнена из полированного ореха, а кожаная подкладка и логотип LV инкрустированы кожей под цвет полос сумки.</string>
+    <string name="arty_capucines_bb_psb_material">Кожа теленка, отделка из кожи теленка и дерева, подкладка из льняного холста</string>
+    <string name="arty_capucines_bb_vm_description">На сумке Artycapucines, разработанной Виком Мунисом, изображены 154 символа, вдохновленные его серией Quasi Tutto - композициями из маленьких вырезанных бумажных объектов. Эти яркие элементы располагаются в произвольном порядке, а затем дополняются с помощью различных техник: 3D-сериграфия, шелкография или инкрустация маркетри. В соответствии с принципом экологической ответственности Вика Муниса, для изготовления этих маленьких предметов используются кожаные обрезки из ателье Louis Vuitton. Шафраново-желтая подкладка напоминает о солнечном свете ее родной Бразилии. Шафраново-желтая подкладка, напоминающая о солнечном свете Бразилии, освещает внутреннее пространство сумки.</string>
+    <string name="arty_capucines_bb_vm_material">Яловья кожа, отделка из яловичной кожи и телячьей кожи, подкладка из яловьей кожи, фактурная фурнитура серебристого цвета</string>
+    <string name="arty_capucines_mm_ab_description">Вдохновленная литографией «Не называй меня Дейзи», сумка Artycapucines Амели Бертран — это ода ночной жизни. Она отличается инновационным пигментом, создав первые в истории Capucines, которые светятся в темноте, включая ручку сумки. Корпус сумки из телячьей кожи был тщательно обработан вручную для достижения поразительных градаций цвета, напоминающих яркие оттенки Ривьеры, где французская художница провела свое детство. Затем были тщательно нанесены светящиеся декоративные линии. Голубой, розовый, желтый, бирюзовый... Фосфоресцирующие линии пересекают поп-закат, увенчанный двумя огромными цветами, что является характерной чертой работ Амели Бертран.</string>
+    <string name="arty_capucines_mm_ab_material">Кожа теленка с тиснением и напылением, Отделка из кожи теленка и смолы, Подкладка из кожи теленка с напылением, Фурнитура цвета Scarabeo</string>
+    <string name="arty_capucines_mm_bm_description">В сумке Artycapucines Беатрис Мильязес органично переплетаются ее любимые мотивы: геометрические фигуры, арабески и абстрактные цветы. Мастерские Louis Vuitton посвятили месяцы исследований разработке инновационной техники маркетри, способной в точности воспроизвести работы бразильской художницы. На корпусе сумки из овчины 18 различных видов кожи, тщательно обработанных для достижения равномерной толщины, оживляют цвета и множество деталей, разработанных Беатрис Мильязес. Сумка также украшена двумя вставками из сусального золота и барельефом знака мира, созданным путем нанесения отпечатка на инъекционный силиконовый гель.</string>
+    <string name="arty_capucines_mm_bm_material">Кожа и карунг из кожи ягненка и теленка, отделка из кожи ягненка, подкладка из воловьей кожи, фурнитура из эмали и светлого золота</string>
+    <string name="arty_capucines_mm_db_description">Сумка Artycapucines Даниэля Бюрена отличается фирменными черно-белыми полосами художника. Заново переосмысленная в ярком-синем цвете, она имеет ручку ручной работы, отполированную до атласного блеска, которая становится кругом благодаря зеркальному отображению, прикрепленному к сумке. Смелое визуальное «удвоение» сумки продолжается в паре переработанных полукруглых клапанов и двух металлических логотипах LV.</string>
+    <string name="arty_capucines_mm_db_material">Кожа Taurillon, отделка из телячьей кожи и смолы, подкладка из воловьей кожи, металлическая фурнитура серебряного цвета с лакированным покрытием</string>
+    <string name="arty_capucines_mm_dh_description">Сумка Artycapucines Донны Хуанки, впервые выпущенная в 2021 году, основана на двух картинах, созданных специально для этого проекта и продолжающих ее художественное исследование взаимодействия краски с женским телом. Они были 3D-печатаны на белой коже сумки, их точная текстура тщательно воспроизведена с помощью трех различных техник вышивки и раскрашена вручную, чтобы повторить оригинальные мазки кисти. Металлические обручи, удерживающие ручку, напоминают огромные кольца для пирсинга, что еще раз указывает на давнюю эстетическую привязанность Хуанки к телу.</string>
+    <string name="arty_capucines_mm_dh_material">Воловья кожа и кожа Taurillon, отделка из кожи Taurillon и трикотажа с ПВХ-покрытием, подкладка из воловьей кожи, фурнитура серебристого цвета</string>
+    <string name="arty_capucines_mm_gh_description">Одним из фирменных знаков творчества Грегора Хильдебрандта является \"рип-офф\" - процесс удаления магнитной пыли с аудиопленки для создания поразительных монохромных изображений. На сумке Artycapucines изображена одна из его работ, тщательно отпечатанная на белой коже для создания черно-белой \"позитивной\" версии на лицевой стороне и \"негативного\" бело-черного изображения на обратной стороне. Дно и плечевой ремень сумки выполнены из лакированной кожи с лазерной гравировкой в виде узора, напоминающего канавки пластинки, а логотип LV изготовлен из настоящего винила.</string>
+    <string name="arty_capucines_mm_gh_material">Воловья кожа и лакированная телячья кожа, Отделка из воловьей кожи, Подкладка из воловьей кожи, Металлическая и винтажная фурнитура с виниловыми дисками</string>
+    <string name="arty_capucines_mm_jmo_description">В своей сумке Artycapucines Жан-Мишель Отониэль объединил знаменитые бисерные скульптуры с игривым пляжным духом благодаря основной части, сплетенной вручную из тщательно отобранной рафии, оставленной необработанной, чтобы подчеркнуть ее естественные и нежные тона. Ручка из черных смоляных бусин перекликается с самыми известными масштабными работами Отониэля и дополнена ярким брелоком из трех смоляных бусин, напоминающим эксклюзивную портативную скульптуру.</string>
+    <string name="arty_capucines_mm_jmo_material">Натуральная рафия, смола, шелковая подкладка, фурнитура: черная и золотая отделка, 1 съемный шарм из смоляного жемчуга</string>
+    <string name="arty_capucines_mm_jw_description">При создании Artycapucines Джонас Вуд черпал вдохновение в некоторых своих картинах, добавляя к ним элементы керамических горшков, изготовленных его женой Шио Кусака. По замыслу художника, эти детали превращаются в абстрактные формы и геометрические мотивы, которые оживают на внешней стороне сумки из телячьей и воловьей кожи. Первоначально напечатанные, эти узоры затем обрисовываются с помощью тщательной вышивки, включающей 200 000 стежков по льну и хлопку, что создает впечатление богатой текстуры, трехмерной поверхности. Сумка украшена матово-розовым логотипом LV и игривым брелоком в виде жирафа.</string>
+    <string name="arty_capucines_mm_jw_material">Телячья кожа и воловья кожа, отделка из телячьей кожи и металла, подкладка из воловьей кожи, розовая и черная матовая фурнитура</string>
+    <string name="arty_capucines_mm_ky_description">Artycapucines Кеннеди Янко — это художественный перевод ее фирменных деталий из металла и «раскрашенной кожи» на кожу Louis Vuitton. Чтобы воссоздать ее особую эстетику, корпус сумки сначала печатается на 3D-принтере с эффектами ржавчины и потертости, а затем специальная патина фиксирует драматические рябь и складки кожи, сопровождаемые тонкими штрихами золотого пигмента. С помощью съемной ручки универсальная сумка Artycapucines может быть преобразована в элегантный клатч, практичный внешний карман можно использовать как рукоятку, а ремешок сумки также можно снять и прикрепить к отдельному маленькому кожаному карману-конверту, чтобы создать новую сумку.</string>
+    <string name="arty_capucines_mm_ky_material">Кожа теленка, отделка из кожи теленка, подкладка из воловьей кожи, фурнитура цвета ржавчины</string>
+    <string name="arty_capucines_mm_pm_description">Полностью черный Artycapucines Питера Марино, впервые выпущенный в 2022 году, основан на старинном сундуке с шипами, который он нашел в венецианском палаццо во время его реставрации. Его аккуратное лоскутное одеяло из вырезанных вручную полос богатой телячьей кожи Louis Vuitton покрыто 315 легкими заклепками и оснащено совершенно новым и эксклюзивным типом застежки-молнии, вдохновленной сундуками Дома. Кожаная ручка с отделкой в ​​виде хлыста сплетена и собрана вручную.</string>
+    <string name="arty_capucines_mm_pm_material">Кожа теленка, отделка из кожи теленка, подкладка из воловьей кожи, фурнитура золотого цвета и однотонного черного цвета</string>
+    <string name="arty_capucines_mm_pp_description">Коллекция Artycapucines Паолы Пиви, вдохновленная ее работой 2007 года One Cup of Cappuccino Then I Go, представляет собой шедевр сложной и требовательной маркетри из кожи. Каждая отдельная часть вставлена ​​в гладкую кожаную структуру сумки отдельно, в том числе более 30 чашек и блюдец из кожи под фарфор и более 25 пенок для капучино из нежной овечьей кожи золотистого цвета. Леопард вставляется после предварительной печати на гладкой коже и вышивки, чтобы создать вид, напоминающий мех.</string>
+    <string name="arty_capucines_mm_pp_material">Телячья кожа, кожа ягненка и коровья кожа, Отделка из телячьей кожи, Подкладка из телячьей кожи, Фурнитура цвета светлого золота</string>
+    <string name="arty_capucines_mm_sf_description">Сэм Фоллс черпает вдохновение в природе. Его сумка Artycapucines началась с оригинального крупноформатного произведения искусства с изображением листьев и цветов, собранных в саду семейного дома Louis Vuitton в Аньере, недалеко от Парижа. Затем эта работа была воспроизведена во всей ее тонкости, глубине и текстуре с использованием жаккардового переплетения, печати высокой четкости и точной ручной вышивки. Тщательно обработанный корпус сумки подчеркивает естественная простота перламутрового логотипа LV и колец на ручке.</string>
+    <string name="arty_capucines_mm_sf_material">Хлопок, лен и жаккардовая канва, отделка из канвы и телячьей кожи, подкладка из канвы, фурнитура цвета розового золота с перламутром</string>
+    <string name="arty_capucines_mm_zf_description">Сумка Artycapucines Цзэн Фаньчжи основана на переосмыслении автопортрета Винсента Ван Гога, созданного им в 2017 году. Перенос сложного изображения на сумку начался с нанесения узора, на что у трех высококвалифицированных мастеров ушло 10 дней. Для создания текстурной и тактильной 3D-поверхности были использованы разнообразные техники вышивки, в которых использовались нити 42 различных цветов и более 700 000 стежков, что позволило придать сумке законченность, по-настоящему передающую цвета оригинального произведения искусства. Затем с помощью сублимационной печати была декорирована крышка сумки в точном соответствии с ее вышитой поверхностью.</string>
+    <string name="arty_capucines_mm_zf_material">Телячья кожа, отделка из кожи таурильон, подкладка из воловьей кожи, фурнитура золотого цвета</string>
+    <string name="arty_capucines_mm_zz_description">Сумка Artycapucines Чжао Чжао основана на его скульптуре 2018 г. In Extremis No.3 - ассамбляже из точно вырезанных кусков меди, нержавеющей стали, черного железа и синей стали. Для создания сумки металлические элементы произведения были преобразованы в 353 отдельных вырезанных лазером заплатки из 5 различных видов кожи, вышитых вручную, машинной вышивкой, напечатанных (с семью различными узорами) или вырезанных в рельефе. Затем они были собраны и тщательно сшиты в единое панно, точно соответствующее дизайну Чжао. Получившийся узор покрывает всю поверхность готовой сумки - корпус, крышку и ручку.</string>
+    <string name="arty_capucines_mm_zz_material">Телячья кожа и воловья кожа, отделка из телячьей кожи и воловьей кожи, подкладка из телячьей кожи и воловьей кожи, фурнитура цвета золота</string>
+    <string name="arty_capucines_name">"ArtyCapucines, %s
+"</string>
+    <string name="aura_scan_result_ask_confirm">Пожалуйста, подтвердите регистрацию изделия.</string>
+    <string name="availability_in_store_hint">Страна, регион, город, улица...</string>
+    <string name="back">Назад</string>
+    <string name="back_in_stock_bottom_sheet_title">Уведомить меня, когда это будет доступно</string>
+    <string name="back_in_stock_cta_notify_me">Сообщите мне</string>
+    <string name="back_in_stock_notification_message_text">Понравившийся вам товар теперь доступен на сайте louisvuitton.com. Нажмите, чтобы узнать больше.</string>
+    <string name="back_in_stock_notification_subtitle">Понравившийся продукт теперь доступен в приложении LV</string>
+    <string name="back_in_stock_notification_title">Наличие товара на складе: %s</string>
+    <string name="back_in_stock_privacy_policy">Нажимая «Уведомить меня», вы соглашаетесь с тем, что Louis Vuitton отправит вам уведомление о наличии продукта. При переходе по этой ссылке Louis Vuitton будет использовать ваши данные в соответствии с Политикой конфиденциальности Louis Vuitton, доступной на сайте www.louisvuitton.com.</string>
+    <string name="bluetooth_deactivated_message">Bluetooth отключён</string>
+    <string name="booking_confirm_cta">Подтвердить</string>
+    <string name="booking_form_personal_data_email">personaldata.hk@louisvuitton.com</string>
+    <string name="btn_cancel">Отменить</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="button_no">Нет</string>
+    <string name="button_try_again">Попробовать ещё раз</string>
+    <string name="button_yes">Да</string>
+    <string name="buy_on_website">Познакомиться с коллекцией</string>
+    <string name="call_client_service">Позвонить в Клиентский центр:</string>
+    <string name="camera_access_subtitle">Для использования функции необходимо предоставить приложению LVApp доступ к использованию камере.</string>
+    <string name="camera_access_title">"Необходим доступ к камере "</string>
+    <string name="cancel">Нет</string>
+    <string name="care_services_restitution_date_updated">Обновлённая дата получения</string>
+    <string name="cart_error_too_much_products">Вы можете добавить в корзину не более двух одинаковых изделий.</string>
+    <string name="cart_packaging_card_link">Посмотреть детали</string>
+    <string name="catalogue_filters">Фильтры</string>
+    <string name="catalogue_filters_apply">Применить</string>
+    <string name="ccpa_accept_cta">Принять все файлы cookie</string>
+    <string name="ccpa_body_text">"Louis Vuitton сознательно не «продает» личную информацию за прямую денежную компенсацию. Тем не менее, значение «продажи» в соответствии с применимыми законами о конфиденциальности довольно широко. Кроме того, мы передаем персональные данные в соответствии с Законом штата Калифорния о правах на неприкосновенность частной жизни (CPRA) в целях целевой рекламы (в том числе в соответствии с некоторыми другими всеобъемлющими законами штата о конфиденциальности) с помощью файлов cookie, которые мы используем для статистического анализа, персонализации вашего опыта, а также для рекламы и социальных сетей, в том числе для предложения вам рекламных объявлений, ориентированных на ваши конкретные интересы, и для анализа эффективности наших рекламных кампаний. Информация, раскрываемая таким третьим лицам, включает в себя основную идентификационную информацию, информацию об устройстве и другие уникальные идентификаторы, активность в Интернете и коммерческие данные.
+
+В соответствии с CPRA и другими всеобъемлющими законами штата о конфиденциальности вы имеете право отказаться от «продажи» или «передачи» личной информации, в частности, в целях целевой рекламы. В результате вы имеете право отказаться от всех файлов cookie, кроме функциональных файлов cookie (эта опция откажется от любого «обмена» в соответствии с CPRA и аналогичными требованиями, относящимися к целевой рекламе в соответствии с другими всеобъемлющими законами штата о конфиденциальности). Если вы посещаете нас с другого устройства или браузера или удаляете файлы cookie, вам может потребоваться вернуться на этот экран, чтобы повторно выбрать свои предпочтения. Обратите внимание, что даже если вы откажетесь от продажи или передачи ваших персональных данных для этой цели, использование вами нашего веб-сайта или приложения все равно может отслеживаться Louis Vuitton и/или нашими поставщиками услуг.
+
+Вы можете узнать больше о том, как мы обрабатываем ваши персональные данные, посетив нашу Политику конфиденциальности."</string>
+    <string name="ccpa_body_text_link">Политика конфиденциальности</string>
+    <string name="ccpa_read_less">Скрыть</string>
+    <string name="ccpa_read_more">Узнайте больше</string>
+    <string name="ccpa_refuse_cta">Отклонить файлы cookie</string>
+    <string name="ccpa_subtitle">Не продавать и не передавать мою личную информацию / отказ от целевой рекламы</string>
+    <string name="ccpa_title">Настройки конфиденциальности</string>
+    <string name="certificate_activation_buyer_name">Имя покупателя</string>
+    <string name="certificate_activation_form_step1_subtitle">Для регистрации сертификата заполните следующую информацию:</string>
+    <string name="certificate_activation_form_step1_title">Активация сертификата</string>
+    <string name="certificate_activation_generic_error">Пожалуйста, проверьте индивидуальный номер и имя покупателя еще раз.</string>
+    <string name="certificate_activation_individual_number">Индивидуальный номер</string>
+    <string name="certificate_activation_individual_number_error">Индивидуальный номер должен содержать 6 символов</string>
+    <string name="certificate_activation_pending_subtitle">"Спасибо!
+Ваш сертификат будет доступен в разделе «Мои сертификаты» в учетной записи MyLV в течение 24 часов."</string>
+    <string name="certificate_activation_pending_title">Активация сертификата</string>
+    <string name="certificate_activation_picto1_name1">Дарья Иванова</string>
+    <string name="certificate_activation_picto1_name2">Анастасия</string>
+    <string name="certificate_activation_picto1_name3">Александр</string>
+    <string name="certificate_activation_picto1_name4">ДАЕ</string>
+    <string name="certificate_activation_picto1_step1">1. Расположено в счете:</string>
+    <string name="certificate_activation_picto1_step2">2. Пожалуйста, введите свое полное имя, включая пробелы и дефисы.</string>
+    <string name="certificate_activation_picto1_step3">3. Если вы хотите принять передачу сертификата, воспользуйтесь ключевым словом из электронного письма, отправленного Louis Vuitton. Ключевое слово состоит минимум из 8 символов.</string>
+    <string name="certificate_activation_picto2_subtitle">Имя покупателя позволяет зарегистрировать сертификат LV.</string>
+    <string name="certificate_activation_picto2_title">Как зовут покупателя?</string>
+    <string name="certificate_activation_picto_step1">1. Индивидуальный номер указан в счете.</string>
+    <string name="certificate_activation_picto_step2">2. Индивидуальный номер находится на вашем изделии.</string>
+    <string name="certificate_activation_picto_subtitle">Есть несколько мест, где вы можете найти его:</string>
+    <string name="certificate_activation_picto_title">Где находится «Индивидуальный номер»?</string>
+    <string name="certificate_checkbox_paragraph_pipl">Для того чтобы вы могли добавить цифровой сертификат изделия в свою учетную запись My LV, Louis Vuitton будет обрабатывать уникальный номер цифрового сертификата и собирать информацию, связанную с изделием.</string>
+    <string name="certificate_transfer_cta_cancel">Нет, я передумал(а)</string>
+    <string name="certificate_transfer_cta_step1">Да, пожалуйста, передайте</string>
+    <string name="certificate_transfer_email_error">Адрес электронной почты для передачи не совпадает. Пожалуйста, введите его повторно.</string>
+    <string name="certificate_transfer_email_format_error">Пожалуйста, введите корректный адрес вашей электронной почты</string>
+    <string name="certificate_transfer_generic_error">Пожалуйста, проверьте адрес электронной почты и ключевое слово еще раз.</string>
+    <string name="certificate_transfer_keyword_error">Ключевое слово не совпадает. Пожалуйста, введите его еще раз.</string>
+    <string name="certificate_transfer_keyword_format_error">Ключевое слово должно содержать не менее 8 символов</string>
+    <string name="certificate_transfer_phone_number_format_error">Пожалуйста, убедитесь, что вы правильно ввели номер телефона.</string>
+    <string name="certificate_transfer_step2_cta_activate">Активировать</string>
+    <string name="certificate_transfer_step2_keyword">Ключевые слова</string>
+    <string name="certificate_transfer_step2_keyword_confirmation">Подтвердите ключевое слово</string>
+    <string name="certificate_transfer_step2_owners_name">Адрес электронной почты будущего владельца</string>
+    <string name="certificate_transfer_step2_owners_name_confirmation">Подтвердить адрес электронной почты будущего владельца</string>
+    <string name="certificate_transfer_step2_phone_number">Телефон будущего владельца</string>
+    <string name="certificate_transfer_step2_subtitle">Пожалуйста, подтвердите адрес электронной почты будущего владельца, которому вы хотите передать свой продукт и сертификат LV. Из соображений безопасности для регистрации сертификата требуется ключевое слово. Пожалуйста, заполните следующую информацию.</string>
+    <string name="certificate_transfer_step2_title">Начать передачу</string>
+    <string name="certificate_transfer_step3_confirmation_futur_owner">%s получите электронное письмо с объяснением того, как зарегистрировать свой сертификат LV.</string>
+    <string name="certificate_transfer_step3_confirmation_futur_owner_field">Запрос на перевод был отправлен по адресу:</string>
+    <string name="certificate_transfer_step3_confirmation_keyword_field">Ключевые слова:</string>
+    <string name="certificate_transfer_step3_confirmation_subtitle">Поздравляем, ваш запрос на передачу сертификата выполнен.</string>
+    <string name="certificate_transfer_step3_title">Передача в процессе</string>
+    <string name="certificate_transfer_warning_subtitle">Пожалуйста, подтвердите, что вы хотите передать право собственности на свой продукт и сертификат LV.</string>
+    <string name="certificate_transfer_warning_title">Прежде чем продолжить,</string>
+    <string name="change_test_environment">Изменить тестовое пространство</string>
+    <string name="check_in">Прибытие</string>
+    <string name="check_out">Выезд</string>
+    <string name="check_out_our_watchfaces">Познакомьтесь с циферблатами</string>
+    <string name="check_store_availability">Уточнить наличие в магазине</string>
+    <string name="checkout_confirmation_feedback_rating_description">Опыт онлайн-шопинга на сайте Louis Vuitton превзошел мои ожидания.</string>
+    <string name="checkout_confirmation_feedback_rating_high_value">"5 - Полностью согласен(-на), "</string>
+    <string name="checkout_confirmation_feedback_rating_low_value">1 - Совершенно не согласен(-на)</string>
+    <string name="checkout_confirmation_feedback_review_description">Поделитесь с нами впечатлениями</string>
+    <string name="checkout_confirmation_header_without_order_number">Ваш заказ</string>
+    <string name="checkout_shipping_address_label">Адрес доставки</string>
+    <string name="checkout_shipping_label">Доставка</string>
+    <string name="checkout_shipping_method_label">Способ доставки</string>
+    <string name="checkout_subtotal_label">Промежуточный итог</string>
+    <string name="christmas_sound_off">Отключение</string>
+    <string name="christmas_sound_on">Включение</string>
+    <string name="city">Город</string>
+    <string name="close">Закрыть</string>
+    <string name="cn_legal_disclaimer_mylv">"Я понимаю и согласен с тем, что Louis Vuitton – это международная компания. В целях предоставления товаров и услуг Louis Vuitton в соответствии с действующим законодательством компания Louis Vuitton Malletier («LVM»), расположенная во Франции, будет обрабатывать информацию о моей учетной записи LV и заказах. Между тем, в целях предоставления более качественных услуг аффилированные лица Louis Vuitton и магазины Louis Vuitton по всему миру могут получить доступ к информации о моей учетной записи LV и истории покупок, когда я совершаю покупки в магазинах. Группа Louis Vuitton будет защищать мои персональные данные в той же степени, в которой это требуется Политикой конфиденциальности Louis Vuitton в Китае.
+Если Вы не согласны с вышеизложенным, мы будем рады приветствовать Вас на данном этапе для покупки в наших физических магазинах."</string>
+    <string name="cn_legal_disclaimer_part3">"Если вы не согласны с вышеизложенным, мы будем рады приветствовать вас в наших физических магазинах. "</string>
+    <string name="cn_privacy_app_opening_subtitle">"Уважаемые покупатели Louis Vuitton, ︎ 
+︎ 
+Мы обновили Политику конфиденциальности Louis Vuitton China в соответствии с законами и правилами, чтобы улучшить порядок обработки личной информации в наших магазинах, веб-сайтах и других службах, объяснить процесс предоставления, обмена и обработки личной информации, а также обновить права, связанные с личной информацией, и способы реализации таких прав. ︎ 
+︎ 
+&lt;b>Перед тем, как начать использование наших продуктов и услуг, пожалуйста, внимательно прочитайте и подтвердите, что вы полностью поняли и согласились с содержанием, находящимся в &lt;a href=\"lvpass://privacy\">Политике конфиденциальности Louis Vuitton China&lt;/a>, прежде чем нажать кнопку \"Согласен\". Если вы не согласны, мы сожалеем, что вы не можете продолжать использовать эту APP&lt;/b>. Если у вас есть какие-либо вопросы, вы можете проконсультироваться с нами через контактную информацию в Louis Vuitton Китай Политика конфиденциальности."</string>
+    <string name="cn_privacy_policy_app_opening_title">Подсказка</string>
+    <string name="cn_third_party_legal_easy_form_accept_all">Принимайте все сторонние SDK</string>
+    <string name="cn_third_party_legal_easy_form_reject_all">Не принимайте и продолжайте</string>
+    <string name="cn_third_party_legal_easy_form_set_preferences">Настройка предпочтений для пакетов SDK 3-го производителя</string>
+    <string name="cn_third_party_legal_easy_form_text">"Сервисы cookie&lt;br/>
+&lt;br/>
+Louis Vuitton будет использовать cookie, предоставленные глобальными поставщиками услуг, чтобы лучше предоставлять вам продукты и улучшить наши услуги. Вы можете нажать &lt;a href=\"https://pass.louisvuitton.com/media/pdf/cn/21-10-27_LVC_Privacy_Policy_SDK_list_cn.pdf\">здесь&lt;/a> , чтобы ознакомиться со списком cookie для получения подробной информации о том, как они собирают и используют вашу личную информацию. Вы можете либо подтвердить свое согласие с тем, что все пакеты SDK будут обрабатывать вашу личную информацию, нажав «Принять все сторонние SDK», либо нажать «Установить предпочтения для сторонних SDK», чтобы принять или отклонить SDK, используя соответствующий флажок."</string>
+    <string name="cn_third_party_legal_introduction_paragraph">Louis Vuitton использует сторонние SDK по функциональным причинам, для статистического анализа и персонализации вашего опыта. Вы можете принять или отклонить указанный ниже пакет SDK, установив соответствующий флажок. Вы можете изменить свои предпочтения в любое время, войдя в свою личную учетную запись, если она у вас есть, или перейдя в раздел «Управление настройками».</string>
+    <string name="cn_third_party_legal_paragraph_1_text">Технические данные необходимы для оптимизации приложения и исправления потенциальных ошибок и сбоев. Принимая этот SDK, вы помогаете нам улучшить наше приложение.</string>
+    <string name="cn_third_party_legal_paragraph_1_title">Функциональная оптимизация</string>
+    <string name="cn_third_party_legal_paragraph_2_text">Эти данные используются для измерения и анализа аудитории нашего приложения (объем посетителей, просмотренные страницы, среднее время просмотра и т. Д.), Чтобы помочь нам улучшить его производительность. Принимая его, вы помогаете нам улучшить наше приложение.</string>
+    <string name="cn_third_party_legal_paragraph_2_title">Статистический анализ</string>
+    <string name="cn_third_party_legal_paragraph_3_text">Файлы cookie позволяют нам отправлять Вам уведомления о продуктах или услугах, которые могут Вас заинтересовать. Принимая файлы cookie, Вы делаете выбор в пользу персонализированного опыта.</string>
+    <string name="cn_third_party_legal_paragraph_3_title">Персонализация</string>
+    <string name="cn_third_party_legal_paragraph_4_title">Подключенные изделия</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="connected_objects_pairing">Синхронизация …</string>
+    <string name="connected_watch_subtitle">Откройте для себя последнюю модель часов Louis Vuitton</string>
+    <string name="connectivity_discover_collection_title">Познакомьтесь с коллекцией</string>
+    <string name="connectivity_discover_earphones">Познакомьтесь с коллекцией наушников</string>
+    <string name="connectivity_discover_keepall">Откройте для себя коллекцию Keepall</string>
+    <string name="connectivity_discover_title">Синхронизируйте ваши подключенные устройства</string>
+    <string name="connectivity_discover_trainers">"Найти кроссовки Sneaker X408 "</string>
+    <string name="connectivity_discover_trunk_speaker">Откройте для себя колонку Speaker Trunk</string>
+    <string name="connectivity_keepall_product_name">KEEPALL 50B LIGHT UP</string>
+    <string name="connectivity_my_earphones_title">Наушники</string>
+    <string name="connectivity_need_help_cta">Нужна помощь?</string>
+    <string name="connectivity_remove_connected_object_popup_message">"Вы уверны, что хотите удалить изделие с вашего телефона? "</string>
+    <string name="connectivity_thv3_long_title">Часы Tambour Horizon Light Up</string>
+    <string name="consumer_rights_title">Права потребителя</string>
+    <string name="contact_menu">Связаться с нами</string>
+    <string name="content_description_discover_earphone_collection">Познакомьтесь с коллекцией наушников</string>
+    <string name="content_description_discover_watch_collection">Познакомьтесь с коллекцией часов</string>
+    <string name="content_description_edit_profile">Редактировать мой профиль</string>
+    <string name="content_description_loading">Загрузка</string>
+    <string name="content_description_my_lv">My L V</string>
+    <string name="content_description_product_image">Фотография изделия</string>
+    <string name="content_description_search_button">Поиск</string>
+    <string name="content_description_step_format">Шаг %1$s</string>
+    <string name="content_description_tab">%1$s, вкладка %2$s из %3$s</string>
+    <string name="content_description_take_picture">Сфотографировать</string>
+    <string name="content_description_up_back">Вернуться к предыдущему экрану</string>
+    <string name="content_description_up_close">Закрыть</string>
+    <string name="content_description_validate_crop">Подтвердить</string>
+    <string name="content_description_watchface_presentation_pager">Примеры циферблатов</string>
+    <string name="content_description_watchface_top_pager">Изображение циферблата</string>
+    <string name="content_description_watchface_video">Видеопрезентация циферблатов</string>
+    <string name="country">Страна / Регион</string>
+    <string name="crop_image_menu_crop">Обрезать</string>
+    <string name="cta_agree">Согласен</string>
+    <string name="cta_notyet_register">Получить напоминание</string>
+    <string name="cta_open_settings">"Открыть настройки "</string>
+    <string name="cta_register_now">Вам придет напоминание</string>
+    <string name="cta_terms_conditions">Условия и положения</string>
+    <string name="delete_my_account_cancel_cta">Отмена</string>
+    <string name="delete_my_account_confirmation_title_bottom_sheet">Аккаунт удален</string>
+    <string name="delete_my_account_delete_cta">Удалить мою учетную запись</string>
+    <string name="delete_my_account_description">"Обратите внимание, что после удаления вашей учетной записи мы больше не сможем предоставлять вам информацию о ваших покупках или истории ремонта. Если вы хотите запросить удаление своей учетной записи, нажмите кнопку «Удалить мою учетную запись» ниже. 
+ Ваш запрос будет обработан в течение 30 дней. После завершения удаления вы получите уведомление о том, что ваш запрос закрыт."</string>
+    <string name="delete_my_account_section">Удалить мою учетную запись</string>
+    <string name="delete_my_account_title_bottom_sheet">Вы уверены, что хотите удалить вашу учетную запись?</string>
+    <string name="departure">Отправление</string>
+    <string name="discover_cta">Узнать подробнее</string>
+    <string name="discover_keepall_video">Откройте для себя эксклюзивную сумку Keepall из коллекции Осень-Зима 19</string>
+    <string name="discover_our_video">Посмотреть видео</string>
+    <string name="discover_trainers_video">Откройте для себя эксклюзивные кроссовки Sneaker X408 из коллекции Осень-Зима 19</string>
+    <string name="discover_trunk_speakers_video">Посмотрите видео о Speaker Trunk</string>
+    <string name="dispatch_country_change_title">Вы выбрали новую страну / регион.</string>
+    <string name="dispatch_country_no_internet_message">Возможно, вы не подключены к интернету или приложение на данный момент недоступно.</string>
+    <string name="dispatch_country_title">Выберите страну/регион</string>
+    <string name="dispatch_country_will_empty_cart">Текущая корзина будет удалена. Вы уверены, что хотите продолжить?</string>
+    <string name="dmsn_3D_id_error">ошибка в 3D ID</string>
+    <string name="download_app">Обновить</string>
+    <string name="dr_calendar_title">Встреча Louis Vuitton</string>
+    <string name="dr_cancel_appointment">Отменить запрос</string>
+    <string name="dr_cancel_appointment_subtitle">"Вы хотели бы отменить запрос?
+Отменив запрос, процесс вашего ремонта завершится."</string>
+    <string name="dr_cancel_cta_confirm">Подтвердить</string>
+    <string name="dr_card1_call">Звонок</string>
+    <string name="dr_card1_call_appointment">Ваша запись</string>
+    <string name="dr_card1_cta_next">Дальше</string>
+    <string name="dr_card1_cta_text2">Специалист по уходу Louis Vuitton свяжется с вами в удобное для вас время.</string>
+    <string name="dr_card1_email">Электронная почта</string>
+    <string name="dr_card1_email_done">Эксперт по уходу Louis Vuitton свяжется с вами в ближайшее время.</string>
+    <string name="dr_card1_modify">Изменить</string>
+    <string name="dr_card1_subtitle1">Поговорите с экспертом</string>
+    <string name="dr_card1_subtitle2">Напишите эксперту</string>
+    <string name="dr_card1_text1">Пожалуйста, выберите предпочтительный способ связи.</string>
+    <string name="dr_card1_title">Начните ремонт изделия</string>
+    <string name="dr_card1_video">Видео - звонок</string>
+    <string name="dr_card1_video_call_appointment">Ваша виртуальная встреча</string>
+    <string name="dr_card2_email">Электронная почта</string>
+    <string name="dr_card2_phone">Номер телефона</string>
+    <string name="dr_card2_text1">Пожалуйста, укажите контактную информацию для бронирования предстоящей встречи.</string>
+    <string name="dr_card2_text2">Введенный вами номер телефона будет сохранен для дальнейшего контакта с Louis Vuitton.</string>
+    <string name="dr_card2_title">Контактная информация</string>
+    <string name="dr_card3_cta_how_to">Как сфотографировать?</string>
+    <string name="dr_card3_subImage">Загрузите от 5 до 7 фотографий товара</string>
+    <string name="dr_card3_subImage_opt2">Загрузить изображение(я) товара</string>
+    <string name="dr_card3_sub_description">Опишите ваш запрос на ремонт</string>
+    <string name="dr_card3_sub_uploaded_pics">Фотографии изделия</string>
+    <string name="dr_card3_text1">"Чтобы улучшить процесс ремонта, мы просим вас предоставить дополнительную информацию. "</string>
+    <string name="dr_card3_text1_opt2">Чтобы упростить оценку ремонта, мы просим вас предоставить дополнительные сведения о вашем изделии.</string>
+    <string name="dr_card3_title">Описание продукта</string>
+    <string name="dr_card3_title_videocall">Сведения о продукте (необязательно)</string>
+    <string name="dr_care_prefix">N°</string>
+    <string name="dr_confimation_title">Ваш запрос выполнен</string>
+    <string name="dr_confirmation_page_subtitle_shipment_details">Для доставки товара по указанному ниже адресу требуется от 7 до 10 дней. После отправки вы можете отслеживать посылку в My Care Services.</string>
+    <string name="dr_confirmation_page_title_shipment_details">Информация о вашем отправлении</string>
+    <string name="dr_contact_info">Контактная информация</string>
+    <string name="dr_cta_accept_estimate">Посмотреть смету</string>
+    <string name="dr_cta_add_calendar">Добавить в календарь</string>
+    <string name="dr_cta_cancel_appointment">Отменить запрос</string>
+    <string name="dr_cta_confirm_shipping_address">Подтвердить мой адрес доставки</string>
+    <string name="dr_cta_create">Подтвердить</string>
+    <string name="dr_cta_open_care_service">Перейти в My Care Services</string>
+    <string name="dr_cta_prepare_appointment">Забронировать встречу</string>
+    <string name="dr_cta_proceed_payment">Перейти к оплате</string>
+    <string name="dr_cta_request_new_repair">Запрос на новый ремонт</string>
+    <string name="dr_cta_track_my_shippment">Отследить мою посылку</string>
+    <string name="dr_cta_tuto_repairs">Как происходит процесс ремонта?</string>
+    <string name="dr_decline_subtitle">"При отказе от предварительной оценки процесс ремонта завершается. "</string>
+    <string name="dr_decline_title_bottom_sheet">Отменить</string>
+    <string name="dr_delivered_on">"Доставлено в: "</string>
+    <string name="dr_description_title">Характеристики запроса</string>
+    <string name="dr_final_assessment">Финальная оценка</string>
+    <string name="dr_how_picture_front">Предмет должен быть полностью виден, включая ручку и плечевые ремни.</string>
+    <string name="dr_info_card_text">Мы любезно просим вас подготовить вашу вещь ко встрече с вашим специалистом по уходу.​</string>
+    <string name="dr_info_card_title">День вашей встречи</string>
+    <string name="dr_legal_acception">Я принимаю</string>
+    <string name="dr_legal_text_request_repair">"Чтобы воспользоваться нашим предложением дистанционного обслуживания, вам необходимо предоставить нам доступ к вашей камере (во время видеоконсультации), либо отправить нам фотографии продукта(ов). Изображения обрабатываются исключительно с целью и в течение всего срока действия нашего эксперта по уходу, оценивающего потенциальный ущерб продукту; видеозаписи обрабатываются в режиме реального времени и не сохраняются Louis Vuitton или третьими лицами (за исключением некоторых фотографий продукта, которые могут быть сделаны специалистом по уходу). Вы можете ознакомиться с нашей Политикой конфиденциальности для получения дополнительной информации.
+
+ 
+Инструкции: Пожалуйста, убедитесь, что вы показываете только продукт и не направляете камеру на других людей или на себя."</string>
+    <string name="dr_month_availabilities">Доступность в течение следующих 30 дней.</string>
+    <string name="dr_mylv_final_assessment_title">Финальная оценка</string>
+    <string name="dr_mylv_repair_requested_in_store">Заявка на ремонт в магазине</string>
+    <string name="dr_mylv_repair_requested_online">Онлайн-заявка на ремонт</string>
+    <string name="dr_no_appointment_available">К сожалению, запись недоступна</string>
+    <string name="dr_no_info">Нет информации</string>
+    <string name="dr_pick_date">Выберите дату</string>
+    <string name="dr_picture_delete_subtitle">Если вы нажмете «ДА», выбранное изображение будет удалено из формы.</string>
+    <string name="dr_picture_delete_title">Удалить изображение</string>
+    <string name="dr_prass_card1_title">Предварительная оценка</string>
+    <string name="dr_prass_card2_cta_instructions">Посмотреть инструкцию</string>
+    <string name="dr_prass_card2_cta_next">Далее</string>
+    <string name="dr_prass_card2_subtext1">Вы можете поместить изделие в защитной упаковке в подходящую коробку для транспортировки вместе с распечатанной квитанцией о ремонте. Надежно запечатайте посылку и вложите этикетку предоплаты за доставку.</string>
+    <string name="dr_prass_card2_subtext2">Вы можете оставить свою посылку в любом магазине или пункте выдачи.</string>
+    <string name="dr_prass_card2_subtitle1">1. Подготовьте посылку</string>
+    <string name="dr_prass_card2_subtitle2">"Сдайте вашу посылку "</string>
+    <string name="dr_prass_card2_text1">Проверьте внутреннюю часть и карманы изделия, чтобы убедиться, что любые личные вещи внутри отсутствуют, включая монеты, карты и так далее.</string>
+    <string name="dr_prass_card2_text2">Пожалуйста, аккуратно упакуйте ваше изделие и прикрепите распечатку транспортной этикетки к посылке, следуя следующим инструкциям:</string>
+    <string name="dr_prass_card2_text3">"Чек по отгрузке поступит вам по электронной почте. "</string>
+    <string name="dr_prass_card2_title">Отправить вашу вещь на восстановление</string>
+    <string name="dr_prass_card2_title3">Транспортная этикетка</string>
+    <string name="dr_prass_card3_cta_newaddress">Добавить адрес</string>
+    <string name="dr_prass_card3_cta_next">Дальше</string>
+    <string name="dr_prass_card3_text1">Где бы вы хотели получить ваш продукт?​</string>
+    <string name="dr_prass_card3_title">Информация о доставке</string>
+    <string name="dr_prass_com">В случае измнения финальной стоимости эксперт по уходу свяжется с вами для подтверждения, прежде чем продолжить.</string>
+    <string name="dr_prass_cta_accept">Принять</string>
+    <string name="dr_prass_cta_contact">Свяжитесь с экспертом</string>
+    <string name="dr_prass_cta_decline">Уменьшение</string>
+    <string name="dr_prass_expert_note_title">Примечание эксперта:</string>
+    <string name="dr_prass_payinfo_text">Платежи принимаются с помощью кредитной карты, дебетовой карты с действительным адресом для выставления счетов и доставки. К оплате принимаются кредитные карты Visa, American Express и Mastercard.</string>
+    <string name="dr_prass_payinfo_title">Платежная информация</string>
+    <string name="dr_prass_repair">Ремонт n°%s</string>
+    <string name="dr_prass_repairs">Ремонт</string>
+    <string name="dr_prass_text">Пожалуйста, найдите вашу смету на ремонт ниже.​</string>
+    <string name="dr_prass_total">Всего</string>
+    <string name="dr_prass_totalcost">Всего:</string>
+    <string name="dr_preliminary_assessment_item_number">(x%d)</string>
+    <string name="dr_privacy_policy_title">Условия и положения</string>
+    <string name="dr_product">Изделие</string>
+    <string name="dr_repair">"Запрос на ремонт "</string>
+    <string name="dr_repair_date">"Дата начала: "</string>
+    <string name="dr_repairs_section_history_title">История ремонта</string>
+    <string name="dr_repairs_section_no_history_subtitle">"История ремонта отсутствует "</string>
+    <string name="dr_repairs_section_no_ongoing_subtitle">Нет текущего ремонта</string>
+    <string name="dr_repairs_section_ongoing_title">Текущий ремонт</string>
+    <string name="dr_screen_title">Сервис My Care</string>
+    <string name="dr_subject_contact_email">Ваш запрос на обслуживание</string>
+    <string name="dr_text_closeup">Избегайте использования вспышки или зума и дождитесь, пока камера сфокусируется.​</string>
+    <string name="dr_text_interior">Возможно, вы захотите активировать вспышку.</string>
+    <string name="dr_text_shipping_address2">"Ваше отправление Louis Vuitton будет доставлено по указанному ниже адресу. 
+Пожалуйста, обратите внимание, что при доставке требуется подпись взрослого."</string>
+    <string name="dr_title_address_book_page">МОИ АДРЕСА</string>
+    <string name="dr_title_call">"Звонок "</string>
+    <string name="dr_title_cancel_appointment">Отменить запрос</string>
+    <string name="dr_title_cancel_description">"Вы хотели бы отменить запрос?
+Если вы отмените запрос, процесс ремонта будет завершен."</string>
+    <string name="dr_title_closeup">Крупный план</string>
+    <string name="dr_title_confirm_shipping_address">Подтвердить мой адрес доставки</string>
+    <string name="dr_title_confirmation_page">ВАШЕ ИЗДЕЛИЕ LOUIS VUITTON УЖЕ В ПУТИ!</string>
+    <string name="dr_title_front">1. Фото спереди</string>
+    <string name="dr_title_how_picture">Как сделать снимок?</string>
+    <string name="dr_title_interior">Фото с внутренней стороны</string>
+    <string name="dr_title_mail">Электронная почта</string>
+    <string name="dr_title_shipping_address">Адрес доставки</string>
+    <string name="dr_title_video_call">Ваша виртуальная встреча</string>
+    <string name="dr_track_your_repair">Отслеживание ремонта</string>
+    <string name="dr_uploaded_pic_title">Фотография продукта</string>
+    <string name="earphones">Наушники</string>
+    <string name="edit_address_title">Исправить адрес</string>
+    <string name="equalizer_description">Используйте эквалайзер для регулировки параметров звука громкоговорителя.</string>
+    <string name="error_account_creation_processing">Ваша учетная запись все еще находится в процессе создания. Она будет доступна в ближайшее время.</string>
+    <string name="error_add_cart_multiple_product">"On the Application Louis Vuitton, you may add no more than 2 of the same product.
+Please call +1.866.VUITTON for more details."</string>
+    <string name="error_animation_cannot_play">Анимация не может быть воспроизведена</string>
+    <string name="error_check_in_after_check_out">Дата прибытия должна быть перед датой выезда</string>
+    <string name="error_check_out_before_check_in">Дата выезда должна быть после даты прибытия</string>
+    <string name="error_generic">Возникла ошибка</string>
+    <string name="error_invalid_branch_id">"Branch ID должен содержать 5 цифр "</string>
+    <string name="error_invalid_tax_id">Идентификационный номер налогоплательщика должен содержать 13 цифр.</string>
+    <string name="error_light_up_device_update">Во время обновления устройства произошла ошибка</string>
+    <string name="error_loading_light_up_device_info">Во время загрузки информации об устройстве произошла ошибка</string>
+    <string name="error_missing_fields">Пожалуйста, заполните обязательные поля</string>
+    <string name="error_no_location_permission">Нет возможности определить местоположение. Пожалуйста, разрешите доступ к данным о вашем местоположении.</string>
+    <string name="error_unpairing_light_up">Во время отсоединения устройства произошла ошибка</string>
+    <string name="event_slider_swipe_slide">Узнать подробнее</string>
+    <string name="exchange_out_of_stock">Нет в наличии</string>
+    <string name="fashionshow_share_text">Перейдите по ссылке ниже, чтобы ознакомиться с образом более подробно.</string>
+    <string name="feed_calendar_add_cta">Добавить в календарь</string>
+    <string name="feed_calendar_add_error">Произошла ошибка. Мероприятие не было добавлено в ваш календарь.</string>
+    <string name="feed_calendar_add_successfully">Это событие добавлено в ваш в календарь</string>
+    <string name="feed_calendar_cancel_cta">Отмена</string>
+    <string name="feed_calendar_delete_cta">Удалить напоминание</string>
+    <string name="feed_calendar_deleted_error">Произошла ошибка. Это событие не было удалено из вашего календаря.</string>
+    <string name="feed_calendar_deleted_successfully">Это событие было удалено из вашего календаря</string>
+    <string name="feed_card_notify_me_label">Все установлено! Мы сообщим вам, когда начнется LIVE. Вы можете удалить напоминание в любой момент.</string>
+    <string name="feed_welcome_connected">Добро пожаловать %1$s</string>
+    <string name="feed_welcome_notconnected">Добро пожаловать</string>
+    <string name="flight_gate">Выход на посадку</string>
+    <string name="flight_number">Номер рейса</string>
+    <string name="flight_terminal">Терминал</string>
+    <string name="force_os_update_subtitle_android">Используемая вами версия Android больше не поддерживается приложением Louis Vuitton. Пожалуйста, обновите приложение до последней версии.</string>
+    <string name="force_update_subtitle">Пожалуйста, обновите приложение, чтобы получить доступ ко всем новым функциям.</string>
+    <string name="force_update_title">Доступна новая версия приложения.</string>
+    <string name="forward_text">Следуйте по ссылке в письме с подтверждением вашего путешествия (авиакомпания, железнодорожная компания, бронь отеля)</string>
+    <string name="gdpr_access_app">Принять и продолжить</string>
+    <string name="gdpr_analytics_trackers">Файлы cookie для анализа статистики</string>
+    <string name="gdpr_customisation_trackers">"Данные для персонализации приложения Louis Vuitton "</string>
+    <string name="gdpr_functional_trackers">Строго необходимо</string>
+    <string name="gdpr_need_to_restart">Ваши настройки будут обновлены при следующем запуске приложения</string>
+    <string name="gdpr_privacy_policy">"Политика конфиденциальности "</string>
+    <string name="gdpr_read_less">Показать меньше</string>
+    <string name="gdpr_read_more">Читать далее</string>
+    <string name="gdpr_social_trackers">Символы социальных сетей и рекламы</string>
+    <string name="generic_api_error_message">Данная услуга временно недоступна, пожалуйста, попробуйте снова</string>
+    <string name="get_the_look_CTA">Купить этот образ</string>
+    <string name="global_backorder_delay_message">К сожалению, может потребоваться дополнительное время доставки</string>
+    <string name="global_backorder_info_popin_content">"Может потребоваться дополнительное время доставки до 2 недель.
+Варианты экспресс-доставки, доставки в ночное время и получения в магазине недоступны для этого товара.
+Пожалуйста, свяжитесь с клиентским центром по телефону + 7 800 700 5058 для получения дополнительной информации."</string>
+    <string name="global_backorder_info_popin_title">Доставка для этого товара</string>
+    <string name="global_cancel">Отменить</string>
+    <string name="global_empty_shopping_bag">Ваша корзина пуста</string>
+    <string name="global_form_invalid_postal_code">Пожалуйста, введите действительный почтовый индекс.</string>
+    <string name="global_modify">Внести изменения</string>
+    <string name="global_remove">Удалить</string>
+    <string name="global_total">Всего</string>
+    <string name="home_start">Начать</string>
+    <string name="homepage_connectedobjects_title">Подключенные изделия</string>
+    <string name="homepage_menu_cart">Корзина</string>
+    <string name="homepage_menu_explore">Подробнее</string>
+    <string name="homepage_menu_services">Услуги</string>
+    <string name="homepage_menu_shop">Добавить</string>
+    <string name="horizon_speaker_download_app">Скачать приложение</string>
+    <string name="horizon_speaker_long_title">Колонка Louis Vuitton Horizon Light Up</string>
+    <string name="horizon_speaker_short_title">Колонка LV Horizon Light Up</string>
+    <string name="hotel">Отель</string>
+    <string name="hotel_address">Адрес</string>
+    <string name="hotel_name">Название отеля</string>
+    <string name="hotstamping_personalization_name">Горячее тиснение</string>
+    <string name="hour">Час</string>
+    <string name="ic_flip_24">Отразить</string>
+    <string name="ic_flip_24_horizontally">Отразить по горизонтали</string>
+    <string name="ic_flip_24_vertically">Отразить по вертикали</string>
+    <string name="ic_rotate_left_24">Повернуть налево</string>
+    <string name="ic_rotate_right_24">Повернуть направо</string>
+    <string name="inapp_notification_title">Информация</string>
+    <string name="invalid_password">Неверный пароль</string>
+    <string name="ips_expired_recommendation">Кажется, эта рекомендация больше недоступна</string>
+    <string name="ips_myreco_section">Мои рекомендации</string>
+    <string name="ips_tab_board">Поборка</string>
+    <string name="ips_tab_board_text">Персонализированная подборка для вас:</string>
+    <string name="ips_tab_products">Изделия</string>
+    <string name="iw_text_when_no_product">"Нет товаров, связанных с данной подборкой. "</string>
+    <string name="kr_back_in_stock_checkbox_confirmation">emptydefaulttrad</string>
+    <string name="ld_discover_button">Коллекция</string>
+    <string name="learn_more_spotify_redirection">"Подробнее "</string>
+    <string name="legal_mentions.title">Условия использования</string>
+    <string name="legal_privacy">Условия пользования</string>
+    <string name="light_up_battery">"Заряд "</string>
+    <string name="light_up_connection_in_progress">Происходит подключение</string>
+    <string name="light_up_connection_in_progress_subtitle">Пожалуйста, убедитесь, что устройство включено</string>
+    <string name="light_up_detection_failed_negative_label">Закрыть</string>
+    <string name="light_up_detection_failed_title">Устройства не обнаружены</string>
+    <string name="light_up_documentation_title">Информация</string>
+    <string name="light_up_keepall">Keepall Light Up</string>
+    <string name="light_up_keepall_name">Мой Keepall Light Up</string>
+    <string name="light_up_keepall_two_lines">"Keepall
+Light Up"</string>
+    <string name="light_up_new_keepall_detected">"Keepall обнаружен "</string>
+    <string name="light_up_new_presets_available">Доступны новые пресеты. Нажмите, чтобы скачать.</string>
+    <string name="light_up_new_trainers_detected">"Кроссовки обнаружены "</string>
+    <string name="light_up_object_plugged_in_label">Подключено к зарядному устройству</string>
+    <string name="light_up_objects_keepall">Keepall Light Up</string>
+    <string name="light_up_objects_trainers">Sneaker X408</string>
+    <string name="light_up_pairing_keepall">Добавить пару с Keepall</string>
+    <string name="light_up_pairing_long_message">Для подключения нового устройства, пожалуйста, убедитесь, что bluetooth включён и ваше изделие Light Up заряжено</string>
+    <string name="light_up_pairing_message">Перед подключением нового устройства убедитесь, что Bluetooth работает.</string>
+    <string name="light_up_pairing_trainers">Добавить пару</string>
+    <string name="light_up_power_management_title">Уровень энергопотребления</string>
+    <string name="light_up_presets_not_available_message">Пресеты недоступны, так как устройство подключено к зарядному устройству</string>
+    <string name="light_up_presets_title">"Пресеты "</string>
+    <string name="light_up_scan_explanation_trainers_subtitle1">Наведите камеру на каждый ботинок</string>
+    <string name="light_up_scan_explanation_trainers_subtitle2">"Зажмите кнопку включения на кроссовке на 5 секунд "</string>
+    <string name="light_up_scan_explanation_trainers_title1">Выберите ваши кроссовки</string>
+    <string name="light_up_scan_explanation_trainers_title2">Отсканируйте первый шаг для кроссовок</string>
+    <string name="light_up_searching_for_keepall">"Поиск сумки Keepall "</string>
+    <string name="light_up_searching_for_trainers">Поиск кроссовок Х408</string>
+    <string name="light_up_sneaker_initial_left">Л</string>
+    <string name="light_up_sneaker_initial_right">П</string>
+    <string name="light_up_trainers">Sneaker X408</string>
+    <string name="light_up_trainers_name">Sneaker X408</string>
+    <string name="light_up_update_animation_required_notification">"Необходимо обновить устройство, чтобы использовать пресеты "</string>
+    <string name="light_up_update_animations_required">Необходимо обновить пресеты. Нажмите, чтобы начать обновление.</string>
+    <string name="light_up_update_explanation">"Спасибо за ожидание. 
+Скоро вы будете автоматически перенаправлены на страницу."</string>
+    <string name="light_up_update_your_keepall">Ваш Keepall Light Up обновляется</string>
+    <string name="light_up_update_your_trainers">Обновление кроссовок Sneaker X408</string>
+    <string name="lightup_device_shut_down">Пожалуйста, убедитесь, что ваше устройство включено.</string>
+    <string name="lightup_unpair_popup_areyousure">Вы уверены, что хотите приостановить синхронизацию данного устройства?</string>
+    <string name="live_fashion_show_replay_waiting_text">"Показ будет доступен в ближайшее время.
+Пожалуйста, повторите попытку через несколько секунд."</string>
+    <string name="loader_error_message">К сожалению, произошла ошибка, и мы не можем загрузить страницу. Убедитесь, что ваше соединение правильное, и повторите попытку.</string>
+    <string name="loader_error_message_title">Контент недоступен</string>
+    <string name="loader_waiting_message">Пожалуйста подождите еще пару секунд…</string>
+    <string name="locate_disclaimer">Наличие изделия не может быть гарантировано во время вашего визита в магазин</string>
+    <string name="locate_no_results">Выбранное изделие не доступно в ближайших к вам магазинах</string>
+    <string name="locate_only_stores_with_product_available">Показать магазины, в которых доступно изделие</string>
+    <string name="locate_opening_hours">Часы работы:</string>
+    <string name="locate_use_current_location">Использовать моё местоположение</string>
+    <string name="log_in_password">Пароль</string>
+    <string name="log_out">Выйти</string>
+    <string name="look_title">Посмотреть</string>
+    <string name="louis_vuitton">Louis Vuitton</string>
+    <string name="ls_next">Далее</string>
+    <string name="luggage_notifications_see_all">Смотреть все</string>
+    <string name="luggage_settings_services">Услуги</string>
+    <string name="luggage_tutorial">Руководство по использованию</string>
+    <string name="lv_now_search_empty_state_message">Проверьте правильность написания или используйте более общее определение</string>
+    <string name="lvconnect_access_description">Приложение для уникальных девайсов Дома</string>
+    <string name="lvconnect_access_title">LV Connect</string>
+    <string name="lvconnect_discover_description">Приложение для электронных девайсов</string>
+    <string name="lvconnect_discover_title">"Приложение LV Connect "</string>
+    <string name="lvpass_productpage_dimension_height">высота</string>
+    <string name="lvpass_productpage_dimension_length">длина</string>
+    <string name="lvpass_productpage_dimension_width">ширина</string>
+    <string name="maintenance_button_client_service">"Клиентский центр "</string>
+    <string name="maintenance_button_faq">FAQ</string>
+    <string name="maintenance_description">Проверьте секцию FAQ или свяжитесь с Клиентским центром для инстуркций.</string>
+    <string name="maintenance_title">Приложение Louis Vuitton в данный момент дополняется.</string>
+    <string name="manage_privacy_settings">Управление настройками</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_privacy_policy_entry">Политика конфиденциальности</string>
+    <string name="multiple_add_to_cart_one_product_out_of_stock_error">Этот продукт больше не доступен.</string>
+    <string name="multiple_add_to_cart_out_of_stock_disclaimer">Этот продукт больше не доступен.</string>
+    <string name="my_certificate_confirmation_help_contact">"Если вы не получите  сертификат через 2 дня, пожалуйста, свяжитесь с клиентским сервисом по телефону + 7 800 700 5058. "</string>
+    <string name="my_certificate_empty">В настоящее время у вас нет сертификатов</string>
+    <string name="my_certificate_help_contact">За получением дополнительной информации обращайтесь в клиентский центр по телефону + 7 800 700 5058. VUITTON.</string>
+    <string name="my_certificate_help_contact1">За дополнительной информацией обращайтесь в службу поддержки клиентов по телефону + 7 800 700 5058. Консультант по работе с клиентами будет рад вам помочь.</string>
+    <string name="my_certificate_redirection_mylv">Посмотреть мои сертификаты</string>
+    <string name="my_certificate_stone_engraving_label">Stone engraving:</string>
+    <string name="my_certificate_title">Мои сертификаты</string>
+    <string name="my_certificate_transfer">"Передать мой сертификат: "</string>
+    <string name="my_certificate_view">Посмотреть мой сертификат</string>
+    <string name="my_connected_objects">Мои подключенные устройства</string>
+    <string name="my_flight_address">Мой полёт</string>
+    <string name="my_lv_dashboard_care_services">Служба ремонта</string>
+    <string name="my_monogram_personalization_name">Mon Monogram</string>
+    <string name="my_notifications_activation_page_title">У вас нет уведомлений</string>
+    <string name="my_notifications_empty_default_title">Луи Вюиттон</string>
+    <string name="my_notifications_empty_page_enable_description">Активируйте уведомления, чтобы следить за новостями Louis Vuitton, модными показами и последними коллекциями. Вы также будете получать информацию о ваших любимых продуктах и напоминания о наших услугах.</string>
+    <string name="my_notifications_long_press_description">Нажмите и удерживайте уведомление, чтобы просмотреть всё сообщение.</string>
+    <string name="my_order_color">Цвет</string>
+    <string name="my_order_delivery_date">Дата доставки</string>
+    <string name="my_order_disclaimer">"Пожалуйста, при получении заказа подготовьте: паспорт, письмо с подтверждением доставки заказа в магазин, а также кредитной карты, использованной при заказе. "</string>
+    <string name="my_order_method_home">Доставка</string>
+    <string name="my_order_method_store">В магазине</string>
+    <string name="my_order_size">Размер</string>
+    <string name="my_orders_actions_invoice">Скачать счет-фактуру</string>
+    <string name="my_orders_actions_title">Ваши ярлыки</string>
+    <string name="my_orders_actions_track">Отслеживание заказа</string>
+    <string name="my_orders_home_long_press_access">Мои заказы</string>
+    <string name="my_orders_irregular_status">Нерегулярный статус</string>
+    <string name="my_orders_non_returnable_disclaimer">Этот товар не подлежит возврату.</string>
+    <string name="my_orders_parcel_number">Посылка %1$d/%2$d</string>
+    <string name="my_orders_personalization_title">Персонализация</string>
+    <string name="my_orders_price_label">Стоимость</string>
+    <string name="my_orders_product_details_title">Об изделии</string>
+    <string name="my_orders_product_name_label">Название продукта</string>
+    <string name="my_orders_store_label">Магазин</string>
+    <string name="my_travel">Мои путешествия</string>
+    <string name="my_travel_address">Мои адреса</string>
+    <string name="mylv_accountcreation_pleaseenteravalidemailaddress">Пожалуйста, введите действительный адрес электронной почты</string>
+    <string name="mylv_address_book_search_bar_description">Поиск адреса</string>
+    <string name="mylv_address_countie">Страна</string>
+    <string name="mylv_authent_native_apple_sign_up_title">Зарегистрироваться</string>
+    <string name="mylv_dashboard_myaddress">Мои контакты</string>
+    <string name="mylv_dashboard_myorders">Мои заказы</string>
+    <string name="mylv_dashboard_mysecureoutline">Мои эксклюзивные предложения</string>
+    <string name="mylv_dashboard_mywishlists">Мой список желаний</string>
+    <string name="mylv_dashboard_osa">Мои встречи</string>
+    <string name="mylv_editsettings_savecta">Сохранить изменения</string>
+    <string name="mylv_error_ws_generic_label_title">К сожалению, нам не удалось загрузить информацию.</string>
+    <string name="mylv_loginscreen_branchid">Branch ID</string>
+    <string name="mylv_loginscreen_taxid">Tax ID</string>
+    <string name="mylv_lvpass_menu_disconnectfrommylv">Выйти из My LV</string>
+    <string name="mylv_lvpass_menu_disconnectfrommylv_popup_acknowledgement">Вы вышли из вашей учётной записи MY LV</string>
+    <string name="mylv_lvpass_menu_disconnectfrommylv_popup_areyousure">Вы уверены, что вы хотите выйти из учётной записи?</string>
+    <string name="mylv_lvpass_menu_disconnectfrommylv_popup_areyousure_stayloggedin">Остаться в учётной записи</string>
+    <string name="mylv_lvpass_menu_disconnectfrommylv_popup_areyousure_yes">Да</string>
+    <string name="mylv_main_addresses_description">"Данный адрес будет назначен основным. Вы можете добавить дополнительный адрес ниже. "</string>
+    <string name="mylv_mandatoryfield">* обязательное для заполнения поле</string>
+    <string name="mylv_my_notifications_title">Уведомления</string>
+    <string name="mylv_myorders_date">ДАТА</string>
+    <string name="mylv_myorders_noorderscreen_title">Здесь вы сможете увидеть ваши онлайн-заказы</string>
+    <string name="mylv_myorders_ordernr">Заказ n°</string>
+    <string name="mylv_myorders_shipping_group_not_found_error">К сожалению, нам не удалось загрузить информацию.</string>
+    <string name="mylv_myorders_shippingaddress">Адрес доставки</string>
+    <string name="mylv_myorders_shippingmethod">Способ доставки</string>
+    <string name="mylv_myorders_sku">артикул</string>
+    <string name="mylv_myprofile_addressbookbrick_addanaddress">Добавить адрес</string>
+    <string name="mylv_myprofile_addressbookbrick_addressdescription">Описание</string>
+    <string name="mylv_myprofile_addressbookbrick_deleteaddress">Удалить адрес</string>
+    <string name="mylv_myprofile_addresslist_deleteaddress">Удалить этот адрес</string>
+    <string name="mylv_myprofile_deleteaddress_areyousure">Вы уверены, что хотите удалить этот адрес?</string>
+    <string name="mylv_myprofile_myinfos_address_address1">Адрес</string>
+    <string name="mylv_myprofile_myinfos_address_address2">Адрес (продолжение)</string>
+    <string name="mylv_myprofile_myinfos_address_city">Город</string>
+    <string name="mylv_myprofile_myinfos_address_complement">Дополнительная информация</string>
+    <string name="mylv_myprofile_myinfos_address_phonenumber_home">Домашний</string>
+    <string name="mylv_myprofile_myinfos_address_phonenumber_mobile">Мобильный</string>
+    <string name="mylv_myprofile_myinfos_address_phonenumber_work">Рабочий</string>
+    <string name="mylv_myprofile_myinfos_address_postcode">Индекс</string>
+    <string name="mylv_myprofile_myinfos_address_state">Регион</string>
+    <string name="mylv_myprofile_myinfos_address_streetname">Улица</string>
+    <string name="mylv_myprofile_myinfos_address_streetnumber">Номер дома</string>
+    <string name="mylv_myprofile_myinfos_logininformation">Информация при регистрации</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editbranchid_title">Изменить ID филиала</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editmail_savemodifications">Сохранить изменения</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editmyinfos_branchid">Branch ID</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editmyinfos_taxid">Tax ID</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editpassword_currentpassword">Текущий пароль</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editpassword_identical_error">Новый пароль должен отличаться от текущего</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editpassword_newpassword">Новый пароль</string>
+    <string name="mylv_myprofile_myinfos_logininformation_editpassword_title">Изменить пароль</string>
+    <string name="mylv_myprofile_myinfos_logininformation_edittaxid_title">Изменить Tax ID</string>
+    <string name="mylv_myprofile_myinfos_mainaddress_addmainaddress">Добавить основной адрес</string>
+    <string name="mylv_myprofile_myinfos_mainaddress_editmainaddress">Изменить основной адрес</string>
+    <string name="mylv_myprofile_myinfosbrick_title">Моя информация</string>
+    <string name="mylv_myprofile_settingsbrick_contactbymail">Связь по почте</string>
+    <string name="mylv_myprofile_settingsbrick_contactbyphone">Связь по телефону</string>
+    <string name="mylv_myprofile_settingsbrick_contactbysms">Связь по sms</string>
+    <string name="mylv_myprofile_settingsbrick_newsletter">Новостная рассылка</string>
+    <string name="mylv_myprofile_settingsbrick_title">Настройки</string>
+    <string name="mylv_myprofile_title_header">Моя учетная запись</string>
+    <string name="mylv_mywishlists_addtowishlist_addtonewwishlist">Добавить в новый список желаний</string>
+    <string name="mylv_mywishlists_addtowishlist_productadded">Изделие было добавлено в ваш список желаний</string>
+    <string name="mylv_mywishlists_addtowishlist_productalreadyadded">Этот товар уже добавлен в ваш список желаний</string>
+    <string name="mylv_mywishlists_nativeshare_title">Откройте мой список желаний Louis Vuitton</string>
+    <string name="mylv_mywishlists_no_wishlistyet_title">У вас нет ни одного изделия в списке желаний</string>
+    <string name="mylv_mywishlists_nowishlistyet_startwithmainproductselection">Создать список желаний</string>
+    <string name="mylv_mywishlists_nowishlistyet_text">Когда вы создадите свой список желаний, вы сможете поделиться им с вашими друзьями.</string>
+    <string name="mylv_mywishlists_nowishlistyet_text_2">Пройдите в любую категорию продукции, чтобы создать список желаний</string>
+    <string name="mylv_mywishlists_removefromwishlist_productremoved">Продукт был удалён из вашего списка пожеланий</string>
+    <string name="mylv_mywishlists_removeproductfromwishlist_confirmation_no">Отменить</string>
+    <string name="mylv_mywishlists_share_send">Поделиться списком желаний</string>
+    <string name="mylv_mywishlists_sharewishlist_acknowledgment">Ваш список желаний был отправлен</string>
+    <string name="mylv_mywishlists_sharewishlist_friendemailaddress">Адрес электронной почты друга</string>
+    <string name="mylv_mywishlists_sharewishlist_friendname">Имя друга</string>
+    <string name="mylv_mywishlists_sharewishlist_title">Поделиться списком желаний</string>
+    <string name="mylv_name_myaddress">Имя</string>
+    <string name="mylv_no_addresses">Вы ещё не добавили адрес</string>
+    <string name="mylv_password_repeated">Пароль не действителен: пароль слишком простой или используется повторно</string>
+    <string name="mylv_password_tooshort_or_not_contains_number_or_uppercase">"Пароль должен отличаться от вашей электронной почты и должен содержать:
+- Минимум 8 символов
+- Минимум 1 цифру 
+- Минимум 1 символ верхнего регистра
+- Минимум 1 символ нижнего регистра
+- Минимум один символ из следующего списка: ! # $ &amp; ( ) * + , - . : ; &lt; = > ? @ [ ] ^ _ { | } ~"</string>
+    <string name="mylv_privacypolicy">"LV – ГЛОБАЛЬНАЯ ПОЛИТИКА ЗАЩИТЫ ПЕРСОНАЛЬНЫХ ДАННЫХ – &lt;br/>
+ Цель настоящей Политики защиты персональный данных (далее – \"Политика\") – определить порядок обработки Louis Vuitton Malletier, юридическим лицом, учрежденным в соответствии с законодательством Франция, с местом нахождения по адресу: Франция, 75001 Париж, Рю дю Пон Нёф, 2 (2 rue du Pont Neuf 75001 Paris, France) (далее – \"LV\", \"Мы\", \"Наш(-а, -е, -и)\" или \"Нас\"), персональной информации о пользователях (далее – \"Вы\") приложения LV APP (далее – \"Приложение LV APP\"), привязанных часов серии Tambour (далее – \"Привязанные Часы\") и/или эхо-устройства LV Echo для багажа коллекции Horizon (далее – \"Привязанный Багаж\").&lt;br/>
+ 1. СБОР КАКИХ ПЕРСОНАЛЬНЫХ ДАННЫХ МЫ ОСУЩЕСТВЛЯЕМ?&lt;br/>
+ 1.1 При использовании Приложения LV APP LV осуществляет сбор Ваших персональных данных, включая:&lt;br/>
+ a) сведения о Вашем устройстве (напр., версия ОС, языковые настройки и/или MAC-адрес Вашего устройства);&lt;br/>
+ b) сведения об использовании Приложения LV APP: время и продолжительность доступа к Приложению LV APP, наиболее часто посещаемые разделы Приложения LV APP, случаи сбоя и перезагрузки;&lt;br/>
+ c) отслеживание местоположения Вашего устройства (при необходимости и с Вашего согласия).&lt;br/>
+ Вы можете создать Вашу клиентскую учетную запись (которая будет использоваться для всех целей Вашего взаимодействия с LV) (далее – \"Ваша клиентская учетная запись\") непосредственно через Приложение LV APP, и в этом случае LV также сможет осуществлять сбор следующей информации:&lt;br/>
+ d) Логин/ID и прочие Контактные данные: к таковым могут относиться имя, адрес электронной почты, страна проживания, адрес, номер телефона; &lt;br/>
+ e) Платежная информация: напр., реквизиты кредитных карт, номера банковских счетов и/или реквизиты учетной записи PayPal, когда Вам нужно предоставить их для получения товаров или услуг, заказываемых Вами через Приложение LV APP (если в используемой Вами версии Приложения LV APP доступная функция покупки через Интернет).&lt;br/>
+ &lt;br/>
+ Если, зайдя в Вашу клиентскую учетную запись, Вы решите использовать Приложение LV APP, LV может идентифицировать Вас напрямую и, соответственно, приведет Ваши действия в Приложении LV APP в соответствие с прочими каналами Вашего взаимодействия с LV (через магазины LV или интернет-сайты LV).&lt;br/>
+ Приложение LV APP может запрашивать доступ к информации, хранящейся на Вашем устройстве (напр., фотографиям или камере), поскольку это может быть необходимо при использовании Вами специальных функций, которые периодически разрабатываются в рамках Приложения LV APP и которые подразумевают доступ к указанной информации.&lt;br/>
+ 1.2 При использовании Ваших Привязанных Часов LV осуществляется в частности сбор следующей информации (совместно с уникальным идентификатором устройств, закрепленным за Вашими Привязанными Часами): &lt;br/>
+ &lt;br/>
+ a) атрибутов браузера в связи с использованием Вами Ваших Привязанных Часов: сюда относятся сведения о загружаемых Вами циферблатах, о приложениях LV или сервисах LV, встроенных в используемые Вами Привязанные Часы и т.д.&lt;br/>
+ &lt;br/>
+ b) диагностической информации о Ваших Привязанных Часах (напр., об уровне заряда аккумулятора, объеме занимаемой памяти, случаях сбоя и перезагрузки).&lt;br/>
+ Если Вы решите привязать Ваши Привязанные Часы к Приложению LV APP, LV также сможет осуществлять сбор информации, указанной в Разделе 1.1, сбор которой LV может осуществлять в связи с использованием Вами Приложения LV APP.&lt;br/>
+ &lt;br/>
+ Привязанные Часы работают под оболочкой Google Android. Сведения, получаемые Google в процессе использования Вами Привязанных Часов, не передаются LV. Вы можете загружать сторонние приложения из магазина Google Play непосредственно на Ваши Привязанные Часы. В отношении персональных данных, сбор которых осуществляется через подобные сторонние приложения, и их использования будут применяться правила защиты персональных данных, установленные соответствующими сторонними приложениями, а не LV.&lt;br/>
+ &lt;br/>
+ 1.3 При использовании Вашего Привязанного Багажа Вы должны войти в LV APP и привязать Ваш Привязанный Багаж к Приложению LV APP. В результате этого LV сможет осуществлять сбор следующей информации (помимо информации, указанной в Разделе 1.1, сбор которой LV может осуществляться в связи с использованием Вами Приложения LV APP):&lt;br/>
+ &lt;br/>
+ a) отслеживание местоположения Привязанного Багажа, но только в том случае, если: (i) Вы включили Эхо-устройство LV Echo и разметили его внутри Вашего Привязанного Багажа; и (ii) Ваш Привязанный Багаж расположен недалеко от одного из ограниченного числа \"Пунктов интереса\", предварительно обозначенных LV. К таким \"Пунктам интереса\" относятся: (i) аэропорты, входящие в коммуникационную сеть нашего партнера; и (ii) магазины LV, расположенные по всему миру.&lt;br/>
+ &lt;br/>
+ b) техническая информация об Эхо-устройстве LV Echo (напр., уровень заряда аккумулятора или сигналы, свидетельствующие о том, что Привязанный Багаж открывался во время поездки (световая индикация));&lt;br/>
+ &lt;br/>
+ 2. КАКИМ ОБРАЗОМ МЫ ИСПОЛЬЗУЕМ ВАШИ ПЕРСОНАЛЬНЫЕ ДАННЫЕ?&lt;br/>
+ 2.1 При использовании Приложения LV APP LV осуществляет обработку Ваших персональных данных в следующих целях:&lt;br/>
+ &lt;br/>
+ a) улучшение Приложения LV APP и Наших продуктов, а также Вашего интерфейса;&lt;br/>
+ &lt;br/>
+ b) обработка заказов и/или покупок в Приложении LV APP и подготовка ответов на Ваши запросы и вопросы;&lt;br/>
+ &lt;br/>
+ c) направление Вам запрашиваемой Вами информации или взаимодействие с Вами по поводу Вашей учетной записи или Наших взаимоотношений; обеспечение безопасности Приложения LV APP и предотвращение несанкционированного доступа к Приложению LV APP; &lt;br/>
+ &lt;br/>
+ d) повышение уровня понимания Нами Ваших интересов и предметов озабоченности; &lt;br/>
+ &lt;br/>
+ e) понимание и анализ различных каналов Вашего взаимодействия с LV (в том числе через Наши приложения, Интернет-сайты или магазины); особенно тогда, когда Вы используете Приложение LV APP в режиме идентификации/входа через Вашу клиентскую учетную запись, поскольку в этом случае LV сможет непосредственно идентифицировать Вас и привести Ваши действия в Приложении LV APP в соответствие с иными каналами Вашего взаимодействия с LV;&lt;br/>
+ &lt;br/>
+ f) корректировка Нашего с Вами взаимодействия и адаптирование Нашей маркетинговой деятельности под Ваши конкретные потребности и интересы; &lt;br/>
+ &lt;br/>
+ g) направление маркетинговых предложений по Нашим продуктам; &lt;br/>
+ &lt;br/>
+ h) исполнение Нами Наших юридических обязательств; &lt;br/>
+ &lt;br/>
+ i) обеспечение безопасности, защищенности и блокировки спама. &lt;br/>
+ &lt;br/>
+ 2.2 При использовании Ваших Привязанных Часов &lt;br/>
+ LV осуществляет обработку Ваших персональных данных:&lt;br/>
+ a) для обеспечения корректного завершения процесса синхронизации и предупреждения Вас о технических проблемах (низкий заряд аккумулятора или нехватка памяти для хранения данных);&lt;br/>
+ b) для того чтобы лучше понимать, как Вы используете Привязанные Часы, и, соответственно, улучшать работу с Привязанными Часами и Вашу работу на них (предлагая точные и усовершенствованные приложения и/или контент); и&lt;br/>
+ c) в исключительных случаях для исполнения своих юридических обязательств. &lt;br/>
+ &lt;br/>
+ Если Ваши Привязанные Часы сопряжены с Приложением LV APP, LV также сможет осуществлять обработку Ваших персональных данных в целях, указанных в Разделе 2.1, в связи с использованием Вами Приложения LV APP. Кроме того, LV сможет непосредственно идентифицировать Вас и, соответственно, приведет порядок использования Вами Привязанных Часов в соответствие с другими каналами Вашего взаимодействия с LV (через Наши приложения, Интернет-сайты или магазины). Это позволит нам скорректировать Наше с Вами взаимодействие и адаптировать Нашу маркетинговую деятельность под Ваши конкретные потребности и интересы. &lt;br/>
+ 2.3 При использовании Вашего Привязанного Багажа LV осуществляет обработку Ваших персональных данных для:&lt;br/>
+ a) отслеживания местоположения Вашего Привязанного Багажа в \"Пунктах интереса\", предварительно обозначенных LV (аэропортах и магазинах LV).&lt;br/>
+ b) предупреждения Вас о том, что в пути Ваш багаж открывался;&lt;br/>
+ c) предложения Вам соответствующих услуг, касающихся использования Вами Привязанного Багажа; &lt;br/>
+ Обращаем Ваше внимание на то, что если Вы приняли решение не предоставлять Нам некоторые из своих персональных данных, то через Приложение LV APP Вам могут оказаться доступны не все услуги. Например, доступ к отдельным разделам Приложения LV APP (напр., разделу \"Привязанный Багаж\") возможен только в том случае, если у Вас есть клиентская учетная запись. А покупка товаров через Приложение LV APP возможна только в том случае, если Вы предоставили свои идентификационные данные и платежную информацию.&lt;br/>
+ 3. КОМУ МЫ ПЕРЕДАЕМ ВАШИ ПЕРСОНАЛЬНЫЕ ДАННЫЕ?&lt;br/>
+ &lt;br/>
+ Ваши персональные данные, сбор которых Мы осуществляем, могут раскрываться или иным образом передаваться нами только: &lt;br/>
+ &lt;br/>
+ a) Нашей материнской компании и Нашим аффилированным лицам в рамках Группы Лиц LV: (i) если Вы приобретаете товар через Приложение LV APP: обработкой Ваших персональных данных занимается соответствующая аффилированная компания, ответственная за продажу Вам товара; (ii) доступ к информации имеют только уполномоченные сотрудники, которым этот доступ действительно необходим для целей внутреннего аудита, выставления счетов, управленческих или административных целей;&lt;br/>
+ &lt;br/>
+ b) поставщикам услуг и агентам, которые оказывают услуги от Нашего имени: Ваши персональные данные могут передаваться поставщикам, которые помогают Нам в эксплуатации Приложения LV APP, Привязанных Часов или Привязанного Багажа;&lt;br/>
+ &lt;br/>
+ c) компаниям, которые приобретают Нас или приобретаются Нами или с которыми Мы осуществляем слияние;&lt;br/>
+ &lt;br/>
+ d) в случаях, когда это продиктовано требованиями закона или необходимостью соблюдения действующего законодательства.&lt;br/>
+ &lt;br/>
+ 4. COOKIE-ФАЙЛЫ&lt;br/>
+ Мы можем осуществлять сбор определенных сведений через cookie-файлы или с использованием иных автоматизированных средств.&lt;br/>
+ 4.1 Когда Вы используете Приложение LV APP:&lt;br/>
+ Некоторые cookie-файлы несут определенный функционал по сбору сведений, позволяющих Нам оптимизировать Вашу работу в браузере (напр., сохранение выбранного языка или содержимого Вашей \"корзины\"), другие же cookie-файлы также осуществляют сбор сведений о Ваших действиях путем сохранения посещенных Вами Интернет-страниц, времени их посещения и Ваших пользовательских предпочтений. &lt;br/>
+ Мы также используем cookie-файлы в аналитических целях для измерения пользовательской активности в Приложении LV APP и определения наиболее часто посещаемых разделов приложения.&lt;br/>
+ Эта информация позволит Нам улучшить Приложение LV APP и лучше понимать, какие именно продукты и услуги Вы предпочитаете.&lt;br/>
+ Используя настройки конфиденциальности Вашего браузера, где должна быть предусмотрена возможность запрета хранения информации на терминале данных или обработки информации, которая уже сохранена на соответствующем терминале данных, Вы можете настроить порядок использования cookie-файлов для целей поведенческого таргетинга или в маркетинговых целях, если только Вы не активируете опцию, позволяющую осуществлять сбор и обработку соответствующих данных.&lt;br/>
+ В любой момент времени Вы можете изменить настройки Вашего устройства и деактивировать возможность использования cookie-файлов, следуя указаниям, разработанным для Вашей конкретной операционной системы.&lt;br/>
+ Если Вы используете операционную систему iOS: https://support.apple.com/en-us/HT201265 &lt;br/>
+ Если Вы используете операционную систему Android: &lt;br/>
+ https://support.google.com/chrome/ansWer/95647?co=GENIE.Platform%%3DAndroid&amp;hl=en &lt;br/>
+ 4.2 Когда Вы используете Ваши Привязанные Часы: Если от Вас получено предварительное согласие, Ваша активность в Интернет-браузере анализируется аналитическим инструментом, встроенным в Привязанные Часы. В любой момент времени Вы можете отключить аналитику, воспользовавшись функцией Client Link непосредственно на Ваших Привязанных Часах.&lt;br/>
+ 5. ПЕРЕДАЧА ВАШИХ ПЕРСОНАЛЬНЫХ ДАННЫХ &lt;br/>
+ Собранные Нами о Вас данные могут передаваться третьим лицам, а также могут храниться и обрабатываться, в частности, в Соединенных Штатах, в целях хостинга и обслуживания Приложения LV APP. &lt;br/>
+ При передаче Ваших персональных данных третьим лицам, находящимся в Соединенных Штатах, Мы обеспечиваем надлежащий уровень защиты Ваших персональных данных в соответствии с типовыми положениями документов ЕС, которые мы подписываем с получателем данных, или по причине соблюдения получателем принципов, предусмотренных рамочными договоренностями об обмене конфиденциальной информации между ЕС и США (программа Privacy Shield). &lt;br/>
+ Кроме того, в дальнейшем Мы можем передать Ваши персональные данные аффилированным лицам LV по всему миру для обработки Вашего заказа при приобретении Вами продукта, а также в целях организации системы взаимоотношений между различными аффилированными лицами LV, с которым Вам, возможно, придется взаимодействовать. В рамках такой передачи также будет обеспечен надлежащий уровень защиты данных в соответствии с типовыми положениями документов ЕС, которые Мы подписываем с получателем данных. &lt;br> 
+6. СРОК ХРАНЕНИЯ ДАННЫХ&lt;br/>
+ Если законодательством не предусмотрено иное, LV обязан хранить Ваши персональные данные не дольше, чем это может оказаться необходимым в целях развития Ваших деловых отношений с LV, или в течение периода, предусмотренного действующим местным законодательством с момента нашего последнего контакта, или такого периода, который требуется для соблюдения установленных законом обязательств LV.&lt;br/>
+ 6.1 В случае с Приложением LV APP, Ваши персональные данные будут храниться до тех пор, пока используется Ваше Приложение LV APP, и в течение 5 лет после того, как Вы его закроете, за исключением данных о входах в систему, которые хранятся не более года после их получения. &lt;br/>
+ 6.2 В случае с Привязанными Часами, Ваши персональные данные будут храниться не более двух лет с момента последнего использования Вами Привязанных Часов.&lt;br/>
+ 6.3 В случае с Привязанным Багажом, Ваши персональные данные будут храниться до тех пор, пока Вы пользуетесь Привязанным Багажом в сочетании с Приложением LV APP, и не более 5 лет с момента Вашего соединения с разделом Приложения LV APP, посвященным Привязанному Багажу. &lt;br/>
+ 7. ВАШИ ПРАВА&lt;br/>
+ Вы вправе потребовать предоставить Вам доступ к Вашим персональным данным, которые Мы храним. В таком случае Мы предоставим Вам в соответствии с требованиями закона всю информацию о целях обработки данных, категориях обработанных данных, категориях получателей, сроках хранения персональных данных, Ваших правах на корректировку или удаление персональных данных или, в соответствующих случаях, на ограничение доступа к ним, и т. д.&lt;br/>
+ Вы также имеете право на получение копий любых Ваших персональных данных, хранящихся у Нас, в таком формате и виде, которые позволят Вам воспользоваться Вашим правом на обеспечение переносимости персональных данных. &lt;br/>
+ Вы также вправе потребовать, чтобы Мы уточнили, исправили или удалили любые данные, которые являются неполными, неточными или устаревшими.&lt;br/>
+ Вы вправе потребовать удалить Ваши персональные данные, если (i) Ваши персональные данные более не требуются для обработки персональных данных, (ii) Вы отозвали Ваше согласие на обработку персональных данных исключительно на основании такого согласия, (iii) Вы возражаете против обработки персональных данных, (iv) обработка персональных данных является незаконной, (v) персональные данные должны быть уничтожены во исполнение предусмотренных законом обязательств, действие которых распространяется на LV. LV примет разумные меры по уведомлению других участников группы LV о таком случае уничтожения данных.&lt;br/>
+ Вы вправе потребовать ограничить обработку персональных данных, если (i) ставится под сомнение точность Ваших персональных данных, а LV необходимо обеспечить возможность проверки соответствующих данных на точность, (ii) Вы желаете ограничить объем Ваших персональных данных, а не удалять их несмотря на то, что их обработка является незаконной, (iii) Вы желаете, чтобы LV хранил Ваши персональные данные, поскольку они необходимы Вам как ответчику по какому-либо судебному иску, (iv) Вы были против обработки данных, однако LV проводит проверку на предмет наличия у него законных оснований на такую обработку, которые могут иметь преимущественное юридическое действие по отношению к Вашим правам.&lt;br/>
+ Вы также вправе подать жалобу в соответствующий компетентный орган, регулирующий вопросы защиты данных. &lt;br/>
+ В тех случаях, когда Ваши персональные данные обрабатываются на основании Вашего согласия, Вы вправе в любой момент отозвать ранее данное Нам согласие.&lt;br/>
+ Вы также вправе выразить несогласие с обработкой Ваших персональных данных в любой момент при их использовании в маркетинговых или рекламных целях, а также несогласие с предоставлением Ваших персональных данных сторонним лицам или другим участникам группы LV.&lt;br/>
+ Вы также вправе дать распоряжения на предмет хранения, уничтожения или раскрытия Ваших персональных данных после Вашей смерти. Такие распоряжения могут носить как общий, так и конкретный характер. &lt;br/>
+ Для осуществления описанных выше прав Вам следует обратиться в наш Отдел по работе с клиентами по адресу электронной почты или телефону, указанным в разделе \"Контактные данные\" используемой Вами версии Приложения LV APP."</string>
+    <string name="mylv_privacypolicy_2">"8. МЕРЫ БЕЗОПАСНОСТИ&lt;br/>
+ Мы обеспечим надлежащий уровень защиты персональных данных и принятие соответствующих мер безопасности технического и организационного характера, нацеленных на защиту персональных данных (включая профессиональную подготовку соответствующего персонала) от случайного или незаконного повреждения, случайной потери или изменения, несанкционированного раскрытия или доступа, а также от всех других незаконных видов обработки.&lt;br/>
+ 9. ДЕТИ&lt;br/>
+ Приложение LV APP, Привязанные Часы и Привязанный Багаж не предназначены для использования детьми. Без согласия родителей или опекунов мы не получаем от детей информацию, позволяющую установить чью-либо личность, за исключением случаев, предусмотренных законом. &lt;br/>
+ Для того, чтобы осуществлять какие-либо операции на наших сайтах, информационных или прочих ресурсах, Вы должны быть не моложе восемнадцати лет. Вступая в деловые отношения с Нами, Вы подтверждаете, что Вам исполнилось восемнадцать лет и/или Вы полностью правоспособны к подписанию и соблюдению настоящей Политики защиты персональных данных, а также к исполнению предусмотренных в ней обязательств.&lt;br/>
+ Если Нам станет известно (посредством получения уведомлений в порядке, предусмотренном пунктом \"Обратная связь\" ниже) о том, что несовершеннолетнее лицо направило нам персональные данные через наши информационные ресурсы или иным образом, Мы удалим такие персональные данные. &lt;br/>
+ 10. СТОРОННИЕ ИНТЕРНЕТ-САЙТЫ&lt;br/>
+ Мы можем устанавливать соединение со сторонними интернет-сайтами или услугами, которые Мы не контролируем и которые регулируются своими внутренними правилами обеспечения защиты данных. Действие настоящей Политики защиты персональных данных не распространяется на такие сторонние ресурсы. Мы настоятельно рекомендуем Вам ознакомиться с правилами защиты персональных данных всех посещаемых Вами сторонних интернет-сайтов с тем, чтобы понять, как на таких ресурсах будут обращаться с Вашими персональными данными. &lt;br/>
+ 11. ИЗМЕНЕНИЕ ПОЛОЖЕНИЙ НАСТОЯЩЕЙ ПОЛИТИКИ &lt;br/>
+ Мы можем периодически вносить изменения в положения нашей Политики защиты персональных данных. Наша Политики может подвергаться периодическим изменениям, отражающим изменения в процессе обработки Ваших персональных данных. Мы будем уведомлять Вас о любых существенных изменениях в установленном законом порядке.&lt;br/>
+ 12. ОБРАТНАЯ СВЯЗЬ&lt;br/>
+ Если Вы пожелаете обновить имеющиеся у Нас данные о Вас или о Ваших предпочтениях, или если у Вас возникнут какие-либо вопросы по защите Ваших персональных данных, просим обращаться либо в наш Отдел по работе с клиентами (список бесплатных номеров телефонов в Вашем регионе представлен на нашем вебсайте www.louisvuitton.com) либо направлять соответствующие запросы по адресам, указанным в используемой Вами версии Приложения LV APP.&lt;br/>
+ Время последнего обновления: [указать]"</string>
+    <string name="mylv_privacypolicy_2_canada">"8. МЕРЫ БЕЗОПАСНОСТИ&lt;br/>
+Мы обеспечим надлежащий уровень защиты персональных данных и обеспечим наличие соответствующих технических и организационных мер безопасности для защиты персональных данных (включая обучение и подготовку соответствующего персонала) от случайного или незаконного уничтожения, случайной потери или изменения, несанкционированного раскрытия или доступа, а также от всех других незаконных форм обработки.&lt;br/>
+9. ДЕТИ&lt;br/>
+LV APP, Connected Watch и Connected Luggage не предназначены для детей. Мы сознательно не собираем личную информацию о детях без разрешения родителя или опекуна, за исключением случаев, когда это разрешено действующим законодательством. &lt;br/>
+Вам должно быть не менее восемнадцати лет, чтобы участвовать в деятельности и транзакциях на наших сайтах, в средствах массовой информации или иным образом. Участвуя в деятельности или сделках с Нами, Вы подтверждаете, что Вам не менее восемнадцати лет и/или Вы полностью способны заключать и соблюдать настоящую Политику конфиденциальности и быть юридически связанными ею.&lt;br/>
+Если Мы получим уведомление (связавшись с Нами в разделе «Связаться с нами») или узнаем, что несовершеннолетнее лицо предоставило нам личную информацию через наши средства массовой информации или иным образом, Мы удалим такую личную информацию. &lt;br/>
+&lt;br/>
+10. САЙТЫ ТРЕТЬИХ ЛИЦ&lt;br/>
+Мы можем ссылаться на сторонние сайты или сервисы, которые мы не контролируем и которые регулируются их собственной политикой конфиденциальности. Настоящая Политика конфиденциальности не распространяется на сторонние сайты. Мы настоятельно рекомендуем Вам ознакомиться с политикой конфиденциальности всех сторонних сайтов, которые Вы посещаете, чтобы узнать, как они обращаются с Вашей личной информацией. &lt;br/>
+11. ИЗМЕНЕНИЯ В НАСТОЯЩЕЙ ПОЛИТИКЕ&lt;br/>
+Время от времени Мы можем изменять Нашу политику конфиденциальности. Наша Политика может время от времени меняться, чтобы отразить изменения в обработке Нами Ваших персональных данных. Мы уведомим Вас о любых существенных изменениях в соответствии с требованиями законодательства.&lt;br/>
+12. СВЯЖИТЕСЬ С НАМИ&lt;br/>
+Если Вы хотите, чтобы Мы обновили имеющуюся у Нас информацию о Вас или Ваших предпочтениях, или если у Вас есть какие-либо вопросы о защите Вашей личной информации, пожалуйста, свяжитесь либо с нашей Службой поддержки клиентов (список бесплатных номеров в Вашем регионе доступен на нашем веб-сайте www.louisvuitton.com), либо по контактному адресу, указанному в версии LV APP, которую Вы используете."</string>
+    <string name="mylv_salesforces_register_fail">Процесс создания вашей учётной записи практически завершён. Пожалуйста, войдите в ваш аккаунт для завершения регистрации.</string>
+    <string name="mylv_save_address_wrong_postal_code">Пожалуйста, введите действительный почтовый индекс.</string>
+    <string name="mylv_sharedwishlist_title">Список пожеланий</string>
+    <string name="mylv_store_user_pass_lvpass_description">Упростите идентификацию, предъявив свой LV Pass.</string>
+    <string name="mylv_store_user_pass_lvpass_title">LV Pass</string>
+    <string name="mylv_tab_bar">MyLV</string>
+    <string name="myorders_order_number_with_variable">Заказ n°%s</string>
+    <string name="myorders_purchased_order_csc">Обслуживание клиентов</string>
+    <string name="myorders_purchased_order_in_store">В магазине</string>
+    <string name="myorders_purchased_order_online">Online</string>
+    <string name="nc_title_shopping_cart">Моя корзина</string>
+    <string name="net_alert_button_text">+7 800 700 50 58</string>
+    <string name="net_alert_context">Для получения информации включите WiFi, 3G или 4G.</string>
+    <string name="net_alert_remark">Если вам нужна помощь - позвоните нам:</string>
+    <string name="net_alert_title">Необходимо интернет-соединение</string>
+    <string name="no_price_on_product">Цена по запросу</string>
+    <string name="not_logged_subtitle">"Пожалуйста, войдите в ваш аккаунт
+или создайте новую учётную запись"</string>
+    <string name="notif_brand_communication_title">Бренд-коммуникация</string>
+    <string name="notif_intro_text">Включите Push-уведомления для получения информации о наших продуктах, услугах и событиях.</string>
+    <string name="notif_notify_me_title">Получить уведомление</string>
+    <string name="notif_redirection_CTA_legal">Перейдите на страницу настроек конфиденциальности</string>
+    <string name="notif_redirection_description_legal">Чтобы держать Вас в курсе последних новостей о приложении Louis Vuitton и получать Ваши уведомления, мы предлагаем Вам активировать на странице настроек конфиденциальности файлы cookie для персонализации работы с Louis Vuitton.</string>
+    <string name="notif_redirection_title_legal">Ваши уведомления отключены</string>
+    <string name="notif_section_settings">Уведомления</string>
+    <string name="numbered_list">%d.</string>
+    <string name="ok">ОК</string>
+    <string name="onboarding_connexion_description">" "</string>
+    <string name="onboarding_connexion_guest_cta">Продолжить в качестве гостя</string>
+    <string name="onboarding_connexion_login_cta">Вход в систему</string>
+    <string name="onboarding_connexion_signin_cta">Зарегистрироваться</string>
+    <string name="onboarding_logged_in_notifications_description">Уведомления позволят Вам оставаться в курсе последних новостей Дома Louis Vuitton: эксклюзивные анонсы, модные показы, изысканные коллекции…</string>
+    <string name="onboarding_logged_in_profile_completed_description">Ваш профиль завершен. Добро пожаловать в мир Louis Vuitton!</string>
+    <string name="open_spotify_trunk">"Открыть Spotify "</string>
+    <string name="open_with">Открыть с помощью</string>
+    <string name="options_title">Опции</string>
+    <string name="order_empty_discover_products">Подборка изделий</string>
+    <string name="order_total_label">Итого</string>
+    <string name="original_date">Первоначальная дата</string>
+    <string name="osa_appointment_confirm_cta">Подтвердить</string>
+    <string name="osa_appointment_creation_confirmation_notification">"Ваша встреча успешно подтверждена "</string>
+    <string name="osa_appointment_details_modify">Внести изменения</string>
+    <string name="osa_appointment_form_instore_cta">Встреча в магазине</string>
+    <string name="osa_appointment_form_virtual_cta">Виртуальная встреча</string>
+    <string name="osa_calendar_disclaimer">Доступные даты в течение 30 дней.</string>
+    <string name="osa_calendar_title">Выбрать дату</string>
+    <string name="osa_cancel_notification">"Ваша встреча отменена "</string>
+    <string name="osa_cancel_subtitle">"Вы хотели бы отменить встречу? "</string>
+    <string name="osa_contact_disclaimer">Введенный Вами номер телефона будет сохранен для будущего контактирования с Louis Vuitton.</string>
+    <string name="osa_contact_information_text">Консультант может связаться с Вами, чтобы подготовить встречу. Укажите желаемый номер телефона.</string>
+    <string name="osa_creation_details">Выбрать магазин</string>
+    <string name="osa_creation_form_step_1_search_location">Местоположение (адрес, магазин, город)</string>
+    <string name="osa_creation_form_step_1_subtitle">Пожалуйста, выберите местоположение, затем выберите дату</string>
+    <string name="osa_creation_reason_confirm">Подтвердить</string>
+    <string name="osa_creation_reason_default">Ваша встреча в Louis Vuitton</string>
+    <string name="osa_creation_reason_description">Пожалуйста, выберите причину Вашего прихода:</string>
+    <string name="osa_creation_reason_title">Причина назначения</string>
+    <string name="osa_cta_appointment_modification_cancelation">Отменить</string>
+    <string name="osa_cta_appointment_modification_cancelation_confirmation">Подтвердить</string>
+    <string name="osa_cta_calendar">"Добавить в календарь "</string>
+    <string name="osa_cta_calendar_select">Выбрать</string>
+    <string name="osa_cta_cancel2">"Отменить встречу "</string>
+    <string name="osa_cta_modify">Внести изменения</string>
+    <string name="osa_error_no_date_available">К сожалению, в настоящее время нет доступных записей на ближайшие 30 дней</string>
+    <string name="osa_error_ws_subtitle">Если вы только что забронировали встречу, это может занять несколько минут, прежде чем она отобразится в вашей учетной записи.</string>
+    <string name="osa_error_ws_title">"К сожалению, произошла ошибка во время загрузки ваших встреч. Пожалуйста, попробуйте снова. "</string>
+    <string name="osa_event_description">"Вы забронировали встречу на %1$s 
+
+Дата: %2$s 
+
+По прибытии пройдите прямо к стойке регистрации.                                                      Если вы задерживатесь, пожалуйста, свяжитесь с магазином.
+Время встречи может быть удержано на 15 минут. 
+
+Спасибо!                                                                                       "</string>
+    <string name="osa_home_history">История</string>
+    <string name="osa_modal_text">"По прибытии Вас встретит консультант.
+Если Вы задерживаетесь, пожалуйста свяжитесь с магазином.
+В случае опоздания, по истечении 15 минут ожидания Ваш консультант может быть недоступен."</string>
+    <string name="osa_modal_title">Дата встречи:</string>
+    <string name="osa_mylv_appointment_card_prepare_cta">Забронировать встречу</string>
+    <string name="osa_mylv_cta_create_new_appointment">"Забронируйте виртуальную встречу или встречу в магазине "</string>
+    <string name="osa_no_history_appointment_subtitle">У вас нет встреч в истории</string>
+    <string name="osa_no_ongoing_appointment_subtitle">У вас нет запланированных встреч.</string>
+    <string name="osa_phone_number">Номер телефона:</string>
+    <string name="osa_title_cancel">"Отменить встречу "</string>
+    <string name="p12_accountcreationscreen_text_mr">Г-н</string>
+    <string name="p12_accountcreationscreen_text_mrs">Г-жа</string>
+    <string name="p12_accountcreationscreen_text_ms">MS</string>
+    <string name="p12_accountcreationscreen_text_mx">Mx</string>
+    <string name="p12_accountcreationscreen_text_undefined">Предпочитаю не указывать</string>
+    <string name="p12_dispatch_mywatch">Мои часы</string>
+    <string name="p12_error_watchalreadypaired">Часы уже подключены</string>
+    <string name="p12_errormessage_WatchNotFound">Возникла ошибка (006) - Часы не обнаружены</string>
+    <string name="p12_errormessage_erroroccuredgeneric">Произошла ошибка. Пожалуйста, попробуйте еще раз позже.</string>
+    <string name="p12_howtogetthiswatchface_title">Как получить этот дисплей</string>
+    <string name="p12_lvpass_unpair_popup_areyousure_staypaired">Нет</string>
+    <string name="p12_lvpass_unpair_popup_areyousure_yes">Да</string>
+    <string name="p12_settings_title">Помощь</string>
+    <string name="p12_tutorial_section2_title">Дисплей часов</string>
+    <string name="p12_tutorial_title">Инструкция</string>
+    <string name="p12_unpair_title">Отключить синхронизацию</string>
+    <string name="p12_user_login_failed">Вход в систему не удался</string>
+    <string name="p12_watchfacepresentation_title">Презентация циферблатов</string>
+    <string name="pair_new_object">Синхронизировать новое устройство</string>
+    <string name="pairing_options_bluetooth">Подключение по Bluetooth</string>
+    <string name="pairing_options_title">Возможности подключения</string>
+    <string name="pairing_trunk_speaker">"Создать пару с новой колонкой "</string>
+    <string name="panel_apply">Применить</string>
+    <string name="pc_cgu_content">"ОПРЕДЕЛЕНИЯ
+
+Термины, употребляемые в написании с заглавной буквы, имеют указанные ниже значения.
+
+«Приложение» – приложение «Луи Вюиттон» (Louis Vuitton) во всех существующих языковых версиях, которое доступно в магазинах приложений Apple App Store, Google Play и Tencent МyАрp для совместимых смартфонов и планшетов.
+
+«Условия использования» – настоящие условия использования Приложения «Луи Вюиттон», в которые могут периодически вноситься изменения.
+
+«Режим магазина» – функционал Приложения, разработанный для обогащения опыта Пользователей во время посещения ими Магазина.
+
+«Магазин» – если не указано иное, магазин «Луи Вюиттон», привязанный к QR-коду, посредством которого Пользователь осуществляет доступ к Режиму магазина.
+
+«Полный контент» – весь контент (например, фотографии, видео, анимация, товарные знаки, тексты, слоганы, логотипы, элементы графического дизайна и проч.), который содержится в Приложении и доступен Пользователям, вошедшим в свои учётные записи MyLV через Приложение. Помимо этого, доступ ко всему Полному контенту или его части возможен только в том случае, если Мобильное устройство Пользователя подключено к Интернету.
+
+«Ограниченный контент» – весь контент (например, фотографии, видео, анимация, товарные знаки, тексты, слоганы, логотипы, элементы графического дизайна и проч.), который предоставляется в Приложении всем Пользователям, включая тех, которые не вошли в свои учётные записи MyLV. Помимо этого, доступ ко всему Ограниченному контенту или его части возможен только в том случае, если Мобильное устройство Пользователя подключено к Интернету (Ограниченный контент и Полный контент именуются вместе «Контент»).
+
+«Мобильное устройство» – совместимый смартфон или планшет, используемый для доступа к Приложению.
+
+«Всплывающее уведомление» – оповещение, касающееся Приложения, которое направляется Пользователю через Приложение или появляется непосредственно на Мобильном устройстве Пользователя, даже если Приложение не используется.
+
+«Пользователь(-и)» – любое(-ые) лицо(-а), осуществляющее(-ие) доступ к Приложению и использующее(-ие) имеющиеся в Приложении сервисы и (или) функции.
+
+ОПИСАНИЕ ПРИЛОЖЕНИЯ
+
+Приложение публикуется и администрируется компанией «Луи Вюиттон Маллетье» (Louis Vuitton Malletier) с акционерным капиталом в размере 21 119 700 евро, зарегистрированной в Торговом реестре г. Парижа под номером 318 571 064, с юридическим адресом: 2 рю дю Пон Нёф, 75001, г. Париж, Франция (2 rue du Pont Neuf, 75001 Paris, France) (далее – «ЛВМ»), тел.: +33 9 77 40 40 77.
+
+По любым вопросам касательно Приложения и (или) его функций Пользователь может обращаться в «ЛВМ» по адресу электронной почты: contact_us@lovisvuitton.com. Выпускающим директором Приложения является Пьетро Беккари (Pietro Beccari). Хостинг Приложения осуществляется компанией «Хероку» (Heroku), которая принадлежит компании «Сейлсторс» (Salestorce) с юридическим адресом: Зе Лэндмарк, 1 Маркет-стрит, офис 300, г. Сан-Франциско, СА94105, США (The Landmark @ 1 Market St., Suite 300, San Francisco, СА94105, United States).
+
+Приложение предоставляется на безвозмездной основе, однако для его использования необходимы доступ в Интернет и Мобильное устройство, работающее на операционной системе, совместимой с Приложением, стоимость которых полностью оплачивается Пользователем. Помимо этого, некоторые функции Приложения могут быть доступны только в том случае, если Пользователь вошёл в свою учётную запись MyLV.
+
+Содержание Приложения может варьироваться в зависимости от языковой версии и (или) страны, а также (в части, касающейся Режима магазина) Магазина.
+
+В зависимости от страны, на территории которой Пользователь загружает Приложение, функциональность Приложения может предусматривать возможность приобретения продукции «Луи Вюиттон» через Приложение. Продажа продукции «Луи Вюиттон» через Приложение регулируется Договором дистанционной купли-продажи, которое заключается между Пользователем и компанией группы «Луи Вюиттон», занимающейся деятельностью в сфере розничной торговли, при этом Пользователь должен принять условия Договора дистанционной купли-продажи через Приложение и соблюдать их.
+
+В НАСТОЯЩИХ УСЛОВИЯХ ИСПОЛЬЗОВАНИЯ ИЗЛОЖЕНЫ УСЛОВИЯ ОСУЩЕСТВЛЕНИЯ ДОСТУПА К ПРИЛОЖЕНИЮ И ЕГО КОНТЕНТУ, А ТАКЖЕ ИХ ИСПОЛЬЗОВАНИЯ. ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ОЗНАКОМЬТЕСЬ С НАСТОЯЩИМИ УСЛОВИЯМИ ИСПОЛЬЗОВАНИЯ. ВЫ НЕ ВПРАВЕ ИСПОЛЬЗОВАТЬ НИКАКУЮ ЧАСТЬ ПРИЛОЖЕНИЯ, ЕСЛИ НЕ СОГЛАСНЫ С НАСТОЯЩИМИ УСЛОВИЯМИ ИСПОЛЬЗОВАНИЯ. ОСУЩЕСТВЛЕНИЕ ВАМИ ДОСТУПА К ПРИЛОЖЕНИЮ ИЛИ ИСПОЛЬЗОВАНИЕ ВАМИ ПРИЛОЖЕНИЯ ОЗНАЧАЕТ ВАШЕ ПОЛНОЕ СОГЛАСИЕ С НАСТОЯЩИМИ УСЛОВИЯМИ ИСПОЛЬЗОВАНИЯ.
+
+ОПИСАНИЕ РЕЖИМА МАГАЗИНА
+
+Анимационное предложение, предоставляемое Пользователям в Режиме магазина, может состоять из одного или более разделов (при этом подразумевается, что не все эти разделы и (или) не всё их содержимое могут быть доступны во всех языковых версиях Приложения и (или) магазинах сети «Луи Вюиттон»).
+
+Выход из Режима магазина осуществляется автоматически по истечении 1 (одного) часа 30 (тридцати) минут после сканирования QR-кода. Пользователь в любой момент может выйти из Режима магазина, при этом подразумевается, что, делая это, Пользователь рискует потерять данные, введённые до выхода из Режима магазина (за исключением Пользователей, вошедших в свои учётные записи MyLV, чьи данные продолжают храниться в их учётных записях). При повторном входе в Режим магазина в течение 1 (одного) часа 30 (тридцати) минут после сканирования QR-кода доступ к Режиму магазина сохраняется до автоматического выхода из Режима магазина.
+
+После выхода из Режима магазина для повторного входа в него Пользователю необходимо вновь отсканировать QR-код в Магазине.
+
+Доступ к любому внешнему контенту (включая, при наличии, любую часть другого контента «Луи Вюиттон», например, Louis the Game) через Приложение регулируется условиями использования этого контента, которые Пользователь обязан соблюдать.
+
+Режим магазина может включать в себя представление каталога Магазина «Луи Вюиттон» и ассортимента продукции в Магазине, а также возможность создать список избранного и переслать его торговому консультанту. В некоторых случаях Пользователям, не вошедшим в свои учётные записи MyLV, будет доступен только каталог, тогда как доступ к другим функциям раздела Каталога (включая возможность пересылки списка избранного) будут иметь только Пользователи, вошедшие в свои учётные записи MyLV.
+
+В любом случае, поскольку ассортимент продукции в Магазине постоянно меняется, любая информация о ней, сообщаемая в Приложении, предоставляется исключительно в справочных целях и никоим образом не обязывает «ЛВМ» обеспечивать её реальное наличие в Магазине.
+
+В некоторых случаях списки избранного, передаваемые торговым консультантам «Луи Вюиттон» Пользователями, обрабатываются в порядке поступления. «ЛВМ» приложит все усилия для обеспечения того, чтобы полученные списки избранного как можно быстрее были приняты в работу. Однако, учитывая значительный покупательский трафик в магазинах, «ЛВМ» не гарантирует, что они будут обработаны до визита Пользователя в Магазин.
+
+При использовании Приложения Пользователю следует сохранять бдительность.
+
+ОБЯЗАТЕЛЬСТВА ПОЛЬЗОВАТЕЛЯ
+
+Приложение предназначено исключительно для личного некоммерческого использования; использование Приложения в иных целях строго запрещается. Пользователь заверяет «ЛВМ» и гарантирует, что достиг возраста, предусмотренного законодательством для использования Приложения, вступает в юридически обязывающие договорные отношения и обязуется соблюдать настоящие Условия использования (а также, в зависимости от обстоятельств, любые другие применимые условия, упоминаемые в настоящих Условиях использования).
+
+Пользователь несёт полную ответственность за использование Приложения. Пользователь обязуется во всех случаях использовать Приложение в соответствии с действующими законодательными и нормативными актами и настоящими Условиями использования, соблюдая при этом права третьих лиц.
+
+В частности, Пользователь не имеет права:
+
+ использовать Приложение и (или) Контент в иных целях, не предусмотренных настоящими Условиями использования, и (или) в противоречие в их разделом «ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ»;
+ использовать Приложение для совершения (или содействия совершению) любых противоправных действий, преступлений или нарушений; 
+ нарушать права интеллектуальной собственности, права на неприкосновенность частной жизни, права на публичность и иные законные права третьих лиц;
+ собирать любые персональные данные через Приложение;
+ вмешиваться в работу Приложения или нарушать его целостность;
+ пытаться отвлечь внимание других Пользователей на иное приложение или веб-сайт, особенно если они являются вредоносными или принадлежат конкуренту «ЛВМ».
+
+Приложение позволяет Пользователю взаимодействовать с другими веб-сайтами, управляемыми третьими лицами. Пользователь несёт полную ответственность за осуществление доступа к веб-сайтам третьих лиц, и «ЛВМ» не отвечает за содержание таких веб-сайтов. В частности, в случае принятия Пользователем решения о размещении всего Контента или его части (при наличии у него соответствующего разрешения) и (или) информации о себе на социальных медиа-платформах (таких как Facebook или Twitter), информация о действиях, совершаемых Пользователем в Приложении, которой он решит поделиться, также может отображаться на таких социальных медиа-платформах.
+
+Пользователь обязан ознакомиться с политикой конфиденциальности и условиями использования таких социальных медиа-платформ. Размещение Пользователем информации на социальных медиа-платформах регулируется политикой конфиденциальности и (или) условиями использования таких медиа-платформ, но не настоящими Условиями использования.
+
+В любом случае Пользователь обязуется воздерживаться от включения в Контент, размещаемый им на социальных медиа-платформах, ссылок на какой-либо контент, который нарушает требования законодательства или правила общественного порядка, носит оскорбительный характер, подвергает кого-либо нападкам, вредит чьей-либо репутации, является порнографическим, непристойным, богохульным, нецензурным, расистским или клеветническим (особенно если он наносит ущерб имиджу «ЛВМ»), разжигает ненависть или иным образом нарушает условия использования социальных медиа-платформ и (или) настоящие Условия использования.
+
+ДОСТУПНОСТЬ ПРИЛОЖЕНИЯ
+
+Приложение доступно для смартфонов и планшетов, работающих на совместимой с ним операционной системе Apple iOS или Android; более подробная информация предоставляется магазинами приложений, распространяющими Приложение.
+
+«ЛВМ» обязуется прилагать все усилия для обеспечения бесперебойной доступности Приложения. Однако в силу непредвиденных ситуаций технического характера, неизбежно возникающих при функционировании Интернета и мобильных сетей, а также вызываемых ими перебоев в обеспечении доступа «ЛВМ» ни при каких обстоятельствах не несёт ответственности за недоступность или замедление работы Приложения. «ЛВМ» оставляет за собой право в любое время вносить изменения в Приложение, приостанавливать или прекращать его работу без наступления ответственности за это. Кроме того, Пользователь настоящим информируется о том, что доступ к Приложению может быть в любое время прерван «ЛВМ» для проведения технического обслуживания, по соображениям безопасности и в силу иных технических ограничений.
+
+ОТВЕТСТВЕННОСТЬ
+
+В максимальной степени, разрешённой законодательством, «ЛВМ» не несёт ответственности за:
+
+ какие-либо косвенные, сопутствующие, последующие, особые или штрафные убытки, а также упущенную выгоду, возникающие из использования Приложения или осуществления доступа к нему, либо в связи с его использованием или осуществлением доступа к нему Пользователем;
+ ущерб, который может возникнуть в результате несанкционированного доступа третьего лица к Приложению и (или) какого-либо перехвата третьим лицом информации, предоставляемой посредством Приложения (например, любой ущерб, возникающий в результате вторжения третьего лица, повлёкшего изменение Контента);
+ какое-либо ненадлежащее (в том числе нарушающее настоящие Условия использования) или незаконное использование Приложения Пользователем, который несёт полную ответственность (в том числе перед «ЛВМ») за ущерб, причинённый третьим лицам, а также за любые претензии, требования или иски, которые могут быть предъявлены в результате этого;
+ какие-либо ошибки, неточности или упущения, которые могут иметься в Приложении;
+ какие-либо сбои или неисправности в работе Приложения, вызванные техническими причинами, обновлениями, техническим обслуживанием или иными обстоятельствами;
+ какой-либо ущерб, вызванный доступом третьих лиц к сайтам или приложением, а также предоставляемому ими контенту или сервисам; и (или)
+ какую-либо несовместимость Приложения с другим программным обеспечением, системами или устройствами Пользователя.
+
+ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ
+
+Приложение, товарные знаки, фотографии, видео, анимация, тексты, слоганы, логотипы и графика, предоставляемые «ЛВМ» через Приложение, и вообще любые права интеллектуальной собственности в отношении Приложения и (или) Контента, являются единоличной собственностью «ЛВМ». Использование, представление, воспроизведение и применение данных элементов в любых процессах и в иных целях, отличных от предполагаемого использования Приложения, запрещены и преследуются по закону.
+
+Любое копирование, изменение, инженерный анализ, дизассемблирование, декомпиляция и иные попытки получения исходного кода (за исключением случаев, когда это прямо разрешено законодательством) Приложения и (или) его Контента, создание производных произведений на их основе, а также их продажа, сублицензирование и передача прав на них в полном или частичном объёме строго запрещены.
+
+ДАННЫЕ, СОБИРАЕМЫЕ ЧЕРЕЗ ПРИЛОЖЕНИЕ
+
+В процессе эксплуатации Приложения «ЛВМ» вправе собирать Данные о Пользователях и (или) их Мобильных устройствах и (или) использовании ими Приложения (например, данные, собираемые в процессе создания учётной записи MyLV или размещения заказа). Информация об осуществляемой «ЛВМ» обработке данных и правах доступа к данным (включая доступ, изменение и удаление) приводится в нашей Политике конфиденциальности, с которой мы предлагаем вам ознакомиться до использования Приложения.
+
+Информация, вводимая Пользователем: Для доступа к Ограниченному контенту не требуется создавать учётную запись Пользователя или сообщать персональные данные. Для доступа к Полному контенту может потребоваться создать учётную запись.
+
+Кроме того, при наличии возможности покупки продукции в используемой версии Приложения (в зависимости от страны Пользователя) Пользователь может приобретать отдельные товары «Луи Вюиттон» через Приложение. Для этого Пользователю также необходимо будет предоставить определённые персональные данные (такие как имя, адрес, платёжные реквизиты, адрес доставки и (или) выставления счета, номер телефона и проч.).
+
+Информация о местонахождении Пользователя: Для реализации возможности «поиска ближайшего магазина» (списка всех магазинов «Луи Вюиттон») в Приложении может использоваться функция определения местонахождения Пользователя (геолокации). Геолокация возможна только в том случае, если Пользователь прямо разрешает активировать соответствующие настройки на своём Мобильном устройстве. Пользователь вправе отказаться от использования функции геолокации в Приложении. Также Пользователь может в любое время изменить настройки своего Мобильного устройства для отключения функции геолокации, и «ЛВМ» не контролирует использование данной технологии.
+
+Всплывающие уведомления: В процессе использования Приложения Пользователь может получать от «ЛВМ» Всплывающие уведомления, если разрешит получение подобных оповещений на своём Мобильном устройстве.
+
+Всплывающие уведомления позволяют Пользователю получать новости и информацию об обновлениях Приложения в зависимости от используемой языковой и географической версии Приложения. Пользователь может задавать предпочтения касательно Всплывающих уведомлений, изменяя соответствующие настройки своего Мобильного устройства.
+
+Безопасность: «ЛВМ» обязуется принимать все необходимые меры для обеспечения безопасности и конфиденциальности персональных данных, собираемых через Приложение. Однако Пользователь признаёт, что «ЛВМ» не контролирует риски, связанные с функционированием мобильных сетей и Интернета, и настоящим заверяет «ЛВМ» в том, что ему (ей) известно о возможных рисках, связанных с использованием мобильных сетей и Интернета."</string>
+    <string name="pc_cgu_content_2">"ПРОЧИЕ ПОЛОЖЕНИЯ
+
+Настоящие Условия использования могут быть изменены в любое время. Такие изменения вступают в силу после их опубликования через Приложение и при выпуске обновлений (новых версий) Приложения.
+
+Настоящие Условия использования регулируются исключительно законодательством Франции, и любые споры, возникающие из осуществления доступа к Приложению и (или) его использования, либо в связи с осуществлением доступа к нему и (или) его использованием, должны передаваться на рассмотрение исключительно судов Франции."</string>
+    <string name="pc_cgu_content_2_canada">"СМЕШАННЫЙ
+
+Настоящие Условия использования могут быть изменены в любое время. Такие изменения вступают в силу с момента публикации через Приложение, а также при появлении обновлений/новых версий Приложения.
+Настоящие Условия использования регулируются законодательством Франции, и любые споры, возникающие в связи с доступом и/или использованием Приложения, будут переданы в суды Франции."</string>
+    <string name="pdp_discover_more">Узнайте больше</string>
+    <string name="pdp_dynamic_shipping_warning_bo">Из-за высокого спроса сроки доставки изделия могут быть увеличены и составят от %1$d до %2$d дней.</string>
+    <string name="pdp_dynamic_shipping_warning_bo_month">Из-за высокого спроса доставка вашего продукта займет от %1$d до %2$d месяцев.</string>
+    <string name="pdp_dynamic_shipping_warning_bo_week">В связи с высоким спросом доставка вашего продукта займет от %1$d до %2$d недель.</string>
+    <string name="pdp_dynamic_shipping_warning_single_date_bo">Из-за высокого спроса ваше изделие будет доставлено через %1$d дней.</string>
+    <string name="pdp_dynamic_shipping_warning_single_date_bo_month">Из-за высокого спроса ваше изделие будет доставлено через %1$d месяцев.</string>
+    <string name="pdp_dynamic_shipping_warning_single_date_bo_week">Из-за высокого спроса ваше изделие будет доставлено через %1$d недель.</string>
+    <string name="pdp_price">Стоимость</string>
+    <string name="pdp_shipping_warning_bo">Может потребоваться дополнительное время доставки до 2 недель</string>
+    <string name="perfume_discover">Откройте для себя</string>
+    <string name="personal_data_email_link">personaldata@louisvuitton.com</string>
+    <string name="pf_gst">НДС</string>
+    <string name="pf_hst">"Налог "</string>
+    <string name="pf_pst">PST</string>
+    <string name="pf_qst">НДС</string>
+    <string name="pf_shipping">Доставка</string>
+    <string name="pf_start_shopping">Начать покупки</string>
+    <string name="pf_sub_total">Промежуточный итог</string>
+    <string name="pf_taxes_description">Будет рассчитано в соответствии с вашим адресом доставки</string>
+    <string name="pf_taxes_detail">Налог</string>
+    <string name="pick_image_camera">Камера</string>
+    <string name="pick_image_chooser_title">Выбрать источник</string>
+    <string name="pick_image_gallery">Галерея</string>
+    <string name="place_search_title">Поиск</string>
+    <string name="plane">Самолёт</string>
+    <string name="plp_price_from">"Стоимость начинается с "</string>
+    <string name="popin_delete_commerce_item_outofstock">Этот продукт больше не доступен.</string>
+    <string name="popup_logged_in_under_another_account">Вы уже вошли под другим аккаунтом</string>
+    <string name="power_mode_always_on">Всегда включён</string>
+    <string name="power_mode_discreet">Режим лёгкого свечения</string>
+    <string name="power_mode_low">Режим энергосбережения</string>
+    <string name="power_mode_normal">Стандартный режим</string>
+    <string name="power_mode_off">Отключить</string>
+    <string name="power_mode_standby">Режим сна</string>
+    <string name="power_mode_walking">Режим ходьбы</string>
+    <string name="pre_order_disclaimer">Из-за высокого спроса на этот продукт может потребоваться дополнительное время доставки. Для получения помощи, пожалуйста, не стесняйтесь обращаться к одному из наших консультантов по работе с клиентами по телефону 1.866.VUITTON.</string>
+    <string name="pre_order_disclaimer_info_popin_content">Из-за высокого спроса на этот продукт может потребоваться дополнительное время доставки. Для получения помощи, пожалуйста, не стесняйтесь обращаться к одному из наших консультантов по работе с клиентами по телефону 1.866.VUITTON.</string>
+    <string name="pre_order_disclaimer_info_popin_title">Доставка данного изделия</string>
+    <string name="privacy_settings">Конфиденциальность</string>
+    <string name="product_addtocart_success">Изделие было добавлено в вашу корзину</string>
+    <string name="product_detail_add_to_card">Добавить в корзину</string>
+    <string name="product_detail_call_for_availability">Недоступно для заказа</string>
+    <string name="product_detail_call_for_inquiry">Уточнить стоимость по телефону</string>
+    <string name="product_detail_carats">Караты</string>
+    <string name="product_detail_colors">Цвета</string>
+    <string name="product_detail_details_section">Информация об изделии</string>
+    <string name="product_detail_discover_in_store">Уточнить наличие в магазине</string>
+    <string name="product_detail_language">Языки</string>
+    <string name="product_detail_materials">Материалы</string>
+    <string name="product_detail_size">Размер</string>
+    <string name="product_details_ar_button">AR</string>
+    <string name="product_details_ar_card_subtitle">Посмотрите на предметы мебели Objets в вашем интерьере с помощью технологии дополненной реальности.</string>
+    <string name="product_details_ar_card_title">ПРОСМОТР В 3D</string>
+    <string name="product_list_filter_clear_all">Сбросить все фильтры</string>
+    <string name="product_page_in_stock">В наличии</string>
+    <string name="product_page_out_of_stock">Нет в наличии</string>
+    <string name="product_share">Поделиться</string>
+    <string name="product_showroom_add_to_cart">"Продукт недоступен "</string>
+    <string name="product_try_on_label">Виртуальная примерка</string>
+    <string name="product_try_on_watch_label">Виртуальная примерка</string>
+    <string name="profile_call_sign">Звонок</string>
+    <string name="profile_delete_phone_number">Удалить этот номер телефона</string>
+    <string name="profile_first_name_2_hint">"Имя 2 "</string>
+    <string name="profile_first_name_hint">Имя</string>
+    <string name="profile_last_name_2_hint">Фамилия 2</string>
+    <string name="profile_last_name_hint">Фамилия</string>
+    <string name="profile_login_emailaddress">Эл. адрес</string>
+    <string name="profile_login_password">Пароль</string>
+    <string name="profile_main_address">Основной адрес</string>
+    <string name="profile_phone_number">Номер телефона</string>
+    <string name="profile_phone_type">Тип телефона</string>
+    <string name="profile_secondary_addresses">Дополнительный адрес</string>
+    <string name="quit_app">Выйти</string>
+    <string name="read_less">Скрыть</string>
+    <string name="recommendation_error_ws_subtitle">Если ваша рекомендация была только что отправлена, она может отобразиться в вашей учетной записи через несколько минут.</string>
+    <string name="recommendation_error_ws_title">Не удалось загрузить рекомендации. Пожалуйста, повторите попытку.</string>
+    <string name="recommendation_view_more">Посмотреть ещё</string>
+    <string name="repair_blank_state_message">Если вы только что добавили изделие, может потребоваться несколько минут, чтобы оно отобразилось в аккаунте.</string>
+    <string name="repair_blank_state_title">Нет зарегистрированных изделий в службе ремонта.</string>
+    <string name="repair_informations">Информация</string>
+    <string name="request_for_return_button">Создать запрос на возврат продукта</string>
+    <string name="required_field">Поле не заполнено</string>
+    <string name="restitution_date">Дата завершения</string>
+    <string name="restitution_date_clue">"Дата завершения ремонта может измениться, если его продолжительность окажется дольше, чем предполагалось изначально.
+
+Вы будете оповещены о любых изменениях."</string>
+    <string name="retrysynchro_btn_firstTime">Попробуйте снова</string>
+    <string name="return_popup_top_message">Все возвраты осуществляются за счет магазина. &lt;br>&lt;br>Пожалуйста, выберите причину возврата и количество каждого изделия, которое вы желаете вернуть.&lt;br>&lt;br>Если вы предпочитаете обменять приобретенный продукт на другой или вызвать курьера TNT для возврата изделия, пожалуйста, обратитесь в Клиентский центр по телефону +8 800 700 5058.&lt;br>&lt;br>Чтобы вернуть приобретенный продукт и получить компенсацию: &lt;br>- Обратитесь в Клиентский центр, чтобы вызвать бесплатного курьера&lt;br>- ИЛИ заполните форму ниже, чтобы получить предоплаченную этикетку для отправки изделия по почте</string>
+    <string name="rml_faq">Часто задаваемые вопросы</string>
+    <string name="samples_card_description">Выберите 2 дополнительных дополнительных образца</string>
+    <string name="samples_title">Пример</string>
+    <string name="save">Сохранить</string>
+    <string name="search_historic_Title">Предыдущий поиск</string>
+    <string name="search_historic_clear">Стереть</string>
+    <string name="search_live_suggestion">Предложения</string>
+    <string name="search_no_result_phrase">Нет результатов для этого продукта</string>
+    <string name="search_placeholder">Поиск товара</string>
+    <string name="search_product_no_result_title">Нет результатов по поиску «%1$s»</string>
+    <string name="search_results">Результаты поиска</string>
+    <string name="search_suggestion_no_result">Предложения</string>
+    <string name="search_trending">Популярные запросы</string>
+    <string name="seat_number">Посадочное место</string>
+    <string name="see_cart">Посмотреть корзину</string>
+    <string name="select_samples_description">"Выберите 2 бесплатных образца при заказе духов (2 мл).
+Мы предлагаем выбрать пробник заказанного вами аромата, чтобы вы могли попробовать его, не открывая полноразмерный флакон.
+Образцы предоставляются в зависимости от наличия."</string>
+    <string name="services_art_of_gifting_description">Подарки, обертка и упаковка Louis Vuitton - все это объединено в чемоданах для путешествий. От Дома для вас, ваших близких и будущих поколений. (временное описание)</string>
+    <string name="services_art_of_gifting_subtitle">Искусство подарков</string>
+    <string name="services_care_services">Услуги по уходу</string>
+    <string name="services_contact_us">Связаться с нами</string>
+    <string name="services_discover_more">Узнать подробнее</string>
+    <string name="services_dr_section_ongoing_title2">Проверьте свой ремонт</string>
+    <string name="services_dr_subtitle">Восстановление изделия</string>
+    <string name="services_exclusive_to_app_label">Эксклюзивно в приложении</string>
+    <string name="services_faq">Часто задаваемые вопросы</string>
+    <string name="services_lv_services_subtitle">От персонализации до упаковки подарков — изучите широкий спектр услуг.</string>
+    <string name="services_lv_services_title">Услуги Louis Vuitton</string>
+    <string name="services_need_help_subtitle">Выберите предпочтительный способ связи, чтобы связаться со службой поддержки клиентов, или узнайте больше информации на странице часто задаваемых вопросов.</string>
+    <string name="services_need_help_title">Нужна помощь?</string>
+    <string name="services_online_or_instore">Онлайн или в магазине</string>
+    <string name="services_osa_cta">Записаться на встречу</string>
+    <string name="services_osa_subtitle">Поговорите с консультантом</string>
+    <string name="services_personalization_description">"Квалифицированные мастера с точностью изготавливают изделия по индивидуальному заказу специально для вас, чтобы провести вас в мир путешествий. "</string>
+    <string name="services_personalization_title">Персонализация</string>
+    <string name="services_section_paragraph">Добро пожаловать приложение LV. Откройте для себя эксклюзивные услуги в приложении, свяжитесь с нашей службой поддержки клиентов и изучите страницу часто задаваемых вопросов.</string>
+    <string name="services_section_title">"Услуги
+"</string>
+    <string name="services_store_locator_subtitle">Найдите ближайший к вам магазин</string>
+    <string name="services_store_locator_title">Для одного</string>
+    <string name="share_app_label">Поделиться приложением</string>
+    <string name="share_app_sharing_text">Благодаря приложению Louis Vuitton Pass мне стала доступна эксклюзивная информация о рекламной кампании. Скачать приложение:</string>
+    <string name="share_flight_text">"Информация о бронировании :
+
+
+Отправление %1$s в %2$s из %3$s – %4$s 
+Терминал : %11$s 
+Выход : %12$s 
+
+Прибытие %5$s в %6$s в %7$s – %8$s 
+Terminal : %13$s 
+Выход : %14$s 
+
+Номер рейса : %9$s 
+
+Место : %10$s"</string>
+    <string name="share_hotel_text">"Информация о бронировании :
+
+
+%1$s 
+
+%2$s 
+
+Прибытие %3$s 
+
+Отправление %4$s 
+
+Номер телефона : %5$s"</string>
+    <string name="share_menu">Поделиться приложением</string>
+    <string name="share_train_text">"Информация о бронировании:
+
+
+Отправление %1$s в %2$s из %3$s 
+
+Прибытие %4$s в %5$s в %6$s 
+
+Номер поезда : %7$s
+
+Вагон : %8$s 
+Место : %9$s"</string>
+    <string name="share_using">Поделитесь</string>
+    <string name="shipping_menu">Доставка в:</string>
+    <string name="shop_gift_panel_lines_left">строк осталось</string>
+    <string name="shoppingcart_outofstock">"Этот продукт больше не доступен.
+Пожалуйста, удалите продукт, чтобы перейти к оформлению заказа."</string>
+    <string name="shoppingcart_outofstock_modale_cta">Обновите вашу корзину</string>
+    <string name="shoppingcart_outofstock_modale_subtitle">Один или несколько продуктов больше не доступны.</string>
+    <string name="shoppingcart_outofstock_modale_title">Товара нет в наличии</string>
+    <string name="shoppingcart_outofstock_notification_info">"Одного товара больше нет в наличии.
+Пожалуйста, удалите, чтобы перейти к оплате"</string>
+    <string name="shoppingcart_proceedtocheckout">Перейти к оформлению заказа</string>
+    <string name="shoppingcart_removeconfirmation">%s был удален из вашей корзины</string>
+    <string name="sightcall_disclaimer_android">"INFORMATION ABOUT YOUR DATA
+
+It is important that you understand what information our application collects, uses and how we control it. We explain this in detail in our Privacy Policy : https://us.louisvuitton.com/eng-us/legal-notices and you can view the key points below.
+
+Why do we use your data? To enable us to work together more effectively, to improve your experience and our services.
+
+To this end, and only if you explicitly authorise it, this application may:
+
+• access your camera so that the other user can see you or your surroundings during the call
+• access your microphone so that the other user can hear you during the call
+• access the files, photos, videos and sounds stored on your device so that the other user can use them to process your case
+• collect, transmit and store files, photos, videos and sounds to process your case
+• download and upload files, photos, videos and sounds to help the other user process your case
+• read, modify or delete the contents of your shared storage space to help the other user process your case
+• access your location to process your case"</string>
+    <string name="size_guide_find_perfect_size">Определить точный размер</string>
+    <string name="speaker_activate_bt_device_subtitle">Перед подключением колонки через Wi-Fi убедитесь, что на Вашем устройстве включён Bluetooth.</string>
+    <string name="speaker_activate_bt_device_title">Подключите Ваше устройство через Bluetooth</string>
+    <string name="speaker_trunk_connect_speaker_to_wifi_subtitle">Выберите вашу wi-fi сеть ниже</string>
+    <string name="speaker_trunk_detail_device_name_field_hint">Введите имя устройства</string>
+    <string name="speaker_trunk_detail_reset_device_btn_label">Перезагрузить устройство</string>
+    <string name="speaker_trunk_detail_reset_device_failed_error">"Ошибка сброса устройства "</string>
+    <string name="speaker_trunk_detail_reset_device_subtitle">При сбросе устройства для информация будет утрачена, включая настройки сетей Wi-Fi. Хотите продолжить?</string>
+    <string name="speaker_trunk_detail_reset_device_success">Успешный сброс устройства</string>
+    <string name="speaker_trunk_detail_update_device_btn_label">Установить обновление</string>
+    <string name="speaker_trunk_detail_update_device_failed_error">Ошибка обновления устройства</string>
+    <string name="speaker_trunk_detail_update_device_subtitle">Доступно новое обновление</string>
+    <string name="speaker_trunk_detail_update_device_success">Устройство успешно обновлено</string>
+    <string name="speaker_trunk_detail_update_name_failed_error">"Ошибка конфигурации имени устройства. Попробуйте ещё раз "</string>
+    <string name="speaker_trunk_detail_update_name_success">Имя устройства обновлено.</string>
+    <string name="speaker_trunk_device_not_available">Устройство недоступно</string>
+    <string name="speaker_trunk_equalizer_bass_label">Низкие частоты</string>
+    <string name="speaker_trunk_equalizer_btn_label">Эквалайзер</string>
+    <string name="speaker_trunk_equalizer_treble_label">Высокие частоты</string>
+    <string name="speaker_trunk_equalizer_volume_label">Громкость</string>
+    <string name="speaker_trunk_network_necessary">Выберите сеть Wi-Fi</string>
+    <string name="speaker_trunk_password_necessary">Введите пароль</string>
+    <string name="speaker_trunk_product_detail_page_cta_message">Откройте для себя новую колонку в форме сундука</string>
+    <string name="speaker_trunk_room_creation_failed">Ошибка создания комнаты</string>
+    <string name="speaker_trunk_room_creation_success">"Комната создана успешно "</string>
+    <string name="speaker_trunk_room_destroyed">Комната успешно удалена</string>
+    <string name="speaker_trunk_room_device_count">Колонка %1$d</string>
+    <string name="speaker_trunk_room_page_information_section_title">Информация комнаты</string>
+    <string name="speaker_trunk_room_page_remove_device_failed_error">Удаление устройства %1$s невозможно</string>
+    <string name="speaker_trunk_room_page_remove_device_from_room_subtitle">Хотите удалить данное устройство из комнаты?</string>
+    <string name="speaker_trunk_room_page_remove_device_success">"Устройство успешно удалено "</string>
+    <string name="speaker_trunk_room_page_remove_room_subtitle">"При удалении данного устройства комната также будет удалена. Хотите продолжить? "</string>
+    <string name="speaker_trunk_room_page_room_name_field_hint">Введите название комнаты</string>
+    <string name="speaker_trunk_room_page_update_name_failed_error">Ошибка обновления имени комнаты</string>
+    <string name="speaker_trunk_room_page_update_name_success">Имя комнаты обновлено</string>
+    <string name="speaker_trunk_turn_on_speaker_subtitle">Используйте кнопку ON/OFF на задней стороне устройства.</string>
+    <string name="speaker_trunk_tutorial_ble_connection_failed_error">Ошибка соединения. Попробуйте ещё раз</string>
+    <string name="speaker_trunk_tutorial_ble_scan_for_speakers_title">Поиск устройств</string>
+    <string name="speaker_trunk_tutorial_select_wifi_network">Выберите беспроводную сеть</string>
+    <string name="speaker_trunk_tutorial_wifi_connection_failed_error">Ошибка соединения Wi-Fi. Попробуйте ещё раз.</string>
+    <string name="speaker_trunk_tutorial_wifi_list_unavailable_error">Список сетей Wi-Fi недоступен. Попробуйте ещё раз.</string>
+    <string name="speaker_trunk_update_message">"Обновление динамика. 
+Это может занять несколько минут."</string>
+    <string name="speaker_trunk_update_step_download">Скачивание</string>
+    <string name="speaker_trunk_update_step_install">Установить</string>
+    <string name="speaker_trunk_update_step_reboot">"Перезагрузка "</string>
+    <string name="spotlight_onboarding_paragraph">"
+Проведите пальцем по экрану, чтобы детально познакомиться с образом."</string>
+    <string name="start_experience_cta">Начать</string>
+    <string name="store_mode_automatic_exit_message">Истек срок действия сеанса в режиме магазина.</string>
+    <string name="store_mode_catalog_no_result_message">Попробуйте другую категорию или переключитесь на фильтр Все товары.</string>
+    <string name="store_mode_catalog_no_result_title">Нет товаров, подходящих под этот запрос.</string>
+    <string name="store_mode_create_wishlist_description">Нажмите на значок закладки, чтобы сохранить товары в своем списке желаний.</string>
+    <string name="store_mode_create_wishlist_title">Создайте свой список желаний</string>
+    <string name="store_mode_cta_go_back_to_app">Доступ к каталогу</string>
+    <string name="store_mode_error_generating_personal_qr_code">К сожалению, мы не смогли загрузить ваш LV Pass.</string>
+    <string name="store_mode_home_catalog_image">Каталог магазина</string>
+    <string name="store_mode_home_title">Исследуйте магазин</string>
+    <string name="store_mode_leaving_message">Вы собираетесь выйти из режима магазина.</string>
+    <string name="store_mode_pdp_disclaimer">Обратите внимание, что ассортимент товаров в наших магазинах часто меняется. Наличие данного товара не гарантируется.</string>
+    <string name="store_mode_thank_you_for_your_visit">Спасибо, что посетили нас.</string>
+    <string name="store_mode_title_in_top_banner">Режим магазина</string>
+    <string name="store_mode_toggle_in_store">В магазине</string>
+    <string name="store_mode_toggle_online">Все продукты</string>
+    <string name="store_mode_welcome_screen_cta">Активация режима магазина</string>
+    <string name="store_mode_welcome_screen_title_connected">"Привет %s,
+Добро пожаловать в Louis Vuitton"</string>
+    <string name="store_mode_welcome_screen_title_disconnected">Добро пожаловать в Louis Vuitton</string>
+    <string name="store_mode_wrong_qr_code_scanned">Срок действия этого QR-кода истек. Мы приглашаем вас посетить наш магазин, чтобы воспользоваться этой услугой.</string>
+    <string name="store_mode_your_wishlist">Мой список желаний</string>
+    <string name="story_capucines_title">История вашей сумки Capucine</string>
+    <string name="success_speaker_trunk_paired_subtitle">Используйте приложение Spotify для беспроводного управления.</string>
+    <string name="success_speaker_trunk_paired_title">Настало время музыки.</string>
+    <string name="tab_bar_wishlist">Список пожеланий</string>
+    <string name="tabbar_catalog">Каталог</string>
+    <string name="tabbar_connected_devices">Синхронизация</string>
+    <string name="technical_infos_serial_number">СЕРИЙНЫЙ НОМЕР</string>
+    <string name="technical_infos_sku">SKU</string>
+    <string name="terms_conditions">Условия и положения</string>
+    <string name="title_explore_the_look">Изучите продукт</string>
+    <string name="toast_success_already_register">У вас уже включены уведомления</string>
+    <string name="toast_success_register">Вы только что разрешили Louis Vuitton отправлять вам уведомления.</string>
+    <string name="train">Поезд</string>
+    <string name="train_coach">Вагон</string>
+    <string name="train_number">Номер поезда</string>
+    <string name="travel_airport">Аэропорт</string>
+    <string name="travel_blank_state_message">Вы можете добавить новое путешествие, нажав на кнопку внизу</string>
+    <string name="travel_blank_state_title">Нет зарегистрированных путешествий</string>
+    <string name="travel_creation_confirmation">Подтвердить</string>
+    <string name="travel_creation_or_text">Или</string>
+    <string name="travel_creation_success_text">Вы успешно добавили новое путешествие в ваш список. Вы можете найти его в разделе Мои путешествия.</string>
+    <string name="travel_creation_success_title">Готово !</string>
+    <string name="travel_date">Дата</string>
+    <string name="travel_deletion_message">Вы собираетесь удалить ваше путешествие. Это действие будет невозможно отменить.</string>
+    <string name="travel_flight_title">Рейс</string>
+    <string name="travel_hour">Час</string>
+    <string name="travel_information_title">Информация</string>
+    <string name="travel_station">Станция</string>
+    <string name="travel_train_title">Поезд</string>
+    <string name="travel_upcoming_title">Ваши предстоящие путешествия</string>
+    <string name="trunk_choose_connection_type_subtitle">Выберите способ подключения Speaker Trunk к приложению LVApp</string>
+    <string name="trunk_choose_connection_type_title">"Как подключить вашу колонку "</string>
+    <string name="trunk_choose_your_speakers_subtitle">Выберите модель вашей колонки</string>
+    <string name="trunk_choose_your_speakers_title">Выберите устройство</string>
+    <string name="trunk_speaker">Speaker Trunk</string>
+    <string name="trunk_speaker_channel_left">Левый</string>
+    <string name="trunk_speaker_channel_right">Правый</string>
+    <string name="trunk_speaker_channel_stereo">Стерео</string>
+    <string name="trunk_speaker_connect_bluetooth">Bluetooth</string>
+    <string name="trunk_speaker_connect_wifi">Wifi</string>
+    <string name="trunk_speaker_device_channel">Режим</string>
+    <string name="trunk_speaker_device_name_label">Имя</string>
+    <string name="trunk_speaker_gm">Колонка GM</string>
+    <string name="trunk_speaker_pm">Колонка Speaker PM</string>
+    <string name="try_on_consent_title">Форма соглашения</string>
+    <string name="unit_measure">Единица измерения</string>
+    <string name="updated_cost">Обновлённая стоимость</string>
+    <string name="version">Версия</string>
+    <string name="visit_our_catalog">Посмотреть каталог</string>
+    <string name="visit_tutorial">Ознакомиться с инструкцией</string>
+    <string name="wall_event_label_days">д.</string>
+    <string name="wall_event_label_hours">ч.</string>
+    <string name="wall_event_label_minutes">мин.</string>
+    <string name="wall_event_label_seconds">сек.</string>
+    <string name="wall_selected_for_you">Выбрано для вас</string>
+    <string name="wallpaper_download_error">Не получается скачать обои. Пожалуйста, попробуйте еще раз.</string>
+    <string name="wallpaper_download_success_android">Элемент был сохранен в папке загрузки.</string>
+    <string name="warning">Внимание</string>
+    <string name="watch">Смарт-часы</string>
+    <string name="watch_V1_V2_title_short">Первое и второе поколения</string>
+    <string name="watch_V3_title_short">Последнее поколение</string>
+    <string name="watch_generation_selection_title">Выбрать поколение</string>
+    <string name="watch_name_label">Название</string>
+    <string name="watch_section_redirection_lvconnect">Доступ к LV Connect для сопряжения ваших часов</string>
+    <string name="watch_settings_unpair">Отключить синхронизацию часов</string>
+    <string name="watch_unpair_message">Вы собираетесь отключить синхронизацию ваших смарт-часов. Это действие будет невозможно отменить.</string>
+    <string name="welcome_user">Добро пожаловать %1$s</string>
+</resources>

@@ -1,0 +1,9610 @@
+.class public final Lcom/cyberlink/clgpuimage/cosmetic/l;
+.super Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;
+
+
+# static fields
+.field public static final O7:[C
+
+.field public static final P7:[C
+
+
+# instance fields
+.field public K7:I
+
+.field public L7:I
+
+.field public M7:I
+
+.field public N7:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x428
+
+    new-array v0, v0, [C
+
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->O7:[C
+
+    const/16 v0, 0x1bc9
+
+    new-array v0, v0, [C
+
+    fill-array-data v0, :array_1
+
+    sput-object v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->P7:[C
+
+    return-void
+
+    nop
+
+    :array_0
+    .array-data 2
+        0xfas
+        0x8ds
+        0x8ds
+        0x8bs
+        0xf2s
+        0xfbs
+        0x8es
+        0x8ds
+        0xfes
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x89s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0xa2s
+        0xc2s
+        0xfas
+        0x8ds
+        0x8ds
+        0x8bs
+        0xf2s
+        0xfbs
+        0x8es
+        0x8ds
+        0xfes
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xa2s
+        0xc2s
+        0xfas
+        0x8ds
+        0x8ds
+        0x8bs
+        0xf2s
+        0xfbs
+        0x8es
+        0x8ds
+        0xfes
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xeds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfas
+        0x8bs
+        0x82s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xffs
+        0xf5s
+        0xf2s
+        0x89s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfas
+        0x8bs
+        0x82s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfas
+        0xf7s
+        0xfas
+        0xf5s
+        0x82s
+        0x83s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x8bs
+        0xfas
+        0xf6s
+        0xfes
+        0xf8s
+        0x80s
+        0xf2s
+        0xfds
+        0x8ds
+        0xf1s
+        0xf8s
+        0xf1s
+        0xfes
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0x88s
+        0xf2s
+        0xfds
+        0xe8s
+        0xf6s
+        0xfas
+        0xf2s
+        0xf7s
+        0x9fs
+        0x90s
+        0xc2s
+        0x84s
+        0xc2s
+        0xf0s
+        0xf5s
+        0xf8s
+        0xe9s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0xe8s
+        0xa4s
+        0xe8s
+        0x89s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0xa2s
+        0xc2s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0x82s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xffs
+        0xf5s
+        0xf2s
+        0x89s
+        0x89s
+        0xfes
+        0xfds
+        0xf8s
+        0x81s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xeds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0xa8s
+        0x95s
+        0x97s
+        0xe8s
+        0x94s
+        0xe8s
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xeds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xffs
+        0xf5s
+        0xf2s
+        0x89s
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0x9fs
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xffs
+        0xf5s
+        0xf2s
+        0x89s
+        0x89s
+        0xfes
+        0xfds
+        0xf8s
+        0x81s
+        0x93s
+        0xe8s
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xeds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x82s
+        0x90s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfas
+        0xf7s
+        0xfas
+        0xf5s
+        0x82s
+        0x83s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x8bs
+        0xfas
+        0xf6s
+        0xfes
+        0xf8s
+        0x80s
+        0xf2s
+        0xfds
+        0x8ds
+        0xf1s
+        0xf8s
+        0xf1s
+        0xfes
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0x95s
+        0x81s
+        0x82s
+        0xa2s
+        0xc2s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0x95s
+        0x81s
+        0xe8s
+        0x94s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0x95s
+        0x82s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0x95s
+        0x82s
+        0xa2s
+        0xc2s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x82s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0x95s
+        0x82s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0x95s
+        0x81s
+        0xe8s
+        0x92s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0x95s
+        0x82s
+        0xa2s
+        0xc2s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0x82s
+        0xe8s
+        0x96s
+        0xa4s
+        0xe8s
+        0xfas
+        0xf7s
+        0xfas
+        0xf5s
+        0x82s
+        0x83s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x8bs
+        0xfas
+        0xf6s
+        0xfes
+        0xf8s
+        0x80s
+        0xf2s
+        0xfds
+        0x8ds
+        0xf1s
+        0xf8s
+        0xf1s
+        0xfes
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xf2s
+        0xf7s
+        0xf8s
+        0x89s
+        0xf2s
+        0x81s
+        0xfes
+        0xf5s
+        0x95s
+        0x81s
+        0x82s
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+    .end array-data
+
+    :array_1
+    .array-data 2
+        0xc2s
+        0xc2s
+        0x9as
+        0xf2s
+        0xffs
+        0xfds
+        0xfes
+        0xffs
+        0xe8s
+        0xbes
+        0xb3s
+        0xf8s
+        0xbds
+        0xebs
+        0xb8s
+        0xbes
+        0xb4s
+        0xbcs
+        0xb5s
+        0xeds
+        0xf8s
+        0xe9s
+        0xebs
+        0xbcs
+        0xbas
+        0xb0s
+        0xecs
+        0xb0s
+        0xb6s
+        0xb5s
+        0xf8s
+        0xbfs
+        0xb0s
+        0xbes
+        0xbfs
+        0xc2s
+        0xc2s
+        0xc2s
+        0x89s
+        0x8bs
+        0xfes
+        0xfcs
+        0xf2s
+        0x8cs
+        0xf2s
+        0x88s
+        0xf7s
+        0xe8s
+        0xf1s
+        0xf2s
+        0xf0s
+        0xf1s
+        0x89s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xa2s
+        0xc2s
+        0xc2s
+        0xc2s
+        0x9as
+        0xfes
+        0xf5s
+        0x8cs
+        0xfes
+        0xc2s
+        0xc2s
+        0xc2s
+        0x89s
+        0x8bs
+        0xfes
+        0xfcs
+        0xf2s
+        0x8cs
+        0xf2s
+        0x88s
+        0xf7s
+        0xe8s
+        0xf6s
+        0xfes
+        0xfds
+        0xf2s
+        0x8es
+        0xf6s
+        0x89s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xa2s
+        0xc2s
+        0xc2s
+        0xc2s
+        0x9as
+        0xfes
+        0xf7s
+        0xfds
+        0xf2s
+        0xffs
+        0xc2s
+        0xc2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfas
+        0x8bs
+        0x82s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfas
+        0x8bs
+        0x82s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8cs
+        0xfas
+        0xf6s
+        0x89s
+        0xf5s
+        0xfes
+        0x8bs
+        0xa9s
+        0xbbs
+        0xe8s
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xb0s
+        0xf6s
+        0xfas
+        0xf0s
+        0xfes
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8cs
+        0xfas
+        0xf6s
+        0x89s
+        0xf5s
+        0xfes
+        0x8bs
+        0xa9s
+        0xbbs
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8cs
+        0xfas
+        0xf6s
+        0x89s
+        0xf5s
+        0xfes
+        0x8bs
+        0xa9s
+        0xbbs
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xffs
+        0x8bs
+        0xfas
+        0xf6s
+        0xfes
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x82s
+        0xf8s
+        0x8bs
+        0xfes
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0xfas
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8es
+        0x89s
+        0x89s
+        0xfes
+        0x8bs
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xf5s
+        0x88s
+        0x80s
+        0xfes
+        0x8bs
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf2s
+        0xf7s
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xf1s
+        0xf2s
+        0xffs
+        0x8ds
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0xf8s
+        0x81s
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0xf8s
+        0x82s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0xf2s
+        0xf7s
+        0x8ds
+        0xe8s
+        0xfes
+        0xf7s
+        0xfas
+        0xfbs
+        0xf5s
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xa2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0xf2s
+        0xf7s
+        0x8ds
+        0xe8s
+        0xfes
+        0xf7s
+        0xfas
+        0xfbs
+        0xf5s
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8bs
+        0x88s
+        0xf2s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8ds
+        0xfas
+        0x8bs
+        0xf0s
+        0xfes
+        0x8ds
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xaas
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8ds
+        0xfas
+        0x8bs
+        0xf0s
+        0xfes
+        0x8ds
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8es
+        0xf7s
+        0xf2s
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xaas
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xbds
+        0xf2s
+        0xf7s
+        0xfds
+        0xebs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xbds
+        0x8bs
+        0x88s
+        0xf6s
+        0xb8s
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xe9s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x9fs
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0x90s
+        0xc2s
+        0x84s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x97s
+        0x95s
+        0x97s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xaas
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xaas
+        0x9fs
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0x94s
+        0xa8s
+        0x95s
+        0x97s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0x95s
+        0x82s
+        0x93s
+        0xe8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x82s
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xc2s
+        0x9as
+        0xf2s
+        0xffs
+        0xfds
+        0xfes
+        0xffs
+        0xe8s
+        0xbes
+        0xb3s
+        0xf8s
+        0xbds
+        0xebs
+        0xb8s
+        0xbes
+        0xb4s
+        0xbcs
+        0xb5s
+        0xeds
+        0xf8s
+        0xe9s
+        0xebs
+        0xbcs
+        0xbas
+        0xb0s
+        0xecs
+        0xb0s
+        0xb6s
+        0xb5s
+        0xf8s
+        0xbfs
+        0xb0s
+        0xbes
+        0xbfs
+        0xc2s
+        0xc2s
+        0xc2s
+        0xf2s
+        0xffs
+        0xe8s
+        0x9fs
+        0xfas
+        0xfbs
+        0x8cs
+        0x9fs
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0x90s
+        0xe8s
+        0xa3s
+        0xe8s
+        0x97s
+        0x95s
+        0x97s
+        0xa8s
+        0x90s
+        0xe8s
+        0xc2s
+        0xc2s
+        0xc2s
+        0x9as
+        0xfes
+        0xf5s
+        0x8cs
+        0xfes
+        0xc2s
+        0xc2s
+        0xc2s
+        0xf2s
+        0xffs
+        0xe8s
+        0x9fs
+        0xfas
+        0xfbs
+        0x8cs
+        0x9fs
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0x90s
+        0xe8s
+        0xa3s
+        0xe8s
+        0x97s
+        0x95s
+        0xa8s
+        0x90s
+        0xe8s
+        0xc2s
+        0xc2s
+        0xc2s
+        0x9as
+        0xfes
+        0xf7s
+        0xfds
+        0xf2s
+        0xffs
+        0xc2s
+        0xc2s
+        0xc2s
+        0x84s
+        0xc2s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x94s
+        0xa8s
+        0x95s
+        0x97s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x83s
+        0xe8s
+        0x96s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x82s
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+        0xfes
+        0xf5s
+        0x8cs
+        0xfes
+        0xc2s
+        0x84s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfds
+        0xfes
+        0xf5s
+        0x8ds
+        0xfas
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x8as
+        0x8bs
+        0x8ds
+        0x9fs
+        0xf6s
+        0xfas
+        0x81s
+        0x9fs
+        0x97s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x82s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x82s
+        0xe8s
+        0x94s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x83s
+        0xe8s
+        0x91s
+        0xe8s
+        0xabs
+        0x95s
+        0x97s
+        0x90s
+        0x90s
+        0xa2s
+        0xc2s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x9fs
+        0x94s
+        0xa8s
+        0x95s
+        0x97s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x82s
+        0xe8s
+        0x92s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf0s
+        0xf7s
+        0x9fs
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0x90s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfds
+        0xfes
+        0xf5s
+        0x8ds
+        0xfas
+        0x90s
+        0xe8s
+        0x96s
+        0xe8s
+        0x9fs
+        0xa9s
+        0x95s
+        0x97s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0x88s
+        0xf5s
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0x90s
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+        0x8bs
+        0xfes
+        0x8ds
+        0x8es
+        0x8bs
+        0xf7s
+        0xe8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xe9s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xe9s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xeds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0x9fs
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0x93s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x93s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x93s
+        0xe8s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0x93s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xc2s
+        0x84s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0x8cs
+        0xf1s
+        0xf2s
+        0xffs
+        0x8ds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xe8s
+        0x94s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf5s
+        0xfes
+        0xf7s
+        0xf0s
+        0x8ds
+        0xf1s
+        0x9fs
+        0x8cs
+        0xf1s
+        0xf2s
+        0xffs
+        0x8ds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0xf1s
+        0xf2s
+        0xffs
+        0x8ds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0xe8s
+        0x96s
+        0xe8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xbds
+        0xf2s
+        0xf7s
+        0xfds
+        0xebs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xbds
+        0x8bs
+        0x88s
+        0xf6s
+        0xb8s
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xe9s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x9fs
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0x90s
+        0xa2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xbds
+        0xf2s
+        0xf7s
+        0xfds
+        0xebs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xbds
+        0x8bs
+        0x88s
+        0xf6s
+        0xb8s
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xe9s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x9fs
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0x92s
+        0xe8s
+        0x9fs
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0x94s
+        0xe8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0x90s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0x91s
+        0xe8s
+        0xfcs
+        0x88s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf7s
+        0xfes
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0x89s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0xe8s
+        0x92s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfas
+        0x80s
+        0xfas
+        0x82s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8es
+        0xf7s
+        0xfds
+        0xfas
+        0x8bs
+        0x82s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0xf7s
+        0x9fs
+        0xa8s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0x9fs
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0x94s
+        0xe8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0x90s
+        0xe8s
+        0x96s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x82s
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8bs
+        0xfes
+        0x8ds
+        0x8es
+        0x8bs
+        0xf7s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0x9fs
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0x89s
+        0x88s
+        0x8cs
+        0xf2s
+        0x8ds
+        0xf2s
+        0x88s
+        0xf7s
+        0x93s
+        0xe8s
+        0x9fs
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0xe8s
+        0x96s
+        0xe8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfcs
+        0x8es
+        0x8bs
+        0x8fs
+        0xfes
+        0xf8s
+        0x8bs
+        0xfas
+        0xfds
+        0xf2s
+        0x8es
+        0x8cs
+        0x90s
+        0xe8s
+        0x94s
+        0xe8s
+        0xa8s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0x97s
+        0x95s
+        0x97s
+        0x90s
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+        0x8fs
+        0x88s
+        0xf2s
+        0xfds
+        0xe8s
+        0xf6s
+        0xfas
+        0xf2s
+        0xf7s
+        0x9fs
+        0x90s
+        0xc2s
+        0x84s
+        0xc2s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8cs
+        0x88s
+        0x8es
+        0x8bs
+        0xfcs
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xa9s
+        0xbbs
+        0x9fs
+        0xf2s
+        0xf7s
+        0x89s
+        0x8es
+        0x8ds
+        0xb0s
+        0xf6s
+        0xfas
+        0xf0s
+        0xfes
+        0xeds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0x93s
+        0xe8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xbas
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xf2s
+        0xffs
+        0xe8s
+        0x9fs
+        0x9fs
+        0xfes
+        0xf7s
+        0xfas
+        0xfbs
+        0xf5s
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xe8s
+        0xa3s
+        0xe8s
+        0xa8s
+        0xe8s
+        0x9ds
+        0x9ds
+        0xe8s
+        0xfes
+        0xf7s
+        0xfas
+        0xfbs
+        0xf5s
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xe8s
+        0xa3s
+        0xe8s
+        0xa8s
+        0x90s
+        0xe8s
+        0x85s
+        0x85s
+        0xe8s
+        0xfas
+        0xf7s
+        0x82s
+        0x9fs
+        0xf5s
+        0xfes
+        0x8cs
+        0x8cs
+        0xeds
+        0xf1s
+        0xfas
+        0xf7s
+        0x9fs
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x93s
+        0xe8s
+        0x8bs
+        0x88s
+        0xf2s
+        0x95s
+        0x8cs
+        0x89s
+        0x90s
+        0x90s
+        0xe8s
+        0x85s
+        0x85s
+        0xe8s
+        0xfas
+        0xf7s
+        0x82s
+        0x9fs
+        0xf0s
+        0x8bs
+        0xfes
+        0xfas
+        0x8ds
+        0xfes
+        0x8bs
+        0xeds
+        0xf1s
+        0xfas
+        0xf7s
+        0x9fs
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x93s
+        0xe8s
+        0x8bs
+        0x88s
+        0xf2s
+        0x95s
+        0x8ds
+        0x8as
+        0x90s
+        0x90s
+        0x90s
+        0xc2s
+        0x84s
+        0xc2s
+        0xf0s
+        0xf5s
+        0xf8s
+        0xbds
+        0x8bs
+        0xfas
+        0xf0s
+        0xbas
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x88s
+        0x8es
+        0x8bs
+        0xfcs
+        0xfes
+        0xa2s
+        0xc2s
+        0x8bs
+        0xfes
+        0x8ds
+        0x8es
+        0x8bs
+        0xf7s
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+        0xfes
+        0xf5s
+        0x8cs
+        0xfes
+        0xc2s
+        0x84s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xa4s
+        0xe8s
+        0x8cs
+        0x8ds
+        0xfes
+        0x89s
+        0x9fs
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8es
+        0x89s
+        0x89s
+        0xfes
+        0x8bs
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x8ds
+        0xfes
+        0x89s
+        0x9fs
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xf5s
+        0x88s
+        0x80s
+        0xfes
+        0x8bs
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x81s
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x8ds
+        0xfes
+        0x89s
+        0x9fs
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf2s
+        0xf7s
+        0x95s
+        0x82s
+        0x93s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x95s
+        0x82s
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8ds
+        0xfas
+        0x8bs
+        0xf0s
+        0xfes
+        0x8ds
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8ds
+        0xfas
+        0x8bs
+        0xf0s
+        0xfes
+        0x8ds
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0x95s
+        0x82s
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8ds
+        0xfas
+        0x8bs
+        0xf0s
+        0xfes
+        0x8ds
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0x95s
+        0x81s
+        0x93s
+        0xe8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0x8ds
+        0xfas
+        0x8bs
+        0xf0s
+        0xfes
+        0x8ds
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0x95s
+        0x82s
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xe8s
+        0x94s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x95s
+        0x81s
+        0x82s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x95s
+        0x81s
+        0x82s
+        0x93s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x95s
+        0x83s
+        0x82s
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x95s
+        0x81s
+        0x82s
+        0x93s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x95s
+        0x83s
+        0x82s
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xf5s
+        0xfes
+        0xffs
+        0x8ds
+        0xf8s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf1s
+        0x8ds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0x8ds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xe8s
+        0x91s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x8ds
+        0xfes
+        0x89s
+        0x9fs
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x95s
+        0x82s
+        0x93s
+        0xe8s
+        0xf6s
+        0xfas
+        0x81s
+        0x9fs
+        0x97s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0x95s
+        0x82s
+        0xe8s
+        0x94s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0x95s
+        0x81s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0x88s
+        0xf2s
+        0xf7s
+        0x8ds
+        0x95s
+        0x81s
+        0x90s
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x8bs
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xf8s
+        0x8cs
+        0x8as
+        0x8es
+        0xfas
+        0x8bs
+        0xfes
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x93s
+        0xe8s
+        0xfas
+        0xfcs
+        0x8ds
+        0x8es
+        0xfas
+        0xf5s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0x8cs
+        0x8bs
+        0xfcs
+        0xf8s
+        0xfds
+        0x8cs
+        0x8ds
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0x89s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xe9s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xe9s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xeds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0x9fs
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0x93s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x95s
+        0x81s
+        0x82s
+        0x93s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfcs
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0x8bs
+        0x95s
+        0x83s
+        0x80s
+        0x93s
+        0xe8s
+        0xc2s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x81s
+        0x82s
+        0x93s
+        0xe8s
+        0x8cs
+        0x89s
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0xf8s
+        0xfas
+        0xf5s
+        0xf2s
+        0xf0s
+        0xf7s
+        0xfes
+        0xfds
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0xfcs
+        0x88s
+        0xfes
+        0xffs
+        0xffs
+        0x95s
+        0x83s
+        0x80s
+        0x93s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0xf8s
+        0x81s
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xe8s
+        0xa4s
+        0xe8s
+        0x9fs
+        0xf5s
+        0xfes
+        0x8fs
+        0xfes
+        0xf5s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xfes
+        0xf7s
+        0x8ds
+        0xfes
+        0xfds
+        0xf8s
+        0xfcs
+        0x88s
+        0x88s
+        0x8bs
+        0xfds
+        0xf2s
+        0xf7s
+        0xfas
+        0x8ds
+        0xfes
+        0xe8s
+        0x94s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf2s
+        0xf7s
+        0x90s
+        0xe8s
+        0x91s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0x9fs
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0xf8s
+        0x81s
+        0x93s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xfcs
+        0xfas
+        0xf5s
+        0xfes
+        0xf8s
+        0x82s
+        0x90s
+        0xe8s
+        0x92s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x88s
+        0x8bs
+        0xf2s
+        0xf0s
+        0xf2s
+        0xf7s
+        0xe8s
+        0x92s
+        0xe8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0xf8s
+        0x8cs
+        0xf1s
+        0xf2s
+        0xffs
+        0x8ds
+        0xa2s
+        0xe8s
+        0xc2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x88s
+        0x8bs
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x8cs
+        0xf2s
+        0xf6s
+        0xf2s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf2s
+        0x8ds
+        0x82s
+        0x93s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0x89s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0x95s
+        0x81s
+        0x82s
+        0x93s
+        0xe8s
+        0x8ds
+        0x88s
+        0x89s
+        0xf8s
+        0xfbs
+        0x88s
+        0x8ds
+        0x8ds
+        0x88s
+        0xf6s
+        0xf8s
+        0xf5s
+        0xf2s
+        0xfds
+        0xf8s
+        0x8cs
+        0xfes
+        0xf5s
+        0xfes
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x88s
+        0x8bs
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0x95s
+        0x82s
+        0xe8s
+        0x91s
+        0xa4s
+        0xe8s
+        0xffs
+        0x8bs
+        0xfas
+        0xf6s
+        0xfes
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x82s
+        0xf8s
+        0x8bs
+        0xfes
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0xfas
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xa2s
+        0xc2s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xa9s
+        0xbbs
+        0x9fs
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0x93s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x88s
+        0x8bs
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0x90s
+        0xa2s
+        0xc2s
+        0x8fs
+        0xfes
+        0xfcs
+        0xa9s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x88s
+        0x8bs
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0x89s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0x95s
+        0x81s
+        0x82s
+        0xa2s
+        0xc2s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x88s
+        0x8bs
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0x95s
+        0x82s
+        0xe8s
+        0x91s
+        0xa4s
+        0xe8s
+        0xffs
+        0x8bs
+        0xfas
+        0xf6s
+        0xfes
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0x82s
+        0xf8s
+        0x8bs
+        0xfes
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0xfas
+        0xfcs
+        0x8ds
+        0x88s
+        0x8bs
+        0xa2s
+        0xc2s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0xa9s
+        0xbbs
+        0x9fs
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xf8s
+        0x8ds
+        0xfes
+        0x81s
+        0x8ds
+        0x8es
+        0x8bs
+        0xfes
+        0x93s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0xffs
+        0x88s
+        0x8bs
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xf8s
+        0xffs
+        0xfes
+        0xfas
+        0x8ds
+        0xf1s
+        0xfes
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xf6s
+        0xf2s
+        0x81s
+        0x9fs
+        0x97s
+        0x95s
+        0xacs
+        0x93s
+        0xe8s
+        0xa8s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0x8cs
+        0xf6s
+        0x88s
+        0x88s
+        0x8ds
+        0xf1s
+        0x8cs
+        0x8ds
+        0xfes
+        0x89s
+        0x9fs
+        0x97s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0x97s
+        0x95s
+        0xa8s
+        0xa9s
+        0xacs
+        0x93s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0x89s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0x95s
+        0x83s
+        0x90s
+        0x90s
+        0xa2s
+        0xc2s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0xe8s
+        0x88s
+        0x8es
+        0x8ds
+        0x8cs
+        0xf2s
+        0xfds
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x8ds
+        0xfes
+        0x89s
+        0x9fs
+        0x97s
+        0x95s
+        0x97s
+        0x93s
+        0xe8s
+        0xf6s
+        0xfas
+        0x89s
+        0x89s
+        0xf2s
+        0xf7s
+        0xf0s
+        0xf8s
+        0x8ds
+        0x88s
+        0xf8s
+        0x8ds
+        0xfes
+        0xf6s
+        0x89s
+        0xf5s
+        0xfas
+        0x8ds
+        0xfes
+        0xf8s
+        0xfbs
+        0x82s
+        0xf8s
+        0x89s
+        0xfas
+        0x8bs
+        0xfas
+        0xfbs
+        0x88s
+        0xf5s
+        0xf2s
+        0xfcs
+        0xf8s
+        0x89s
+        0x88s
+        0xf5s
+        0xfas
+        0x8bs
+        0xf8s
+        0x8ds
+        0x8bs
+        0xfas
+        0xf7s
+        0x8cs
+        0xffs
+        0x88s
+        0x8bs
+        0xf6s
+        0x95s
+        0x83s
+        0x90s
+        0xe8s
+        0x91s
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xf8s
+        0xffs
+        0xfes
+        0xfas
+        0x8ds
+        0xf1s
+        0xfes
+        0x8bs
+        0xe8s
+        0x91s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0x9fs
+        0xfes
+        0xf7s
+        0xfas
+        0xfbs
+        0xf5s
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0xe8s
+        0x91s
+        0xa4s
+        0xe8s
+        0x88s
+        0x8es
+        0x8ds
+        0x8cs
+        0xf2s
+        0xfds
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xa2s
+        0xc2s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0xe8s
+        0x91s
+        0xa4s
+        0xe8s
+        0xffs
+        0xf5s
+        0x88s
+        0xfas
+        0x8ds
+        0x9fs
+        0xfes
+        0xf7s
+        0xfas
+        0xfbs
+        0xf5s
+        0xfes
+        0xf8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0x90s
+        0xa2s
+        0xc2s
+        0xc2s
+        0xf5s
+        0x88s
+        0x80s
+        0x89s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xaas
+        0xe8s
+        0xfcs
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8cs
+        0x88s
+        0x8es
+        0x8bs
+        0xfcs
+        0xfes
+        0x95s
+        0x8bs
+        0xf0s
+        0xfbs
+        0xa2s
+        0xc2s
+        0xc2s
+        0xfcs
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xfcs
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0x91s
+        0xe8s
+        0x9fs
+        0xa8s
+        0x95s
+        0x97s
+        0xe8s
+        0x94s
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0x95s
+        0xfas
+        0x90s
+        0xe8s
+        0x92s
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0x8cs
+        0xf1s
+        0xfas
+        0xfds
+        0x88s
+        0x80s
+        0x95s
+        0x8bs
+        0xf0s
+        0xfbs
+        0xa2s
+        0xc2s
+        0xfcs
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0xfcs
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0x91s
+        0xe8s
+        0x9fs
+        0xa8s
+        0x95s
+        0x97s
+        0xe8s
+        0x94s
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0x95s
+        0xfas
+        0x90s
+        0xe8s
+        0x92s
+        0xe8s
+        0xfes
+        0x82s
+        0xfes
+        0xf5s
+        0xf2s
+        0xf7s
+        0xfes
+        0x8bs
+        0x95s
+        0x8bs
+        0xf0s
+        0xfbs
+        0xa2s
+        0xc2s
+        0xf0s
+        0xf5s
+        0xf8s
+        0xbds
+        0x8bs
+        0xfas
+        0xf0s
+        0xbas
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0xe8s
+        0xa4s
+        0xe8s
+        0x8fs
+        0xfes
+        0xfcs
+        0xabs
+        0x9fs
+        0xfcs
+        0x88s
+        0xf5s
+        0x88s
+        0x8bs
+        0x93s
+        0xe8s
+        0xa8s
+        0x95s
+        0x97s
+        0x90s
+        0xa2s
+        0xc2s
+        0x86s
+        0xc2s
+        0x86s
+        0xc2s
+    .end array-data
+.end method
+
+.method public constructor <init>(Z)V
+    .locals 7
+
+    sget-object v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->O7:[C
+
+    invoke-static {v0}, Lcom/cyberlink/clgpuimage/CLMakeupLiveDecode;->a([C)Ljava/lang/String;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/cyberlink/clgpuimage/cosmetic/l;->P7:[C
+
+    invoke-static {v1}, Lcom/cyberlink/clgpuimage/CLMakeupLiveDecode;->a([C)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-direct {p0, v0, v1, v2, v2}, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 v0, -0x1
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->E5:I
+
+    const/4 v1, 0x0
+
+    iput v1, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->G5:F
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->I5:I
+
+    const/4 v1, 0x3
+
+    new-array v2, v1, [F
+
+    fill-array-data v2, :array_0
+
+    iput-object v2, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->L5:[F
+
+    new-array v2, v1, [F
+
+    fill-array-data v2, :array_1
+
+    iput-object v2, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->M5:[F
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->N5:I
+
+    new-array v2, v1, [F
+
+    fill-array-data v2, :array_2
+
+    iput-object v2, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Q5:[F
+
+    new-array v1, v1, [F
+
+    fill-array-data v1, :array_3
+
+    iput-object v1, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->R5:[F
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->S5:I
+
+    const/4 v1, 0x4
+
+    new-array v2, v1, [Landroid/graphics/PointF;
+
+    iput-object v2, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    new-array v2, v1, [Landroid/graphics/PointF;
+
+    iput-object v2, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->W5:[Landroid/graphics/PointF;
+
+    const/4 v2, 0x2
+
+    new-array v3, v2, [I
+
+    iput-object v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Z5:[I
+
+    new-array v3, v2, [I
+
+    iput-object v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->a6:[I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->c6:I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f6:I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->h6:I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->j6:I
+
+    new-instance v3, Landroid/graphics/Rect;
+
+    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
+
+    iput-object v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->l6:Landroid/graphics/Rect;
+
+    new-instance v3, Landroid/graphics/Rect;
+
+    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
+
+    iput-object v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->m6:Landroid/graphics/Rect;
+
+    new-instance v3, Landroid/graphics/Rect;
+
+    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
+
+    iput-object v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->n6:Landroid/graphics/Rect;
+
+    const/4 v3, 0x0
+
+    iput-boolean v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->I6:Z
+
+    iput-boolean v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->J6:Z
+
+    iput-boolean v3, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->K6:Z
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Y6:I
+
+    new-instance v4, Ljava/lang/Object;
+
+    invoke-direct {v4}, Ljava/lang/Object;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->e7:Ljava/lang/Object;
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveFilter$LiveDynamicRangeMetadata;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveFilter$LiveDynamicRangeMetadata;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->g7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveFilter$LiveDynamicRangeMetadata;
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->j7:Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->k7:Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->l7:Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->m7:Lcom/cyberlink/clgpuimage/CLShare3DRelatedClasses$Pass1BufferData;
+
+    const/4 v4, 0x1
+
+    iput-boolean v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->n7:Z
+
+    new-array v4, v1, [F
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->p7:[F
+
+    const/high16 v4, 0x3f800000    # 1.0f
+
+    iput v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->x7:F
+
+    new-instance v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveFilter$LiveFaceRegionOccludeMetadata;
+
+    invoke-direct {v4}, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveFilter$LiveFaceRegionOccludeMetadata;-><init>()V
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->F7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveFilter$LiveFaceRegionOccludeMetadata;
+
+    sget-object v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter$m;->a:[C
+
+    invoke-static {v4}, Lcom/cyberlink/clgpuimage/CLMakeupLiveDecode;->a([C)Ljava/lang/String;
+
+    move-result-object v4
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v6, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter$n;->a:[C
+
+    invoke-static {v6}, Lcom/cyberlink/clgpuimage/CLMakeupLiveDecode;->a([C)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v6, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter$o;->a:[C
+
+    invoke-static {v6}, Lcom/cyberlink/clgpuimage/CLMakeupLiveDecode;->a([C)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v6, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter$p;->a:[C
+
+    invoke-static {v6}, Lcom/cyberlink/clgpuimage/CLMakeupLiveDecode;->a([C)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter;->A:Ljava/lang/String;
+
+    iput-object v5, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLive3DFilter;->B:Ljava/lang/String;
+
+    const/16 v4, 0x20
+
+    invoke-static {v4}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
+
+    move-result-object v4
+
+    invoke-static {v4}, Lfc;->v(Ljava/nio/ByteBuffer;)Ljava/nio/FloatBuffer;
+
+    move-result-object v4
+
+    iput-object v4, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->D5:Ljava/nio/FloatBuffer;
+
+    move v4, v3
+
+    :goto_0
+    if-ge v4, v1, :cond_0
+
+    iget-object v5, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    new-instance v6, Landroid/graphics/PointF;
+
+    invoke-direct {v6}, Landroid/graphics/PointF;-><init>()V
+
+    aput-object v6, v5, v4
+
+    iget-object v5, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->W5:[Landroid/graphics/PointF;
+
+    new-instance v6, Landroid/graphics/PointF;
+
+    invoke-direct {v6}, Landroid/graphics/PointF;-><init>()V
+
+    aput-object v6, v5, v4
+
+    add-int/lit8 v4, v4, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    iput-boolean p1, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->n7:Z
+
+    :goto_1
+    if-ge v3, v2, :cond_1
+
+    iget-object p1, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Z5:[I
+
+    aput v0, p1, v3
+
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->c6:I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f6:I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->h6:I
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->j6:I
+
+    return-void
+
+    :array_0
+    .array-data 4
+        0x0
+        0x0
+        0x0
+    .end array-data
+
+    :array_1
+    .array-data 4
+        0x0
+        0x0
+        0x0
+    .end array-data
+
+    :array_2
+    .array-data 4
+        0x0
+        0x0
+        0x0
+    .end array-data
+
+    :array_3
+    .array-data 4
+        0x0
+        0x0
+        0x0
+    .end array-data
+.end method
+
+
+# virtual methods
+.method public final d()V
+    .locals 17
+
+    move-object/from16 v0, p0
+
+    iget v1, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->I5:I
+
+    const/16 v2, 0xde1
+
+    const/4 v3, 0x2
+
+    const v4, 0x84c1
+
+    const/4 v5, 0x1
+
+    const/4 v6, -0x1
+
+    if-eq v1, v6, :cond_0
+
+    invoke-static {v4}, Landroid/opengl/GLES20;->glActiveTexture(I)V
+
+    iget v1, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->I5:I
+
+    invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindTexture(II)V
+
+    iget v1, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->J5:I
+
+    invoke-static {v1, v5}, Landroid/opengl/GLES20;->glUniform1i(II)V
+
+    const v4, 0x84c2
+
+    move v1, v3
+
+    goto :goto_0
+
+    :cond_0
+    move v1, v5
+
+    :goto_0
+    iget v7, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->N5:I
+
+    if-eq v7, v6, :cond_1
+
+    invoke-static {v4}, Landroid/opengl/GLES20;->glActiveTexture(I)V
+
+    iget v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->N5:I
+
+    invoke-static {v2, v4}, Landroid/opengl/GLES20;->glBindTexture(II)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->O5:I
+
+    invoke-static {v2, v1}, Landroid/opengl/GLES20;->glUniform1i(II)V
+
+    :cond_1
+    iget v1, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->o7:I
+
+    iget-boolean v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->n7:Z
+
+    const/4 v4, 0x0
+
+    const/high16 v6, 0x3f800000    # 1.0f
+
+    if-eqz v2, :cond_2
+
+    move v2, v4
+
+    goto :goto_1
+
+    :cond_2
+    move v2, v6
+
+    :goto_1
+    invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1f(IF)V
+
+    iget-object v1, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->e7:Ljava/lang/Object;
+
+    monitor-enter v1
+
+    :try_start_0
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->D5:Ljava/nio/FloatBuffer;
+
+    invoke-virtual {v2}, Ljava/nio/FloatBuffer;->clear()Ljava/nio/Buffer;
+
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->D5:Ljava/nio/FloatBuffer;
+
+    sget-object v7, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->G7:[F
+
+    iget-object v8, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget v8, v8, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_rotation:I
+
+    invoke-virtual {v0, v7, v8}, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->o0([FI)[F
+
+    move-result-object v7
+
+    invoke-virtual {v2, v7}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
+
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->D5:Ljava/nio/FloatBuffer;
+
+    const/4 v7, 0x0
+
+    invoke-virtual {v2, v7}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
+
+    iget v8, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->C5:I
+
+    iget-object v13, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->D5:Ljava/nio/FloatBuffer;
+
+    const/4 v9, 0x2
+
+    const/16 v10, 0x1406
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x0
+
+    invoke-static/range {v8 .. v13}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->C5:I
+
+    invoke-static {v2}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
+
+    move v2, v7
+
+    :goto_2
+    const/4 v8, 0x4
+
+    if-ge v2, v8, :cond_3
+
+    iget-object v8, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v8, v8, v2
+
+    iget-object v9, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->W5:[Landroid/graphics/PointF;
+
+    aget-object v9, v9, v2
+
+    iget v10, v9, Landroid/graphics/PointF;->x:F
+
+    iget v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->X5:I
+
+    int-to-float v11, v11
+
+    div-float/2addr v10, v11
+
+    iput v10, v8, Landroid/graphics/PointF;->x:F
+
+    iget v9, v9, Landroid/graphics/PointF;->y:F
+
+    iget v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Y5:I
+
+    int-to-float v10, v10
+
+    div-float/2addr v9, v10
+
+    iput v9, v8, Landroid/graphics/PointF;->y:F
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_2
+
+    :catchall_0
+    move-exception v0
+
+    goto/16 :goto_6
+
+    :cond_3
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->r7:I
+
+    iget-object v9, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget v10, v9, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_analyzing_frame_width:I
+
+    int-to-float v10, v10
+
+    iget v9, v9, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_analyzing_frame_height:I
+
+    int-to-float v9, v9
+
+    invoke-static {v2, v10, v9}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->X5:I
+
+    iget-object v9, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget v10, v9, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_analyzing_frame_height:I
+
+    mul-int v11, v2, v10
+
+    if-lez v11, :cond_4
+
+    iget v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Y5:I
+
+    iget v9, v9, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_analyzing_frame_width:I
+
+    mul-int v12, v11, v9
+
+    if-lez v12, :cond_4
+
+    mul-int/2addr v11, v9
+
+    int-to-float v9, v11
+
+    mul-int/2addr v2, v10
+
+    int-to-float v2, v2
+
+    div-float/2addr v9, v2
+
+    goto :goto_3
+
+    :cond_4
+    move v9, v6
+
+    :goto_3
+    move v2, v7
+
+    :goto_4
+    if-ge v2, v8, :cond_5
+
+    iget-object v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v10, v10, v2
+
+    iget v11, v10, Landroid/graphics/PointF;->y:F
+
+    mul-float/2addr v11, v9
+
+    iput v11, v10, Landroid/graphics/PointF;->y:F
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_4
+
+    :cond_5
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->o6:I
+
+    div-float v8, v6, v9
+
+    invoke-static {v2, v8}, Landroid/opengl/GLES20;->glUniform1f(IF)V
+
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v8, v2, v3
+
+    iget v8, v8, Landroid/graphics/PointF;->x:F
+
+    aget-object v2, v2, v7
+
+    iget v2, v2, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v8, v2
+
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v10, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v11, v10, v3
+
+    iget v11, v11, Landroid/graphics/PointF;->x:F
+
+    aget-object v10, v10, v7
+
+    iget v10, v10, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v11, v10
+
+    div-float/2addr v8, v11
+
+    iget-boolean v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->n7:Z
+
+    if-eqz v10, :cond_6
+
+    iget v11, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_eye_scale_left_to_right:F
+
+    cmpg-float v12, v11, v6
+
+    if-gez v12, :cond_6
+
+    goto :goto_5
+
+    :cond_6
+    if-nez v10, :cond_7
+
+    iget v2, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_eye_scale_left_to_right:F
+
+    div-float v10, v6, v2
+
+    cmpg-float v10, v10, v6
+
+    if-gez v10, :cond_7
+
+    const v10, 0x3727c5ac    # 1.0E-5f
+
+    invoke-static {v2, v10}, Ljava/lang/Math;->max(FF)F
+
+    move-result v2
+
+    div-float v11, v6, v2
+
+    goto :goto_5
+
+    :cond_7
+    move v11, v6
+
+    :goto_5
+    const v2, 0x3f666666    # 0.9f
+
+    div-float/2addr v11, v2
+
+    invoke-static {v6, v11}, Ljava/lang/Math;->min(FF)F
+
+    move-result v2
+
+    mul-float/2addr v2, v8
+
+    div-float v10, v6, v8
+
+    iget v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->X5:I
+
+    int-to-float v11, v11
+
+    mul-float/2addr v10, v11
+
+    div-float/2addr v10, v4
+
+    const v11, 0x3eb33333    # 0.35f
+
+    sub-float/2addr v10, v11
+
+    const v11, 0x3e99999a    # 0.3f
+
+    div-float/2addr v10, v11
+
+    invoke-static {v6, v10}, Ljava/lang/Math;->min(FF)F
+
+    move-result v10
+
+    invoke-static {v4, v10}, Ljava/lang/Math;->max(FF)F
+
+    move-result v4
+
+    iget v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Q6:I
+
+    invoke-static {v10, v4}, Landroid/opengl/GLES20;->glUniform1f(IF)V
+
+    new-instance v4, Landroid/graphics/Rect;
+
+    invoke-direct {v4}, Landroid/graphics/Rect;-><init>()V
+
+    iget-object v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->l6:Landroid/graphics/Rect;
+
+    invoke-virtual {v4, v10}, Landroid/graphics/Rect;->union(Landroid/graphics/Rect;)V
+
+    iget-object v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->m6:Landroid/graphics/Rect;
+
+    invoke-virtual {v4, v10}, Landroid/graphics/Rect;->union(Landroid/graphics/Rect;)V
+
+    iget-object v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->n6:Landroid/graphics/Rect;
+
+    invoke-virtual {v4, v10}, Landroid/graphics/Rect;->union(Landroid/graphics/Rect;)V
+
+    new-instance v10, Landroid/graphics/PointF;
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->W5:[Landroid/graphics/PointF;
+
+    aget-object v12, v11, v5
+
+    iget v12, v12, Landroid/graphics/PointF;->x:F
+
+    aget-object v11, v11, v7
+
+    iget v11, v11, Landroid/graphics/PointF;->y:F
+
+    invoke-direct {v10, v12, v11}, Landroid/graphics/PointF;-><init>(FF)V
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->p7:[F
+
+    iget v12, v10, Landroid/graphics/PointF;->x:F
+
+    iget v13, v4, Landroid/graphics/Rect;->left:I
+
+    int-to-float v13, v13
+
+    sub-float v13, v12, v13
+
+    iget-object v14, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->W5:[Landroid/graphics/PointF;
+
+    aget-object v15, v14, v7
+
+    iget v15, v15, Landroid/graphics/PointF;->x:F
+
+    sub-float v15, v12, v15
+
+    div-float/2addr v13, v15
+
+    aput v13, v11, v7
+
+    iget v10, v10, Landroid/graphics/PointF;->y:F
+
+    iget v13, v4, Landroid/graphics/Rect;->top:I
+
+    int-to-float v13, v13
+
+    sub-float v13, v10, v13
+
+    aget-object v15, v14, v5
+
+    iget v15, v15, Landroid/graphics/PointF;->y:F
+
+    sub-float v15, v10, v15
+
+    div-float/2addr v13, v15
+
+    aput v13, v11, v5
+
+    iget v13, v4, Landroid/graphics/Rect;->right:I
+
+    int-to-float v13, v13
+
+    sub-float/2addr v13, v12
+
+    aget-object v15, v14, v3
+
+    iget v15, v15, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v15, v12
+
+    div-float/2addr v13, v15
+
+    aput v13, v11, v3
+
+    iget v12, v4, Landroid/graphics/Rect;->bottom:I
+
+    int-to-float v12, v12
+
+    sub-float/2addr v12, v10
+
+    const/4 v13, 0x3
+
+    aget-object v14, v14, v13
+
+    iget v14, v14, Landroid/graphics/PointF;->y:F
+
+    sub-float/2addr v14, v10
+
+    div-float/2addr v12, v14
+
+    aput v12, v11, v13
+
+    iget-object v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v10, v10, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v11, v10, v7
+
+    iget v11, v11, Landroid/graphics/PointF;->x:F
+
+    aget-object v10, v10, v5
+
+    iget v10, v10, Landroid/graphics/PointF;->x:F
+
+    invoke-static {v11, v10}, Ljava/lang/Math;->max(FF)F
+
+    move-result v10
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->p7:[F
+
+    aget v11, v11, v7
+
+    iget-object v12, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v14, v12, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v14, v14, v7
+
+    iget v14, v14, Landroid/graphics/PointF;->x:F
+
+    iget-object v12, v12, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v15, v12, v7
+
+    iget v15, v15, Landroid/graphics/PointF;->x:F
+
+    aget-object v12, v12, v5
+
+    iget v12, v12, Landroid/graphics/PointF;->x:F
+
+    invoke-static {v15, v12}, Ljava/lang/Math;->max(FF)F
+
+    move-result v12
+
+    invoke-static {v14, v12, v11, v10}, Ltr;->a(FFFF)F
+
+    move-result v10
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v11, v11, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v11, v11, v7
+
+    iget v11, v11, Landroid/graphics/PointF;->x:F
+
+    iget-object v12, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v12, v12, v5
+
+    iget v12, v12, Landroid/graphics/PointF;->x:F
+
+    iget v14, v4, Landroid/graphics/Rect;->left:I
+
+    int-to-float v14, v14
+
+    iget v15, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->X5:I
+
+    int-to-float v15, v15
+
+    div-float/2addr v14, v15
+
+    sub-float/2addr v12, v14
+
+    div-float/2addr v12, v8
+
+    sub-float/2addr v11, v12
+
+    invoke-static {v10, v11}, Ljava/lang/Math;->min(FF)F
+
+    move-result v10
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v11, v11, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v12, v11, v7
+
+    iget v12, v12, Landroid/graphics/PointF;->x:F
+
+    aget-object v11, v11, v5
+
+    iget v11, v11, Landroid/graphics/PointF;->x:F
+
+    invoke-static {v12, v11}, Ljava/lang/Math;->min(FF)F
+
+    move-result v11
+
+    iget-object v12, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->p7:[F
+
+    aget v12, v12, v3
+
+    iget-object v14, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v15, v14, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v15, v15, v3
+
+    iget v15, v15, Landroid/graphics/PointF;->x:F
+
+    iget-object v14, v14, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    move/from16 v16, v3
+
+    aget-object v3, v14, v7
+
+    iget v3, v3, Landroid/graphics/PointF;->x:F
+
+    aget-object v14, v14, v5
+
+    iget v14, v14, Landroid/graphics/PointF;->x:F
+
+    invoke-static {v3, v14}, Ljava/lang/Math;->min(FF)F
+
+    move-result v3
+
+    invoke-static {v15, v3, v12, v11}, Ltr;->a(FFFF)F
+
+    move-result v3
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v11, v11, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v11, v11, v7
+
+    iget v11, v11, Landroid/graphics/PointF;->x:F
+
+    iget v12, v4, Landroid/graphics/Rect;->right:I
+
+    iget v14, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->X5:I
+
+    div-int/2addr v12, v14
+
+    int-to-float v12, v12
+
+    iget-object v14, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v14, v14, v5
+
+    iget v14, v14, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v12, v14
+
+    div-float/2addr v12, v8
+
+    add-float/2addr v12, v11
+
+    invoke-static {v3, v12}, Ljava/lang/Math;->max(FF)F
+
+    move-result v3
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v12, v11, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v12, v12, v7
+
+    iget v12, v12, Landroid/graphics/PointF;->y:F
+
+    iget-object v14, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->p7:[F
+
+    aget v14, v14, v5
+
+    iget-object v11, v11, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v11, v11, v5
+
+    iget v11, v11, Landroid/graphics/PointF;->y:F
+
+    invoke-static {v11, v12, v14, v12}, Ltr;->a(FFFF)F
+
+    move-result v11
+
+    iget-object v14, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v14, v14, v7
+
+    iget v14, v14, Landroid/graphics/PointF;->y:F
+
+    iget v4, v4, Landroid/graphics/Rect;->top:I
+
+    int-to-float v4, v4
+
+    iget v15, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->Y5:I
+
+    int-to-float v15, v15
+
+    div-float/2addr v4, v15
+
+    mul-float/2addr v4, v9
+
+    sub-float/2addr v14, v4
+
+    div-float/2addr v14, v2
+
+    sub-float/2addr v12, v14
+
+    invoke-static {v11, v12}, Ljava/lang/Math;->min(FF)F
+
+    move-result v4
+
+    iget-object v9, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v9, v9, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v9, v9, v13
+
+    iget v9, v9, Landroid/graphics/PointF;->y:F
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v12, v11, v13
+
+    iget v12, v12, Landroid/graphics/PointF;->y:F
+
+    aget-object v11, v11, v7
+
+    iget v11, v11, Landroid/graphics/PointF;->y:F
+
+    sub-float/2addr v12, v11
+
+    iget-object v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->p7:[F
+
+    aget v11, v11, v13
+
+    sub-float/2addr v11, v6
+
+    mul-float/2addr v11, v12
+
+    div-float/2addr v11, v2
+
+    add-float/2addr v11, v9
+
+    invoke-static {v11, v9}, Ljava/lang/Math;->max(FF)F
+
+    move-result v9
+
+    iget v11, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->q7:I
+
+    invoke-static {v11, v10, v3, v4, v9}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->s6:I
+
+    iget-object v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget v9, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_target_level_orientation_cos:F
+
+    iget v4, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_target_level_orientation_sin:F
+
+    invoke-static {v3, v9, v4}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->t6:I
+
+    iget-object v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v4, v4, v7
+
+    iget v9, v4, Landroid/graphics/PointF;->x:F
+
+    iget v4, v4, Landroid/graphics/PointF;->y:F
+
+    invoke-static {v3, v9, v4}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->u6:I
+
+    iget-object v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v4, v4, v5
+
+    iget v9, v4, Landroid/graphics/PointF;->x:F
+
+    iget v4, v4, Landroid/graphics/PointF;->y:F
+
+    invoke-static {v3, v9, v4}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->v6:I
+
+    iget-object v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v4, v4, v7
+
+    iget v9, v4, Landroid/graphics/PointF;->x:F
+
+    iget v4, v4, Landroid/graphics/PointF;->y:F
+
+    invoke-static {v3, v9, v4}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->w6:I
+
+    iget-object v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->V5:[Landroid/graphics/PointF;
+
+    aget-object v4, v4, v7
+
+    iget v9, v4, Landroid/graphics/PointF;->x:F
+
+    iget-object v10, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v10, v10, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v10, v10, v7
+
+    iget v11, v10, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v9, v11
+
+    iget v4, v4, Landroid/graphics/PointF;->y:F
+
+    iget v10, v10, Landroid/graphics/PointF;->y:F
+
+    sub-float/2addr v4, v10
+
+    invoke-static {v3, v9, v4}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->x6:I
+
+    invoke-static {v3, v8}, Landroid/opengl/GLES20;->glUniform1f(IF)V
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->y6:I
+
+    invoke-static {v3, v2}, Landroid/opengl/GLES20;->glUniform1f(IF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->z6:I
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_left_src_center:Landroid/graphics/PointF;
+
+    iget v8, v4, Landroid/graphics/PointF;->x:F
+
+    iget v4, v4, Landroid/graphics/PointF;->y:F
+
+    iget-object v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_left_dst_center:Landroid/graphics/PointF;
+
+    iget v9, v3, Landroid/graphics/PointF;->x:F
+
+    iget v3, v3, Landroid/graphics/PointF;->y:F
+
+    invoke-static {v2, v8, v4, v9, v3}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->A6:I
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_left_src_aligned_coeff:[F
+
+    aget v8, v4, v7
+
+    aget v4, v4, v5
+
+    iget-object v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_left_dst_aligned_coeff:[F
+
+    aget v9, v3, v7
+
+    aget v3, v3, v5
+
+    invoke-static {v2, v8, v4, v9, v3}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->B6:I
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_right_src_aligned_coeff:[F
+
+    aget v8, v4, v7
+
+    aget v4, v4, v5
+
+    iget-object v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_right_dst_aligned_coeff:[F
+
+    aget v9, v3, v7
+
+    aget v3, v3, v5
+
+    invoke-static {v2, v8, v4, v9, v3}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->C6:I
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_left_src_center:Landroid/graphics/PointF;
+
+    iget v8, v4, Landroid/graphics/PointF;->x:F
+
+    iget v4, v4, Landroid/graphics/PointF;->y:F
+
+    iget-object v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_left_dst_center:Landroid/graphics/PointF;
+
+    iget v9, v3, Landroid/graphics/PointF;->x:F
+
+    iget v3, v3, Landroid/graphics/PointF;->y:F
+
+    invoke-static {v2, v8, v4, v9, v3}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->D6:I
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_left_src_aligned_coeff:[F
+
+    aget v8, v4, v7
+
+    aget v4, v4, v5
+
+    iget-object v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_left_dst_aligned_coeff:[F
+
+    aget v9, v3, v7
+
+    aget v3, v3, v5
+
+    invoke-static {v2, v8, v4, v9, v3}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->E6:I
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_right_src_aligned_coeff:[F
+
+    aget v8, v4, v7
+
+    aget v4, v4, v5
+
+    iget-object v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_right_dst_aligned_coeff:[F
+
+    aget v9, v3, v7
+
+    aget v3, v3, v5
+
+    invoke-static {v2, v8, v4, v9, v3}, Landroid/opengl/GLES20;->glUniform4f(IFFFF)V
+
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v3, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v3, v3, v7
+
+    iget v3, v3, Landroid/graphics/PointF;->x:F
+
+    iget-object v2, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v4, v2, v7
+
+    iget v4, v4, Landroid/graphics/PointF;->x:F
+
+    sub-float v4, v3, v4
+
+    aget-object v2, v2, v16
+
+    iget v2, v2, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v2, v3
+
+    iget v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->K7:I
+
+    mul-float/2addr v4, v4
+
+    mul-float/2addr v2, v2
+
+    invoke-static {v3, v4, v2}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget-object v3, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v8, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_top_left_src_aligned_coeff:[F
+
+    aget v8, v8, v5
+
+    iget v3, v3, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_ratio_of_actual_upper_lid_height_to_limited_height:F
+
+    invoke-static {v6, v3}, Ljava/lang/Math;->min(FF)F
+
+    move-result v3
+
+    mul-float/2addr v8, v3
+
+    const/high16 v3, -0x40800000    # -1.0f
+
+    mul-float v9, v8, v3
+
+    div-float v4, v9, v4
+
+    div-float/2addr v9, v2
+
+    iget v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->L7:I
+
+    invoke-static {v2, v4, v8, v9}, Landroid/opengl/GLES20;->glUniform3f(IFFF)V
+
+    iget-object v2, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v4, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_centers:[Landroid/graphics/PointF;
+
+    aget-object v4, v4, v5
+
+    iget v4, v4, Landroid/graphics/PointF;->x:F
+
+    iget-object v2, v2, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_oriented_eye_points:[Landroid/graphics/PointF;
+
+    aget-object v7, v2, v7
+
+    iget v7, v7, Landroid/graphics/PointF;->x:F
+
+    sub-float v7, v4, v7
+
+    aget-object v2, v2, v16
+
+    iget v2, v2, Landroid/graphics/PointF;->x:F
+
+    sub-float/2addr v2, v4
+
+    iget v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->M7:I
+
+    mul-float/2addr v7, v7
+
+    mul-float/2addr v2, v2
+
+    invoke-static {v4, v7, v2}, Landroid/opengl/GLES20;->glUniform2f(IFF)V
+
+    iget-object v4, v0, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->f7:Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;
+
+    iget-object v8, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_parabolic_polar_transform_bottom_left_src_aligned_coeff:[F
+
+    aget v5, v8, v5
+
+    iget v4, v4, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter$LiveEyeMakeupMetadata;->m_ratio_of_actual_lower_lid_height_to_limited_height:F
+
+    invoke-static {v6, v4}, Ljava/lang/Math;->min(FF)F
+
+    move-result v4
+
+    mul-float/2addr v5, v4
+
+    mul-float/2addr v3, v5
+
+    div-float v4, v3, v7
+
+    div-float/2addr v3, v2
+
+    iget v0, v0, Lcom/cyberlink/clgpuimage/cosmetic/l;->N7:I
+
+    invoke-static {v0, v4, v5, v3}, Landroid/opengl/GLES20;->glUniform3f(IFFF)V
+
+    monitor-exit v1
+
+    return-void
+
+    :goto_6
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+.end method
+
+.method public final onInit()V
+    .locals 2
+
+    invoke-super {p0}, Lcom/cyberlink/clgpuimage/cosmetic/CLMakeupLiveEyeFilter;->onInit()V
+
+    invoke-virtual {p0}, Lcom/cyberlink/clgpuimage/GPUImageFilter;->getProgram()I
+
+    move-result v0
+
+    const-string v1, "oriented_target_eye_left_right_corner_to_top_center_square"
+
+    invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/l;->K7:I
+
+    invoke-virtual {p0}, Lcom/cyberlink/clgpuimage/GPUImageFilter;->getProgram()I
+
+    move-result v0
+
+    const-string v1, "actual_top_left_right_parabolic"
+
+    invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/l;->L7:I
+
+    invoke-virtual {p0}, Lcom/cyberlink/clgpuimage/GPUImageFilter;->getProgram()I
+
+    move-result v0
+
+    const-string v1, "oriented_target_eye_left_right_corner_to_bottom_center_square"
+
+    invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/l;->M7:I
+
+    invoke-virtual {p0}, Lcom/cyberlink/clgpuimage/GPUImageFilter;->getProgram()I
+
+    move-result v0
+
+    const-string v1, "actual_bottom_left_right_parabolic"
+
+    invoke-static {v0, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/cyberlink/clgpuimage/cosmetic/l;->N7:I
+
+    return-void
+.end method

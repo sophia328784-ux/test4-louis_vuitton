@@ -1,0 +1,7 @@
+.class public interface abstract Lorg/spongycastle/jce/interfaces/ElGamalPublicKey;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lorg/spongycastle/jce/interfaces/ElGamalKey;
+.implements Ljavax/crypto/interfaces/DHPublicKey;

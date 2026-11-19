@@ -1,0 +1,53 @@
+package com.squareup.wire;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes3.dex */
+@Metadata(d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\b\n\u0000\b\n\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001¨\u0006\u0003"}, d2 = {"com/squareup/wire/ProtoAdapterKt$commonInt32$1", "Lcom/squareup/wire/ProtoAdapter;", "", "wire-runtime"}, k = 1, mv = {2, 0, 0}, xi = 48)
+public final class ProtoAdapterKt$commonInt32$1 extends ProtoAdapter<Integer> {
+    @Override // com.squareup.wire.ProtoAdapter
+    public final Object b(ProtoReader32 protoReader32) {
+        protoReader32.getClass();
+        return Integer.valueOf(protoReader32.j());
+    }
+
+    @Override // com.squareup.wire.ProtoAdapter
+    public final Object c(ProtoReader protoReader) {
+        protoReader.getClass();
+        return Integer.valueOf(protoReader.n());
+    }
+
+    @Override // com.squareup.wire.ProtoAdapter
+    public final void d(ProtoWriter protoWriter, Object obj) {
+        int iIntValue = ((Number) obj).intValue();
+        protoWriter.getClass();
+        if (iIntValue >= 0) {
+            protoWriter.b(iIntValue);
+        } else {
+            protoWriter.c(iIntValue);
+        }
+    }
+
+    @Override // com.squareup.wire.ProtoAdapter
+    public final void e(ReverseProtoWriter reverseProtoWriter, Object obj) {
+        int iIntValue = ((Number) obj).intValue();
+        reverseProtoWriter.getClass();
+        if (iIntValue >= 0) {
+            reverseProtoWriter.g(iIntValue);
+        } else {
+            reverseProtoWriter.h(iIntValue);
+        }
+    }
+
+    @Override // com.squareup.wire.ProtoAdapter
+    public final int h(Object obj) {
+        int iIntValue = ((Number) obj).intValue();
+        ProtoWriter.Companion companion = ProtoWriter.f43473b;
+        if (iIntValue >= 0) {
+            companion.getClass();
+            return ProtoWriter.Companion.a(iIntValue);
+        }
+        companion.getClass();
+        return 10;
+    }
+}

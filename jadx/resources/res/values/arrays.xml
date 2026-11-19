@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_msg_type">
+        <item>LP_GET_DEVICEINFO_CMD</item>
+        <item>LP_SEND_SSID_PASSWORD</item>
+        <item>LP_SET_COUNTRY_CODE</item>
+        <item>LP_SET_TIME</item>
+        <item>LP_GET_AP_LIST_CMD</item>
+        <item>LP_SET_BT_MODE</item>
+        <item>LP_CUSTOM_COMMAND</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="sharemedia_dialog_items">
+        <item>@string/sharemedia_dialog_item_photo_from_camera</item>
+        <item>@string/sharemedia_dialog_item_photo_from_gallery</item>
+        <item>@string/sharemedia_dialog_item_video_from_gallery</item>
+    </array>
+    <array name="universal_help_voice_commands">
+        <item>@string/universal_microphone_on</item>
+        <item>@string/universal_microphone_off</item>
+        <item>@string/universal_start_video</item>
+        <item>@string/universal_stop_video</item>
+        <item>@string/universal_video_source</item>
+        <item>@string/universal_pause_video</item>
+        <item>@string/universal_resume_video</item>
+        <item>@string/universal_share_media</item>
+        <item>@string/universal_flash_on</item>
+        <item>@string/universal_flash_off</item>
+        <item>@string/universal_erase</item>
+        <item>@string/universal_share_stop</item>
+        <item>@string/universal_screencast</item>
+        <item>@string/universal_message</item>
+        <item>@string/universal_hangup</item>
+    </array>
+</resources>

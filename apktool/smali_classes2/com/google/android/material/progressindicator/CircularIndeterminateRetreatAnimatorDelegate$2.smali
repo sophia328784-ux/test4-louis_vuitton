@@ -1,0 +1,42 @@
+.class Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate$2;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic a:Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate$2;->a:Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate;
+
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 0
+
+    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
+
+    iget-object p0, p0, Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate$2;->a:Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate;
+
+    invoke-virtual {p0}, Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate;->a()V
+
+    iget-object p1, p0, Lcom/google/android/material/progressindicator/CircularIndeterminateRetreatAnimatorDelegate;->j:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+
+    if-eqz p1, :cond_0
+
+    iget-object p0, p0, Lcom/google/android/material/progressindicator/IndeterminateAnimatorDelegate;->a:Lcom/google/android/material/progressindicator/IndeterminateDrawable;
+
+    invoke-virtual {p1, p0}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->a(Landroid/graphics/drawable/Drawable;)V
+
+    :cond_0
+    return-void
+.end method

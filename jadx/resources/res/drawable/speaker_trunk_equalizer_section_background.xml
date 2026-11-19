@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="0x7f080386"/>
+    <item
+        android:top="@dimen/default_spacing"
+        android:bottom="@dimen/default_spacing"
+        android:start="@dimen/default_spacing"
+        android:end="@dimen/default_spacing">
+        <bitmap android:src="0x7f080387"/>
+    </item>
+    <item
+        android:gravity="bottom|center_horizontal"
+        android:bottom="7dp">
+        <bitmap android:src="0x7f080388"/>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/border_top_radius_16dp_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_header" layout="@layout/reusable_bottom_sheet_title_layout" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="300.0dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_device_list" android:padding="@dimen/double_spacing" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <FrameLayout android:id="@id/layout_progress_bar" android:background="@color/transparent_background_white_50" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="32.0dp" android:layout_height="32.0dp" android:contentDescription="@string/content_description_loading" style="@style/LVProgressBarDark" />
+        </FrameLayout>
+    </RelativeLayout>
+    <Button android:id="@id/button_back" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/triple_spacing" android:layout_marginBottom="@dimen/double_spacing" android:text="@string/back" android:textAllCaps="false" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/SecondaryButtonRepaint" />
+</LinearLayout>

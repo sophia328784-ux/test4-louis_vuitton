@@ -1,0 +1,7 @@
+package org.spongycastle.jce.interfaces;
+
+import java.security.PrivateKey;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface GOST3410PrivateKey extends GOST3410Key, PrivateKey {
+}

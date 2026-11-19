@@ -1,0 +1,21 @@
+package arrow.fx.internal;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\b\u0004\u0018\u00002\u00060\u0001j\u0002`\u0002B\u000f\u0012\u0006\u0010\u0004\u001a\u00020\u0003¢\u0006\u0004\b\u0005\u0010\u0006¨\u0006\u0007"}, d2 = {"Larrow/fx/internal/TimeoutException;", "Ljava/lang/Exception;", "Lkotlin/Exception;", "", "message", "<init>", "(Ljava/lang/String;)V", "arrow-fx"}, k = 1, mv = {1, 4, 2})
+public final class TimeoutException extends Exception {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final String f20611b;
+
+    public TimeoutException(String str) {
+        str.getClass();
+        this.f20611b = str;
+    }
+
+    @Override // java.lang.Throwable
+    public final String getMessage() {
+        return this.f20611b;
+    }
+}

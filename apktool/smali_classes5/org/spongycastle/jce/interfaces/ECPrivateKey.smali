@@ -1,0 +1,7 @@
+.class public interface abstract Lorg/spongycastle/jce/interfaces/ECPrivateKey;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lorg/spongycastle/jce/interfaces/ECKey;
+.implements Ljava/security/PrivateKey;

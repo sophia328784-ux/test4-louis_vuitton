@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/com_batchsdk_TextAppearance.Notification.Title" android:id="@id/com_batchsdk_notification_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/com_batchsdk_notification_icon1" />
+    <TextView android:textAppearance="@style/com_batchsdk_TextAppearance.Notification.Content" android:id="@id/com_batchsdk_notification_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/com_batchsdk_notification_title" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/com_batchsdk_notification_icon1" />
+    <ImageView android:id="@id/com_batchsdk_notification_icon1" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_marginLeft="6.0dp" android:scaleType="centerCrop" android:layout_marginStart="6.0dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

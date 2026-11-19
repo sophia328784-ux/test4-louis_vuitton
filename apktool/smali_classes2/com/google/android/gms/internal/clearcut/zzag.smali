@@ -1,0 +1,43 @@
+.class final synthetic Lcom/google/android/gms/internal/clearcut/zzag;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/google/android/gms/internal/clearcut/zzam;
+
+
+# instance fields
+.field public final a:Lcom/google/android/gms/internal/clearcut/zzae;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/internal/clearcut/zzae;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/clearcut/zzag;->a:Lcom/google/android/gms/internal/clearcut/zzae;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final d()Ljava/lang/Object;
+    .locals 1
+
+    sget-object v0, Lcom/google/android/gms/internal/clearcut/zzae;->g:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    iget-object p0, p0, Lcom/google/android/gms/internal/clearcut/zzag;->a:Lcom/google/android/gms/internal/clearcut/zzae;
+
+    iget-object p0, p0, Lcom/google/android/gms/internal/clearcut/zzae;->c:Ljava/lang/String;
+
+    invoke-static {v0, p0}, Lcom/google/android/gms/internal/clearcut/zzy;->b(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

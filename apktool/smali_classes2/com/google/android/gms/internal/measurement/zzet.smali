@@ -1,0 +1,60 @@
+.class final Lcom/google/android/gms/internal/measurement/zzet;
+.super Lcom/google/android/gms/internal/measurement/zzeo;
+.source "SourceFile"
+
+
+# instance fields
+.field final synthetic zza:Landroid/app/Activity;
+
+.field final synthetic zzb:Lcom/google/android/gms/internal/measurement/zzey;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/internal/measurement/zzey;Landroid/app/Activity;)V
+    .locals 0
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzet;->zza:Landroid/app/Activity;
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzet;->zzb:Lcom/google/android/gms/internal/measurement/zzey;
+
+    iget-object p1, p1, Lcom/google/android/gms/internal/measurement/zzey;->b:Lcom/google/android/gms/internal/measurement/zzez;
+
+    const/4 p2, 0x1
+
+    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzeo;-><init>(Lcom/google/android/gms/internal/measurement/zzez;Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza()V
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzet;->zzb:Lcom/google/android/gms/internal/measurement/zzey;
+
+    iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzey;->b:Lcom/google/android/gms/internal/measurement/zzez;
+
+    iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzez;->f:Lcom/google/android/gms/internal/measurement/zzcp;
+
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->h(Ljava/lang/Object;)V
+
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzet;->zza:Landroid/app/Activity;
+
+    invoke-static {v1}, Lcom/google/android/gms/internal/measurement/zzdd;->W1(Landroid/app/Activity;)Lcom/google/android/gms/internal/measurement/zzdd;
+
+    move-result-object v1
+
+    iget-wide v2, p0, Lcom/google/android/gms/internal/measurement/zzeo;->zzj:J
+
+    invoke-interface {v0, v1, v2, v3}, Lcom/google/android/gms/internal/measurement/zzcp;->onActivityResumedByScionActivityInfo(Lcom/google/android/gms/internal/measurement/zzdd;J)V
+
+    return-void
+.end method

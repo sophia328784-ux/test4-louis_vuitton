@@ -1,0 +1,350 @@
+.class Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/concurrent/ScheduledExecutorService;
+.implements Ljava/lang/AutoCloseable;
+
+
+# instance fields
+.field public final b:Ljava/util/concurrent/ExecutorService;
+
+.field public final c:Ljava/util/concurrent/ScheduledExecutorService;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/concurrent/ExecutorService;Ljava/util/concurrent/ScheduledExecutorService;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    iput-object p2, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->c:Ljava/util/concurrent/ScheduledExecutorService;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1, p2, p3}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final synthetic close()V
+    .locals 5
+
+    invoke-static {}, Ljava/util/concurrent/ForkJoinPool;->commonPool()Ljava/util/concurrent/ForkJoinPool;
+
+    move-result-object v0
+
+    if-ne p0, v0, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    invoke-interface {p0}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    invoke-interface {p0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
+
+    const/4 v1, 0x0
+
+    :cond_1
+    :goto_0
+    if-nez v0, :cond_2
+
+    :try_start_0
+    sget-object v2, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
+
+    const-wide/16 v3, 0x1
+
+    invoke-interface {p0, v3, v4, v2}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    if-nez v1, :cond_1
+
+    invoke-interface {p0}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;
+
+    const/4 v1, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    if-eqz v1, :cond_3
+
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Thread;->interrupt()V
+
+    :cond_3
+    :goto_1
+    return-void
+.end method
+
+.method public final execute(Ljava/lang/Runnable;)V
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    return-void
+.end method
+
+.method public final invokeAll(Ljava/util/Collection;)Ljava/util/List;
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;)Ljava/util/List;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+    .locals 0
+
+    .line 7
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    .locals 0
+
+    .line 7
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final isShutdown()Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0}, Ljava/util/concurrent/ExecutorService;->isShutdown()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final isTerminated()Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 8
+
+    new-instance v0, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;
+
+    new-instance v1, Lcom/google/firebase/concurrent/b;
+
+    const/4 v7, 0x0
+
+    move-object v2, p0
+
+    move-object v3, p1
+
+    move-wide v4, p2
+
+    move-object v6, p4
+
+    invoke-direct/range {v1 .. v7}, Lcom/google/firebase/concurrent/b;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;I)V
+
+    invoke-direct {v0, v1}, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledFuture$Resolver;)V
+
+    return-object v0
+.end method
+
+.method public final schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 8
+
+    .line 16
+    new-instance v0, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;
+
+    new-instance v1, Lcom/google/firebase/concurrent/b;
+
+    const/4 v7, 0x1
+
+    move-object v2, p0
+
+    move-object v3, p1
+
+    move-wide v4, p2
+
+    move-object v6, p4
+
+    invoke-direct/range {v1 .. v7}, Lcom/google/firebase/concurrent/b;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;I)V
+
+    invoke-direct {v0, v1}, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledFuture$Resolver;)V
+
+    return-object v0
+.end method
+
+.method public final scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 10
+
+    new-instance v0, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;
+
+    new-instance v1, Lcom/google/firebase/concurrent/d;
+
+    const/4 v9, 0x0
+
+    move-object v2, p0
+
+    move-object v3, p1
+
+    move-wide v4, p2
+
+    move-wide v6, p4
+
+    move-object/from16 v8, p6
+
+    invoke-direct/range {v1 .. v9}, Lcom/google/firebase/concurrent/d;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;I)V
+
+    invoke-direct {v0, v1}, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledFuture$Resolver;)V
+
+    return-object v0
+.end method
+
+.method public final scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 10
+
+    new-instance v0, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;
+
+    new-instance v1, Lcom/google/firebase/concurrent/d;
+
+    const/4 v9, 0x1
+
+    move-object v2, p0
+
+    move-object v3, p1
+
+    move-wide v4, p2
+
+    move-wide v6, p4
+
+    move-object/from16 v8, p6
+
+    invoke-direct/range {v1 .. v9}, Lcom/google/firebase/concurrent/d;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;I)V
+
+    invoke-direct {v0, v1}, Lcom/google/firebase/concurrent/DelegatingScheduledFuture;-><init>(Lcom/google/firebase/concurrent/DelegatingScheduledFuture$Resolver;)V
+
+    return-object v0
+.end method
+
+.method public final shutdown()V
+    .locals 1
+
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "Shutting down is not allowed."
+
+    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final shutdownNow()Ljava/util/List;
+    .locals 1
+
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "Shutting down is not allowed."
+
+    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+    .locals 0
+
+    .line 8
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
+    .locals 0
+
+    .line 7
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1, p2}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/firebase/concurrent/DelegatingScheduledExecutorService;->b:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+
+    move-result-object p0
+
+    return-object p0
+.end method

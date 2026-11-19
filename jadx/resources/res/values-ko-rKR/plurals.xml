@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_cart_number_of_products">
+        <item quantity="zero">제품이 추가되지 않았습니다</item>
+        <item quantity="other">%d 제품이 추가되었습니다</item>
+    </plurals>
+    <plurals name="alt_colors_available">
+        <item quantity="zero">선택 가능한 색상이 없습니다.</item>
+        <item quantity="other">%d 색상 선택 가능</item>
+    </plurals>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">아이템 없음</item>
+        <item quantity="other">%d개의 아이템</item>
+    </plurals>
+    <plurals name="booking_experiences_counter">
+        <item quantity="zero">이전 경험 없음</item>
+        <item quantity="other">%d 경험</item>
+    </plurals>
+    <plurals name="booking_form_request_card_cta_format">
+        <item quantity="zero">추가 %2$s</item>
+        <item quantity="other">%2$s (+%1$d)</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">제품 %1$d 보기</item>
+        <item quantity="other">제품 %1$d 보기</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="zero">%1$d 색상 </item>
+        <item quantity="other">%1$d 색상 </item>
+    </plurals>
+    <plurals name="dr_history_header">
+        <item quantity="zero">수리 이력이 없습니다</item>
+        <item quantity="other">%1$d 수리</item>
+    </plurals>
+    <plurals name="dr_ongoing_header">
+        <item quantity="zero">진행 중인 수리가 없습니다</item>
+        <item quantity="other">%1$d 수리</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">진행중인 수리</item>
+        <item quantity="other">진행중인 수리들</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">&quot;%2$s&quot;에 대한 결과가 없습니다</item>
+        <item quantity="other">%1$d 결과</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">룩</item>
+        <item quantity="other">총 %1$d 룩</item>
+    </plurals>
+    <plurals name="multiple_add_to_cart_success_message">
+        <item quantity="zero">장바구니에 아이템이 없습니다.</item>
+        <item quantity="other">%d 상품이 장바구니에 추가되었습니다.</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">아이템 없음</item>
+        <item quantity="other">%d개의 아이템</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">예약 히스토리가 없습니다. </item>
+        <item quantity="other">%1$d 일정</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">진행중인 일정</item>
+        <item quantity="other">진행중인 일정</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">예정된 약속이 없습니다.</item>
+        <item quantity="other">일정</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">%1$d 제품들</item>
+        <item quantity="other">%1$d 제품들</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">%1$d 검색결과 &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d 검색결과 &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">제품 없음</item>
+        <item quantity="other">%d 제품</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">일정 없음</item>
+        <item quantity="other">%d 일정들</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">%d 증명서</item>
+        <item quantity="other">%d 증명서</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">%d 수리</item>
+        <item quantity="other">%d 수리</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">%1$d주문</item>
+        <item quantity="other">%d 주문</item>
+    </plurals>
+</resources>

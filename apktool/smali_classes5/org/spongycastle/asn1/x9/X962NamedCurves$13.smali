@@ -1,0 +1,86 @@
+.class final Lorg/spongycastle/asn1/x9/X962NamedCurves$13;
+.super Lorg/spongycastle/asn1/x9/X9ECParametersHolder;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/spongycastle/asn1/x9/X962NamedCurves;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = null
+.end annotation
+
+
+# virtual methods
+.method public final a()Lorg/spongycastle/asn1/x9/X9ECParameters;
+    .locals 7
+
+    new-instance v3, Ljava/math/BigInteger;
+
+    const-string p0, "20000000000000000000000050508CB89F652824E06B8173"
+
+    const/16 v0, 0x10
+
+    invoke-direct {v3, p0, v0}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
+
+    const-wide/16 v1, 0x4
+
+    invoke-static {v1, v2}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    new-instance v1, Lorg/spongycastle/math/ec/ECCurve$F2m;
+
+    move-object v5, v3
+
+    new-instance v3, Ljava/math/BigInteger;
+
+    const-string p0, "401028774D7777C7B7666D1366EA432071274F89FF01E718"
+
+    invoke-direct {v3, p0, v0}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
+
+    move-object v6, v4
+
+    new-instance v4, Ljava/math/BigInteger;
+
+    const-string p0, "0620048D28BCBD03B6249C99182B7C8CD19700C362C46A01"
+
+    invoke-direct {v4, p0, v0}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
+
+    move-object v0, v1
+
+    const/16 v1, 0xbf
+
+    const/16 v2, 0x9
+
+    invoke-direct/range {v0 .. v6}, Lorg/spongycastle/math/ec/ECCurve$F2m;-><init>(IILjava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+
+    new-instance p0, Lorg/spongycastle/asn1/x9/X9ECParameters;
+
+    new-instance v2, Lorg/spongycastle/asn1/x9/X9ECPoint;
+
+    const-string v1, "023809B2B7CC1B28CC5A87926AAD83FD28789E81E2C9E3BF10"
+
+    invoke-static {v1}, Lorg/spongycastle/util/encoders/Hex;->a(Ljava/lang/String;)[B
+
+    move-result-object v1
+
+    invoke-direct {v2, v0, v1}, Lorg/spongycastle/asn1/x9/X9ECPoint;-><init>(Lorg/spongycastle/math/ec/ECCurve;[B)V
+
+    move-object v3, v5
+
+    const/4 v5, 0x0
+
+    move-object v1, v0
+
+    move-object v4, v6
+
+    move-object v0, p0
+
+    invoke-direct/range {v0 .. v5}, Lorg/spongycastle/asn1/x9/X9ECParameters;-><init>(Lorg/spongycastle/math/ec/ECCurve;Lorg/spongycastle/asn1/x9/X9ECPoint;Ljava/math/BigInteger;Ljava/math/BigInteger;[B)V
+
+    return-object v0
+.end method

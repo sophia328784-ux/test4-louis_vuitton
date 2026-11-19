@@ -1,0 +1,58 @@
+.class public Lcom/sightcall/universal/agent/DeleteCodeCallback$Success;
+.super Lcom/sightcall/universal/api/ApiCallback;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sightcall/universal/agent/DeleteCodeCallback;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Success"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/sightcall/universal/api/ApiCallback<",
+        "Ljava/lang/Void;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final code:Lcom/sightcall/universal/agent/Code;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sightcall/universal/api/ApiCallback$Holder;Lcom/sightcall/universal/agent/Code;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/sightcall/universal/api/ApiCallback$Holder<",
+            "Ljava/lang/Void;",
+            ">;",
+            "Lcom/sightcall/universal/agent/Code;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1}, Lcom/sightcall/universal/api/ApiCallback;-><init>(Lcom/sightcall/universal/api/ApiCallback$Holder;)V
+
+    iput-object p2, p0, Lcom/sightcall/universal/agent/DeleteCodeCallback$Success;->code:Lcom/sightcall/universal/agent/Code;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public code()Lcom/sightcall/universal/agent/Code;
+    .locals 0
+
+    iget-object p0, p0, Lcom/sightcall/universal/agent/DeleteCodeCallback$Success;->code:Lcom/sightcall/universal/agent/Code;
+
+    return-object p0
+.end method

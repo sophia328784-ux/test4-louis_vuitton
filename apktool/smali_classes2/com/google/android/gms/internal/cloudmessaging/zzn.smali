@@ -1,0 +1,23 @@
+.class public abstract Lcom/google/android/gms/internal/cloudmessaging/zzn;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final synthetic a:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/google/android/gms/internal/cloudmessaging/zzo;
+
+    invoke-direct {v0}, Lcom/google/android/gms/internal/cloudmessaging/zzo;-><init>()V
+
+    new-instance v0, Lcom/google/android/gms/internal/cloudmessaging/zzp;
+
+    invoke-direct {v0}, Lcom/google/android/gms/internal/cloudmessaging/zzp;-><init>()V
+
+    return-void
+.end method

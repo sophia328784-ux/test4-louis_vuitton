@@ -1,0 +1,67 @@
+.class Lcom/google/android/material/resources/TextAppearance$1;
+.super Landroidx/core/content/res/ResourcesCompat$FontCallback;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic a:Lcom/google/android/material/resources/TextAppearanceFontCallback;
+
+.field public final synthetic b:Lcom/google/android/material/resources/TextAppearance;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/material/resources/TextAppearance;Lcom/google/android/material/resources/TextAppearanceFontCallback;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/material/resources/TextAppearance$1;->b:Lcom/google/android/material/resources/TextAppearance;
+
+    iput-object p2, p0, Lcom/google/android/material/resources/TextAppearance$1;->a:Lcom/google/android/material/resources/TextAppearanceFontCallback;
+
+    invoke-direct {p0}, Landroidx/core/content/res/ResourcesCompat$FontCallback;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(I)V
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/android/material/resources/TextAppearance$1;->b:Lcom/google/android/material/resources/TextAppearance;
+
+    const/4 v1, 0x1
+
+    iput-boolean v1, v0, Lcom/google/android/material/resources/TextAppearance;->n:Z
+
+    iget-object p0, p0, Lcom/google/android/material/resources/TextAppearance$1;->a:Lcom/google/android/material/resources/TextAppearanceFontCallback;
+
+    invoke-virtual {p0, p1}, Lcom/google/android/material/resources/TextAppearanceFontCallback;->a(I)V
+
+    return-void
+.end method
+
+.method public final c(Landroid/graphics/Typeface;)V
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/android/material/resources/TextAppearance$1;->b:Lcom/google/android/material/resources/TextAppearance;
+
+    iget v1, v0, Lcom/google/android/material/resources/TextAppearance;->d:I
+
+    invoke-static {p1, v1}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+
+    move-result-object p1
+
+    iput-object p1, v0, Lcom/google/android/material/resources/TextAppearance;->p:Landroid/graphics/Typeface;
+
+    const/4 v1, 0x1
+
+    iput-boolean v1, v0, Lcom/google/android/material/resources/TextAppearance;->n:Z
+
+    iget-object p0, p0, Lcom/google/android/material/resources/TextAppearance$1;->a:Lcom/google/android/material/resources/TextAppearanceFontCallback;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, p1, v0}, Lcom/google/android/material/resources/TextAppearanceFontCallback;->b(Landroid/graphics/Typeface;Z)V
+
+    return-void
+.end method

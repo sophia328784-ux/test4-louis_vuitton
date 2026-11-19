@@ -1,0 +1,35 @@
+package org.bouncycastle.est;
+
+import defpackage.md;
+
+/* JADX INFO: loaded from: classes5.dex */
+public class CSRRequestResponse {
+    private final CSRAttributesResponse attributesResponse;
+    private final Source source;
+
+    public CSRRequestResponse(CSRAttributesResponse cSRAttributesResponse, Source source) {
+        this.attributesResponse = cSRAttributesResponse;
+        this.source = source;
+    }
+
+    public CSRAttributesResponse getAttributesResponse() {
+        CSRAttributesResponse cSRAttributesResponse = this.attributesResponse;
+        if (cSRAttributesResponse != null) {
+            return cSRAttributesResponse;
+        }
+        md.k("Response has no CSRAttributesResponse.");
+        return null;
+    }
+
+    public Object getSession() {
+        return this.source.getSession();
+    }
+
+    public Source getSource() {
+        return this.source;
+    }
+
+    public boolean hasAttributesResponse() {
+        return this.attributesResponse != null;
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/universal_translation_switch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Switch" />
+    <Spinner android:id="@id/universal_translation_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

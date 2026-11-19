@@ -1,0 +1,55 @@
+package androidx.privacysandbox.ads.adservices.measurement;
+
+import android.net.Uri;
+import defpackage.a;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0005\u0018\u00002\u00020\u0001:\u0001\bB\u0017\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0004¢\u0006\u0004\b\u0006\u0010\u0007¨\u0006\t"}, d2 = {"Landroidx/privacysandbox/ads/adservices/measurement/WebSourceParams;", "", "Landroid/net/Uri;", "registrationUri", "", "debugKeyAllowed", "<init>", "(Landroid/net/Uri;Z)V", "Companion", "ads-adservices_release"}, k = 1, mv = {1, 8, 0}, xi = 48)
+public final class WebSourceParams {
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public static final Companion f19084c = new Companion(null);
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final Uri f19085a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final boolean f19086b;
+
+    @Metadata(d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\b\u0080\u0003\u0018\u00002\u00020\u0001¨\u0006\u0002"}, d2 = {"Landroidx/privacysandbox/ads/adservices/measurement/WebSourceParams$Companion;", "", "ads-adservices_release"}, k = 1, mv = {1, 8, 0}, xi = 48)
+    public static final class Companion {
+        public Companion(DefaultConstructorMarker defaultConstructorMarker) {
+        }
+    }
+
+    public WebSourceParams(Uri uri, boolean z) {
+        uri.getClass();
+        this.f19085a = uri;
+        this.f19086b = z;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof WebSourceParams)) {
+            return false;
+        }
+        WebSourceParams webSourceParams = (WebSourceParams) obj;
+        return Intrinsics.c(this.f19085a, webSourceParams.f19085a) && this.f19086b == webSourceParams.f19086b;
+    }
+
+    public final int hashCode() {
+        return Boolean.hashCode(this.f19086b) + (this.f19085a.hashCode() * 31);
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("WebSourceParams { RegistrationUri=");
+        sb.append(this.f19085a);
+        sb.append(", DebugKeyAllowed=");
+        return a.p(sb, this.f19086b, " }");
+    }
+}

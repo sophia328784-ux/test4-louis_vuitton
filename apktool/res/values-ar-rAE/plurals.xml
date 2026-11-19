@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_cart_number_of_products">
+        <item quantity="zero">لم تتم إضافة أي منتج</item>
+        <item quantity="one">تمت إضافة منتج واحد</item>
+        <item quantity="two">تمت إضافة منتجين</item>
+        <item quantity="few">تمت إضافة %d منتجات</item>
+        <item quantity="many">تمت إضافة %d منتجات</item>
+        <item quantity="other">تمت إضافة %d منتجات</item>
+    </plurals>
+    <plurals name="alt_colors_available">
+        <item quantity="zero">لا يوجد لون متوفر.</item>
+        <item quantity="one">متوفر لون واحد.</item>
+        <item quantity="two">متوفر لونين.</item>
+        <item quantity="few">تتوفر %d ألوان.</item>
+        <item quantity="many">تتوفر %d ألوان.</item>
+        <item quantity="other">تتوفر %d ألوان.</item>
+    </plurals>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">لا يوجد منتج</item>
+        <item quantity="one">منتج واحد</item>
+        <item quantity="two">منتجان</item>
+        <item quantity="few">%d منتجات</item>
+        <item quantity="many">%d منتجات</item>
+    </plurals>
+    <plurals name="booking_experiences_counter">
+        <item quantity="zero">لا توجد تجارب</item>
+        <item quantity="one">تجربة واحدة</item>
+        <item quantity="two">%d تجربة</item>
+        <item quantity="few">%d تجربة</item>
+        <item quantity="many">%d تجربة</item>
+        <item quantity="other">%d تجربة</item>
+    </plurals>
+    <plurals name="booking_form_request_card_cta_format">
+        <item quantity="zero">إضافة %2$s</item>
+        <item quantity="one">تجربة واحدة</item>
+        <item quantity="two">%2$s (+%1$d)</item>
+        <item quantity="few">%2$s (+%1$d)</item>
+        <item quantity="many">%2$s (+%1$d)</item>
+        <item quantity="other">%2$s (+%1$d)</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">عرض ‪%1$d‬ منتج</item>
+        <item quantity="one">عرض ‪%1$d‬ منتج</item>
+        <item quantity="two">عرض‪%1$d‬ منتجين</item>
+        <item quantity="few">عرض ‪%1$d‬ منتجات</item>
+        <item quantity="many">عرض ‪%1$d‬ منتجات</item>
+        <item quantity="other">عرض ‪%1$d‬ منتجات</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="one">%1$d الألوان</item>
+        <item quantity="two">%1$d الألوان</item>
+        <item quantity="few">%1$d الألوان</item>
+        <item quantity="many">%1$d الألوان</item>
+        <item quantity="other">%1$d الألوان</item>
+    </plurals>
+    <plurals name="dr_history_header">
+        <item quantity="zero">لا يوجد إصلاحات سابقة</item>
+        <item quantity="one">"%1$d إصلاح "</item>
+        <item quantity="two">%1$d إصلاحين</item>
+        <item quantity="few">%1$d إصلاحات</item>
+        <item quantity="many">%1$d إصلاحات</item>
+        <item quantity="other">%1$d إصلاحات</item>
+    </plurals>
+    <plurals name="dr_ongoing_header">
+        <item quantity="zero">لا توجد إصلاحات جارية</item>
+        <item quantity="one">"%1$d إصلاح "</item>
+        <item quantity="two">%1$d إصلاحين</item>
+        <item quantity="few">%1$d إصلاحات</item>
+        <item quantity="many">%1$d إصلاحات</item>
+        <item quantity="other">%1$d إصلاحات</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">إصلاحات جارية</item>
+        <item quantity="one">إصلاح جاري</item>
+        <item quantity="two">إصلاحان جاريان</item>
+        <item quantity="few">إصلاحات جارية</item>
+        <item quantity="many">إصلاحات جارية</item>
+        <item quantity="other">إصلاحات جارية</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">لا توجد نتائج لـ \"%2$s\"</item>
+        <item quantity="one">نتيجة واحدة</item>
+        <item quantity="two">"نتيجتين "</item>
+        <item quantity="few">بعض النتائج</item>
+        <item quantity="many">العديد من النتائج</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">إطلالة</item>
+        <item quantity="one">إطلالة</item>
+        <item quantity="two">إطلالتين</item>
+        <item quantity="few">إطلالات</item>
+        <item quantity="many">إطلالات</item>
+        <item quantity="other">%1$d إطلالات</item>
+    </plurals>
+    <plurals name="multiple_add_to_cart_success_message">
+        <item quantity="zero">لم تتم إضافة أي منتج إلى سلة التسوق الخاصة بك.</item>
+        <item quantity="one">لقد تمت إضافة هذا المنتج إلى سلة التسوق الخاصة بك.</item>
+        <item quantity="two">تم إضافة منتجين إلى سلة التسوق الخاصة بك.</item>
+        <item quantity="few">تمت إضافة %d منتجات إلى سلة التسوق الخاصة بك.</item>
+        <item quantity="many">تم إضافة %d منتجًا إلى سلة التسوق الخاصة بك.</item>
+        <item quantity="other">تم إضافة %d منتجًا إلى سلة التسوق الخاصة بك.</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">لا يوجد منتج</item>
+        <item quantity="one">منتج واحد</item>
+        <item quantity="two">منتجان</item>
+        <item quantity="few">%d منتجات</item>
+        <item quantity="many">%d منتجات</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">ليس لديك مواعيد سابقة</item>
+        <item quantity="one">%1$d موعد</item>
+        <item quantity="two">%1$d موعدين</item>
+        <item quantity="few">"%1$d مواعيد "</item>
+        <item quantity="many">"%1$d مواعيد "</item>
+        <item quantity="other">"%1$d مواعيد "</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">مواعيد جارية</item>
+        <item quantity="one">موعد جاري</item>
+        <item quantity="two">موعدان جاريان</item>
+        <item quantity="few">مواعيد جارية</item>
+        <item quantity="many">مواعيد جارية</item>
+        <item quantity="other">مواعيد جارية</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">ليس لديك موعد قادم</item>
+        <item quantity="one">%1$d موعد</item>
+        <item quantity="two">%1$d موعدين</item>
+        <item quantity="few">%1$d مواعيد</item>
+        <item quantity="many">%1$d مواعيد</item>
+        <item quantity="other">%1$d مواعيد</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">‪%1$d‬ منتج</item>
+        <item quantity="one">‪%1$d‬ منتج</item>
+        <item quantity="two">‪%1$d‬ منتجين</item>
+        <item quantity="few">‪%1$d‬ منتجات</item>
+        <item quantity="many">‪%1$d‬ منتجات</item>
+        <item quantity="other">‪%1$d‬ منتجات</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">%1$d نتيجة للبحث عن \"%2$s\"</item>
+        <item quantity="one">%1$d نتيجة للبحث عن \"%2$s\"</item>
+        <item quantity="two">%1$d نتيجتين للبحث عن\" %2$s\"</item>
+        <item quantity="few">%1$d نتائج للبحث عن %2$s</item>
+        <item quantity="many">%1$d نتائج للبحث عن \" %2$s\"</item>
+        <item quantity="other">%1$d نتائج للبحث عن \"%2$s\"</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">لا توجد منتجات</item>
+        <item quantity="one">%d منتج</item>
+        <item quantity="two">%d منتج</item>
+        <item quantity="few">%d منتجات</item>
+        <item quantity="many">%d منتجات</item>
+        <item quantity="other">%d منتجات</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">لا يوجد موعد</item>
+        <item quantity="one">%d موعد</item>
+        <item quantity="other">%d مواعيد</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">%d شهادة</item>
+        <item quantity="one">%d شهادة</item>
+        <item quantity="two">%d شهادتين</item>
+        <item quantity="few">%d شهادات</item>
+        <item quantity="many">%d شهادات</item>
+        <item quantity="other">%d شهادات</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">%d إصلاحات</item>
+        <item quantity="one">"%d إصلاح "</item>
+        <item quantity="two">%d إصلاحين</item>
+        <item quantity="few">%d إصلاحات</item>
+        <item quantity="many">%d إصلاحات</item>
+        <item quantity="other">%d إصلاحات</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">%1$d طلب</item>
+        <item quantity="one">%d طلب</item>
+        <item quantity="two">%d طلبين</item>
+        <item quantity="few">%d طلبات</item>
+        <item quantity="many">%d طلبات</item>
+        <item quantity="other">%d طلبات</item>
+    </plurals>
+</resources>

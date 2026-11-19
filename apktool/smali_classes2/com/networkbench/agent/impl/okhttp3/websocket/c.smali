@@ -1,0 +1,35 @@
+.class public Lcom/networkbench/agent/impl/okhttp3/websocket/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:Lcom/networkbench/agent/impl/instrumentation/NBSTransactionState;
+
+.field public b:Z
+
+.field public c:I
+
+.field public d:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/networkbench/agent/impl/okhttp3/websocket/c;->b:Z
+
+    const/4 v0, -0x1
+
+    iput v0, p0, Lcom/networkbench/agent/impl/okhttp3/websocket/c;->c:I
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/networkbench/agent/impl/okhttp3/websocket/c;->d:Ljava/lang/String;
+
+    return-void
+.end method

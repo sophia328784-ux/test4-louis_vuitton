@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="universal_tmp"
+        path="universal/tmp"/>
+    <files-path
+        name="universal_pictures_uploads"
+        path="universal/pictures/uploads"/>
+    <files-path
+        name="universal_pictures_locals"
+        path="universal/pictures/locals"/>
+    <files-path
+        name="universal_pictures_exports"
+        path="universal/pictures/exports"/>
+    <files-path
+        name="universal_pictures_failures"
+        path="universal/pictures/failures"/>
+</paths>

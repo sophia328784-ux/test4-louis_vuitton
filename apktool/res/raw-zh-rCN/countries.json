@@ -1,0 +1,1157 @@
+﻿[
+  {
+    "code": "BT",
+    "name": "不丹",
+    "prefix": "+975"
+  },
+  {
+    "code": "TL",
+    "name": "东帝汶",
+    "prefix": "+670"
+  },
+  {
+    "code": "CN",
+    "name": "中国",
+    "prefix": "+86"
+  },
+  {
+    "code": "MO",
+    "name": "澳门特别行政区",
+    "prefix": "+853"
+  },
+  {
+    "code": "HK",
+    "name": "香港特别行政区",
+    "prefix": "+852"
+  },
+  {
+    "code": "CF",
+    "name": "中非共和国",
+    "prefix": "+236"
+  },
+  {
+    "code": "DK",
+    "name": "丹麦",
+    "prefix": "+45"
+  },
+  {
+    "code": "UA",
+    "name": "乌克兰",
+    "prefix": "+380"
+  },
+  {
+    "code": "UZ",
+    "name": "乌兹别克斯坦",
+    "prefix": "+998"
+  },
+  {
+    "code": "UG",
+    "name": "乌干达",
+    "prefix": "+256"
+  },
+  {
+    "code": "UY",
+    "name": "乌拉圭",
+    "prefix": "+598"
+  },
+  {
+    "code": "TD",
+    "name": "乍得",
+    "prefix": "+235"
+  },
+  {
+    "code": "YE",
+    "name": "也门",
+    "prefix": "+967"
+  },
+  {
+    "code": "AM",
+    "name": "亚美尼亚",
+    "prefix": "+374"
+  },
+  {
+    "code": "IL",
+    "name": "以色列",
+    "prefix": "+972"
+  },
+  {
+    "code": "IQ",
+    "name": "伊拉克",
+    "prefix": "+964"
+  },
+  {
+    "code": "IR",
+    "name": "伊朗",
+    "prefix": "+98"
+  },
+  {
+    "code": "BZ",
+    "name": "伯利兹",
+    "prefix": "+501"
+  },
+  {
+    "code": "CV",
+    "name": "佛得角",
+    "prefix": "+238"
+  },
+  {
+    "code": "RU",
+    "name": "俄罗斯",
+    "prefix": "+7"
+  },
+  {
+    "code": "BG",
+    "name": "保加利亚",
+    "prefix": "+359"
+  },
+  {
+    "code": "HR",
+    "name": "克罗地亚",
+    "prefix": "+385"
+  },
+  {
+    "code": "GU",
+    "name": "关岛",
+    "prefix": "+1671"
+  },
+  {
+    "code": "GM",
+    "name": "冈比亚",
+    "prefix": "+220"
+  },
+  {
+    "code": "IS",
+    "name": "冰岛",
+    "prefix": "+354"
+  },
+  {
+    "code": "GN",
+    "name": "几内亚",
+    "prefix": "+224"
+  },
+  {
+    "code": "GW",
+    "name": "几内亚比绍共和国",
+    "prefix": "+245"
+  },
+  {
+    "code": "LI",
+    "name": "列支敦士登",
+    "prefix": "+423"
+  },
+  {
+    "code": "CG",
+    "name": "刚果共和国",
+    "prefix": "+242"
+  },
+  {
+    "code": "CD",
+    "name": "刚果民主共和国",
+    "prefix": "+243"
+  },
+  {
+    "code": "LY",
+    "name": "利比亞",
+    "prefix": "+218"
+  },
+  {
+    "code": "LR",
+    "name": "利比里亚",
+    "prefix": "+231"
+  },
+  {
+    "code": "CA",
+    "name": "加拿大",
+    "prefix": "+1"
+  },
+  {
+    "code": "GH",
+    "name": "加纳",
+    "prefix": "+233"
+  },
+  {
+    "code": "GA",
+    "name": "加蓬共和国",
+    "prefix": "+241"
+  },
+  {
+    "code": "HU",
+    "name": "匈牙利",
+    "prefix": "+36"
+  },
+  {
+    "code": "MP",
+    "name": "北马里亚纳群岛",
+    "prefix": "+1670"
+  },
+  {
+    "code": "SS",
+    "name": "南苏丹",
+    "prefix": "+211"
+  },
+  {
+    "code": "ZA",
+    "name": "南非",
+    "prefix": "+27"
+  },
+  {
+    "code": "BW",
+    "name": "博茨瓦纳",
+    "prefix": "+267"
+  },
+  {
+    "code": "QA",
+    "name": "卡塔尔",
+    "prefix": "+974"
+  },
+  {
+    "code": "RW",
+    "name": "卢旺达",
+    "prefix": "+250"
+  },
+  {
+    "code": "LU",
+    "name": "卢森堡",
+    "prefix": "+352"
+  },
+  {
+    "code": "IN",
+    "name": "印度",
+    "prefix": "+91"
+  },
+  {
+    "code": "ID",
+    "name": "印度尼西亚",
+    "prefix": "+62"
+  },
+  {
+    "code": "GT",
+    "name": "危地马拉",
+    "prefix": "+502"
+  },
+  {
+    "code": "EC",
+    "name": "厄瓜多尔",
+    "prefix": "+593"
+  },
+  {
+    "code": "ER",
+    "name": "厄立特里亚",
+    "prefix": "+291"
+  },
+  {
+    "code": "SY",
+    "name": "叙利亚",
+    "prefix": "+963"
+  },
+  {
+    "code": "CU",
+    "name": "古巴",
+    "prefix": "+53"
+  },
+  {
+    "code": "TW",
+    "name": "中国台湾",
+    "prefix": "+886"
+  },
+  {
+    "code": "KG",
+    "name": "吉尔吉斯斯坦",
+    "prefix": "+996"
+  },
+  {
+    "code": "DJ",
+    "name": "吉布提",
+    "prefix": "+253"
+  },
+  {
+    "code": "KZ",
+    "name": "哈萨克斯坦",
+    "prefix": "+7"
+  },
+  {
+    "code": "CO",
+    "name": "哥伦比亚",
+    "prefix": "+57"
+  },
+  {
+    "code": "CR",
+    "name": "哥斯达黎加",
+    "prefix": "+506"
+  },
+  {
+    "code": "CM",
+    "name": "喀麦隆",
+    "prefix": "+237"
+  },
+  {
+    "code": "TV",
+    "name": "图瓦卢",
+    "prefix": "+688"
+  },
+  {
+    "code": "TM",
+    "name": "土库曼斯坦",
+    "prefix": "+993"
+  },
+  {
+    "code": "TR",
+    "name": "土耳其",
+    "prefix": "+90"
+  },
+  {
+    "code": "LC",
+    "name": "圣卢西亚",
+    "prefix": "+1758"
+  },
+  {
+    "code": "KN",
+    "name": "圣基茨和尼维斯",
+    "prefix": "+1869"
+  },
+  {
+    "code": "ST",
+    "name": "圣多美和普林西比民主共和国",
+    "prefix": "+239"
+  },
+  {
+    "code": "VC",
+    "name": "圣文森特和格林纳丁斯",
+    "prefix": "+1784"
+  },
+  {
+    "code": "SH",
+    "name": "圣赫勒拿",
+    "prefix": "+290"
+  },
+  {
+    "code": "SM",
+    "name": "圣马力诺",
+    "prefix": "+378"
+  },
+  {
+    "code": "GY",
+    "name": "圭亚那",
+    "prefix": "+592"
+  },
+  {
+    "code": "TZ",
+    "name": "坦桑尼亚",
+    "prefix": "+255"
+  },
+  {
+    "code": "EG",
+    "name": "埃及",
+    "prefix": "+20"
+  },
+  {
+    "code": "ET",
+    "name": "埃塞俄比亚",
+    "prefix": "+251"
+  },
+  {
+    "code": "KI",
+    "name": "基里巴斯",
+    "prefix": "+686"
+  },
+  {
+    "code": "TJ",
+    "name": "塔吉克斯坦",
+    "prefix": "+992"
+  },
+  {
+    "code": "SN",
+    "name": "塞内加尔",
+    "prefix": "+221"
+  },
+  {
+    "code": "RS",
+    "name": "塞尔维亚",
+    "prefix": "+381"
+  },
+  {
+    "code": "SL",
+    "name": "塞拉利昂",
+    "prefix": "+232"
+  },
+  {
+    "code": "CY",
+    "name": "塞浦路斯",
+    "prefix": "+357"
+  },
+  {
+    "code": "SC",
+    "name": "塞舌尔",
+    "prefix": "+248"
+  },
+  {
+    "code": "MX",
+    "name": "墨西哥",
+    "prefix": "+52"
+  },
+  {
+    "code": "TG",
+    "name": "多哥",
+    "prefix": "+228"
+  },
+  {
+    "code": "DM",
+    "name": "多米尼加",
+    "prefix": "+1767"
+  },
+  {
+    "code": "DO",
+    "name": "多米尼加共和国",
+    "prefix": "+1"
+  },
+  {
+    "code": "AT",
+    "name": "奥地利",
+    "prefix": "+43"
+  },
+  {
+    "code": "VE",
+    "name": "委内瑞拉",
+    "prefix": "+58"
+  },
+  {
+    "code": "BD",
+    "name": "孟加拉国",
+    "prefix": "+880"
+  },
+  {
+    "code": "AO",
+    "name": "安哥拉",
+    "prefix": "+244"
+  },
+  {
+    "code": "AI",
+    "name": "安圭拉",
+    "prefix": "+1264"
+  },
+  {
+    "code": "AG",
+    "name": "安提瓜岛",
+    "prefix": "+1268"
+  },
+  {
+    "code": "AD",
+    "name": "安道尔",
+    "prefix": "+376"
+  },
+  {
+    "code": "FM",
+    "name": "密克罗尼西亚联邦",
+    "prefix": "+691"
+  },
+  {
+    "code": "NI",
+    "name": "尼加拉瓜",
+    "prefix": "+505"
+  },
+  {
+    "code": "NG",
+    "name": "尼日利亚",
+    "prefix": "+234"
+  },
+  {
+    "code": "NE",
+    "name": "尼日尔",
+    "prefix": "+227"
+  },
+  {
+    "code": "NP",
+    "name": "尼泊尔",
+    "prefix": "+977"
+  },
+  {
+    "code": "PS",
+    "name": "巴勒斯坦",
+    "prefix": "+970"
+  },
+  {
+    "code": "BS",
+    "name": "巴哈马",
+    "prefix": "+1242"
+  },
+  {
+    "code": "PK",
+    "name": "巴基斯坦",
+    "prefix": "+92"
+  },
+  {
+    "code": "BB",
+    "name": "巴巴多斯",
+    "prefix": "+1246"
+  },
+  {
+    "code": "PG",
+    "name": "巴布亚新几内亚",
+    "prefix": "+675"
+  },
+  {
+    "code": "PY",
+    "name": "巴拉圭",
+    "prefix": "+595"
+  },
+  {
+    "code": "PA",
+    "name": "巴拿马",
+    "prefix": "+507"
+  },
+  {
+    "code": "BH",
+    "name": "巴林",
+    "prefix": "+973"
+  },
+  {
+    "code": "BR",
+    "name": "巴西",
+    "prefix": "+55"
+  },
+  {
+    "code": "BF",
+    "name": "布基纳法索",
+    "prefix": "+226"
+  },
+  {
+    "code": "BI",
+    "name": "布隆迪",
+    "prefix": "+257"
+  },
+  {
+    "code": "GR",
+    "name": "希腊",
+    "prefix": "+30"
+  },
+  {
+    "code": "PW",
+    "name": "帛琉",
+    "prefix": "+680"
+  },
+  {
+    "code": "CK",
+    "name": "库克群岛",
+    "prefix": "+682"
+  },
+  {
+    "code": "CW",
+    "name": "库拉索",
+    "prefix": "+599"
+  },
+  {
+    "code": "KY",
+    "name": "开曼群岛",
+    "prefix": "+1345"
+  },
+  {
+    "code": "DE",
+    "name": "德国",
+    "prefix": "+49"
+  },
+  {
+    "code": "IT",
+    "name": "意大利",
+    "prefix": "+39"
+  },
+  {
+    "code": "SB",
+    "name": "所罗门群岛",
+    "prefix": "+677"
+  },
+  {
+    "code": "TK",
+    "name": "托克劳",
+    "prefix": "+690"
+  },
+  {
+    "code": "LV",
+    "name": "拉脱维亚",
+    "prefix": "+371"
+  },
+  {
+    "code": "NO",
+    "name": "挪威",
+    "prefix": "+47"
+  },
+  {
+    "code": "CZ",
+    "name": "捷克",
+    "prefix": "+420"
+  },
+  {
+    "code": "MD",
+    "name": "摩尔多瓦",
+    "prefix": "+373"
+  },
+  {
+    "code": "MA",
+    "name": "摩洛哥",
+    "prefix": "+212"
+  },
+  {
+    "code": "MC",
+    "name": "摩纳哥",
+    "prefix": "+377"
+  },
+  {
+    "code": "BN",
+    "name": "文莱",
+    "prefix": "+673"
+  },
+  {
+    "code": "FJ",
+    "name": "斐济",
+    "prefix": "+679"
+  },
+  {
+    "code": "SZ",
+    "name": "斯威士兰",
+    "prefix": "+268"
+  },
+  {
+    "code": "SK",
+    "name": "斯洛伐克",
+    "prefix": "+421"
+  },
+  {
+    "code": "SI",
+    "name": "斯洛文尼亚",
+    "prefix": "+386"
+  },
+  {
+    "code": "LK",
+    "name": "斯里兰卡",
+    "prefix": "+94"
+  },
+  {
+    "code": "SG",
+    "name": "新加坡",
+    "prefix": "+65"
+  },
+  {
+    "code": "NC",
+    "name": "新喀里多尼亚",
+    "prefix": "+687"
+  },
+  {
+    "code": "NZ",
+    "name": "新西兰",
+    "prefix": "+64"
+  },
+  {
+    "code": "JP",
+    "name": "日本",
+    "prefix": "+81"
+  },
+  {
+    "code": "CL",
+    "name": "智利",
+    "prefix": "+56"
+  },
+  {
+    "code": "KP",
+    "name": "朝鲜",
+    "prefix": "+850"
+  },
+  {
+    "code": "KH",
+    "name": "柬埔寨",
+    "prefix": "+855"
+  },
+  {
+    "code": "GD",
+    "name": "格林纳达岛",
+    "prefix": "+1473"
+  },
+  {
+    "code": "GL",
+    "name": "格陵兰",
+    "prefix": "+299"
+  },
+  {
+    "code": "GE",
+    "name": "格鲁吉亚",
+    "prefix": "+995"
+  },
+  {
+    "code": "VA",
+    "name": "梵蒂冈城",
+    "prefix": "+379"
+  },
+  {
+    "code": "BE",
+    "name": "比利时",
+    "prefix": "+32"
+  },
+  {
+    "code": "MR",
+    "name": "毛里塔尼亚",
+    "prefix": "+222"
+  },
+  {
+    "code": "MU",
+    "name": "毛里求斯",
+    "prefix": "+230"
+  },
+  {
+    "code": "TO",
+    "name": "汤加",
+    "prefix": "+676"
+  },
+  {
+    "code": "SA",
+    "name": "沙特阿拉伯",
+    "prefix": "+966"
+  },
+  {
+    "code": "FR",
+    "name": "法国",
+    "prefix": "+33"
+  },
+  {
+    "code": "PM",
+    "name": "法属圣皮埃尔和密克隆岛",
+    "prefix": "+508"
+  },
+  {
+    "code": "MF",
+    "name": "法属圣马丁",
+    "prefix": "+590"
+  },
+  {
+    "code": "GF",
+    "name": "法属圭亚那",
+    "prefix": "+594"
+  },
+  {
+    "code": "PF",
+    "name": "法属波利尼西亚",
+    "prefix": "+689"
+  },
+  {
+    "code": "FO",
+    "name": "法罗群岛",
+    "prefix": "+298"
+  },
+  {
+    "code": "PL",
+    "name": "波兰",
+    "prefix": "+48"
+  },
+  {
+    "code": "PR",
+    "name": "波多黎各",
+    "prefix": "+1"
+  },
+  {
+    "code": "BA",
+    "name": "波斯尼亚和黑塞哥维那",
+    "prefix": "+387"
+  },
+  {
+    "code": "TH",
+    "name": "泰国",
+    "prefix": "+66"
+  },
+  {
+    "code": "ZW",
+    "name": "津巴布韦",
+    "prefix": "+263"
+  },
+  {
+    "code": "HN",
+    "name": "洪都拉斯",
+    "prefix": "+504"
+  },
+  {
+    "code": "HT",
+    "name": "海地",
+    "prefix": "+509"
+  },
+  {
+    "code": "AU",
+    "name": "澳大利亚",
+    "prefix": "+61"
+  },
+  {
+    "code": "IE",
+    "name": "爱尔兰",
+    "prefix": "+353"
+  },
+  {
+    "code": "EE",
+    "name": "爱沙尼亚",
+    "prefix": "+372"
+  },
+  {
+    "code": "JM",
+    "name": "牙买加",
+    "prefix": "+1876"
+  },
+  {
+    "code": "TC",
+    "name": "特克斯和凯科斯群岛",
+    "prefix": "+1649"
+  },
+  {
+    "code": "TT",
+    "name": "特立尼达和多巴哥",
+    "prefix": "+1868"
+  },
+  {
+    "code": "BO",
+    "name": "玻利维亚",
+    "prefix": "+591"
+  },
+  {
+    "code": "NR",
+    "name": "瑙鲁",
+    "prefix": "+674"
+  },
+  {
+    "code": "SE",
+    "name": "瑞典",
+    "prefix": "+46"
+  },
+  {
+    "code": "CH",
+    "name": "瑞士",
+    "prefix": "+41"
+  },
+  {
+    "code": "GP",
+    "name": "瓜德罗普岛",
+    "prefix": "+590"
+  },
+  {
+    "code": "WF",
+    "name": "瓦利斯和富图纳",
+    "prefix": "+681"
+  },
+  {
+    "code": "VU",
+    "name": "瓦努阿图",
+    "prefix": "+678"
+  },
+  {
+    "code": "RE",
+    "name": "留尼汪",
+    "prefix": "+262"
+  },
+  {
+    "code": "BY",
+    "name": "白俄罗斯",
+    "prefix": "+375"
+  },
+  {
+    "code": "BM",
+    "name": "百慕大",
+    "prefix": "+1441"
+  },
+  {
+    "code": "GI",
+    "name": "直布罗陀",
+    "prefix": "+350"
+  },
+  {
+    "code": "FK",
+    "name": "福克兰群岛",
+    "prefix": "+500"
+  },
+  {
+    "code": "KW",
+    "name": "科威特",
+    "prefix": "+965"
+  },
+  {
+    "code": "KM",
+    "name": "科摩罗",
+    "prefix": "+269"
+  },
+  {
+    "code": "CI",
+    "name": "科特迪瓦",
+    "prefix": "+225"
+  },
+  {
+    "code": "PE",
+    "name": "秘鲁",
+    "prefix": "+51"
+  },
+  {
+    "code": "TN",
+    "name": "突尼斯",
+    "prefix": "+216"
+  },
+  {
+    "code": "LT",
+    "name": "立陶宛",
+    "prefix": "+370"
+  },
+  {
+    "code": "SO",
+    "name": "索马里",
+    "prefix": "+252"
+  },
+  {
+    "code": "JO",
+    "name": "约旦",
+    "prefix": "+962"
+  },
+  {
+    "code": "NA",
+    "name": "纳米比亚",
+    "prefix": "+264"
+  },
+  {
+    "code": "NU",
+    "name": "纽埃",
+    "prefix": "+683"
+  },
+  {
+    "code": "MM",
+    "name": "缅甸",
+    "prefix": "+95"
+  },
+  {
+    "code": "RO",
+    "name": "罗马尼亚",
+    "prefix": "+40"
+  },
+  {
+    "code": "US",
+    "name": "美国",
+    "prefix": "+1"
+  },
+  {
+    "code": "VI",
+    "name": "美属维京群岛",
+    "prefix": "+1340"
+  },
+  {
+    "code": "AS",
+    "name": "美属萨摩亚",
+    "prefix": "+1684"
+  },
+  {
+    "code": "LA",
+    "name": "老挝",
+    "prefix": "+856"
+  },
+  {
+    "code": "KE",
+    "name": "肯尼亚",
+    "prefix": "+254"
+  },
+  {
+    "code": "FI",
+    "name": "芬兰",
+    "prefix": "+358"
+  },
+  {
+    "code": "SD",
+    "name": "苏丹",
+    "prefix": "+249"
+  },
+  {
+    "code": "SR",
+    "name": "苏里南",
+    "prefix": "+597"
+  },
+  {
+    "code": "GB",
+    "name": "英国",
+    "prefix": "+44"
+  },
+  {
+    "code": "IO",
+    "name": "英属印度洋领地",
+    "prefix": "+246"
+  },
+  {
+    "code": "VG",
+    "name": "英属维京群岛",
+    "prefix": "+1284"
+  },
+  {
+    "code": "NL",
+    "name": "荷兰",
+    "prefix": "+31"
+  },
+  {
+    "code": "SX",
+    "name": "荷属圣马丁",
+    "prefix": "+1721"
+  },
+  {
+    "code": "MZ",
+    "name": "莫桑比克",
+    "prefix": "+258"
+  },
+  {
+    "code": "LS",
+    "name": "莱索托",
+    "prefix": "+266"
+  },
+  {
+    "code": "PH",
+    "name": "菲律宾",
+    "prefix": "+63"
+  },
+  {
+    "code": "SV",
+    "name": "萨尔瓦多",
+    "prefix": "+503"
+  },
+  {
+    "code": "WS",
+    "name": "萨摩亚",
+    "prefix": "+685"
+  },
+  {
+    "code": "PT",
+    "name": "葡萄牙",
+    "prefix": "+351"
+  },
+  {
+    "code": "MN",
+    "name": "蒙古",
+    "prefix": "+976"
+  },
+  {
+    "code": "MS",
+    "name": "蒙特塞拉特",
+    "prefix": "+1664"
+  },
+  {
+    "code": "ES",
+    "name": "西班牙",
+    "prefix": "+34"
+  },
+  {
+    "code": "BJ",
+    "name": "贝宁",
+    "prefix": "+229"
+  },
+  {
+    "code": "ZM",
+    "name": "赞比亚",
+    "prefix": "+260"
+  },
+  {
+    "code": "GQ",
+    "name": "赤道几内亚",
+    "prefix": "+240"
+  },
+  {
+    "code": "VN",
+    "name": "越南",
+    "prefix": "+84"
+  },
+  {
+    "code": "AZ",
+    "name": "阿塞拜疆",
+    "prefix": "+994"
+  },
+  {
+    "code": "AF",
+    "name": "阿富汗",
+    "prefix": "+93"
+  },
+  {
+    "code": "DZ",
+    "name": "阿尔及利亚",
+    "prefix": "+213"
+  },
+  {
+    "code": "AL",
+    "name": "阿尔巴尼亚",
+    "prefix": "+355"
+  },
+  {
+    "code": "OM",
+    "name": "阿曼",
+    "prefix": "+968"
+  },
+  {
+    "code": "AR",
+    "name": "阿根廷",
+    "prefix": "+54"
+  },
+  {
+    "code": "AE",
+    "name": "阿联酋",
+    "prefix": "+971"
+  },
+  {
+    "code": "AW",
+    "name": "阿鲁巴",
+    "prefix": "+297"
+  },
+  {
+    "code": "KR",
+    "name": "韩国",
+    "prefix": "+82"
+  },
+  {
+    "code": "MK",
+    "name": "马其顿",
+    "prefix": "+389"
+  },
+  {
+    "code": "MV",
+    "name": "马尔代夫",
+    "prefix": "+960"
+  },
+  {
+    "code": "MW",
+    "name": "马拉维",
+    "prefix": "+265"
+  },
+  {
+    "code": "MQ",
+    "name": "马提尼克",
+    "prefix": "+596"
+  },
+  {
+    "code": "MY",
+    "name": "马来西亚",
+    "prefix": "+60"
+  },
+  {
+    "code": "YT",
+    "name": "马约特",
+    "prefix": "+262"
+  },
+  {
+    "code": "MH",
+    "name": "马绍尔群岛",
+    "prefix": "+692"
+  },
+  {
+    "code": "MT",
+    "name": "马耳他",
+    "prefix": "+356"
+  },
+  {
+    "code": "MG",
+    "name": "马达加斯加",
+    "prefix": "+261"
+  },
+  {
+    "code": "ML",
+    "name": "马里",
+    "prefix": "+223"
+  },
+  {
+    "code": "LB",
+    "name": "黎巴嫩",
+    "prefix": "+961"
+  },
+  {
+    "code": "ME",
+    "name": "黑山共和国",
+    "prefix": "+382"
+  }
+]

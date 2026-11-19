@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+        <LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:padding="@dimen/triple_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+            <ImageView android:id="@id/category_icon" android:background="@drawable/background_oval_off_white" android:padding="@dimen/midplus_spacing" android:layout_width="80.0dp" android:layout_height="80.0dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/triple_spacing">
+                <TextView android:id="@id/category_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/HeadingH6LeftDark" />
+                <TextView android:textSize="@dimen/text_size_list_label_l" android:textColor="@color/eternity" android:id="@id/category_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:fontFamily="@font/louisvuitton_regular" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

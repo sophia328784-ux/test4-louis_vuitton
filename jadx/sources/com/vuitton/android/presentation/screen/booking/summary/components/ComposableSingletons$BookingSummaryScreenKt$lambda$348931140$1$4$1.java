@@ -1,0 +1,21 @@
+package com.vuitton.android.presentation.screen.booking.summary.components;
+
+import com.vuitton.foundation.model.domain.model.booking.ExperienceId;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: com.vuitton.android.presentation.screen.booking.summary.components.ComposableSingletons$BookingSummaryScreenKt$lambda$-348931140$1$4$1, reason: invalid class name */
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+public final class ComposableSingletons$BookingSummaryScreenKt$lambda$348931140$1$4$1 implements Function1<ExperienceId, Unit> {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final ComposableSingletons$BookingSummaryScreenKt$lambda$348931140$1$4$1 f54801b = new ComposableSingletons$BookingSummaryScreenKt$lambda$348931140$1$4$1();
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        ((ExperienceId) obj).f66755a.getClass();
+        return Unit.f71739a;
+    }
+}

@@ -1,0 +1,1182 @@
+[
+  {
+    "name": "Afghanistan 阿富汗",
+    "prefix": "+93",
+    "code": "AF"
+  },
+  {
+    "name": "Albania 阿爾巴尼亞",
+    "prefix": "+355",
+    "code": "AL"
+  },
+  {
+    "name": "Algeria 阿爾及利亞",
+    "prefix": "+213",
+    "code": "DZ"
+  },
+  {
+    "name": "American Samoa 美屬薩摩亞",
+    "prefix": "+1684",
+    "code": "AS"
+  },
+  {
+    "name": "Andorra 安道爾",
+    "prefix": "+376",
+    "code": "AD"
+  },
+  {
+    "name": "Angola 安哥拉",
+    "prefix": "+244",
+    "code": "AO"
+  },
+  {
+    "name": "Anguilla 安吉拉",
+    "prefix": "+1264",
+    "code": "AI"
+  },
+  {
+    "name": "Antigua And Barbuda 安地卡及巴布達",
+    "prefix": "+1268",
+    "code": "AG"
+  },
+  {
+    "name": "Argentina 阿根廷",
+    "prefix": "+54",
+    "code": "AR"
+  },
+  {
+    "name": "Armenia 亞美尼亞",
+    "prefix": "+374",
+    "code": "AM"
+  },
+  {
+    "name": "Aruba 阿魯巴",
+    "prefix": "+297",
+    "code": "AW"
+  },
+  {
+    "name": "Australia 澳大利亞",
+    "prefix": "+61",
+    "code": "AU"
+  },
+  {
+    "name": "Austria 奧地利",
+    "prefix": "+43",
+    "code": "AT"
+  },
+  {
+    "name": "Azerbaijan 亞塞拜然",
+    "prefix": "+994",
+    "code": "AZ"
+  },
+  {
+    "name": "Bahrain 巴林",
+    "prefix": "+973",
+    "code": "BH"
+  },
+  {
+    "name": "Bangladesh 孟加拉",
+    "prefix": "+880",
+    "code": "BD"
+  },
+  {
+    "name": "Barbados 巴貝多",
+    "prefix": "+1246",
+    "code": "BB"
+  },
+  {
+    "name": "Belarus 白俄羅斯",
+    "prefix": "+375",
+    "code": "BY"
+  },
+  {
+    "name": "Belgium 比利時",
+    "prefix": "+32",
+    "code": "BE"
+  },
+  {
+    "name": "Belize 貝里斯",
+    "prefix": "+501",
+    "code": "BZ"
+  },
+  {
+    "name": "Benin 貝南",
+    "prefix": "+229",
+    "code": "BJ"
+  },
+  {
+    "name": "Bermuda 百慕達",
+    "prefix": "+1441",
+    "code": "BM"
+  },
+  {
+    "name": "Bhutan 不丹",
+    "prefix": "+975",
+    "code": "BT"
+  },
+  {
+    "name": "Bolivia 玻利維亞",
+    "prefix": "+591",
+    "code": "BO"
+  },
+  {
+    "name": "Bosnia And Herzegovina 波士尼亞與赫塞哥維納共和國",
+    "prefix": "+387",
+    "code": "BA"
+  },
+  {
+    "name": "Botswana 波札那",
+    "prefix": "+267",
+    "code": "BW"
+  },
+  {
+    "name": "Brazil 巴西",
+    "prefix": "+55",
+    "code": "BR"
+  },
+  {
+    "name": "British Indian Ocean Territory 英屬印度洋領地",
+    "prefix": "+246",
+    "code": "IO"
+  },
+  {
+    "name": "Virgin Islands, British 英屬維京群島",
+    "prefix": "+1284",
+    "code": "VG"
+  },
+  {
+    "name": "Brunei Darussalam 汶萊",
+    "prefix": "+673",
+    "code": "BN"
+  },
+  {
+    "name": "Bulgaria 保加利亞",
+    "prefix": "+359",
+    "code": "BG"
+  },
+  {
+    "name": "Burkina Faso 布吉納法索",
+    "prefix": "+226",
+    "code": "BF"
+  },
+  {
+    "name": "Burundi 蒲隆地",
+    "prefix": "+257",
+    "code": "BI"
+  },
+  {
+    "name": "Cambodia 柬埔寨",
+    "prefix": "+855",
+    "code": "KH"
+  },
+  {
+    "name": "Cameroon 喀麥隆",
+    "prefix": "+237",
+    "code": "CM"
+  },
+  {
+    "name": "Canada 加拿大",
+    "prefix": "+1",
+    "code": "CA"
+  },
+  {
+    "name": "Cape Verde 維德角",
+    "prefix": "+238",
+    "code": "CV"
+  },
+  {
+    "name": "Cayman Islands 開曼群島",
+    "prefix": "+1345",
+    "code": "KY"
+  },
+  {
+    "name": "Central African Republic 中非共和國",
+    "prefix": "+236",
+    "code": "CF"
+  },
+  {
+    "name": "Chad 查德",
+    "prefix": "+235",
+    "code": "TD"
+  },
+  {
+    "name": "Chile 智利",
+    "prefix": "+56",
+    "code": "CL"
+  },
+  {
+    "name": "China 中國",
+    "prefix": "+86",
+    "code": "CN"
+  },
+  {
+    "name": "Christmas Island 聖誕島",
+    "prefix": "+672",
+    "code": "CX"
+  },
+  {
+    "name": "Cocos (Keeling) Islands 科科斯（基林）群島",
+    "prefix": "+672",
+    "code": "CC"
+  },
+  {
+    "name": "Colombia 哥倫比亞",
+    "prefix": "+57",
+    "code": "CO"
+  },
+  {
+    "name": "Comoros 葛摩聯盟",
+    "prefix": "+269",
+    "code": "KM"
+  },
+  {
+    "name": "Congo 剛果",
+    "prefix": "+242",
+    "code": "CG"
+  },
+  {
+    "name": "Cook Islands 庫克群島",
+    "prefix": "+682",
+    "code": "CK"
+  },
+  {
+    "name": "Costa Rica 哥斯大黎加",
+    "prefix": "+506",
+    "code": "CR"
+  },
+  {
+    "name": "Croatia 克羅埃西亞",
+    "prefix": "+385",
+    "code": "HR"
+  },
+  {
+    "name": "Cuba 古巴",
+    "prefix": "+53",
+    "code": "CU"
+  },
+  {
+    "name": "Curaçao 古拉索",
+    "prefix": "+599",
+    "code": "CW"
+  },
+  {
+    "name": "Cyprus 賽普勒斯",
+    "prefix": "+357",
+    "code": "CY"
+  },
+  {
+    "name": "Czech Republic 捷克 ",
+    "prefix": "+420",
+    "code": "CZ"
+  },
+  {
+    "name": "Cote D'Ivoire 科特迪瓦（象牙海岸）",
+    "prefix": "+225",
+    "code": "CI"
+  },
+  {
+    "name": "The Democratic Republic Of The Congo 剛果民主共和國",
+    "prefix": "+243",
+    "code": "CD"
+  },
+  {
+    "name": "Denmark 丹麥",
+    "prefix": "+45",
+    "code": "DK"
+  },
+  {
+    "name": "Djibouti 吉布地",
+    "prefix": "+253",
+    "code": "DJ"
+  },
+  {
+    "name": "Dominica 多米尼克",
+    "prefix": "+1767",
+    "code": "DM"
+  },
+  {
+    "name": "Dominican Republic 多明尼加共和國",
+    "prefix": "+1",
+    "code": "DO"
+  },
+  {
+    "name": "Timor-Leste 東帝汶",
+    "prefix": "+670",
+    "code": "TL"
+  },
+  {
+    "name": "Ecuador 厄瓜多",
+    "prefix": "+593",
+    "code": "EC"
+  },
+  {
+    "name": "Egypt 埃及",
+    "prefix": "+20",
+    "code": "EG"
+  },
+  {
+    "name": "El Salvador 薩爾瓦多",
+    "prefix": "+503",
+    "code": "SV"
+  },
+  {
+    "name": "Equatorial Guinea 赤道幾內亞",
+    "prefix": "+240",
+    "code": "GQ"
+  },
+  {
+    "name": "Eritrea 厄利垂亞",
+    "prefix": "+291",
+    "code": "ER"
+  },
+  {
+    "name": "Estonia 愛沙尼亞",
+    "prefix": "+372",
+    "code": "EE"
+  },
+  {
+    "name": "Ethiopia 衣索比亞",
+    "prefix": "+251",
+    "code": "ET"
+  },
+  {
+    "name": "Faeroe Islands 法羅群島",
+    "prefix": "+298",
+    "code": "FO"
+  },
+  {
+    "name": "Falkland Islands (Malvinas) 福克蘭群島（馬爾維納斯）",
+    "prefix": "+500",
+    "code": "FK"
+  },
+  {
+    "name": "Fiji 斐濟",
+    "prefix": "+679",
+    "code": "FJ"
+  },
+  {
+    "name": "Finland 芬蘭",
+    "prefix": "+358",
+    "code": "FI"
+  },
+  {
+    "name": "The Former Yugoslav Republic Of Macedonia 馬其頓",
+    "prefix": "+389",
+    "code": "MK"
+  },
+  {
+    "name": "France 法國",
+    "prefix": "+33",
+    "code": "FR"
+  },
+  {
+    "name": "French Guiana 法屬圭亞那",
+    "prefix": "+594",
+    "code": "GF"
+  },
+  {
+    "name": "French Polynesia 法屬波利尼西亞",
+    "prefix": "+689",
+    "code": "PF"
+  },
+  {
+    "name": "Gabon 加彭",
+    "prefix": "+241",
+    "code": "GA"
+  },
+  {
+    "name": "Georgia 喬治亞",
+    "prefix": "+995",
+    "code": "GE"
+  },
+  {
+    "name": "Germany 德國",
+    "prefix": "+49",
+    "code": "DE"
+  },
+  {
+    "name": "Ghana 迦納",
+    "prefix": "+233",
+    "code": "GH"
+  },
+  {
+    "name": "Gibraltar 直布羅陀",
+    "prefix": "+350",
+    "code": "GI"
+  },
+  {
+    "name": "Greece 希臘",
+    "prefix": "+30",
+    "code": "GR"
+  },
+  {
+    "name": "Greenland 格陵蘭",
+    "prefix": "+299",
+    "code": "GL"
+  },
+  {
+    "name": "Grenada 格瑞那達",
+    "prefix": "+1473",
+    "code": "GD"
+  },
+  {
+    "name": "Guadeloupe 格瑞那達",
+    "prefix": "+590",
+    "code": "GP"
+  },
+  {
+    "name": "Guam 關島",
+    "prefix": "+1671",
+    "code": "GU"
+  },
+  {
+    "name": "Guatemala 危地馬拉",
+    "prefix": "+502",
+    "code": "GT"
+  },
+  {
+    "name": "Equatorial Guinea 赤道幾內亞",
+    "prefix": "+224",
+    "code": "GN"
+  },
+  {
+    "name": "Guinea-Bissau 幾內亞比索",
+    "prefix": "+245",
+    "code": "GW"
+  },
+  {
+    "name": "Guyana 蓋亞那",
+    "prefix": "+592",
+    "code": "GY"
+  },
+  {
+    "name": "Haiti 海地",
+    "prefix": "+509",
+    "code": "HT"
+  },
+  {
+    "name": "Heard Island And Mcdonald Islands 赫德島和麥克唐納群島",
+    "prefix": "+672",
+    "code": "HM"
+  },
+  {
+    "name": "Honduras 洪都拉斯",
+    "prefix": "+504",
+    "code": "HN"
+  },
+  {
+    "name": "Hong Kong SAR 香港特別行政區",
+    "prefix": "+852",
+    "code": "HK"
+  },
+  {
+    "name": "Hungary 匈牙利",
+    "prefix": "+36",
+    "code": "HU"
+  },
+  {
+    "name": "Iceland 冰島",
+    "prefix": "+354",
+    "code": "IS"
+  },
+  {
+    "name": "British Indian Ocean Territory 英屬印度洋領地",
+    "prefix": "+91",
+    "code": "IN"
+  },
+  {
+    "name": "Indonesia 印尼",
+    "prefix": "+62",
+    "code": "ID"
+  },
+  {
+    "name": "Iran 伊朗",
+    "prefix": "+98",
+    "code": "IR"
+  },
+  {
+    "name": "Iraq 伊拉克",
+    "prefix": "+964",
+    "code": "IQ"
+  },
+  {
+    "name": "Ireland 愛爾蘭",
+    "prefix": "+353",
+    "code": "IE"
+  },
+  {
+    "name": "Israel 以色列",
+    "prefix": "+972",
+    "code": "IL"
+  },
+  {
+    "name": "Italy 義大利",
+    "prefix": "+39",
+    "code": "IT"
+  },
+  {
+    "name": "Jamaica 牙買加",
+    "prefix": "+1876",
+    "code": "JM"
+  },
+  {
+    "name": "Japan 日本",
+    "prefix": "+81",
+    "code": "JP"
+  },
+  {
+    "name": "Jordan 約旦",
+    "prefix": "+962",
+    "code": "JO"
+  },
+  {
+    "name": "Kazakhstan 哈薩克",
+    "prefix": "+7",
+    "code": "KZ"
+  },
+  {
+    "name": "Kenya 肯亞",
+    "prefix": "+254",
+    "code": "KE"
+  },
+  {
+    "name": "Kiribati 吉里巴斯",
+    "prefix": "+686",
+    "code": "KI"
+  },
+  {
+    "name": "Kosovo",
+    "prefix": "+377",
+    "code": "XK"
+  },
+  {
+    "name": "Kuwait 科威特",
+    "prefix": "+965",
+    "code": "KW"
+  },
+  {
+    "name": "Kyrgyzstan 吉爾吉斯",
+    "prefix": "+996",
+    "code": "KG"
+  },
+  {
+    "name": "Laos",
+    "prefix": "+856",
+    "code": "LA"
+  },
+  {
+    "name": "Latvia 拉脫維亞",
+    "prefix": "+371",
+    "code": "LV"
+  },
+  {
+    "name": "Lebanon 黎巴嫩",
+    "prefix": "+961",
+    "code": "LB"
+  },
+  {
+    "name": "Lesotho 賴索托",
+    "prefix": "+266",
+    "code": "LS"
+  },
+  {
+    "name": "Liberia 賴比瑞亞",
+    "prefix": "+231",
+    "code": "LR"
+  },
+  {
+    "name": "Libyan Arab Jamahiriya 利比亞",
+    "prefix": "+218",
+    "code": "LY"
+  },
+  {
+    "name": "Liechtenstein 列支敦斯登",
+    "prefix": "+423",
+    "code": "LI"
+  },
+  {
+    "name": "Lithuania 立陶宛",
+    "prefix": "+370",
+    "code": "LT"
+  },
+  {
+    "name": "Luxembourg 盧森堡",
+    "prefix": "+352",
+    "code": "LU"
+  },
+  {
+    "name": "Macau SAR 澳門特別行政區",
+    "prefix": "+853",
+    "code": "MO"
+  },
+  {
+    "name": "Madagascar 馬達加斯加",
+    "prefix": "+261",
+    "code": "MG"
+  },
+  {
+    "name": "Malawi 馬拉威",
+    "prefix": "+265",
+    "code": "MW"
+  },
+  {
+    "name": "Malaysia 馬來西亞",
+    "prefix": "+60",
+    "code": "MY"
+  },
+  {
+    "name": "Maldives 馬爾地夫",
+    "prefix": "+960",
+    "code": "MV"
+  },
+  {
+    "name": "Mali 馬利",
+    "prefix": "+223",
+    "code": "ML"
+  },
+  {
+    "name": "Malta 馬爾他",
+    "prefix": "+356",
+    "code": "MT"
+  },
+  {
+    "name": "Marshall Islands 馬紹爾群島",
+    "prefix": "+692",
+    "code": "MH"
+  },
+  {
+    "name": "Martinique 馬丁尼克",
+    "prefix": "+596",
+    "code": "MQ"
+  },
+  {
+    "name": "Mauritania 茅利塔尼亞",
+    "prefix": "+222",
+    "code": "MR"
+  },
+  {
+    "name": "Mauritius 模里西斯",
+    "prefix": "+230",
+    "code": "MU"
+  },
+  {
+    "name": "Mayotte 馬約特",
+    "prefix": "+262",
+    "code": "YT"
+  },
+  {
+    "name": "Mexico 墨西哥",
+    "prefix": "+52",
+    "code": "MX"
+  },
+  {
+    "name": "Federated States Of Micronesia 密克羅尼西亞聯邦",
+    "prefix": "+691",
+    "code": "FM"
+  },
+  {
+    "name": "Moldova, Republic Of 摩爾多瓦",
+    "prefix": "+373",
+    "code": "MD"
+  },
+  {
+    "name": "Monaco 摩納哥",
+    "prefix": "+377",
+    "code": "MC"
+  },
+  {
+    "name": "Mongolia 蒙古",
+    "prefix": "+976",
+    "code": "MN"
+  },
+  {
+    "name": "Montenegro 蒙特內哥羅",
+    "prefix": "+382",
+    "code": "ME"
+  },
+  {
+    "name": "Montserrat 蒙哲臘",
+    "prefix": "+1664",
+    "code": "MS"
+  },
+  {
+    "name": "Morocco 摩洛哥",
+    "prefix": "+212",
+    "code": "MA"
+  },
+  {
+    "name": "Mozambique 莫三比克",
+    "prefix": "+258",
+    "code": "MZ"
+  },
+  {
+    "name": "Myanmar 緬甸",
+    "prefix": "+95",
+    "code": "MM"
+  },
+  {
+    "name": "Namibia 納米比亞",
+    "prefix": "+264",
+    "code": "NA"
+  },
+  {
+    "name": "Nauru 諾魯",
+    "prefix": "+674",
+    "code": "NR"
+  },
+  {
+    "name": "Nepal 尼泊爾",
+    "prefix": "+977",
+    "code": "NP"
+  },
+  {
+    "name": "Netherlands 荷蘭",
+    "prefix": "+31",
+    "code": "NL"
+  },
+  {
+    "name": "New Caledonia 新喀里多尼亞",
+    "prefix": "+687",
+    "code": "NC"
+  },
+  {
+    "name": "New Zealand 紐西蘭",
+    "prefix": "+64",
+    "code": "NZ"
+  },
+  {
+    "name": "Nicaragua 尼加拉瓜",
+    "prefix": "+505",
+    "code": "NI"
+  },
+  {
+    "name": "Niger 尼日",
+    "prefix": "+227",
+    "code": "NE"
+  },
+  {
+    "name": "Nigeria 奈及利亞",
+    "prefix": "+234",
+    "code": "NG"
+  },
+  {
+    "name": "Niue 紐埃",
+    "prefix": "+683",
+    "code": "NU"
+  },
+  {
+    "name": "North Korea 北韓",
+    "prefix": "+850",
+    "code": "KP"
+  },
+  {
+    "name": "Northern Marianas 北馬利安納群島邦",
+    "prefix": "+1670",
+    "code": "MP"
+  },
+  {
+    "name": "Norway 挪威",
+    "prefix": "+47",
+    "code": "NO"
+  },
+  {
+    "name": "Oman 阿曼",
+    "prefix": "+968",
+    "code": "OM"
+  },
+  {
+    "name": "Pakistan 巴基斯坦",
+    "prefix": "+92",
+    "code": "PK"
+  },
+  {
+    "name": "Palau 帛琉",
+    "prefix": "+680",
+    "code": "PW"
+  },
+  {
+    "name": "Palestine",
+    "prefix": "+970",
+    "code": "PS"
+  },
+  {
+    "name": "Panama 巴拿馬",
+    "prefix": "+507",
+    "code": "PA"
+  },
+  {
+    "name": "Papua New Guinea 巴布亞紐幾內亞",
+    "prefix": "+675",
+    "code": "PG"
+  },
+  {
+    "name": "Paraguay 巴拉圭",
+    "prefix": "+595",
+    "code": "PY"
+  },
+  {
+    "name": "Peru 秘魯",
+    "prefix": "+51",
+    "code": "PE"
+  },
+  {
+    "name": "Philippines 菲律賓",
+    "prefix": "+63",
+    "code": "PH"
+  },
+  {
+    "name": "Pitcairn Islands 皮特肯群島",
+    "prefix": "+64",
+    "code": "PN"
+  },
+  {
+    "name": "Poland 波蘭",
+    "prefix": "+48",
+    "code": "PL"
+  },
+  {
+    "name": "Portugal 葡萄牙",
+    "prefix": "+351",
+    "code": "PT"
+  },
+  {
+    "name": "Puerto Rico 波多黎各",
+    "prefix": "+1",
+    "code": "PR"
+  },
+  {
+    "name": "Qatar 卡達",
+    "prefix": "+974",
+    "code": "QA"
+  },
+  {
+    "name": "Romania 羅馬尼亞",
+    "prefix": "+40",
+    "code": "RO"
+  },
+  {
+    "name": "Russian Federation 俄羅斯",
+    "prefix": "+7",
+    "code": "RU"
+  },
+  {
+    "name": "Rwanda 盧安達",
+    "prefix": "+250",
+    "code": "RW"
+  },
+  {
+    "name": "Reunion 留尼旺",
+    "prefix": "+262",
+    "code": "RE"
+  },
+  {
+    "name": "Saint Helena 聖海蓮娜",
+    "prefix": "+290",
+    "code": "SH"
+  },
+  {
+    "name": "Saint Kitts And Nevis 聖啟茨和尼維斯",
+    "prefix": "+1869",
+    "code": "KN"
+  },
+  {
+    "name": "Saint Lucia 聖露西亞",
+    "prefix": "+1758",
+    "code": "LC"
+  },
+  {
+    "name": "Saint Pierre And Miquelon 聖皮埃和密克隆群島",
+    "prefix": "+508",
+    "code": "PM"
+  },
+  {
+    "name": "Saint Vincent And The Grenadines 聖文森及格瑞那丁",
+    "prefix": "+1784",
+    "code": "VC"
+  },
+  {
+    "name": "American Samoa 美屬薩摩亞",
+    "prefix": "+685",
+    "code": "WS"
+  },
+  {
+    "name": "San Marino 聖馬利諾",
+    "prefix": "+378",
+    "code": "SM"
+  },
+  {
+    "name": "Saudi Arabia 沙烏地阿拉伯",
+    "prefix": "+966",
+    "code": "SA"
+  },
+  {
+    "name": "Senegal 塞內加爾",
+    "prefix": "+221",
+    "code": "SN"
+  },
+  {
+    "name": "Serbia 塞爾維亞",
+    "prefix": "+381",
+    "code": "RS"
+  },
+  {
+    "name": "Seychelles 塞席爾",
+    "prefix": "+248",
+    "code": "SC"
+  },
+  {
+    "name": "Sierra Leone 獅子山",
+    "prefix": "+232",
+    "code": "SL"
+  },
+  {
+    "name": "Singapore 新加坡",
+    "prefix": "+65",
+    "code": "SG"
+  },
+  {
+    "name": "Sint Maarten",
+    "prefix": "+1721",
+    "code": "SX"
+  },
+  {
+    "name": "Slovakia 斯洛伐克",
+    "prefix": "+421",
+    "code": "SK"
+  },
+  {
+    "name": "Slovenia 斯洛維尼亞",
+    "prefix": "+386",
+    "code": "SI"
+  },
+  {
+    "name": "Solomon Islands 索羅門群島",
+    "prefix": "+677",
+    "code": "SB"
+  },
+  {
+    "name": "Somalia 索馬利亞",
+    "prefix": "+252",
+    "code": "SO"
+  },
+  {
+    "name": "South Africa 南非",
+    "prefix": "+27",
+    "code": "ZA"
+  },
+  {
+    "name": "South Korea 南韓",
+    "prefix": "+82",
+    "code": "KR"
+  },
+  {
+    "name": "South Sudan",
+    "prefix": "+211",
+    "code": "SS"
+  },
+  {
+    "name": "Spain 西班牙",
+    "prefix": "+34",
+    "code": "ES"
+  },
+  {
+    "name": "Sri Lanka 斯里蘭卡",
+    "prefix": "+94",
+    "code": "LK"
+  },
+  {
+    "name": "Saint Martin 聖馬丁島",
+    "prefix": "+590",
+    "code": "MF"
+  },
+  {
+    "name": "Sudan 蘇丹",
+    "prefix": "+249",
+    "code": "SD"
+  },
+  {
+    "name": "Suriname 蘇利南",
+    "prefix": "+597",
+    "code": "SR"
+  },
+  {
+    "name": "Swaziland 史瓦濟蘭",
+    "prefix": "+268",
+    "code": "SZ"
+  },
+  {
+    "name": "Sweden 瑞典",
+    "prefix": "+46",
+    "code": "SE"
+  },
+  {
+    "name": "Switzerland 瑞士",
+    "prefix": "+41",
+    "code": "CH"
+  },
+  {
+    "name": "Syrian Arab Republic 敘利亞",
+    "prefix": "+963",
+    "code": "SY"
+  },
+  {
+    "name": "Sao Tome And Principe 聖多美和普林西比",
+    "prefix": "+239",
+    "code": "ST"
+  },
+  {
+    "name": "Taiwan 台灣",
+    "prefix": "+886",
+    "code": "TW"
+  },
+  {
+    "name": "Tajikistan 塔吉克",
+    "prefix": "+992",
+    "code": "TJ"
+  },
+  {
+    "name": "Tanzania, United Republic Of 坦尚尼亞",
+    "prefix": "+255",
+    "code": "TZ"
+  },
+  {
+    "name": "Thailand 泰國",
+    "prefix": "+66",
+    "code": "TH"
+  },
+  {
+    "name": "The Bahamas 巴哈馬",
+    "prefix": "+1242",
+    "code": "BS"
+  },
+  {
+    "name": "The Gambia 甘比亞",
+    "prefix": "+220",
+    "code": "GM"
+  },
+  {
+    "name": "Togo 多哥",
+    "prefix": "+228",
+    "code": "TG"
+  },
+  {
+    "name": "Tokelau 托克勞群島",
+    "prefix": "+690",
+    "code": "TK"
+  },
+  {
+    "name": "Tonga 東加",
+    "prefix": "+676",
+    "code": "TO"
+  },
+  {
+    "name": "Trinidad And Tobago 千里達和托巴哥",
+    "prefix": "+1868",
+    "code": "TT"
+  },
+  {
+    "name": "Tunisia 突尼西亞",
+    "prefix": "+216",
+    "code": "TN"
+  },
+  {
+    "name": "Turkey 土耳其",
+    "prefix": "+90",
+    "code": "TR"
+  },
+  {
+    "name": "Turkmenistan 土庫曼",
+    "prefix": "+993",
+    "code": "TM"
+  },
+  {
+    "name": "Turks And Caicos Islands 土克凱可群島",
+    "prefix": "+1649",
+    "code": "TC"
+  },
+  {
+    "name": "Tuvalu 吐瓦魯",
+    "prefix": "+688",
+    "code": "TV"
+  },
+  {
+    "name": "Virgin Islands, U.S. 美屬維京群島",
+    "prefix": "+1340",
+    "code": "VI"
+  },
+  {
+    "name": "Uganda 烏干達",
+    "prefix": "+256",
+    "code": "UG"
+  },
+  {
+    "name": "Ukraine 烏克蘭",
+    "prefix": "+380",
+    "code": "UA"
+  },
+  {
+    "name": "United Arab Emirates 阿拉伯聯合大公國",
+    "prefix": "+971",
+    "code": "AE"
+  },
+  {
+    "name": "United Kingdom 英國",
+    "prefix": "+44",
+    "code": "GB"
+  },
+  {
+    "name": "United States 美國",
+    "prefix": "+1",
+    "code": "US"
+  },
+  {
+    "name": "Uruguay 烏拉圭",
+    "prefix": "+598",
+    "code": "UY"
+  },
+  {
+    "name": "Uzbekistan 烏茲別克",
+    "prefix": "+998",
+    "code": "UZ"
+  },
+  {
+    "name": "Vanuatu 萬那杜",
+    "prefix": "+678",
+    "code": "VU"
+  },
+  {
+    "name": "Holy See (Vatican City State) 教廷 (梵蒂岡)",
+    "prefix": "+379",
+    "code": "VA"
+  },
+  {
+    "name": "Venezuela 委內瑞拉",
+    "prefix": "+58",
+    "code": "VE"
+  },
+  {
+    "name": "Vietnam 越南",
+    "prefix": "+84",
+    "code": "VN"
+  },
+  {
+    "name": "Wallis And Futuna 瓦利斯和富圖納",
+    "prefix": "+681",
+    "code": "WF"
+  },
+  {
+    "name": "Yemen 葉門",
+    "prefix": "+967",
+    "code": "YE"
+  },
+  {
+    "name": "Zambia 尚比亞",
+    "prefix": "+260",
+    "code": "ZM"
+  },
+  {
+    "name": "Zimbabwe 辛巴威",
+    "prefix": "+263",
+    "code": "ZW"
+  }
+]

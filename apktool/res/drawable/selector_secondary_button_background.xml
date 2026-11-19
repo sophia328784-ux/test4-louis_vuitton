@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:drawable="@color/disable" />
+    <item android:state_pressed="true" android:drawable="@color/egg_shell" />
+    <item android:drawable="@drawable/border_error_1dp" app:state_error_occurred="true" />
+    <item android:drawable="@drawable/border_black_1dp" />
+</selector>

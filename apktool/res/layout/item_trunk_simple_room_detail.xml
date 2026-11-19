@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shadow_trunk_speaker_device_type" android:layout_width="180.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/room_device_layout" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="0.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.vuitton.android.presentation.screen.connectivity.views.FixedAspectRatioImageView android:id="@id/room_device_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:imageViewAspectRatio="1:1" />
+                <com.vuitton.android.presentation.screen.connectivity.views.TrunkBatteryLevelView android:id="@id/speaker_trunk_battery_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_spacing" android:layout_marginStart="@dimen/default_spacing" />
+                <ImageView android:id="@id/btn_room_remove_device" android:padding="@dimen/double_spacing" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_16_dp" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:gravity="bottom" android:id="@id/room_device_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_spacing" android:layout_marginBottom="12.0dp" android:text="Speaker Trunk" android:textAllCaps="true" android:fontFamily="@font/louisvuitton_medium" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/ListLabelMMediumLeftDark" />
+            <TextView android:gravity="top" android:id="@id/room_device_subtitle" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Speaker Name" android:lines="2" android:fontFamily="@font/louisvuitton_regular" android:textDirection="locale" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" style="@style/ListLabelSRegularLeftGrey" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

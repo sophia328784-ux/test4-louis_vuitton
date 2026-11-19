@@ -1,0 +1,27 @@
+package com.google.android.gms.fido.fido2.api.common;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import defpackage.x1;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzav implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        String string = parcel.readString();
+        if (string == null) {
+            string = "";
+        }
+        try {
+            return ResidentKeyRequirement.a(string);
+        } catch (ResidentKeyRequirement.UnsupportedResidentKeyRequirementException e2) {
+            x1.m(e2);
+            return null;
+        }
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i2) {
+        return new ResidentKeyRequirement[i2];
+    }
+}

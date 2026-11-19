@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_toolbar" app:layout_constraintTop_toTopOf="parent" layout="@layout/toolbar_simple" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/travel_list_empty_state" android:padding="24.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_blank_state_travel" />
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/biggest_spacing" android:text="@string/travel_blank_state_title" style="@style/HeadingH4CenterDark" />
+                <TextView android:textSize="@dimen/text_size_body_m" android:textColor="@color/eternity" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/travel_blank_state_message" android:fontFamily="@font/louisvuitton_light" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:padding="16.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <Button android:id="@id/add_new_travel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_travel" style="@style/BlackButton" />
+        </LinearLayout>
+        <include android:id="@id/progress" layout="@layout/progress_overlay" />
+    </FrameLayout>
+</LinearLayout>

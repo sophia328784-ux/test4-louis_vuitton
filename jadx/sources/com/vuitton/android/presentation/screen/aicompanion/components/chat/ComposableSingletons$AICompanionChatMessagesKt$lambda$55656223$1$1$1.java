@@ -1,0 +1,20 @@
+package com.vuitton.android.presentation.screen.aicompanion.components.chat;
+
+import com.vuitton.android.presentation.screen.pdp.models.uimodels.SkuIdUiModel;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+public final class ComposableSingletons$AICompanionChatMessagesKt$lambda$55656223$1$1$1 implements Function1<SkuIdUiModel, Unit> {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final ComposableSingletons$AICompanionChatMessagesKt$lambda$55656223$1$1$1 f52824b = new ComposableSingletons$AICompanionChatMessagesKt$lambda$55656223$1$1$1();
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        ((SkuIdUiModel) obj).f61764b.getClass();
+        return Unit.f71739a;
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="@style/com_batchsdk_TextAppearance.Notification.Title"
+        android:id="@+id/com_batchsdk_notification_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+    <TextView
+        android:textAppearance="@style/com_batchsdk_TextAppearance.Notification.Content"
+        android:ellipsize="end"
+        android:id="@+id/com_batchsdk_notification_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:singleLine="false"/>
+    <ImageView
+        android:id="@+id/com_batchsdk_notification_icon_centercrop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/com_batchsdk_notification_icon_fitcenter"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"/>
+</LinearLayout>

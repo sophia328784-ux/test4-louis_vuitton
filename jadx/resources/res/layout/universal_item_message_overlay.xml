@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:textStyle="bold"
+    android:textColor="@color/universal_item_message_overlay_text_color"
+    android:gravity="center"
+    android:autoLink="phone|email|web"
+    android:layout_gravity="center_horizontal"
+    android:id="@android:id/text1"
+    android:background="@drawable/universal_messages_overlay_background"
+    android:padding="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/universal_messages_overlay_spacing_pinned"
+    android:layout_marginBottom="@dimen/universal_messages_overlay_spacing_pinned"
+    android:foreground="?attr/selectableItemBackground"
+    android:minWidth="64dp"/>

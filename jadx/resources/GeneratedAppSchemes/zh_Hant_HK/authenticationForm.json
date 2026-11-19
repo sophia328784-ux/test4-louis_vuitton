@@ -1,0 +1,1 @@
+{"email":{"isMandatory":true,"order":0,"type":{"freeform":{"validationRegExp":"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"}}},"identifier":"zh_Hant_HK","password":{"isMandatory":true,"order":1,"type":{"freeform":{"defaultValue":"","validationRegExp":""}}}}

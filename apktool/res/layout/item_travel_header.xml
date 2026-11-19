@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/item_travel_header_travels" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="@dimen/double_spacing" android:text="@string/travel_upcoming_title" android:layout_marginStart="@dimen/default_spacing" app:layout_goneMarginBottom="@dimen/triple_spacing" app:layout_goneMarginTop="@dimen/triple_spacing" style="@style/HeadingH5LeftDark"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

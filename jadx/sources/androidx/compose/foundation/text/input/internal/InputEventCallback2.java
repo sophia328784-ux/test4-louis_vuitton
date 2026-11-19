@@ -1,0 +1,19 @@
+package androidx.compose.foundation.text.input.internal;
+
+import android.view.KeyEvent;
+import java.util.ArrayList;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\b`\u0018\u00002\u00020\u0001ø\u0001\u0000\u0082\u0002\u0006\n\u0004\b!0\u0001¨\u0006\u0002À\u0006\u0001"}, d2 = {"Landroidx/compose/foundation/text/input/internal/InputEventCallback2;", "", "foundation"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public interface InputEventCallback2 {
+    void a(KeyEvent keyEvent);
+
+    void b(ArrayList arrayList);
+
+    void c(boolean z, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6);
+
+    void d(int i2);
+
+    void e(RecordingInputConnection recordingInputConnection);
+}

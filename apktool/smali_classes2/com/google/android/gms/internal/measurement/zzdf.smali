@@ -1,0 +1,74 @@
+.class final Lcom/google/android/gms/internal/measurement/zzdf;
+.super Lcom/google/android/gms/internal/measurement/zzeo;
+.source "SourceFile"
+
+
+# instance fields
+.field final synthetic zza:Ljava/lang/String;
+
+.field final synthetic zzb:Ljava/lang/String;
+
+.field final synthetic zzc:Ljava/lang/Object;
+
+.field final synthetic zzd:Z
+
+.field final synthetic zze:Lcom/google/android/gms/internal/measurement/zzez;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/internal/measurement/zzez;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Z)V
+    .locals 0
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zza:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zzb:Ljava/lang/String;
+
+    iput-object p4, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zzc:Ljava/lang/Object;
+
+    iput-boolean p5, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zzd:Z
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zze:Lcom/google/android/gms/internal/measurement/zzez;
+
+    const/4 p2, 0x1
+
+    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzeo;-><init>(Lcom/google/android/gms/internal/measurement/zzez;Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza()V
+    .locals 8
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zze:Lcom/google/android/gms/internal/measurement/zzez;
+
+    iget-object v1, v0, Lcom/google/android/gms/internal/measurement/zzez;->f:Lcom/google/android/gms/internal/measurement/zzcp;
+
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;->h(Ljava/lang/Object;)V
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zzc:Ljava/lang/Object;
+
+    iget-object v2, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zza:Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zzb:Ljava/lang/String;
+
+    new-instance v4, Lcom/google/android/gms/dynamic/ObjectWrapper;
+
+    invoke-direct {v4, v0}, Lcom/google/android/gms/dynamic/ObjectWrapper;-><init>(Ljava/lang/Object;)V
+
+    iget-boolean v5, p0, Lcom/google/android/gms/internal/measurement/zzdf;->zzd:Z
+
+    iget-wide v6, p0, Lcom/google/android/gms/internal/measurement/zzeo;->zzi:J
+
+    invoke-interface/range {v1 .. v7}, Lcom/google/android/gms/internal/measurement/zzcp;->setUserProperty(Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/dynamic/IObjectWrapper;ZJ)V
+
+    return-void
+.end method

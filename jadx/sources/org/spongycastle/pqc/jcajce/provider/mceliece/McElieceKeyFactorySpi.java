@@ -1,0 +1,89 @@
+package org.spongycastle.pqc.jcajce.provider.mceliece;
+
+import com.sightcall.universal.media.offline.FileUtils;
+import defpackage.fc;
+import defpackage.n00;
+import defpackage.o60;
+import defpackage.wp;
+import java.io.IOException;
+import java.security.Key;
+import java.security.KeyFactorySpi;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.spec.InvalidKeySpecException;
+import java.security.spec.KeySpec;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
+import org.spongycastle.asn1.ASN1Primitive;
+import org.spongycastle.asn1.ASN1Sequence;
+import org.spongycastle.asn1.pkcs.PrivateKeyInfo;
+import org.spongycastle.asn1.x509.SubjectPublicKeyInfo;
+import org.spongycastle.jcajce.provider.util.AsymmetricKeyInfoConverter;
+import org.spongycastle.pqc.asn1.McEliecePrivateKey;
+import org.spongycastle.pqc.asn1.McEliecePublicKey;
+import org.spongycastle.pqc.asn1.PQCObjectIdentifiers;
+import org.spongycastle.pqc.crypto.mceliece.McEliecePrivateKeyParameters;
+import org.spongycastle.pqc.crypto.mceliece.McEliecePublicKeyParameters;
+import org.spongycastle.pqc.math.linearalgebra.GF2Matrix;
+import org.spongycastle.pqc.math.linearalgebra.GF2mField;
+import org.spongycastle.pqc.math.linearalgebra.Permutation;
+import org.spongycastle.pqc.math.linearalgebra.PolynomialGF2mSmallM;
+
+/* JADX INFO: loaded from: classes5.dex */
+public class McElieceKeyFactorySpi extends KeyFactorySpi implements AsymmetricKeyInfoConverter {
+    @Override // java.security.KeyFactorySpi
+    public final PrivateKey engineGeneratePrivate(KeySpec keySpec) throws InvalidKeySpecException {
+        if (!(keySpec instanceof PKCS8EncodedKeySpec)) {
+            throw new InvalidKeySpecException(fc.n(keySpec, new StringBuilder("Unsupported key specification: "), FileUtils.HIDDEN_PREFIX));
+        }
+        try {
+            PrivateKeyInfo privateKeyInfoI = PrivateKeyInfo.i(ASN1Primitive.n(((PKCS8EncodedKeySpec) keySpec).getEncoded()));
+            try {
+                if (!PQCObjectIdentifiers.f78067b.equals(privateKeyInfoI.f77797c.f77822b)) {
+                    throw new InvalidKeySpecException("Unable to recognise OID in McEliece private key");
+                }
+                McEliecePrivateKey mcEliecePrivateKeyI = McEliecePrivateKey.i(privateKeyInfoI.m());
+                int i2 = mcEliecePrivateKeyI.f78059b;
+                byte[] bArr = mcEliecePrivateKeyI.d;
+                return new BCMcEliecePrivateKey(new McEliecePrivateKeyParameters(i2, mcEliecePrivateKeyI.f78060c, new GF2mField(bArr), new PolynomialGF2mSmallM(new GF2mField(bArr), mcEliecePrivateKeyI.f78061e), new Permutation(mcEliecePrivateKeyI.g), new Permutation(mcEliecePrivateKeyI.f78063h), new GF2Matrix(mcEliecePrivateKeyI.f78062f)));
+            } catch (IOException unused) {
+                throw new InvalidKeySpecException("Unable to decode PKCS8EncodedKeySpec.");
+            }
+        } catch (IOException e2) {
+            throw new InvalidKeySpecException(o60.m("Unable to decode PKCS8EncodedKeySpec: ", e2));
+        }
+    }
+
+    @Override // java.security.KeyFactorySpi
+    public final PublicKey engineGeneratePublic(KeySpec keySpec) throws InvalidKeySpecException {
+        if (!(keySpec instanceof X509EncodedKeySpec)) {
+            throw new InvalidKeySpecException(fc.n(keySpec, new StringBuilder("Unsupported key specification: "), FileUtils.HIDDEN_PREFIX));
+        }
+        try {
+            SubjectPublicKeyInfo subjectPublicKeyInfoI = SubjectPublicKeyInfo.i(ASN1Primitive.n(((X509EncodedKeySpec) keySpec).getEncoded()));
+            try {
+                if (!PQCObjectIdentifiers.f78067b.equals(subjectPublicKeyInfoI.f77824b.f77822b)) {
+                    throw new InvalidKeySpecException("Unable to recognise OID in McEliece public key");
+                }
+                ASN1Primitive aSN1PrimitiveM = subjectPublicKeyInfoI.m();
+                McEliecePublicKey mcEliecePublicKey = aSN1PrimitiveM != null ? new McEliecePublicKey(ASN1Sequence.r(aSN1PrimitiveM)) : null;
+                return new BCMcEliecePublicKey(new McEliecePublicKeyParameters(mcEliecePublicKey.f78064b, mcEliecePublicKey.f78065c, new GF2Matrix(mcEliecePublicKey.d)));
+            } catch (IOException e2) {
+                throw new InvalidKeySpecException(n00.o(e2, new StringBuilder("Unable to decode X509EncodedKeySpec: ")));
+            }
+        } catch (IOException e3) {
+            wp.b(e3);
+            return null;
+        }
+    }
+
+    @Override // java.security.KeyFactorySpi
+    public final KeySpec engineGetKeySpec(Key key, Class cls) {
+        return null;
+    }
+
+    @Override // java.security.KeyFactorySpi
+    public final Key engineTranslateKey(Key key) {
+        return null;
+    }
+}

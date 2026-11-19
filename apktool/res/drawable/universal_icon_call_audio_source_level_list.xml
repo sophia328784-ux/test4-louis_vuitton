@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list android:enterFadeDuration="@android:integer/config_shortAnimTime" android:exitFadeDuration="@android:integer/config_shortAnimTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/universal_icon_call_audio_source_speaker" android:maxLevel="0" />
+    <item android:drawable="@drawable/universal_icon_call_audio_source_headset" android:maxLevel="1" />
+</level-list>

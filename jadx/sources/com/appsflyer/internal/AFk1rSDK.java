@@ -1,0 +1,9 @@
+package com.appsflyer.internal;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class AFk1rSDK {
+    public char AFKeystoreWrapper;
+    public int AFLogger;
+    public int d;
+    public char registerClient;
+}

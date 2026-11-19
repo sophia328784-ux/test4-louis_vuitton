@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alt_cart_number_of_products">
+        <item quantity="zero">ไม่ได้เพิ่มผลิตภัณฑ์ใดๆ</item>
+        <item quantity="other">เพิ่มผลิตภัณฑ์แล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="alt_colors_available">
+        <item quantity="zero">ไม่มีสีที่พร้อมจำหน่าย</item>
+        <item quantity="other">มี %d สีที่พร้อมจำหน่าย</item>
+    </plurals>
+    <plurals name="alt_number_of_products">
+        <item quantity="zero">ไม่มีสินค้า</item>
+        <item quantity="other">%d ผลิตภัณฑ์</item>
+    </plurals>
+    <plurals name="booking_experiences_counter">
+        <item quantity="zero">ไม่มีประสบการณ์</item>
+        <item quantity="other">%d ประสบการณ์</item>
+    </plurals>
+    <plurals name="booking_form_request_card_cta_format">
+        <item quantity="zero">เพิ่ม %2$s</item>
+        <item quantity="other">%2$s (+%1$d)</item>
+    </plurals>
+    <plurals name="catalogue_filters_show_results">
+        <item quantity="zero">แสดง%1$dผลิตภัณฑ์</item>
+        <item quantity="other">แสดง%1$dผลิตภัณฑ์อื่น ๆ</item>
+    </plurals>
+    <plurals name="colors_number">
+        <item quantity="other">%1$d สี</item>
+    </plurals>
+    <plurals name="dr_history_header">
+        <item quantity="zero">ไม่มีการซ่อมก่อนหน้านี้</item>
+        <item quantity="other">การซ่อม %1$d</item>
+    </plurals>
+    <plurals name="dr_ongoing_header">
+        <item quantity="zero">ไม่มีการซ่อมที่กำลังดำเนินการ</item>
+        <item quantity="other">การซ่อม %1$d</item>
+    </plurals>
+    <plurals name="dr_repairs_section_ongoing_title_pluralization">
+        <item quantity="zero">การซ่อมแซมที่ดำเนินการอยู่</item>
+        <item quantity="other">การซ่อมแซมที่ดำเนินการอยู่</item>
+    </plurals>
+    <plurals name="header_search_result_number_message">
+        <item quantity="zero">ไม่มีผลการค้นหา \"%2$s\"</item>
+        <item quantity="other">%1$d ผลการค้นหา</item>
+    </plurals>
+    <plurals name="look_detail_title">
+        <item quantity="zero">ลุค</item>
+        <item quantity="other">"ทั้งหมด%1$dลุค
+"</item>
+    </plurals>
+    <plurals name="multiple_add_to_cart_success_message">
+        <item quantity="zero">ผลิตภัณฑ์นี้ถูกเพิ่มลงในถุงช้อปปิ้งแล้ว</item>
+        <item quantity="other">%d สินค้าถูกเพิ่มลงในถุงช้อปปิ้งของคุณแล้ว</item>
+    </plurals>
+    <plurals name="my_orders_number_of_products">
+        <item quantity="zero">ไม่มีสินค้า</item>
+        <item quantity="other">%d ผลิตภัณฑ์</item>
+    </plurals>
+    <plurals name="osa_history_header">
+        <item quantity="zero">คุณไม่มีประวัติการนัดหมาย</item>
+        <item quantity="other">การนัดหมาย %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="osa_mylv_ongoing_title">
+        <item quantity="zero">การนัดกำลังดำเนินการ</item>
+        <item quantity="other">การนัดกำลังดำเนินการ</item>
+    </plurals>
+    <plurals name="osa_ongoing_header">
+        <item quantity="zero">คุณไม่มีการนัดหมายที่กำลังจะมาถึง</item>
+        <item quantity="other">การนัดหมาย %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="product_list_item_number_count">
+        <item quantity="zero">%1$d ผลิตภัณฑ์</item>
+        <item quantity="other">%1$d ผลิตภัณฑ์</item>
+    </plurals>
+    <plurals name="search_results_number_message">
+        <item quantity="zero">ผลการค้นหา %1$d รายการสำหรับ \"%2$s\"</item>
+        <item quantity="other">ผลการค้นหา %1$d รายการสำหรับ \"%2$s\"</item>
+    </plurals>
+    <plurals name="store_mode_number_of_items">
+        <item quantity="zero">ไม่มีสินค้า</item>
+        <item quantity="other">สินค้า %d รายการ</item>
+    </plurals>
+    <plurals name="welcome_page_appointments">
+        <item quantity="zero">ไม่มีการนัดหมาย</item>
+        <item quantity="other">%d นัดหมาย</item>
+    </plurals>
+    <plurals name="welcome_page_certificate">
+        <item quantity="zero">"%d ใบรับรอง 
+"</item>
+        <item quantity="other">"%d ใบรับรอง 
+"</item>
+    </plurals>
+    <plurals name="welcome_page_distant_repairs">
+        <item quantity="zero">การซ่อม %d</item>
+        <item quantity="other">การซ่อม %d</item>
+    </plurals>
+    <plurals name="welcome_page_orders_ongoing">
+        <item quantity="zero">คำสั่งซื้อ %1$d รายการ</item>
+        <item quantity="other">คำสั่งซื้อ %d รายการ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+{
+    "01": [{
+        "name"                 : "v0.1.0_rc1",
+        "firmware_1"           : "fw_z1_0051_01_v_0_01_rc1.bin",
+        "firmware_2"           : "fw_z2_0051_01_v_0_01_rc1.bin",
+        "recovery"             : "fw_rec_0051_01_v_0_01_rc1.bin",
+        "firmware_addr_1"      : 290816,
+        "firmware_addr_2"      : 421888
+    }]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="@drawable/universal_messages_overlay_background"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/universal_messages_overlay_quick_action_height"
+    android:layout_marginTop="@dimen/universal_messages_overlay_spacing_unread"
+    android:layout_marginBottom="@dimen/universal_messages_overlay_spacing_unread"
+    android:divider="?android:attr/listDivider"
+    android:showDividers="middle">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/universal_messages_quick_action_negative"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="@dimen/universal_messages_overlay_quick_action_width"
+        android:layout_height="match_parent"
+        android:src="@drawable/universal_ic_clear_24dp"
+        app:tint="@color/universal_messages_overlay_quick_action_negative"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/universal_messages_quick_action_positive"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="@dimen/universal_messages_overlay_quick_action_width"
+        android:layout_height="match_parent"
+        android:src="@drawable/universal_ic_check_24dp"
+        app:tint="@color/universal_messages_overlay_quick_action_positive"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/universal_messages_quick_action_reply"
+        android:background="?attr/selectableItemBackground"
+        android:padding="5dp"
+        android:layout_width="@dimen/universal_messages_overlay_quick_action_width"
+        android:layout_height="match_parent"
+        android:src="@drawable/universal_ic_sms_36dp"
+        app:tint="#fff"/>
+</LinearLayout>

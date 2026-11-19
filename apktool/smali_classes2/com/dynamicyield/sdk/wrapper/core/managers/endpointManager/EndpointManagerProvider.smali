@@ -1,0 +1,43 @@
+.class public interface abstract Lcom/dynamicyield/sdk/wrapper/core/managers/endpointManager/EndpointManagerProvider;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\u0008f\u0018\u00002\u00020\u0001\u00a8\u0006\u0002"
+    }
+    d2 = {
+        "Lcom/dynamicyield/sdk/wrapper/core/managers/endpointManager/EndpointManagerProvider;",
+        "",
+        "DY-Sdk_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public abstract a()Lcom/dynamicyield/sdk/wrapper/core/managers/config/ExperienceConfig;
+.end method
+
+.method public abstract b(Ljava/lang/String;Ljava/lang/String;)Lcom/dynamicyield/sdk/wrapper/core/models/common/payload/User;
+.end method
+
+.method public abstract c(Ljava/util/List;)Z
+.end method
+
+.method public abstract d(Lcom/dynamicyield/sdk/wrapper/core/managers/endpointModel/EndpointModelProtocol;)Lcom/dynamicyield/sdk/wrapper/core/managers/network/RawNetworkData;
+.end method
+
+.method public abstract e()Z
+.end method
+
+.method public abstract getSession()Lcom/dynamicyield/sdk/wrapper/core/models/common/payload/Session;
+.end method

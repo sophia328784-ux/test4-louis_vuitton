@@ -1,0 +1,69 @@
+package com.vuitton.android.presentation.screen.wishlist;
+
+import com.vuitton.android.presentation.model.stringhandling.StringResourceUiModel;
+import com.vuitton.android.presentation.notification.NotificationBuilder;
+import com.vuitton.android.presentation.notification.NotificationUiModel;
+import defpackage.md;
+import kotlin.Metadata;
+import kotlin.ResultKt;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.channels.BufferedChannel;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\n"}, d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, k = 3, mv = {2, 3, 0}, xi = 48)
+@DebugMetadata(c = "com.vuitton.android.presentation.screen.wishlist.WishlistViewModelImpl$showErrorNotification$1", f = "WishlistViewModelImpl.kt", l = {298}, m = "invokeSuspend", v = 2)
+final class WishlistViewModelImpl$showErrorNotification$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public int f65657b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final /* synthetic */ WishlistViewModelImpl f65658c;
+    public final /* synthetic */ int d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public WishlistViewModelImpl$showErrorNotification$1(WishlistViewModelImpl wishlistViewModelImpl, int i2, Continuation continuation) {
+        super(2, continuation);
+        this.f65658c = wishlistViewModelImpl;
+        this.d = i2;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation create(Object obj, Continuation continuation) {
+        return new WishlistViewModelImpl$showErrorNotification$1(this.f65658c, this.d, continuation);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        return ((WishlistViewModelImpl$showErrorNotification$1) create((CoroutineScope) obj, (Continuation) obj2)).invokeSuspend(Unit.f71739a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        int i2 = this.f65657b;
+        if (i2 == 0) {
+            ResultKt.b(obj);
+            WishlistViewModelImpl wishlistViewModelImpl = this.f65658c;
+            BufferedChannel bufferedChannel = wishlistViewModelImpl.B;
+            NotificationUiModel notificationUiModelA = NotificationBuilder.a(wishlistViewModelImpl.n, new StringResourceUiModel.ResId(this.d, null, 2, null), false, null, null, 60);
+            this.f65657b = 1;
+            if (bufferedChannel.u(notificationUiModelA, this) == coroutineSingletons) {
+                return coroutineSingletons;
+            }
+        } else {
+            if (i2 != 1) {
+                md.k("call to 'resume' before 'invoke' with coroutine");
+                return null;
+            }
+            ResultKt.b(obj);
+        }
+        return Unit.f71739a;
+    }
+}

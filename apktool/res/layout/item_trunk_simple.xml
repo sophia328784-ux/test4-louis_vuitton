@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/shadow_trunk_speaker_device_type" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/speaker_simple_layout" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="0.0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/speaker_simple_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/speaker_simple_image" android:layout_width="match_parent" android:layout_height="160.0dp" android:scaleType="centerCrop" />
+                <TextView android:gravity="bottom" android:id="@id/speaker_simple_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="12.0dp" android:text="@string/trunk_speaker" android:textAllCaps="true" android:fontFamily="@font/louisvuitton_medium" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" style="@style/ListLabelMMediumLeftDark" />
+                <TextView android:id="@id/speaker_simple_subtitle" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/louisvuitton_regular" android:textDirection="locale" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" style="@style/ListLabelSRegularLeftGrey" />
+            </LinearLayout>
+            <com.vuitton.android.presentation.screen.connectivity.views.TrunkBatteryLevelView android:id="@id/speaker_trunk_battery_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:layout_marginStart="@dimen/default_spacing" />
+            <FrameLayout android:id="@id/overlay_layout" android:background="@color/nav_inactive_color" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_alignTop="@id/speaker_simple_item" android:layout_alignBottom="@id/speaker_simple_item" android:alpha="0.4" android:layout_alignStart="@id/speaker_simple_item" android:layout_alignEnd="@id/speaker_simple_item" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

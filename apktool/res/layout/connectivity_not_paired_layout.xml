@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_discover_lv_connect_card" android:background="@drawable/shadow_patch_16dp" android:paddingBottom="@dimen/double_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/layout_image" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/connect_logo" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_margin="@dimen/default_spacing" android:src="@null" />
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:padding="@dimen/default_spacing" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_spacing" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/layout_image" app:layout_constraintTop_toTopOf="parent">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lvconnect_discover_title" android:textAllCaps="true" android:layout_marginEnd="@dimen/default_spacing" style="@style/ListLabelLRegularLeftDark" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_spacing" android:text="@string/lvconnect_discover_description" style="@style/ListLabelMLightLeftDark" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:padding="@dimen/default_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <FrameLayout android:id="@id/layout_horizon_speaker" android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/image_speaker_horizon" android:layout_width="@dimen/connectivity_no_products_paired_image_size" android:layout_height="@dimen/connectivity_no_products_paired_image_size" android:src="@null" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/horizon_speaker_short_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/double_spacing" android:layout_toStartOf="@id/image_arrow_speaker_horizon" android:layout_toEndOf="@id/image_speaker_horizon" style="@style/ListLabelLRegularLeftDark" />
+                        <ImageView android:id="@id/image_arrow_speaker_horizon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_12dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/double_spacing" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <Space android:id="@id/space_speaker_horizon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_horizon_speaker" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_horizon_speaker" app:layout_constraintVertical_bias="@dimen/connectivity_no_products_space_bias" />
+            <FrameLayout android:id="@id/layout_trunk_speaker" android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space_speaker_horizon">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/image_speaker_trunk" android:layout_width="@dimen/connectivity_no_products_paired_image_size" android:layout_height="@dimen/connectivity_no_products_paired_image_size" android:src="@null" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trunk_speaker" android:layout_centerVertical="true" android:layout_marginStart="@dimen/double_spacing" android:layout_toStartOf="@id/image_arrow_speaker_trunk" android:layout_toEndOf="@id/image_speaker_trunk" style="@style/ListLabelLRegularLeftDark" />
+                        <ImageView android:id="@id/image_arrow_speaker_trunk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_12dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/double_spacing" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <Space android:id="@id/space_speaker_trunk" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_trunk_speaker" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_trunk_speaker" app:layout_constraintVertical_bias="@dimen/connectivity_no_products_space_bias" />
+            <FrameLayout android:id="@id/layout_watch" android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space_speaker_trunk">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/image_watch" android:layout_width="@dimen/connectivity_no_products_paired_image_size" android:layout_height="@dimen/connectivity_no_products_paired_image_size" android:src="@null" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch" android:layout_centerVertical="true" android:layout_marginStart="@dimen/double_spacing" android:layout_toStartOf="@id/image_arrow_watch" android:layout_toEndOf="@id/image_watch" style="@style/ListLabelLRegularLeftDark" />
+                        <ImageView android:id="@id/image_arrow_watch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_12dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/double_spacing" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <Space android:id="@id/space_watch" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_watch" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_watch" app:layout_constraintVertical_bias="@dimen/connectivity_no_products_space_bias" />
+            <FrameLayout android:id="@id/layout_earphone" android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/space_watch">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/image_earphones" android:layout_width="@dimen/connectivity_no_products_paired_image_size" android:layout_height="@dimen/connectivity_no_products_paired_image_size" android:src="@null" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/earphones" android:layout_centerVertical="true" android:layout_marginStart="@dimen/double_spacing" android:layout_toStartOf="@id/image_arrow_earphones" android:layout_toEndOf="@id/image_earphones" style="@style/ListLabelLRegularLeftDark" />
+                        <ImageView android:id="@id/image_arrow_earphones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_12dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/double_spacing" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <Space android:id="@id/space_earphones" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_earphone" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_earphone" app:layout_constraintVertical_bias="@dimen/connectivity_no_products_space_bias" />
+            <FrameLayout android:id="@id/layout_sneakers" android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/space_earphones">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/image_sneakers" android:layout_width="@dimen/connectivity_no_products_paired_image_size" android:layout_height="@dimen/connectivity_no_products_paired_image_size" android:src="@null" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_up_objects_trainers" android:layout_centerVertical="true" android:layout_marginStart="@dimen/double_spacing" android:layout_toStartOf="@id/image_arrow_sneakers" android:layout_toEndOf="@id/image_sneakers" style="@style/ListLabelLRegularLeftDark" />
+                        <ImageView android:id="@id/image_arrow_sneakers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_12dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/double_spacing" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <Space android:id="@id/space_sneakers" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_sneakers" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_sneakers" app:layout_constraintVertical_bias="@dimen/connectivity_no_products_space_bias" />
+            <FrameLayout android:id="@id/layout_keep_all" android:background="@drawable/shadow_patch_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/space_sneakers">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/repaint_card_view_radius" app:cardElevation="@dimen/no_elevation">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/image_keep_all" android:layout_width="@dimen/connectivity_no_products_paired_image_size" android:layout_height="@dimen/connectivity_no_products_paired_image_size" android:src="@drawable/thumbnail_keep_all_section" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_up_keepall" android:layout_centerVertical="true" android:layout_marginStart="@dimen/double_spacing" android:layout_toStartOf="@id/image_arrow_keep_all" android:layout_toEndOf="@id/image_keep_all" style="@style/ListLabelLRegularLeftDark" />
+                        <ImageView android:id="@id/image_arrow_keep_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_12dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/double_spacing" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <Space android:id="@id/space_keep_all" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_keep_all" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_keep_all" app:layout_constraintVertical_bias="@dimen/connectivity_no_products_space_bias" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

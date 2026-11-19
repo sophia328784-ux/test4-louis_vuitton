@@ -1,0 +1,20 @@
+package org.bouncycastle.operator.jcajce;
+
+import defpackage.md;
+import java.security.Key;
+import javax.crypto.spec.SecretKeySpec;
+import org.bouncycastle.operator.GenericKey;
+
+/* JADX INFO: loaded from: classes5.dex */
+class OperatorUtils {
+    public static Key getJceKey(GenericKey genericKey) {
+        if (genericKey.getRepresentation() instanceof Key) {
+            return (Key) genericKey.getRepresentation();
+        }
+        if (genericKey.getRepresentation() instanceof byte[]) {
+            return new SecretKeySpec((byte[]) genericKey.getRepresentation(), "ENC");
+        }
+        md.n("unknown generic key type");
+        return null;
+    }
+}

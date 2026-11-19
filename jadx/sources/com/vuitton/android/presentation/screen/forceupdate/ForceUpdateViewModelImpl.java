@@ -1,0 +1,40 @@
+package com.vuitton.android.presentation.screen.forceupdate;
+
+import androidx.compose.runtime.MutableState;
+import androidx.compose.runtime.SnapshotStateKt;
+import androidx.compose.runtime.State;
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelKt;
+import com.vuitton.android.domain.usecase.config.RequireCachedConfigsVersionUseCase;
+import javax.inject.Inject;
+import kotlin.Metadata;
+import kotlinx.coroutines.BuildersKt;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\b\u0007\u0018\u00002\u00020\u00012\u00020\u0002B\u0011\b\u0007\u0012\u0006\u0010\u0004\u001a\u00020\u0003¢\u0006\u0004\b\u0005\u0010\u0006¨\u0006\u0007"}, d2 = {"Lcom/vuitton/android/presentation/screen/forceupdate/ForceUpdateViewModelImpl;", "Landroidx/lifecycle/ViewModel;", "Lcom/vuitton/android/presentation/screen/forceupdate/ForceUpdateViewModel;", "Lcom/vuitton/android/domain/usecase/config/RequireCachedConfigsVersionUseCase;", "requireCachedConfigsVersionUseCase", "<init>", "(Lcom/vuitton/android/domain/usecase/config/RequireCachedConfigsVersionUseCase;)V", "presentation"}, k = 1, mv = {2, 3, 0}, xi = 48)
+public final class ForceUpdateViewModelImpl extends ViewModel implements ForceUpdateViewModel {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final RequireCachedConfigsVersionUseCase f58183a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final MutableState f58184b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final MutableState f58185c;
+
+    @Inject
+    public ForceUpdateViewModelImpl(RequireCachedConfigsVersionUseCase requireCachedConfigsVersionUseCase) {
+        requireCachedConfigsVersionUseCase.getClass();
+        this.f58183a = requireCachedConfigsVersionUseCase;
+        MutableState mutableStateG = SnapshotStateKt.g(null);
+        this.f58184b = mutableStateG;
+        this.f58185c = mutableStateG;
+        BuildersKt.c(ViewModelKt.a(this), null, null, new ForceUpdateViewModelImpl$getSyncVersion$1(this, null), 3);
+    }
+
+    @Override // com.vuitton.android.presentation.screen.forceupdate.ForceUpdateViewModel
+    public final State t5() {
+        return this.f58185c;
+    }
+}

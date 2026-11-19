@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_toolbar" layout="@layout/toolbar_simple" />
+    <androidx.core.widget.NestedScrollView android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.vuitton.android.presentation.screen.connectivity.views.FixedAspectRatioImageView android:id="@id/image_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/triple_spacing" android:src="@drawable/placeholder" android:scaleType="centerCrop" android:adjustViewBounds="true" app:imageViewAspectRatio="16:9" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_faq" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/triple_spacing" />
+            <TextView android:id="@id/text_documentation_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/triple_spacing" android:text="@string/light_up_documentation_title" android:layout_marginStart="@dimen/double_spacing" android:layout_marginEnd="@dimen/double_spacing" style="@style/HeadingH5LeftDark" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_documentation_subsection" android:background="@android:color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/triple_spacing" android:divider="@drawable/light_up_divider" android:showDividers="middle" android:paddingStart="@dimen/double_spacing" android:paddingEnd="@dimen/double_spacing" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

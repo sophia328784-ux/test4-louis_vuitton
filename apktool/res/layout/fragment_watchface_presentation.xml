@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_toolbar" android:visibility="gone" layout="@layout/toolbar_simple" />
+    <ScrollView android:id="@id/watchface_presentation_scroll" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/watchface_presentation_video_container" android:layout_width="match_parent" android:layout_height="330.0dp" android:contentDescription="@string/content_description_watchface_video">
+                <ImageView android:id="@id/watchface_presentation_video" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+                <ImageView android:layout_gravity="start|bottom" android:id="@id/watchface_presentation_play_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_margin="16.0dp" android:src="@drawable/ic_play_revamp" />
+            </FrameLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/watchface_presentation_asset_top_pager" android:layout_width="match_parent" android:layout_height="330.0dp" android:contentDescription="@string/content_description_watchface_top_pager" android:layoutDirection="locale" />
+            <com.vuitton.android.presentation.screen.connectivity.views.ViewPagerIndicator android:id="@id/watchface_presentation_indicator_top" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="64.0dp" android:paddingEnd="64.0dp" />
+            <TextView android:textSize="@dimen/text_size_body_m" android:textColor="@color/eternity" android:id="@id/watchface_presentation_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24.0dp" android:fontFamily="@font/louisvuitton_light" />
+            <FrameLayout android:layout_gravity="center" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/watch_content_background_mask" android:adjustViewBounds="true" />
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/watchface_presentation_asset_bottom_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/content_description_watchface_presentation_pager" android:layoutDirection="locale" />
+                <ImageView android:id="@id/watch_strap" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/watch_content_foreground_mask" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <com.vuitton.android.presentation.screen.connectivity.views.ViewPagerIndicator android:id="@id/watchface_presentation_indicator_bottom" android:background="@color/off_white" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp" android:layoutDirection="locale" android:paddingStart="64.0dp" android:paddingEnd="64.0dp" />
+            <Button android:id="@id/watchface_presentation_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/p12_howtogetthiswatchface_title" style="@style/BlackButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

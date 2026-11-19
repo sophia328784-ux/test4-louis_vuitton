@@ -1,0 +1,6 @@
+package net.rtccloud.sdk.event;
+
+/* JADX INFO: loaded from: classes4.dex */
+public interface LiveTranslationNewSentence {
+    void newSentence(String str, int i2);
+}

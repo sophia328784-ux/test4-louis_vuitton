@@ -1,0 +1,40 @@
+package org.bouncycastle.cert.ocsp;
+
+import defpackage.md;
+import java.util.Date;
+import org.bouncycastle.asn1.ASN1GeneralizedTime;
+import org.bouncycastle.asn1.ocsp.RevokedInfo;
+import org.bouncycastle.asn1.x509.CRLReason;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class RevokedStatus implements CertificateStatus {
+    RevokedInfo info;
+
+    public RevokedStatus(Date date, int i2) {
+        this.info = new RevokedInfo(new ASN1GeneralizedTime(date), CRLReason.lookup(i2));
+    }
+
+    public int getRevocationReason() {
+        if (this.info.getRevocationReason() != null) {
+            return this.info.getRevocationReason().getValue().intValue();
+        }
+        md.k("attempt to get a reason where none is available");
+        return 0;
+    }
+
+    public Date getRevocationTime() {
+        return OCSPUtils.extractDate(this.info.getRevocationTime());
+    }
+
+    public boolean hasRevocationReason() {
+        return this.info.getRevocationReason() != null;
+    }
+
+    public RevokedStatus(Date date) {
+        this.info = new RevokedInfo(new ASN1GeneralizedTime(date));
+    }
+
+    public RevokedStatus(RevokedInfo revokedInfo) {
+        this.info = revokedInfo;
+    }
+}

@@ -1,0 +1,64 @@
+package com.vuitton.android.presentation.screen.imageviewer.components;
+
+import androidx.compose.runtime.MutableIntState;
+import kotlin.Metadata;
+import kotlin.ResultKt;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.CoroutineScope;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\n"}, d2 = {"<anonymous>", "", "Lkotlinx/coroutines/CoroutineScope;"}, k = 3, mv = {2, 3, 0}, xi = 48)
+@DebugMetadata(c = "com.vuitton.android.presentation.screen.imageviewer.components.PagerImageViewerKt$PagerImageViewer$2$1$1$1$1$1", f = "PagerImageViewer.kt", l = {}, m = "invokeSuspend", v = 2)
+final class PagerImageViewerKt$PagerImageViewer$2$1$1$1$1$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final /* synthetic */ int f58228b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final /* synthetic */ Function0 f58229c;
+    public final /* synthetic */ Function0 d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public final /* synthetic */ MutableIntState f58230e;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public PagerImageViewerKt$PagerImageViewer$2$1$1$1$1$1(int i2, Function0 function0, Function0 function1, MutableIntState mutableIntState, Continuation continuation) {
+        super(2, continuation);
+        this.f58228b = i2;
+        this.f58229c = function0;
+        this.d = function1;
+        this.f58230e = mutableIntState;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation create(Object obj, Continuation continuation) {
+        return new PagerImageViewerKt$PagerImageViewer$2$1$1$1$1$1(this.f58228b, this.f58229c, this.d, this.f58230e, continuation);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        return ((PagerImageViewerKt$PagerImageViewer$2$1$1$1$1$1) create((CoroutineScope) obj, (Continuation) obj2)).invokeSuspend(Unit.f71739a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        ResultKt.b(obj);
+        MutableIntState mutableIntState = this.f58230e;
+        int iF = mutableIntState.f();
+        int i2 = this.f58228b;
+        if (i2 > iF) {
+            this.f58229c.mo47invoke();
+        } else {
+            this.d.mo47invoke();
+        }
+        mutableIntState.i(i2);
+        return Unit.f71739a;
+    }
+}

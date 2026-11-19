@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="universal_feature_agent">false</bool>
+    <bool name="universal_feature_agent_notifications">@bool/universal_feature_agent</bool>
+    <bool name="universal_feature_call_overlay">true</bool>
+    <bool name="universal_feature_deeplink">true</bool>
+    <bool name="universal_feature_deeplink_scheme">@bool/universal_feature_deeplink</bool>
+    <bool name="universal_feature_deeplink_uri">@bool/universal_feature_deeplink</bool>
+    <bool name="universal_feature_fcm">false</bool>
+    <bool name="universal_feature_loading_activity">true</bool>
+    <bool name="universal_feature_media_export">true</bool>
+    <bool name="universal_feature_media_export_meta">false</bool>
+    <bool name="universal_feature_media_export_scan">@bool/universal_feature_media_export</bool>
+    <bool name="universal_feature_universal_logo">false</bool>
+    <bool name="universal_init_provider_enabled">true</bool>
+    <bool name="universal_isInstantApp">false</bool>
+    <bool name="universal_isPortrait">true</bool>
+    <bool name="universal_thumbnail_elevation">true</bool>
+    <bool name="universal_thumbnail_outline">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

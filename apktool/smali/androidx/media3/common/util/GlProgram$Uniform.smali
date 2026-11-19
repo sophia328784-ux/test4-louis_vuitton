@@ -1,0 +1,14 @@
+.class final Landroidx/media3/common/util/GlProgram$Uniform;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/media3/common/util/GlProgram;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Uniform"
+.end annotation

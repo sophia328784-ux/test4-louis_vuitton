@@ -1,0 +1,6 @@
+package com.google.android.gms.internal.vision;
+
+/* JADX INFO: loaded from: classes2.dex */
+interface zzhz {
+    byte[] a(int i2, int i3, byte[] bArr);
+}

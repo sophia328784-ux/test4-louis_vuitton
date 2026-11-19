@@ -1,0 +1,14 @@
+package com.google.common.util.concurrent;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class UncheckedExecutionException extends RuntimeException {
+    private static final long serialVersionUID = 0;
+
+    public UncheckedExecutionException(String str, Throwable th) {
+        super(str, th);
+    }
+
+    public UncheckedExecutionException(Throwable th) {
+        super(th);
+    }
+}

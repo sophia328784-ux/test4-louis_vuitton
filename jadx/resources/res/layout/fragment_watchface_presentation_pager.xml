@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/toolbar_simple"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@+id/watchface_presentation_list"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="locale"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <View
+        android:background="@color/westargrey70"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <fragment
+        android:name="com.vuitton.android.presentation.screen.connectivity.watchface.WatchfacePresentationFragment"
+        android:id="@+id/watchface_presentation_fragment"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

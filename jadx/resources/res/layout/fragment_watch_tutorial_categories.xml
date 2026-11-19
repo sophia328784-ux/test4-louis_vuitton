@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar_simple"
+        layout="@layout/toolbar_simple"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/off_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.vuitton.android.presentation.screen.connectivity.views.FixedAspectRatioImageView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="0x7f08040c"
+                app:imageViewAspectRatio="16:9"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/category_card_container"
+                android:padding="@dimen/double_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

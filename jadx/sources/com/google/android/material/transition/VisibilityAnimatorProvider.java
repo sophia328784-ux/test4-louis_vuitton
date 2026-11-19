@@ -1,0 +1,5 @@
+package com.google.android.material.transition;
+
+/* JADX INFO: loaded from: classes2.dex */
+public interface VisibilityAnimatorProvider {
+}

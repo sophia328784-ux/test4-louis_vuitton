@@ -1,0 +1,131 @@
+.class public final Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity;
+.super Lcom/vuitton/android/presentation/screen/authentication/accountactivation/Hilt_AccountActivationActivity;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ldagger/hilt/android/AndroidEntryPoint;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0007\u0018\u00002\u00020\u0001:\u0001\u0004B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity;",
+        "Lcom/vuitton/android/presentation/screen/base/BaseActivity;",
+        "<init>",
+        "()V",
+        "Companion",
+        "presentation"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x3,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final r:Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$Companion;
+
+
+# instance fields
+.field public p:Lcom/vuitton/android/presentation/screen/authentication/AuthenticationActivityRouter;
+
+.field public final q:Landroidx/lifecycle/ViewModelLazy;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    sput-object v0, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity;->r:Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$Companion;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 6
+
+    invoke-direct {p0}, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/Hilt_AccountActivationActivity;-><init>()V
+
+    new-instance v0, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$special$$inlined$viewModels$default$1;
+
+    invoke-direct {v0, p0}, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$special$$inlined$viewModels$default$1;-><init>(Landroidx/activity/ComponentActivity;)V
+
+    new-instance v1, Landroidx/lifecycle/ViewModelLazy;
+
+    const-class v2, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationViewModelImpl;
+
+    sget-object v3, Lkotlin/jvm/internal/Reflection;->a:Lkotlin/jvm/internal/ReflectionFactory;
+
+    invoke-virtual {v3, v2}, Lkotlin/jvm/internal/ReflectionFactory;->b(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$special$$inlined$viewModels$default$2;
+
+    invoke-direct {v3, p0}, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$special$$inlined$viewModels$default$2;-><init>(Landroidx/activity/ComponentActivity;)V
+
+    new-instance v4, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$special$$inlined$viewModels$default$3;
+
+    const/4 v5, 0x0
+
+    invoke-direct {v4, v5, p0}, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity$special$$inlined$viewModels$default$3;-><init>(Lkotlin/jvm/functions/Function0;Landroidx/activity/ComponentActivity;)V
+
+    invoke-direct {v1, v2, v3, v0, v4}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
+
+    iput-object v1, p0, Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity;->q:Landroidx/lifecycle/ViewModelLazy;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onCreate(Landroid/os/Bundle;)V
+    .locals 3
+
+    invoke-super {p0, p1}, Lcom/vuitton/android/presentation/screen/base/BaseActivity;->onCreate(Landroid/os/Bundle;)V
+
+    sget-object p1, Lcom/vuitton/android/core/type/SystemIcons;->b:Lcom/vuitton/android/core/type/SystemIcons$Companion;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-boolean p1, Lcom/vuitton/android/core/type/SystemIcons;->c:Z
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    invoke-static {p0, v0, p1, v1}, Lcom/vuitton/android/presentation/compose/components/EdgeToEdgeKt;->b(Landroidx/activity/ComponentActivity;ZZI)V
+
+    new-instance p1, Ls2;
+
+    invoke-direct {p1, p0, v0}, Ls2;-><init>(Lcom/vuitton/android/presentation/screen/authentication/accountactivation/AccountActivationActivity;I)V
+
+    new-instance v0, Landroidx/compose/runtime/internal/ComposableLambdaImpl;
+
+    const v2, 0x212abfae
+
+    invoke-direct {v0, v2, v1, p1}, Landroidx/compose/runtime/internal/ComposableLambdaImpl;-><init>(IZLjava/lang/Object;)V
+
+    invoke-static {p0, v0}, Landroidx/activity/compose/ComponentActivityKt;->a(Landroidx/activity/ComponentActivity;Landroidx/compose/runtime/internal/ComposableLambdaImpl;)V
+
+    return-void
+.end method

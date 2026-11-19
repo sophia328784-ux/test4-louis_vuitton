@@ -1,0 +1,206 @@
+.class public final Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$$serializer;,
+        Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u0087\u0008\u0018\u0000 \u000b2\u00020\u0001:\u0002\u000c\u000bB\u000f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005B%\u0008\u0010\u0012\u0006\u0010\u0007\u001a\u00020\u0006\u0012\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\t\u001a\u0004\u0018\u00010\u0008\u00a2\u0006\u0004\u0008\u0004\u0010\n\u00a8\u0006\r"
+    }
+    d2 = {
+        "Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;",
+        "",
+        "Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;",
+        "name",
+        "<init>",
+        "(Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;)V",
+        "",
+        "seen0",
+        "Lkotlinx/serialization/internal/SerializationConstructorMarker;",
+        "serializationConstructorMarker",
+        "(ILcom/dynamicyield/sdk/wrapper/core/enums/SearchType;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V",
+        "Companion",
+        "$serializer",
+        "DY-Sdk_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lkotlinx/serialization/Serializable;
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$Companion;
+
+.field public static final b:[Lkotlin/Lazy;
+
+
+# instance fields
+.field public final a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    sput-object v0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->Companion:Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$Companion;
+
+    sget-object v0, Lkotlin/LazyThreadSafetyMode;->PUBLICATION:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v1, Lit0;
+
+    const/16 v2, 0xe
+
+    invoke-direct {v1, v2}, Lit0;-><init>(I)V
+
+    invoke-static {v0, v1}, Lkotlin/LazyKt;->a(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    new-array v1, v1, [Lkotlin/Lazy;
+
+    const/4 v2, 0x0
+
+    aput-object v0, v1, v2
+
+    sput-object v1, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->b:[Lkotlin/Lazy;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(ILcom/dynamicyield/sdk/wrapper/core/enums/SearchType;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
+    .locals 1
+
+    and-int/lit8 p3, p1, 0x1
+
+    const/4 v0, 0x1
+
+    if-ne v0, p3, :cond_0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+    return-void
+
+    :cond_0
+    sget-object p0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$$serializer;->a:Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$$serializer;
+
+    invoke-virtual {p0}, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector$$serializer;->a()Lkotlinx/serialization/descriptors/SerialDescriptor;
+
+    move-result-object p0
+
+    invoke-static {p1, v0, p0}, Lkotlinx/serialization/internal/PluginExceptionsKt;->b(IILkotlinx/serialization/descriptors/SerialDescriptor;)V
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+.method public constructor <init>(Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;)V
+    .locals 0
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 22
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 23
+    iput-object p1, p0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;
+
+    iget-object p0, p0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+    iget-object p1, p1, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+    if-eq p0, p1, :cond_2
+
+    return v2
+
+    :cond_2
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    iget-object p0, p0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "SearchSelector(name="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object p0, p0, Lcom/dynamicyield/sdk/wrapper/core/models/search/payload/SearchSelector;->a:Lcom/dynamicyield/sdk/wrapper/core/enums/SearchType;
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 p0, 0x29
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

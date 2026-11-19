@@ -1,0 +1,8 @@
+package com.google.android.gms.internal.gtm;
+
+import java.util.HashMap;
+
+/* JADX INFO: loaded from: classes2.dex */
+public interface zzgt {
+    Object a(String str, HashMap map);
+}

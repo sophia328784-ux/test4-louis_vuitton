@@ -1,0 +1,121 @@
+package com.networkbench.agent.impl.harvest;
+
+import android.os.Process;
+import com.networkbench.agent.impl.util.Logger;
+import com.networkbench.agent.impl.util.ak;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class ConfigurationName {
+    public static final String ABNORMAL_DATA_PATH;
+    public static final String ACTION_DATA_STORE_PATH;
+    public static final String ACTION_DOWN = "onDown_Action";
+    public static final String APPHOTSTART_DATA_STORE_PATH;
+    public static final String BACK_PNG = "back.png";
+    public static final int BASE_X_POS = 800;
+    public static final int BASE_Y_POS = 1388;
+    public static final String BATCH_DATA_PATH;
+    public static final String BATTERYCONFIG = "batteryConfig";
+    public static final String BLUE_BG_PNG = "blue_bg.png";
+    public static final String BODY_ABSTRACT = "Abstract";
+    public static final String BROWSER_DATA_STORE_PATH;
+    public static final String CELLINFO_LIMIT = "limit";
+    public static final String CELLINFO_TYPE = "type";
+    public static final String CLIENT_CONDITION = "clientCondition";
+    public static final String CONTENT_TYPE = "Content-Type";
+    public static final String CPUCONFIG = "cpuConfig";
+    public static final String CUST_PAGE_LOADING_END_TAG = "setPageLoadingEndTime";
+    public static final String DOWNLOAD_PLUGIN_URL = "url";
+    public static final String DOWNLOAD_RSHEAD = "rsHead";
+    public static final String DOWNLOAD_SIZE_LIMIT = "sizeLimit";
+    public static final String EXIT_PNG = "exit.png";
+    public static final String Error_Code = "errCode";
+    public static final int FRAGMENT_TAG = 214748366;
+    public static final String HANDLE_ENABLE_NEW_PNG = "hand_enable_new.png";
+    public static final String HANDLE_NAME_PNG = "handle_name.png";
+    public static final String HAND_PNG = "handle.png";
+    public static final String HTTP_MULTI_PART_BOUNDARY = "===newlens===";
+    public static final String INITSWITCHLOG = "initSwitchLog";
+    public static final String KEY = "key";
+    public static final String LOG_TRACK_SP_KEY = "logTrackConfig";
+    public static final String MASK_IMAGE_ENABLED = "maskImageEnabled";
+    public static final String MASK_INPUT_ENABLED = "maskInputEnabled";
+    public static final String MASK_PAGE_BLACKLIST = "maskPageBlacklist";
+    public static final String MASK_TEXT_ENABLED = "maskTextEnabled";
+    public static final String MASK_VIEWID_BLACKLIST = "maskViewIdBlacklist";
+    public static int MAX_ERROR_COUNT = 0;
+    public static int MAX_METADATA_LENGTH = 0;
+    public static final long MAX_SCHEDULE_THREAD_DELAY = 5;
+    public static final int MAX_TRACE_NETWORK_COUNT = 100;
+    public static final int MAX_TRACE_OVER_TIME = 7000;
+    public static final String META_ERROR_DEFAULT_VALUE = "metaData的大小大于最大限制128K";
+    public static final String MULTI_PART = "multipart/form-data;boundary=";
+    public static final String NBS_JS_BRIDGE_NAME = "nbsJsBridge";
+    public static final String NBS_JS_BRIDGE_NAME_UNITE = "nbs_bridge";
+    public static final String Native_Crash_UUID = "crashUUID";
+    public static final String PAGE_DATA_STORE_PATH;
+    public static final String PAGE_NAME_PNG = "page_name.png";
+    public static final String PAGE_PNG = "page.png";
+    public static final String PING_PAYLOAD = "payload";
+    public static final String PLUGIN_DATA_STORE_PATH;
+    public static final String PLUGIN_HOSTNAME_CONTEXT = "hostName";
+    public static final String PORT = "port";
+    public static final String PROFILE_DATA_STORE_PATH;
+    public static final String PROPAGATORS = "propagators";
+    public static final String PULLDOWN_LIST_PNG = "pulldown_list.png";
+    public static final String REPLAYCACHESIZE = "replayCacheSize";
+    public static final String REPLAYQUALITY = "replayQuality";
+    public static final String REPLAYTHRESHOLD = "replayThreshold";
+    public static final String REPLAYUPLOADTYPE = "replayUploadType";
+    public static final String REQUEST_HEADERS = "requestHeader";
+    public static final String RESPONSE_HEADERS = "responseHeader";
+    public static final int STRING_LENGTH_128 = 128;
+    public static final String TCP_PING_HOST = "host";
+    public static final String TCP_PING_REPEAT = "repeat";
+    public static final String TRANSACTIONSPAN_DATA_PATH;
+    public static final String UPLOADSWITCH = "uploadSwitch";
+    public static final String USERACTION_DATA_STORE_PATH;
+    public static final String WINDOW_CLICK_PNG = "window_click.png";
+    public static final String WINDOW_PNG = "window.png";
+    public static String anrThresholdName = "anrThreshold";
+    public static String apmsIssue = "apmsIssue";
+    public static String appVersion = "appVersion";
+    public static String appVersionOfPrivacy = "appVersionOfPrivacy";
+    public static String betaOn = "betaOn";
+    public static String brsAgent = "brsAgent";
+    public static String brsAgentMD5 = "brsAgentMD5";
+    public static String customEventSwitch = "customEventSwitch";
+    public static String dataTagKey = "bname";
+    public static String deviceId = "deviceId";
+    public static String enableBrsAgent = "enableBrsAgent";
+    public static String enableNdk = "enableNdk";
+    public static String features = "features";
+    public static String httpBodyMaxSize = "httpBodyMaxSize";
+    public static String oldFeatures = "oldFeatures";
+    public static String processName = "";
+    public static String sdkEnabled = "sdkEnabled";
+    public static String stackInterval = "stack_interval";
+    public static String tyId = "tyId";
+    public static String tyIdNew = "tyIdNew";
+    public static String tyPlatform = "tyPlatform";
+    public static String viewClassWhitelist = "viewClassWhitelist";
+
+    static {
+        try {
+            processName = ak.a(Process.myPid());
+        } catch (Throwable th) {
+            Logger.error("ConfigurationName", "getProcessName error", th);
+        }
+        PLUGIN_DATA_STORE_PATH = "NBS_plugin_data_store_" + processName;
+        ACTION_DATA_STORE_PATH = "NBS_action_data_store_" + processName;
+        PAGE_DATA_STORE_PATH = "NBS_page_data_store_" + processName;
+        PROFILE_DATA_STORE_PATH = "NBS_profile_data_store_" + processName;
+        USERACTION_DATA_STORE_PATH = "NBS_userAction_data_store_" + processName;
+        APPHOTSTART_DATA_STORE_PATH = "NBS_apphotstart_data_store_" + processName;
+        TRANSACTIONSPAN_DATA_PATH = "NBS_span_data_store_" + processName;
+        BROWSER_DATA_STORE_PATH = "NBS_browser_data_store_" + processName;
+        BATCH_DATA_PATH = "NBS_batch_data_store_" + processName;
+        ABNORMAL_DATA_PATH = "nbs_abnormal_data_store_" + processName;
+        MAX_METADATA_LENGTH = 131072;
+        MAX_ERROR_COUNT = 1000;
+    }
+}

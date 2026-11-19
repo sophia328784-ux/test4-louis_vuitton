@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude
+        domain="file"
+        path="universal"/>
+    <exclude
+        domain="sharedpref"
+        path="universal_agent.xml"/>
+    <exclude
+        domain="sharedpref"
+        path="universal_agent_2.xml"/>
+    <exclude
+        domain="sharedpref"
+        path="universal_settings.xml"/>
+    <exclude
+        domain="sharedpref"
+        path="universal_fcm.xml"/>
+    <exclude
+        domain="sharedpref"
+        path="universal_extras_debug.xml"/>
+</full-backup-content>

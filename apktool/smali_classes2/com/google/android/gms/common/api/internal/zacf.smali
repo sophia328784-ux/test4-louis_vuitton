@@ -1,0 +1,19 @@
+.class final Lcom/google/android/gms/common/api/internal/zacf;
+.super Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic b:Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacf;->b:Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
+
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;-><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;)V
+
+    return-void
+.end method
